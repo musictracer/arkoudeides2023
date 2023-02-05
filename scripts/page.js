@@ -8,6 +8,7 @@
 //-----------------------------------------
 // Script for NNNNN-th question
 //=========================================
+<script src="/js/intlTelInput.min.js" charset="utf-8"></script>
 
     var listLeft15;
     var listLeftHtml15;
@@ -374,7 +375,7 @@ function InitQuestion1()
     question.answers.length = 0;
     question.num = 1;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 1. Σημειώστε τα στοιχεία (2) που δεν περιλαμβάνονται στον παρακάτω ορισμό Ένα μήνυμα οπτικής επικοινωνίας περιλαμβάνει:";
+    question.shortTextQuestion = " 1. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ΅ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ (2) Γ°Γ―Γµ Γ¤Γ¥Γ­ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ―Γ±Γ©Γ³Γ¬ΓΌ ΒΈΓ­Γ΅ Γ¬ΓΓ­ΓµΓ¬Γ΅ Γ―Γ°Γ΄Γ©ΓªΓΓ² Γ¥Γ°Γ©ΓªΓ―Γ©Γ­ΓΉΓ­ΓΓ΅Γ² Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ©:";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('FlYdLpgl+2Y=', 913, -1, 1);
@@ -382,7 +383,7 @@ function InitQuestion1()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. σύμβολα";
+    answer1.shortTextAnswer = " Γ. Γ³Γ½Γ¬ΓΆΓ―Γ«Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ydBsMycOecg=', 915, -1, 1);
@@ -390,7 +391,7 @@ function InitQuestion1()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. ομιλίες";
+    answer2.shortTextAnswer = " Γ‚. Γ―Γ¬Γ©Γ«ΓΓ¥Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ydBsMycOecg=', 917, -1, 1);
@@ -398,7 +399,7 @@ function InitQuestion1()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. γραπτά κείμενα";
+    answer3.shortTextAnswer = " Γƒ. Γ£Γ±Γ΅Γ°Γ΄Γ ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('AcubrLykEQY=', 919, -1, 1);
@@ -406,7 +407,7 @@ function InitQuestion1()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ εικόνες";
+    answer4.shortTextAnswer = " Γ„ Γ¥Γ©ΓªΓΌΓ­Γ¥Γ²";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('ft+mbqmjK+s=', 921, -1, 1);
@@ -414,7 +415,7 @@ function InitQuestion1()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = " Ε. προφορική αφήγηση";
+    answer5.shortTextAnswer = " Γ…. Γ°Γ±Γ―Γ¶Γ―Γ±Γ©ΓªΓ Γ΅Γ¶ΓΓ£Γ§Γ³Γ§";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -431,7 +432,7 @@ function InitQuestion2()
     question.answers.length = 0;
     question.num = 2;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 2. Σημειώστε το στοιχείο (1) που δεν περιλαμβάνεται στον παρακάτω ορισμό. Σύμφωνα με τον Ο Argyle(1988) υπάρχουν οι παρακάτω λειτουργίες της μη λεκτικής επικοινωνίας:";
+    question.shortTextQuestion = " 2. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― (1) Γ°Γ―Γµ Γ¤Γ¥Γ­ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ―Γ±Γ©Γ³Γ¬ΓΌ. Γ“Γ½Γ¬Γ¶ΓΉΓ­Γ΅ Γ¬Γ¥ Γ΄Γ―Γ­ Γ Argyle(1988) ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ―Γ© Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ² Γ΄Γ§Γ² Γ¬Γ§ Γ«Γ¥ΓªΓ΄Γ©ΓªΓΓ² Γ¥Γ°Γ©ΓªΓ―Γ©Γ­ΓΉΓ­ΓΓ΅Γ²:";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ft+mbqmjK+s=', 923, -1, 1);
@@ -439,7 +440,7 @@ function InitQuestion2()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Έκφραση συναισθημάτων  ";
+    answer1.shortTextAnswer = " Γ. ΒΈΓªΓ¶Γ±Γ΅Γ³Γ§ Γ³ΓµΓ­Γ΅Γ©Γ³Γ¨Γ§Γ¬ΓΓ΄ΓΉΓ­ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('jpNXsBjIl0Q=', 925, -1, 1);
@@ -447,7 +448,7 @@ function InitQuestion2()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Έκφραση στάσεων  ";
+    answer2.shortTextAnswer = " Γ‚. ΒΈΓªΓ¶Γ±Γ΅Γ³Γ§ Γ³Γ΄ΓΓ³Γ¥ΓΉΓ­ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('oqFDbVolDGw=', 927, -1, 1);
@@ -455,7 +456,7 @@ function InitQuestion2()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Επεξήγηση λεκτικού μηνύματος  ";
+    answer3.shortTextAnswer = " Γƒ. Γ…Γ°Γ¥Γ®ΓΓ£Γ§Γ³Γ§ Γ«Γ¥ΓªΓ΄Γ©ΓªΓ―Γ½ Γ¬Γ§Γ­Γ½Γ¬Γ΅Γ΄Γ―Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('oqFDbVolDGw=', 929, -1, 1);
@@ -463,7 +464,7 @@ function InitQuestion2()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ Παρουσίαση της προσωπικότητας    ";
+    answer4.shortTextAnswer = " Γ„ ΓΓ΅Γ±Γ―ΓµΓ³ΓΓ΅Γ³Γ§ Γ΄Γ§Γ² Γ°Γ±Γ―Γ³ΓΉΓ°Γ©ΓªΓΌΓ΄Γ§Γ΄Γ΅Γ² Β  Β ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('V8wReDl1gWQ=', 931, -1, 1);
@@ -471,7 +472,7 @@ function InitQuestion2()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = " Ε. Χαιρετισμός";
+    answer5.shortTextAnswer = " Γ…. Γ—Γ΅Γ©Γ±Γ¥Γ΄Γ©Γ³Γ¬ΓΌΓ²";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -488,7 +489,7 @@ function InitQuestion3()
     question.answers.length = 0;
     question.num = 3;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 3. Σημειώστε το στοιχείο που είναι σωστό";
+    question.shortTextQuestion = " 3. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― Γ°Γ―Γµ Γ¥ΓΓ­Γ΅Γ© Γ³ΓΉΓ³Γ΄ΓΌ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('9abFib+1Ans=', 933, -1, 1);
@@ -496,7 +497,7 @@ function InitQuestion3()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. η οριζόντια γραμμή δείχνει ψυχική ηρεμία και αδράνεια  ";
+    answer1.shortTextAnswer = " Γ. Γ§ Γ―Γ±Γ©Γ¦ΓΌΓ­Γ΄Γ©Γ΅ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¤Γ¥ΓΓ·Γ­Γ¥Γ© ΓΈΓµΓ·Γ©ΓªΓ Γ§Γ±Γ¥Γ¬ΓΓ΅ ΓªΓ΅Γ© Γ΅Γ¤Γ±ΓΓ­Γ¥Γ©Γ΅ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('9abFib+1Ans=', 935, -1, 1);
@@ -504,7 +505,7 @@ function InitQuestion3()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. η οριζόντια γραμμή δείχνει συναισθηματική φόρτιση";
+    answer2.shortTextAnswer = " Γ‚. Γ§ Γ―Γ±Γ©Γ¦ΓΌΓ­Γ΄Γ©Γ΅ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¤Γ¥ΓΓ·Γ­Γ¥Γ© Γ³ΓµΓ­Γ΅Γ©Γ³Γ¨Γ§Γ¬Γ΅Γ΄Γ©ΓªΓ Γ¶ΓΌΓ±Γ΄Γ©Γ³Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Be3U1UHrpJE=', 937, -1, 1);
@@ -512,7 +513,7 @@ function InitQuestion3()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. η οριζόντια γραμμή δείχνει ενεργητικότητα  ";
+    answer3.shortTextAnswer = " Γƒ. Γ§ Γ―Γ±Γ©Γ¦ΓΌΓ­Γ΄Γ©Γ΅ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¤Γ¥ΓΓ·Γ­Γ¥Γ© Γ¥Γ­Γ¥Γ±Γ£Γ§Γ΄Γ©ΓªΓΌΓ΄Γ§Γ΄Γ΅ Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -529,7 +530,7 @@ function InitQuestion4()
     question.answers.length = 0;
     question.num = 4;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 4. Σημειώστε τα στοιχεία (3) που δεν περιλαμβάνονται στον παρακάτω ορισμό. Οι βασικές φόρμες, σύμφωνα με τον Καντίνσκι (1996, σ.74) είναι:";
+    question.shortTextQuestion = " 4. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ΅ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ (3) Γ°Γ―Γµ Γ¤Γ¥Γ­ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ―Γ±Γ©Γ³Γ¬ΓΌ. ΓΓ© ΓΆΓ΅Γ³Γ©ΓªΓΓ² Γ¶ΓΌΓ±Γ¬Γ¥Γ², Γ³Γ½Γ¬Γ¶ΓΉΓ­Γ΅ Γ¬Γ¥ Γ΄Γ―Γ­ ΓΓ΅Γ­Γ΄ΓΓ­Γ³ΓªΓ© (1996, Γ³.74) Γ¥ΓΓ­Γ΅Γ©:";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('7LJONzU5elo=', 943, -1, 1);
@@ -537,7 +538,7 @@ function InitQuestion4()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. το ισόπλευρο τρίγωνο  ";
+    answer1.shortTextAnswer = " Γ. Γ΄Γ― Γ©Γ³ΓΌΓ°Γ«Γ¥ΓµΓ±Γ― Γ΄Γ±ΓΓ£ΓΉΓ­Γ― Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('7LJONzU5elo=', 945, -1, 1);
@@ -545,7 +546,7 @@ function InitQuestion4()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. το τετράγωνο  ";
+    answer2.shortTextAnswer = " Γ‚. Γ΄Γ― Γ΄Γ¥Γ΄Γ±ΓΓ£ΓΉΓ­Γ― Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('7IqZpXAbBaE=', 947, -1, 1);
@@ -553,7 +554,7 @@ function InitQuestion4()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. το ορθογώνιο παραλληλόγραμμο  ";
+    answer3.shortTextAnswer = " Γƒ. Γ΄Γ― Γ―Γ±Γ¨Γ―Γ£ΓΎΓ­Γ©Γ― Γ°Γ΅Γ±Γ΅Γ«Γ«Γ§Γ«ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ― Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('v5nucjNW9JQ=', 949, -1, 1);
@@ -561,7 +562,7 @@ function InitQuestion4()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. ο κύκλος    ";
+    answer4.shortTextAnswer = " Γ„. Γ― ΓªΓ½ΓªΓ«Γ―Γ² Β  Β ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('+wBgqCTOWMc=', 951, -1, 1);
@@ -569,7 +570,7 @@ function InitQuestion4()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = " Ε. ο ρόμβος";
+    answer5.shortTextAnswer = " Γ…. Γ― Γ±ΓΌΓ¬ΓΆΓ―Γ²";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -586,7 +587,7 @@ function InitQuestion5()
     question.answers.length = 0;
     question.num = 5;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 5. Κυκλώστε το σωστό στην παρακάτω πρόταση Η Γραφιστική σύνθεση αφορά στην τοποθέτηση οπτικών στοιχείων σε ένα κάδρο. Αυτό σημαίνει ότι ο προβληματισμός του σχεδιαστή επικεντρώνεται στην:      ";
+    question.shortTextQuestion = " 5. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ§Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ°Γ±ΓΌΓ΄Γ΅Γ³Γ§ Γ‡ ΓƒΓ±Γ΅Γ¶Γ©Γ³Γ΄Γ©ΓªΓ Γ³Γ½Γ­Γ¨Γ¥Γ³Γ§ Γ΅Γ¶Γ―Γ±Γ Γ³Γ΄Γ§Γ­ Γ΄Γ―Γ°Γ―Γ¨ΓΓ΄Γ§Γ³Γ§ Γ―Γ°Γ΄Γ©ΓªΓΎΓ­ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ³Γ¥ ΓΓ­Γ΅ ΓªΓΓ¤Γ±Γ―. ΓΓµΓ΄ΓΌ Γ³Γ§Γ¬Γ΅ΓΓ­Γ¥Γ© ΓΌΓ΄Γ© Γ― Γ°Γ±Γ―ΓΆΓ«Γ§Γ¬Γ΅Γ΄Γ©Γ³Γ¬ΓΌΓ² Γ΄Γ―Γµ Γ³Γ·Γ¥Γ¤Γ©Γ΅Γ³Γ΄Γ Γ¥Γ°Γ©ΓªΓ¥Γ­Γ΄Γ±ΓΎΓ­Γ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­: Β  Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('+wBgqCTOWMc=', 953, -1, 1);
@@ -594,7 +595,7 @@ function InitQuestion5()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Δημιουργία οπτικών συσχετισμών μεταξύ των οπτικών στοιχείων";
+    answer1.shortTextAnswer = " Γ. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ―Γ°Γ΄Γ©ΓªΓΎΓ­ Γ³ΓµΓ³Γ·Γ¥Γ΄Γ©Γ³Γ¬ΓΎΓ­ Γ¬Γ¥Γ΄Γ΅Γ®Γ½ Γ΄ΓΉΓ­ Γ―Γ°Γ΄Γ©ΓªΓΎΓ­ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('C7Wy+kJW6mw=', 955, -1, 1);
@@ -602,7 +603,7 @@ function InitQuestion5()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Δημιουργία εννοιολογικών συσχετισμών  ";
+    answer2.shortTextAnswer = " Γ‚. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ¥Γ­Γ­Γ―Γ©Γ―Γ«Γ―Γ£Γ©ΓªΓΎΓ­ Γ³ΓµΓ³Γ·Γ¥Γ΄Γ©Γ³Γ¬ΓΎΓ­ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('f9OOO44Nol4=', 957, -1, 1);
@@ -610,7 +611,7 @@ function InitQuestion5()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Τίποτα από τα δύο (Α και Β)";
+    answer3.shortTextAnswer = " Γƒ. Γ”ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¤Γ½Γ― (Γ ΓªΓ΅Γ© Γ‚)";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('BGmkwBpU2bw=', 959, -1, 1);
@@ -618,7 +619,7 @@ function InitQuestion5()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. Και τα δύο ταυτόχρονα (Α και Β)";
+    answer4.shortTextAnswer = " Γ„. ΓΓ΅Γ© Γ΄Γ΅ Γ¤Γ½Γ― Γ΄Γ΅ΓµΓ΄ΓΌΓ·Γ±Γ―Γ­Γ΅ (Γ ΓªΓ΅Γ© Γ‚)";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -635,7 +636,7 @@ function InitQuestion6()
     question.answers.length = 0;
     question.num = 6;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 6. Κυκλώστε την σωστή συνέχεια (1) της πρότασης παρακάτω Με τον όρο φόρμα στην γραφιστική σύνθεση ορίζουμε:  ";
+    question.shortTextQuestion = " 6. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ§Γ­ Γ³ΓΉΓ³Γ΄Γ Γ³ΓµΓ­ΓΓ·Γ¥Γ©Γ΅ (1) Γ΄Γ§Γ² Γ°Γ±ΓΌΓ΄Γ΅Γ³Γ§Γ² Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ ΓΓ¥ Γ΄Γ―Γ­ ΓΌΓ±Γ― Γ¶ΓΌΓ±Γ¬Γ΅ Γ³Γ΄Γ§Γ­ Γ£Γ±Γ΅Γ¶Γ©Γ³Γ΄Γ©ΓªΓ Γ³Γ½Γ­Γ¨Γ¥Γ³Γ§ Γ―Γ±ΓΓ¦Γ―ΓµΓ¬Γ¥: Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ofopN8KnC4o=', 963, -1, 1);
@@ -643,7 +644,7 @@ function InitQuestion6()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Μια περιοχή που οριοθετείται από μια κλειστή γραμμή και περιγράφει ένα τρισδιάστοτο αντικείμενο.  ";
+    answer1.shortTextAnswer = " Γ. ΓΓ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ°Γ―Γµ Γ―Γ±Γ©Γ―Γ¨Γ¥Γ΄Γ¥ΓΓ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ¬Γ©Γ΅ ΓªΓ«Γ¥Γ©Γ³Γ΄Γ Γ£Γ±Γ΅Γ¬Γ¬Γ ΓªΓ΅Γ© Γ°Γ¥Γ±Γ©Γ£Γ±ΓΓ¶Γ¥Γ© ΓΓ­Γ΅ Γ΄Γ±Γ©Γ³Γ¤Γ©ΓΓ³Γ΄Γ―Γ΄Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ―. Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ofopN8KnC4o=', 965, -1, 1);
@@ -651,7 +652,7 @@ function InitQuestion6()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Μια περιοχή που περιλαμβάνει μία σειρά σημείων  ";
+    answer2.shortTextAnswer = " Γ‚. ΓΓ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ°Γ―Γµ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ© Γ¬ΓΓ΅ Γ³Γ¥Γ©Γ±Γ Γ³Γ§Γ¬Γ¥ΓΓΉΓ­ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('raAenLwIRwE=', 967, -1, 1);
@@ -659,7 +660,7 @@ function InitQuestion6()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Μια σειρά σημείων που αν τα ενώσουμε μπορεί να ορίσουν μια ή περισσότερες γραμμές";
+    answer3.shortTextAnswer = " Γƒ. ΓΓ©Γ΅ Γ³Γ¥Γ©Γ±Γ Γ³Γ§Γ¬Γ¥ΓΓΉΓ­ Γ°Γ―Γµ Γ΅Γ­ Γ΄Γ΅ Γ¥Γ­ΓΎΓ³Γ―ΓµΓ¬Γ¥ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ―Γ±ΓΓ³Γ―ΓµΓ­ Γ¬Γ©Γ΅ Γ Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ¥Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('dEEyH5L/Phk=', 969, -1, 1);
@@ -667,7 +668,7 @@ function InitQuestion6()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. Πολλές γραμμές που τέμνονται και βάφουν μια περιοχή  ";
+    answer4.shortTextAnswer = " Γ„. ΓΓ―Γ«Γ«ΓΓ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² Γ°Γ―Γµ Γ΄ΓΓ¬Γ­Γ―Γ­Γ΄Γ΅Γ© ΓªΓ΅Γ© ΓΆΓΓ¶Γ―ΓµΓ­ Γ¬Γ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Β ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -684,7 +685,7 @@ function InitQuestion7()
     question.answers.length = 0;
     question.num = 7;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 7. Κυκλώστε την σωστή πρόταση  ";
+    question.shortTextQuestion = " 7. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ§Γ­ Γ³ΓΉΓ³Γ΄Γ Γ°Γ±ΓΌΓ΄Γ΅Γ³Γ§ Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('91qfHP8Tn4k=', 973, -1, 1);
@@ -692,7 +693,7 @@ function InitQuestion7()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Η αντιφόρμα ορίζει μια περιοχή αντίστροφη της φόρμας  ";
+    answer1.shortTextAnswer = " Γ. Γ‡ Γ΅Γ­Γ΄Γ©Γ¶ΓΌΓ±Γ¬Γ΅ Γ―Γ±ΓΓ¦Γ¥Γ© Γ¬Γ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ΅Γ­Γ΄ΓΓ³Γ΄Γ±Γ―Γ¶Γ§ Γ΄Γ§Γ² Γ¶ΓΌΓ±Γ¬Γ΅Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('OvzuTRgt/J4=', 975, -1, 1);
@@ -700,7 +701,7 @@ function InitQuestion7()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Η αντιφόρμα είναι συμμετρική της φόρμας  ";
+    answer2.shortTextAnswer = " Γ‚. Γ‡ Γ΅Γ­Γ΄Γ©Γ¶ΓΌΓ±Γ¬Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ³ΓµΓ¬Γ¬Γ¥Γ΄Γ±Γ©ΓªΓ Γ΄Γ§Γ² Γ¶ΓΌΓ±Γ¬Γ΅Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('H7FgEesM61A=', 977, -1, 1);
@@ -708,7 +709,7 @@ function InitQuestion7()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Η αντιφόρμα είναι η περιοχή γύρω από την φόρμα σε ένα συγκεκριμένο κάδρο  ";
+    answer3.shortTextAnswer = " Γƒ. Γ‡ Γ΅Γ­Γ΄Γ©Γ¶ΓΌΓ±Γ¬Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ§ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ£Γ½Γ±ΓΉ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¶ΓΌΓ±Γ¬Γ΅ Γ³Γ¥ ΓΓ­Γ΅ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ― ΓªΓΓ¤Γ±Γ― Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -725,7 +726,7 @@ function InitQuestion8()
     question.answers.length = 0;
     question.num = 8;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 8. Κυκλώστε το χαρακτηριστικό που δεν αποδίδει καθαρά την παρακάτω φράση: Το κύριο χαρακτηριστικό μίας στυλιζαρισμένης εικόνας είναι:    ";
+    question.shortTextQuestion = " 8. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ·Γ΅Γ±Γ΅ΓªΓ΄Γ§Γ±Γ©Γ³Γ΄Γ©ΓªΓΌ Γ°Γ―Γµ Γ¤Γ¥Γ­ Γ΅Γ°Γ―Γ¤ΓΓ¤Γ¥Γ© ΓªΓ΅Γ¨Γ΅Γ±Γ Γ΄Γ§Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ¶Γ±ΓΓ³Γ§: Γ”Γ― ΓªΓ½Γ±Γ©Γ― Γ·Γ΅Γ±Γ΅ΓªΓ΄Γ§Γ±Γ©Γ³Γ΄Γ©ΓªΓΌ Γ¬ΓΓ΅Γ² Γ³Γ΄ΓµΓ«Γ©Γ¦Γ΅Γ±Γ©Γ³Γ¬ΓΓ­Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¥ΓΓ­Γ΅Γ©: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dObcudIY/SQ=', 983, -1, 1);
@@ -733,7 +734,7 @@ function InitQuestion8()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Καθαρά σχήματα  ";
+    answer1.shortTextAnswer = " Γ. ΓΓ΅Γ¨Γ΅Γ±Γ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ΅ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('5Y7yApy39ZA=', 985, -1, 1);
@@ -741,7 +742,7 @@ function InitQuestion8()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Λίγα και πλακάτα χρώματα.  ";
+    answer2.shortTextAnswer = " Γ‚. Γ‹ΓΓ£Γ΅ ΓªΓ΅Γ© Γ°Γ«Γ΅ΓªΓΓ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅. Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ZQVs1ZyKM9k=', 987, -1, 1);
@@ -749,7 +750,7 @@ function InitQuestion8()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Άσπρο και μαύρο χωρίς τόνους  ";
+    answer3.shortTextAnswer = " Γƒ. ΒΆΓ³Γ°Γ±Γ― ΓªΓ΅Γ© Γ¬Γ΅Γ½Γ±Γ― Γ·ΓΉΓ±ΓΓ² Γ΄ΓΌΓ­Γ―ΓµΓ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -766,7 +767,7 @@ function InitQuestion9()
     question.answers.length = 0;
     question.num = 9;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 9. Επιλέξτε τη σωστή φράση Η επιτυχία στην απλοποίηση μίας στυλιζαρισμένης εικόνας δεν εξαρτάται από:    ";
+    question.shortTextQuestion = " 9. Γ…Γ°Γ©Γ«ΓΓ®Γ΄Γ¥ Γ΄Γ§ Γ³ΓΉΓ³Γ΄Γ Γ¶Γ±ΓΓ³Γ§ Γ‡ Γ¥Γ°Γ©Γ΄ΓµΓ·ΓΓ΅ Γ³Γ΄Γ§Γ­ Γ΅Γ°Γ«Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ¬ΓΓ΅Γ² Γ³Γ΄ΓµΓ«Γ©Γ¦Γ΅Γ±Γ©Γ³Γ¬ΓΓ­Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¤Γ¥Γ­ Γ¥Γ®Γ΅Γ±Γ΄ΓΓ΄Γ΅Γ© Γ΅Γ°ΓΌ: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('hc1EHdxmOIo=', 993, -1, 1);
@@ -774,7 +775,7 @@ function InitQuestion9()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Από το πλήθος των σχημάτων  ";
+    answer1.shortTextAnswer = " Γ. ΓΓ°ΓΌ Γ΄Γ― Γ°Γ«ΓΓ¨Γ―Γ² Γ΄ΓΉΓ­ Γ³Γ·Γ§Γ¬ΓΓ΄ΓΉΓ­ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BY8zrrJOp88=', 995, -1, 1);
@@ -782,7 +783,7 @@ function InitQuestion9()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Από το χρώμα των σχημάτων  ";
+    answer2.shortTextAnswer = " Γ‚. ΓΓ°ΓΌ Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ΄ΓΉΓ­ Γ³Γ·Γ§Γ¬ΓΓ΄ΓΉΓ­ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('BY8zrrJOp88=', 997, -1, 1);
@@ -790,7 +791,7 @@ function InitQuestion9()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Τον αριθμό των χρωμάτων και των χρωματικών τόνων  ";
+    answer3.shortTextAnswer = " Γƒ. Γ”Γ―Γ­ Γ΅Γ±Γ©Γ¨Γ¬ΓΌ Γ΄ΓΉΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ ΓªΓ΅Γ© Γ΄ΓΉΓ­ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓΎΓ­ Γ΄ΓΌΓ­ΓΉΓ­ Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -807,7 +808,7 @@ function InitQuestion10()
     question.answers.length = 0;
     question.num = 10;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 10. Σημειώστε το σωστό στοιχείο :    ";
+    question.shortTextQuestion = " 10. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― : Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('twLfYzp9csw=', 1003, -1, 1);
@@ -815,7 +816,7 @@ function InitQuestion10()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Το σημαίνον είναι το αντικείμενο  ";
+    answer1.shortTextAnswer = " Γ. Γ”Γ― Γ³Γ§Γ¬Γ΅ΓΓ­Γ―Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΄Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('J5RNvS5DghE=', 1005, -1, 1);
@@ -823,7 +824,7 @@ function InitQuestion10()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Το σημαίνον είναι το στοιχείο μέσα στην σύνθεση  ";
+    answer2.shortTextAnswer = " Γ‚. Γ”Γ― Γ³Γ§Γ¬Γ΅ΓΓ­Γ―Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ§Γ­ Γ³Γ½Γ­Γ¨Γ¥Γ³Γ§ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('AABm4xf1OmI=', 1007, -1, 1);
@@ -831,7 +832,7 @@ function InitQuestion10()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Το σημαίνον είναι το στοιχείο και το σημαινόμενο ή έννοια που του αποδίδεται (ερμηνεία)  ";
+    answer3.shortTextAnswer = " Γƒ. Γ”Γ― Γ³Γ§Γ¬Γ΅ΓΓ­Γ―Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― ΓªΓ΅Γ© Γ΄Γ― Γ³Γ§Γ¬Γ΅Γ©Γ­ΓΌΓ¬Γ¥Γ­Γ― Γ ΓΓ­Γ­Γ―Γ©Γ΅ Γ°Γ―Γµ Γ΄Γ―Γµ Γ΅Γ°Γ―Γ¤ΓΓ¤Γ¥Γ΄Γ΅Γ© (Γ¥Γ±Γ¬Γ§Γ­Γ¥ΓΓ΅) Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -848,7 +849,7 @@ function InitQuestion11()
     question.answers.length = 0;
     question.num = 11;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 11. Σύμφωνα με τη σημειωτική θεωρία:    ";
+    question.shortTextQuestion = " 11. Γ“Γ½Γ¬Γ¶ΓΉΓ­Γ΅ Γ¬Γ¥ Γ΄Γ§ Γ³Γ§Γ¬Γ¥Γ©ΓΉΓ΄Γ©ΓªΓ Γ¨Γ¥ΓΉΓ±ΓΓ΅: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Imbqo9zDsVI=', 1013, -1, 1);
@@ -856,7 +857,7 @@ function InitQuestion11()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Ο θεατής είναι ασταθής αλλά ικανός να αντιδράσει στην θέα μιας εικόνας  ";
+    answer1.shortTextAnswer = " Γ. Γ Γ¨Γ¥Γ΅Γ΄ΓΓ² Γ¥ΓΓ­Γ΅Γ© Γ΅Γ³Γ΄Γ΅Γ¨ΓΓ² Γ΅Γ«Γ«Γ Γ©ΓªΓ΅Γ­ΓΌΓ² Γ­Γ΅ Γ΅Γ­Γ΄Γ©Γ¤Γ±ΓΓ³Γ¥Γ© Γ³Γ΄Γ§Γ­ Γ¨ΓΓ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Imbqo9zDsVI=', 1015, -1, 1);
@@ -864,7 +865,7 @@ function InitQuestion11()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Συμμετέχει ενεργά στη δημιουργία μιας εικόνας  ";
+    answer2.shortTextAnswer = " Γ‚. Γ“ΓµΓ¬Γ¬Γ¥Γ΄ΓΓ·Γ¥Γ© Γ¥Γ­Γ¥Γ±Γ£Γ Γ³Γ΄Γ§ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('WBw965Oo7Tg=', 1017, -1, 1);
@@ -872,7 +873,7 @@ function InitQuestion11()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Ερμηνεύει τη φόρμα της εικόνας";
+    answer3.shortTextAnswer = " Γƒ. Γ…Γ±Γ¬Γ§Γ­Γ¥Γ½Γ¥Γ© Γ΄Γ§ Γ¶ΓΌΓ±Γ¬Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -889,7 +890,7 @@ function InitQuestion12()
     question.answers.length = 0;
     question.num = 12;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 12. Σημειώστε τις σημαντικές παραμέτρους της αφήγησης:    ";
+    question.shortTextQuestion = " 12. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ©Γ² Γ³Γ§Γ¬Γ΅Γ­Γ΄Γ©ΓªΓΓ² Γ°Γ΅Γ±Γ΅Γ¬ΓΓ΄Γ±Γ―ΓµΓ² Γ΄Γ§Γ² Γ΅Γ¶ΓΓ£Γ§Γ³Γ§Γ²: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('XI8bwVfBXug=', 1023, -1, 1);
@@ -897,7 +898,7 @@ function InitQuestion12()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. μέσο μετάδοσης της πληροφορίας  ";
+    answer1.shortTextAnswer = " Γ. Γ¬ΓΓ³Γ― Γ¬Γ¥Γ΄ΓΓ¤Γ―Γ³Γ§Γ² Γ΄Γ§Γ² Γ°Γ«Γ§Γ±Γ―Γ¶Γ―Γ±ΓΓ΅Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('dVoWCbmVYRU=', 1025, -1, 1);
@@ -905,7 +906,7 @@ function InitQuestion12()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. σχέδιο-οργάνωση της πληροφορίας  ";
+    answer2.shortTextAnswer = " Γ‚. Γ³Γ·ΓΓ¤Γ©Γ―-Γ―Γ±Γ£ΓΓ­ΓΉΓ³Γ§ Γ΄Γ§Γ² Γ°Γ«Γ§Γ±Γ―Γ¶Γ―Γ±ΓΓ΅Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('dVoWCbmVYRU=', 1027, -1, 1);
@@ -913,7 +914,7 @@ function InitQuestion12()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. ιστορία  ";
+    answer3.shortTextAnswer = " Γƒ. Γ©Γ³Γ΄Γ―Γ±ΓΓ΅ Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('yRuPtXT0Aq4=', 1029, -1, 1);
@@ -921,7 +922,7 @@ function InitQuestion12()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. αφηγητής-ήρωας  ";
+    answer4.shortTextAnswer = " Γ„. Γ΅Γ¶Γ§Γ£Γ§Γ΄ΓΓ²-ΓΓ±ΓΉΓ΅Γ² Β ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -938,7 +939,7 @@ function InitQuestion13()
     question.answers.length = 0;
     question.num = 13;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 13. Σημειώστε το σωστό στοιχείο:    ";
+    question.shortTextQuestion = " 13. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ―: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('XRXG7lutKa8=', 1033, -1, 1);
@@ -946,7 +947,7 @@ function InitQuestion13()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Ο Μετζ θεωρεί ότι ο θεατής ταυτίζεται με αυτό που βλέπει  ";
+    answer1.shortTextAnswer = " Γ. Γ ΓΓ¥Γ΄Γ¦ Γ¨Γ¥ΓΉΓ±Γ¥Γ ΓΌΓ΄Γ© Γ― Γ¨Γ¥Γ΅Γ΄ΓΓ² Γ΄Γ΅ΓµΓ΄ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΅ΓµΓ΄ΓΌ Γ°Γ―Γµ ΓΆΓ«ΓΓ°Γ¥Γ© Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('XRXG7lutKa8=', 1035, -1, 1);
@@ -954,7 +955,7 @@ function InitQuestion13()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " B. Lacan θεωρεί ότι ο θεατής ταυτίζεται με αυτό που βλέπει  ";
+    answer2.shortTextAnswer = " B. Lacan Γ¨Γ¥ΓΉΓ±Γ¥Γ ΓΌΓ΄Γ© Γ― Γ¨Γ¥Γ΅Γ΄ΓΓ² Γ΄Γ΅ΓµΓ΄ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΅ΓµΓ΄ΓΌ Γ°Γ―Γµ ΓΆΓ«ΓΓ°Γ¥Γ© Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('848b0cHeAzQ=', 1037, -1, 1);
@@ -962,7 +963,7 @@ function InitQuestion13()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Ο Αριστοτέλης θεωρεί ότι ο θεατής ταυτίζεται με αυτό που βλέπει  ";
+    answer3.shortTextAnswer = " Γƒ. Γ ΓΓ±Γ©Γ³Γ΄Γ―Γ΄ΓΓ«Γ§Γ² Γ¨Γ¥ΓΉΓ±Γ¥Γ ΓΌΓ΄Γ© Γ― Γ¨Γ¥Γ΅Γ΄ΓΓ² Γ΄Γ΅ΓµΓ΄ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΅ΓµΓ΄ΓΌ Γ°Γ―Γµ ΓΆΓ«ΓΓ°Γ¥Γ© Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -979,7 +980,7 @@ function InitQuestion14()
     question.answers.length = 0;
     question.num = 14;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 14. Όσο μεγαλύτερο είναι το βάθος χρώματος,    ";
+    question.shortTextQuestion = " 14. ΒΌΓ³Γ― Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ― Γ¥ΓΓ­Γ΅Γ© Γ΄Γ― ΓΆΓΓ¨Γ―Γ² Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ², Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('JrjhnWvrdgM=', 1043, -1, 1);
@@ -987,7 +988,7 @@ function InitQuestion14()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Τόσο μεγαλύτερη είναι η χρωματική πληροφορία μιας εικόνας  ";
+    answer1.shortTextAnswer = " Γ. Γ”ΓΌΓ³Γ― Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ§ Γ¥ΓΓ­Γ΅Γ© Γ§ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ°Γ«Γ§Γ±Γ―Γ¶Γ―Γ±ΓΓ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('JrjhnWvrdgM=', 1045, -1, 1);
@@ -995,7 +996,7 @@ function InitQuestion14()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Τόσο καλύτερη είναι η ευκρίνεια μιας εικόνας  ";
+    answer2.shortTextAnswer = " Γ‚. Γ”ΓΌΓ³Γ― ΓªΓ΅Γ«Γ½Γ΄Γ¥Γ±Γ§ Γ¥ΓΓ­Γ΅Γ© Γ§ Γ¥ΓµΓªΓ±ΓΓ­Γ¥Γ©Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('mdKDKdK1uW8=', 1047, -1, 1);
@@ -1003,7 +1004,7 @@ function InitQuestion14()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Τόσο μεγαλύτερο είναι το κοντράστ μίας εικόνας  ";
+    answer3.shortTextAnswer = " Γƒ. Γ”ΓΌΓ³Γ― Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ― Γ¥ΓΓ­Γ΅Γ© Γ΄Γ― ΓªΓ―Γ­Γ΄Γ±ΓΓ³Γ΄ Γ¬ΓΓ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1020,7 +1021,7 @@ function InitQuestion15()
     question.answers.length = 0;
     question.num = 15;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 15. Κυκλώστε την επιλογή που δεν ανταποκρίνεται απόλυτα στην παρακάτω παραδοχή: Η επιλογή του βάθους χρώματος εξαρτάται από:    ";
+    question.shortTextQuestion = " 15. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ°Γ―Γµ Γ¤Γ¥Γ­ Γ΅Γ­Γ΄Γ΅Γ°Γ―ΓªΓ±ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌΓ«ΓµΓ΄Γ΅ Γ³Γ΄Γ§Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ°Γ΅Γ±Γ΅Γ¤Γ―Γ·Γ: Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ―Γµ ΓΆΓΓ¨Γ―ΓµΓ² Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ¥Γ®Γ΅Γ±Γ΄ΓΓ΄Γ΅Γ© Γ΅Γ°ΓΌ: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('5sypjQgi8y8=', 1053, -1, 1);
@@ -1028,7 +1029,7 @@ function InitQuestion15()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. τη συσκευή προβολής  ";
+    answer1.shortTextAnswer = " Γ. Γ΄Γ§ Γ³ΓµΓ³ΓªΓ¥ΓµΓ Γ°Γ±Γ―ΓΆΓ―Γ«ΓΓ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('sQgzU0p59+M=', 1055, -1, 1);
@@ -1036,7 +1037,7 @@ function InitQuestion15()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. το μέσο προβολής  ";
+    answer2.shortTextAnswer = " Γ‚. Γ΄Γ― Γ¬ΓΓ³Γ― Γ°Γ±Γ―ΓΆΓ―Γ«ΓΓ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('BqlLmvdgWUw=', 1057, -1, 1);
@@ -1044,7 +1045,7 @@ function InitQuestion15()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. το επιθυμητό κοντράστ και την ευκρίνεια της εικόνας  ";
+    answer3.shortTextAnswer = " Γƒ. Γ΄Γ― Γ¥Γ°Γ©Γ¨ΓµΓ¬Γ§Γ΄ΓΌ ΓªΓ―Γ­Γ΄Γ±ΓΓ³Γ΄ ΓªΓ΅Γ© Γ΄Γ§Γ­ Γ¥ΓµΓªΓ±ΓΓ­Γ¥Γ©Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('BqlLmvdgWUw=', 1059, -1, 1);
@@ -1052,7 +1053,7 @@ function InitQuestion15()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. την χρήση και το είδος του θέματος  ";
+    answer4.shortTextAnswer = " Γ„. Γ΄Γ§Γ­ Γ·Γ±ΓΓ³Γ§ ΓªΓ΅Γ© Γ΄Γ― Γ¥ΓΓ¤Γ―Γ² Γ΄Γ―Γµ Γ¨ΓΓ¬Γ΅Γ΄Γ―Γ² Β ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -1071,7 +1072,7 @@ function InitQuestion16()
     var question = new Question(type, weight, numOfAnswers, DecodeDecimal('8jVhDQyyRLw=', 1061, -1000, 1000),DecodeDecimal('no3DsxRRZK8=', 1061, -1000, 1000),DecodeDecimal('no3DsxRRZK8=', 1061, -1000, 1000));
     question.num = 16;
     question.answers.length = 0;
-    question.shortTextQuestion = " 16. Αντιστοίχησε τα σωστά  ";
+    question.shortTextQuestion = " 16. ΓΓ­Γ΄Γ©Γ³Γ΄Γ―ΓΓ·Γ§Γ³Γ¥ Γ΄Γ΅ Γ³ΓΉΓ³Γ΄Γ Β ";
     question.noChoice = false;
     for (i = 0; i < orderLeft15.length; i++)
     {
@@ -1104,7 +1105,7 @@ function InitQuestion17()
     question.answers.length = 0;
     question.num = 17;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 17. Κυκλώστε το σωστό Ο κορεσμός ενός χρώματος αναφέρεται    ";
+    question.shortTextQuestion = " 17. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ ΓªΓ―Γ±Γ¥Γ³Γ¬ΓΌΓ² Γ¥Γ­ΓΌΓ² Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ΅Γ­Γ΅Γ¶ΓΓ±Γ¥Γ΄Γ΅Γ© Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('WCKRABuBQhM=', 910, -1, 1);
@@ -1112,7 +1113,7 @@ function InitQuestion17()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. στην \"καθαρότητα\" του χρώματος σε σχέση με το απλό, που καθορίζει την απόχρωσή του  ";
+    answer1.shortTextAnswer = " Γ. Γ³Γ΄Γ§Γ­ \"ΓªΓ΅Γ¨Γ΅Γ±ΓΌΓ΄Γ§Γ΄Γ΅\" Γ΄Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ³Γ¥ Γ³Γ·ΓΓ³Γ§ Γ¬Γ¥ Γ΄Γ― Γ΅Γ°Γ«ΓΌ, Γ°Γ―Γµ ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ°ΓΌΓ·Γ±ΓΉΓ³Γ Γ΄Γ―Γµ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WCKRABuBQhM=', 912, -1, 1);
@@ -1120,7 +1121,7 @@ function InitQuestion17()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. στον συνδυασμό των καθαρών χρωμάτων  ";
+    answer2.shortTextAnswer = " Γ‚. Γ³Γ΄Γ―Γ­ Γ³ΓµΓ­Γ¤ΓµΓ΅Γ³Γ¬ΓΌ Γ΄ΓΉΓ­ ΓªΓ΅Γ¨Γ΅Γ±ΓΎΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('RTb9I8ifreo=', 914, -1, 1);
@@ -1128,7 +1129,7 @@ function InitQuestion17()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. στο πόσο πλακάτο είναι  ";
+    answer3.shortTextAnswer = " Γƒ. Γ³Γ΄Γ― Γ°ΓΌΓ³Γ― Γ°Γ«Γ΅ΓªΓΓ΄Γ― Γ¥ΓΓ­Γ΅Γ© Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1145,7 +1146,7 @@ function InitQuestion18()
     question.answers.length = 0;
     question.num = 18;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 18. Κυκλώστε το σωστό Η Χροιά προσδιορίζει    ";
+    question.shortTextQuestion = " 18. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ—Γ±Γ―Γ©Γ Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ© Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('0PcIW0qHOnY=', 920, -1, 1);
@@ -1153,7 +1154,7 @@ function InitQuestion18()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Εκείνο από τα απλά χρώματα, που \"συνεισφέρουν\" σε μεγαλύτερο ποσοστό στη δημιουργία ενός σύνθετου χρώματος  ";
+    answer1.shortTextAnswer = " Γ. Γ…ΓªΓ¥ΓΓ­Γ― Γ΅Γ°ΓΌ Γ΄Γ΅ Γ΅Γ°Γ«Γ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅, Γ°Γ―Γµ \"Γ³ΓµΓ­Γ¥Γ©Γ³Γ¶ΓΓ±Γ―ΓµΓ­\" Γ³Γ¥ Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ― Γ°Γ―Γ³Γ―Γ³Γ΄ΓΌ Γ³Γ΄Γ§ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ¥Γ­ΓΌΓ² Γ³Γ½Γ­Γ¨Γ¥Γ΄Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('1sBo463aZGY=', 922, -1, 1);
@@ -1161,7 +1162,7 @@ function InitQuestion18()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Τις τονικές διαβαθμισεις του χρώματος  ";
+    answer2.shortTextAnswer = " Γ‚. Γ”Γ©Γ² Γ΄Γ―Γ­Γ©ΓªΓΓ² Γ¤Γ©Γ΅ΓΆΓ΅Γ¨Γ¬Γ©Γ³Γ¥Γ©Γ² Γ΄Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('B0FgIdO3WNk=', 924, -1, 1);
@@ -1169,7 +1170,7 @@ function InitQuestion18()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Την απόχρωση του χρώματος  ";
+    answer3.shortTextAnswer = " Γƒ. Γ”Γ§Γ­ Γ΅Γ°ΓΌΓ·Γ±ΓΉΓ³Γ§ Γ΄Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1186,7 +1187,7 @@ function InitQuestion19()
     question.answers.length = 0;
     question.num = 19;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 19. Κυκλώστε το σωστό στην παρακάτω πρόταση 24 bit βάθος χρώματος αντιστοιχούν σε:    ";
+    question.shortTextQuestion = " 19. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ§Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ°Γ±ΓΌΓ΄Γ΅Γ³Γ§ 24 bit ΓΆΓΓ¨Γ―Γ² Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ―Γ©Γ·Γ―Γ½Γ­ Γ³Γ¥: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xQEn9B252BM=', 930, -1, 1);
@@ -1194,7 +1195,7 @@ function InitQuestion19()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. 256 χρώματα  ";
+    answer1.shortTextAnswer = " Γ. 256 Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('vQPOKiIBM3E=', 932, -1, 1);
@@ -1202,7 +1203,7 @@ function InitQuestion19()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. 256 Χ 24 = 6.144 χρώματα  ";
+    answer2.shortTextAnswer = " Γ‚. 256 Γ— 24 = 6.144 Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('oRM8EiNNCHU=', 934, -1, 1);
@@ -1210,7 +1211,7 @@ function InitQuestion19()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. 256 Χ256 Χ256 = 16,7 εκατομμύρια χρώματα.  ";
+    answer3.shortTextAnswer = " Γƒ. 256 Γ—256 Γ—256 = 16,7 Γ¥ΓªΓ΅Γ΄Γ―Γ¬Γ¬Γ½Γ±Γ©Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅. Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1227,7 +1228,7 @@ function InitQuestion20()
     question.answers.length = 0;
     question.num = 20;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 20. Κυκλώστε το σωστό στην παρακάτω πρόταση Τα χρώματα στις ηλεκτρονικές συσκευές δημιουργούνται με συνδυασμό των ακτινοβολιών    ";
+    question.shortTextQuestion = " 20. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ§Γ­ Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ°Γ±ΓΌΓ΄Γ΅Γ³Γ§ Γ”Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ³Γ΄Γ©Γ² Γ§Γ«Γ¥ΓªΓ΄Γ±Γ―Γ­Γ©ΓªΓΓ² Γ³ΓµΓ³ΓªΓ¥ΓµΓΓ² Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ―Γ½Γ­Γ΄Γ΅Γ© Γ¬Γ¥ Γ³ΓµΓ­Γ¤ΓµΓ΅Γ³Γ¬ΓΌ Γ΄ΓΉΓ­ Γ΅ΓªΓ΄Γ©Γ­Γ―ΓΆΓ―Γ«Γ©ΓΎΓ­ Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pAUl4YrmVH8=', 940, -1, 1);
@@ -1235,7 +1236,7 @@ function InitQuestion20()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. κόκκινης της μπλε και της κίτρινης  ";
+    answer1.shortTextAnswer = " Γ. ΓªΓΌΓªΓªΓ©Γ­Γ§Γ² Γ΄Γ§Γ² Γ¬Γ°Γ«Γ¥ ΓªΓ΅Γ© Γ΄Γ§Γ² ΓªΓΓ΄Γ±Γ©Γ­Γ§Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('gmluWwVBpyA=', 942, -1, 1);
@@ -1243,7 +1244,7 @@ function InitQuestion20()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. κόκκινης της πράσινης και της μπλε  ";
+    answer2.shortTextAnswer = " Γ‚. ΓªΓΌΓªΓªΓ©Γ­Γ§Γ² Γ΄Γ§Γ² Γ°Γ±ΓΓ³Γ©Γ­Γ§Γ² ΓªΓ΅Γ© Γ΄Γ§Γ² Γ¬Γ°Γ«Γ¥ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('gmluWwVBpyA=', 944, -1, 1);
@@ -1251,7 +1252,7 @@ function InitQuestion20()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. κίτρινης της κυανής και της ματζέντας  ";
+    answer3.shortTextAnswer = " Γƒ. ΓªΓΓ΄Γ±Γ©Γ­Γ§Γ² Γ΄Γ§Γ² ΓªΓµΓ΅Γ­ΓΓ² ΓªΓ΅Γ© Γ΄Γ§Γ² Γ¬Γ΅Γ΄Γ¦ΓΓ­Γ΄Γ΅Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1268,7 +1269,7 @@ function InitQuestion21()
     question.answers.length = 0;
     question.num = 21;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 21. Ποια από τις παρακάτω εκδοχές ισχύει: Η ψηφιοποίηση (digitization) εικόνων από αναλογική σε ψηφιακή μορφή είναι    ";
+    question.shortTextQuestion = " 21. ΓΓ―Γ©Γ΅ Γ΅Γ°ΓΌ Γ΄Γ©Γ² Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ¥ΓªΓ¤Γ―Γ·ΓΓ² Γ©Γ³Γ·Γ½Γ¥Γ©: Γ‡ ΓΈΓ§Γ¶Γ©Γ―Γ°Γ―ΓΓ§Γ³Γ§ (digitization) Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ Γ΅Γ°ΓΌ Γ΅Γ­Γ΅Γ«Γ―Γ£Γ©ΓªΓ Γ³Γ¥ ΓΈΓ§Γ¶Γ©Γ΅ΓªΓ Γ¬Γ―Γ±Γ¶Γ Γ¥ΓΓ­Γ΅Γ© Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xNAtg4HBVCQ=', 950, -1, 1);
@@ -1276,7 +1277,7 @@ function InitQuestion21()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Η μετατροπή των αναλογικών εικόνων σε ψηφιακή μορφή  ";
+    answer1.shortTextAnswer = " Γ. Γ‡ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ―Γ°Γ Γ΄ΓΉΓ­ Γ΅Γ­Γ΅Γ«Γ―Γ£Γ©ΓªΓΎΓ­ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ Γ³Γ¥ ΓΈΓ§Γ¶Γ©Γ΅ΓªΓ Γ¬Γ―Γ±Γ¶Γ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('xNAtg4HBVCQ=', 952, -1, 1);
@@ -1284,7 +1285,7 @@ function InitQuestion21()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Η διαδικασία επεξεργασίας αφού μεταφερθούν σε ψηφιακά μέσα  ";
+    answer2.shortTextAnswer = " Γ‚. Γ‡ Γ¤Γ©Γ΅Γ¤Γ©ΓªΓ΅Γ³ΓΓ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ΅Γ¶Γ―Γ½ Γ¬Γ¥Γ΄Γ΅Γ¶Γ¥Γ±Γ¨Γ―Γ½Γ­ Γ³Γ¥ ΓΈΓ§Γ¶Γ©Γ΅ΓªΓ Γ¬ΓΓ³Γ΅ Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('DKL9rsOmSJ8=', 954, -1, 1);
@@ -1292,7 +1293,7 @@ function InitQuestion21()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Η απευθείας σχεδίαση σε ψηφιακά μέσα μίας εικόνας  ";
+    answer3.shortTextAnswer = " Γƒ. Γ‡ Γ΅Γ°Γ¥ΓµΓ¨Γ¥ΓΓ΅Γ² Γ³Γ·Γ¥Γ¤ΓΓ΅Γ³Γ§ Γ³Γ¥ ΓΈΓ§Γ¶Γ©Γ΅ΓªΓ Γ¬ΓΓ³Γ΅ Γ¬ΓΓ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1309,7 +1310,7 @@ function InitQuestion22()
     question.answers.length = 0;
     question.num = 22;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 22. Κυκλώστε το λάθος Η ψηφιοποίηση εικόνων από αναλογική μορφή γίνεται    ";
+    question.shortTextQuestion = " 22. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ«ΓΓ¨Γ―Γ² Γ‡ ΓΈΓ§Γ¶Γ©Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ Γ΅Γ°ΓΌ Γ΅Γ­Γ΅Γ«Γ―Γ£Γ©ΓªΓ Γ¬Γ―Γ±Γ¶Γ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('aBCvUJ+N3yY=', 960, -1, 1);
@@ -1317,7 +1318,7 @@ function InitQuestion22()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. με τη βοήθεια σαρωτών  ";
+    answer1.shortTextAnswer = " Γ. Γ¬Γ¥ Γ΄Γ§ ΓΆΓ―ΓΓ¨Γ¥Γ©Γ΅ Γ³Γ΅Γ±ΓΉΓ΄ΓΎΓ­ Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('kPxDZkHINEM=', 962, -1, 1);
@@ -1325,7 +1326,7 @@ function InitQuestion22()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. απευθείας με τη χρήση ψηφιακών φωτογραφικών μηχανών.  ";
+    answer2.shortTextAnswer = " Γ‚. Γ΅Γ°Γ¥ΓµΓ¨Γ¥ΓΓ΅Γ² Γ¬Γ¥ Γ΄Γ§ Γ·Γ±ΓΓ³Γ§ ΓΈΓ§Γ¶Γ©Γ΅ΓªΓΎΓ­ Γ¶ΓΉΓ΄Γ―Γ£Γ±Γ΅Γ¶Γ©ΓªΓΎΓ­ Γ¬Γ§Γ·Γ΅Γ­ΓΎΓ­. Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('y5p1oTvzFWs=', 964, -1, 1);
@@ -1333,7 +1334,7 @@ function InitQuestion22()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. με την επαναδημιουργία της σε σχεδιαστικά προγράμματα  ";
+    answer3.shortTextAnswer = " Γƒ. Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ°Γ΅Γ­Γ΅Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ΄Γ§Γ² Γ³Γ¥ Γ³Γ·Γ¥Γ¤Γ©Γ΅Γ³Γ΄Γ©ΓªΓ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅ Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1350,7 +1351,7 @@ function InitQuestion23()
     question.answers.length = 0;
     question.num = 23;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 23. Κυκλώστε το σωστό. Κατά τη διαδικασία ψηφιοποίησης η εικόνα μετατρέπεται σε ακολουθίες δυαδικών ψηφίων. που συμβολίζουν    ";
+    question.shortTextQuestion = " 23. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓΓ΅Γ΄Γ Γ΄Γ§ Γ¤Γ©Γ΅Γ¤Γ©ΓªΓ΅Γ³ΓΓ΅ ΓΈΓ§Γ¶Γ©Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ² Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±ΓΓ°Γ¥Γ΄Γ΅Γ© Γ³Γ¥ Γ΅ΓªΓ―Γ«Γ―ΓµΓ¨ΓΓ¥Γ² Γ¤ΓµΓ΅Γ¤Γ©ΓªΓΎΓ­ ΓΈΓ§Γ¶ΓΓΉΓ­. Γ°Γ―Γµ Γ³ΓµΓ¬ΓΆΓ―Γ«ΓΓ¦Γ―ΓµΓ­ Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rJ308VXMHTI=', 970, -1, 1);
@@ -1358,7 +1359,7 @@ function InitQuestion23()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Την τιμή χρώματος κάθε pixel σε κάθε σημείο της εικόνας  ";
+    answer1.shortTextAnswer = " Γ. Γ”Γ§Γ­ Γ΄Γ©Γ¬Γ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² ΓªΓΓ¨Γ¥ pixel Γ³Γ¥ ΓªΓΓ¨Γ¥ Γ³Γ§Γ¬Γ¥ΓΓ― Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('rJ308VXMHTI=', 972, -1, 1);
@@ -1366,7 +1367,7 @@ function InitQuestion23()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Το μέγεθος ενός pixel σε ένα σημείο της εικόνας  ";
+    answer2.shortTextAnswer = " Γ‚. Γ”Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ¥Γ­ΓΌΓ² pixel Γ³Γ¥ ΓΓ­Γ΅ Γ³Γ§Γ¬Γ¥ΓΓ― Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('+ShSl5vfyEU=', 974, -1, 1);
@@ -1374,7 +1375,7 @@ function InitQuestion23()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. Το κοντράστ ενός pixel σε ένα σημείο της εικόνας  ";
+    answer3.shortTextAnswer = " Γƒ. Γ”Γ― ΓªΓ―Γ­Γ΄Γ±ΓΓ³Γ΄ Γ¥Γ­ΓΌΓ² pixel Γ³Γ¥ ΓΓ­Γ΅ Γ³Γ§Γ¬Γ¥ΓΓ― Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1391,7 +1392,7 @@ function InitQuestion24()
     question.answers.length = 0;
     question.num = 24;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 24. Κυκλώστε το λάθος. Ο αποθηκευτικός χώρος που απαιτείται για μια εικόνα, εξαρτάται από:    ";
+    question.shortTextQuestion = " 24. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ«ΓΓ¨Γ―Γ². Γ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥ΓµΓ΄Γ©ΓªΓΌΓ² Γ·ΓΎΓ±Γ―Γ² Γ°Γ―Γµ Γ΅Γ°Γ΅Γ©Γ΄Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅, Γ¥Γ®Γ΅Γ±Γ΄ΓΓ΄Γ΅Γ© Γ΅Γ°ΓΌ: Β  Β ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('kr/PN38Z2P0=', 980, -1, 1);
@@ -1399,7 +1400,7 @@ function InitQuestion24()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. τη μορφή αποθήκευσης των δεδομένων,  ";
+    answer1.shortTextAnswer = " Γ. Γ΄Γ§ Γ¬Γ―Γ±Γ¶Γ Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§Γ² Γ΄ΓΉΓ­ Γ¤Γ¥Γ¤Γ―Γ¬ΓΓ­ΓΉΓ­, Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('gXCA51NCsTI=', 982, -1, 1);
@@ -1407,7 +1408,7 @@ function InitQuestion24()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. την ύπαρξη ή όχι χρώματος  ";
+    answer2.shortTextAnswer = " Γ‚. Γ΄Γ§Γ­ Γ½Γ°Γ΅Γ±Γ®Γ§ Γ ΓΌΓ·Γ© Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('RoC6NcKQ4I8=', 984, -1, 1);
@@ -1415,7 +1416,7 @@ function InitQuestion24()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = " Γ. το περιεχόμενο της εικόνας  ";
+    answer3.shortTextAnswer = " Γƒ. Γ΄Γ― Γ°Γ¥Γ±Γ©Γ¥Γ·ΓΌΓ¬Γ¥Γ­Γ― Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('RoC6NcKQ4I8=', 986, -1, 1);
@@ -1423,7 +1424,7 @@ function InitQuestion24()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. τις διαστάσεις της εικόνας.  ";
+    answer4.shortTextAnswer = " Γ„. Γ΄Γ©Γ² Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ². Β ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -1440,7 +1441,7 @@ function InitQuestion25()
     question.answers.length = 0;
     question.num = 25;
     question.isSingleAns = false;
-    question.shortTextQuestion = "25. Κύκλωσε την λανθασμένη παραδοχή.";
+    question.shortTextQuestion = "25. ΓΓ½ΓªΓ«ΓΉΓ³Γ¥ Γ΄Γ§Γ­ Γ«Γ΅Γ­Γ¨Γ΅Γ³Γ¬ΓΓ­Γ§ Γ°Γ΅Γ±Γ΅Γ¤Γ―Γ·Γ.";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('eXNaCMEmeVY=', 990, -1, 1);
@@ -1448,7 +1449,7 @@ function InitQuestion25()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = " Α. Όσο περισσότερα εικονοστοιχεία υπάρχουν σε μία εικόνα τόσο μεγαλύτερο είναι το μέγεθος αρχείου της εικόνας.  ";
+    answer1.shortTextAnswer = " Γ. ΒΌΓ³Γ― Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ³Γ¥ Γ¬ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ΄ΓΌΓ³Γ― Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ― Γ¥ΓΓ­Γ΅Γ© Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΅Γ±Γ·Γ¥ΓΓ―Γµ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ². Β ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('23xZY5zF9D4=', 992, -1, 1);
@@ -1456,7 +1457,7 @@ function InitQuestion25()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = " Β. Ο αριθμός των εικονοστοιχείων στη μονάδα του μήκους αναφέρεται ως ανάλυση (resolution) της εικόνας  ";
+    answer2.shortTextAnswer = " Γ‚. Γ Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² Γ΄ΓΉΓ­ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ³Γ΄Γ§ Γ¬Γ―Γ­ΓΓ¤Γ΅ Γ΄Γ―Γµ Γ¬ΓΓªΓ―ΓµΓ² Γ΅Γ­Γ΅Γ¶ΓΓ±Γ¥Γ΄Γ΅Γ© ΓΉΓ² Γ΅Γ­ΓΓ«ΓµΓ³Γ§ (resolution) Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Β ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('QsiZwaMgOsk=', 994, -1, 1);
@@ -1464,7 +1465,7 @@ function InitQuestion25()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "   Γ. Ο αριθμός των εικονοστοιχείων στη μονάδα του μήκους εκφράζεται σε εικονοστοιχεία ανά ίντσα (ppi  pixels per inch).  ";
+    answer3.shortTextAnswer = " Β  Γƒ. Γ Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² Γ΄ΓΉΓ­ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ³Γ΄Γ§ Γ¬Γ―Γ­ΓΓ¤Γ΅ Γ΄Γ―Γµ Γ¬ΓΓªΓ―ΓµΓ² Γ¥ΓªΓ¶Γ±ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ³Γ¥ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ΅Γ­Γ ΓΓ­Γ΄Γ³Γ΅ (ppi  pixels per inch). Β ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('hWny5qOPaUg=', 996, -1, 1);
@@ -1472,7 +1473,7 @@ function InitQuestion25()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = " Δ. Οι διαστάσεις της εικόνας αφορούν στην μονάδα μήκους της ανεξάρτητα από τα εικονοστοιχεία που την αποτελούν";
+    answer4.shortTextAnswer = " Γ„. ΓΓ© Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ΅Γ¶Γ―Γ±Γ―Γ½Γ­ Γ³Γ΄Γ§Γ­ Γ¬Γ―Γ­ΓΓ¤Γ΅ Γ¬ΓΓªΓ―ΓµΓ² Γ΄Γ§Γ² Γ΅Γ­Γ¥Γ®ΓΓ±Γ΄Γ§Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ°Γ―Γµ Γ΄Γ§Γ­ Γ΅Γ°Γ―Γ΄Γ¥Γ«Γ―Γ½Γ­";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -1489,7 +1490,7 @@ function InitQuestion26()
     question.answers.length = 0;
     question.num = 26;
     question.isSingleAns = false;
-    question.shortTextQuestion = "26. Τα αρχεία BMP αφορούν:  ";
+    question.shortTextQuestion = "26. Γ”Γ΅ Γ΅Γ±Γ·Γ¥ΓΓ΅ BMP Γ΅Γ¶Γ―Γ±Γ―Γ½Γ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('iuL5MmJf/0E=', 1000, -1, 1);
@@ -1497,7 +1498,7 @@ function InitQuestion26()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Αρχείο Εικόνας";
+    answer1.shortTextAnswer = "Γ. ΓΓ±Γ·Γ¥ΓΓ― Γ…Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('iuL5MmJf/0E=', 1002, -1, 1);
@@ -1505,7 +1506,7 @@ function InitQuestion26()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Αρχείο Κείμενου";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ±Γ·Γ¥ΓΓ― ΓΓ¥ΓΓ¬Γ¥Γ­Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tYYjBCs2hqc=', 1004, -1, 1);
@@ -1513,7 +1514,7 @@ function InitQuestion26()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Αρχείο Βίντεο";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ±Γ·Γ¥ΓΓ― Γ‚ΓΓ­Γ΄Γ¥Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1530,7 +1531,7 @@ function InitQuestion27()
     question.answers.length = 0;
     question.num = 27;
     question.isSingleAns = false;
-    question.shortTextQuestion = "27. Ποιος από τους παρακάτω τύπους αποθήκευσης εικόνας υποστηρίζει τη διαφάνεια:   ";
+    question.shortTextQuestion = "27. ΓΓ―Γ©Γ―Γ² Γ΅Γ°ΓΌ Γ΄Γ―ΓµΓ² Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ΄Γ½Γ°Γ―ΓµΓ² Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² ΓµΓ°Γ―Γ³Γ΄Γ§Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅:   ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('KvpoDU7/Zxo=', 1010, -1, 1);
@@ -1538,7 +1539,7 @@ function InitQuestion27()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. JPEG";
+    answer1.shortTextAnswer = "Γ. JPEG";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('y71E0IjWHmI=', 1012, -1, 1);
@@ -1546,7 +1547,7 @@ function InitQuestion27()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. PNG";
+    answer2.shortTextAnswer = "Γ‚. PNG";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('y71E0IjWHmI=', 1014, -1, 1);
@@ -1554,7 +1555,7 @@ function InitQuestion27()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. BMP";
+    answer3.shortTextAnswer = "Γƒ. BMP";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1571,7 +1572,7 @@ function InitQuestion28()
     question.answers.length = 0;
     question.num = 28;
     question.isSingleAns = false;
-    question.shortTextQuestion = "28. Ποιος από τους παρακάτω τύπους αποθήκευσης εικόνας δίνει αίσθηση κίνησης:  ";
+    question.shortTextQuestion = "28. ΓΓ―Γ©Γ―Γ² Γ΅Γ°ΓΌ Γ΄Γ―ΓµΓ² Γ°Γ΅Γ±Γ΅ΓªΓΓ΄ΓΉ Γ΄Γ½Γ°Γ―ΓµΓ² Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¤ΓΓ­Γ¥Γ© Γ΅ΓΓ³Γ¨Γ§Γ³Γ§ ΓªΓΓ­Γ§Γ³Γ§Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('D3lMxm1c1yc=', 1020, -1, 1);
@@ -1579,7 +1580,7 @@ function InitQuestion28()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. JPEG";
+    answer1.shortTextAnswer = "Γ. JPEG";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Trca3VlgqR4=', 1022, -1, 1);
@@ -1587,7 +1588,7 @@ function InitQuestion28()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. PNG";
+    answer2.shortTextAnswer = "Γ‚. PNG";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('pKNeLY7H8lg=', 1024, -1, 1);
@@ -1595,7 +1596,7 @@ function InitQuestion28()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. GIF";
+    answer3.shortTextAnswer = "Γƒ. GIF";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1612,7 +1613,7 @@ function InitQuestion29()
     question.answers.length = 0;
     question.num = 29;
     question.isSingleAns = false;
-    question.shortTextQuestion = "29. Κυκλώστε το σωστό Αν τα βάζαμε σε μία «ζυγαριά», το πιο σημαντικό πλεονέκτημα του photoshop σε σχέση με ερασιτεχνικά προγράμματα, όπως το αντίστοιχο του office των windows είναι:  ";
+    question.shortTextQuestion = "29. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ­ Γ΄Γ΅ ΓΆΓΓ¦Γ΅Γ¬Γ¥ Γ³Γ¥ Γ¬ΓΓ΅ Β«Γ¦ΓµΓ£Γ΅Γ±Γ©ΓΒ», Γ΄Γ― Γ°Γ©Γ― Γ³Γ§Γ¬Γ΅Γ­Γ΄Γ©ΓªΓΌ Γ°Γ«Γ¥Γ―Γ­ΓΓªΓ΄Γ§Γ¬Γ΅ Γ΄Γ―Γµ photoshop Γ³Γ¥ Γ³Γ·ΓΓ³Γ§ Γ¬Γ¥ Γ¥Γ±Γ΅Γ³Γ©Γ΄Γ¥Γ·Γ­Γ©ΓªΓ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅, ΓΌΓ°ΓΉΓ² Γ΄Γ― Γ΅Γ­Γ΄ΓΓ³Γ΄Γ―Γ©Γ·Γ― Γ΄Γ―Γµ office Γ΄ΓΉΓ­ windows Γ¥ΓΓ­Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('z+EUaYLuY4k=', 1030, -1, 1);
@@ -1620,7 +1621,7 @@ function InitQuestion29()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η δυνατότητα διαμόρφωσης της επιφάνειας εργασίας κατά το δοκούν";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ¤Γ©Γ΅Γ¬ΓΌΓ±Γ¶ΓΉΓ³Γ§Γ² Γ΄Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ² Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² ΓªΓ΅Γ΄Γ Γ΄Γ― Γ¤Γ―ΓªΓ―Γ½Γ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('bFkV8t/N/mY=', 1032, -1, 1);
@@ -1628,7 +1629,7 @@ function InitQuestion29()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η μεγάλη γκάμα στην επιλογή των πινέλων ζωγραφικής";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¬Γ¥Γ£ΓΓ«Γ§ Γ£ΓªΓΓ¬Γ΅ Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄ΓΉΓ­ Γ°Γ©Γ­ΓΓ«ΓΉΓ­ Γ¦ΓΉΓ£Γ±Γ΅Γ¶Γ©ΓªΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('A1U6wRMc/kQ=', 1034, -1, 1);
@@ -1636,7 +1637,7 @@ function InitQuestion29()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η δυνατότητα εργασίας σε Layers";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ³Γ¥ Layers";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1653,7 +1654,7 @@ function InitQuestion30()
     question.answers.length = 0;
     question.num = 30;
     question.isSingleAns = false;
-    question.shortTextQuestion = "30. Κυκλώστε το σωστό Τις παλέτες μπορούμε να τις κρύβουμε και να τις εμφανίζουμε από το μενού:  ";
+    question.shortTextQuestion = "30. ΓΓµΓªΓ«ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ©Γ² Γ°Γ΅Γ«ΓΓ΄Γ¥Γ² Γ¬Γ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ΄Γ©Γ² ΓªΓ±Γ½ΓΆΓ―ΓµΓ¬Γ¥ ΓªΓ΅Γ© Γ­Γ΅ Γ΄Γ©Γ² Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―ΓµΓ¬Γ¥ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('kQnE9YnHEQY=', 1040, -1, 1);
@@ -1661,7 +1662,7 @@ function InitQuestion30()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Edit";
+    answer1.shortTextAnswer = "Γ. Edit";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('y7jBPhWTn/k=', 1042, -1, 1);
@@ -1669,7 +1670,7 @@ function InitQuestion30()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Window.";
+    answer2.shortTextAnswer = "Γ‚. Window.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('y7jBPhWTn/k=', 1044, -1, 1);
@@ -1677,7 +1678,7 @@ function InitQuestion30()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Select";
+    answer3.shortTextAnswer = "Γƒ. Select";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1694,7 +1695,7 @@ function InitQuestion31()
     question.answers.length = 0;
     question.num = 31;
     question.isSingleAns = false;
-    question.shortTextQuestion = "31. Σημειώστε το σωστό στοιχείο : Ο σαρωτής έχει την δυνατότητα να:  ";
+    question.shortTextQuestion = "31. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― : Γ Γ³Γ΅Γ±ΓΉΓ΄ΓΓ² ΓΓ·Γ¥Γ© Γ΄Γ§Γ­ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ­Γ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('2XWfqJ/aUoY=', 1050, -1, 1);
@@ -1702,7 +1703,7 @@ function InitQuestion31()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Να διορθώνει χρωματικά τις εικόνες";
+    answer1.shortTextAnswer = "Γ. ΓΓ΅ Γ¤Γ©Γ―Γ±Γ¨ΓΎΓ­Γ¥Γ© Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ΄Γ©Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('2XWfqJ/aUoY=', 1052, -1, 1);
@@ -1710,7 +1711,7 @@ function InitQuestion31()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Να διαχωρίζει τα στοιχεία από το φόντο της εικόνας";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ΅ Γ¤Γ©Γ΅Γ·ΓΉΓ±ΓΓ¦Γ¥Γ© Γ΄Γ΅ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¶ΓΌΓ­Γ΄Γ― Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('pxLvMQs1baQ=', 1054, -1, 1);
@@ -1718,7 +1719,7 @@ function InitQuestion31()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Να ρετουσάρει τις εικόνες";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ΅ Γ±Γ¥Γ΄Γ―ΓµΓ³ΓΓ±Γ¥Γ© Γ΄Γ©Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1735,7 +1736,7 @@ function InitQuestion32()
     question.answers.length = 0;
     question.num = 32;
     question.isSingleAns = false;
-    question.shortTextQuestion = "32. Σημειώστε τα σωστά στοιχεία Η σαρωμένη εικόνα αποθηκεύεται σε:  ";
+    question.shortTextQuestion = "32. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ΅ Γ³ΓΉΓ³Γ΄Γ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ‡ Γ³Γ΅Γ±ΓΉΓ¬ΓΓ­Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ΄Γ΅Γ© Γ³Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('no3DsxRRZK8=', 1060, -1, 1);
@@ -1743,7 +1744,7 @@ function InitQuestion32()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. BMP";
+    answer1.shortTextAnswer = "Γ. BMP";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('nq19KKPHpLo=', 1062, -1, 1);
@@ -1759,7 +1760,7 @@ function InitQuestion32()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. PNG";
+    answer3.shortTextAnswer = "Γƒ. PNG";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('ho0rGax4mbk=', 1066, -1, 1);
@@ -1767,7 +1768,7 @@ function InitQuestion32()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Σε όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ“Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -1784,7 +1785,7 @@ function InitQuestion33()
     question.answers.length = 0;
     question.num = 33;
     question.isSingleAns = false;
-    question.shortTextQuestion = "33. Σημειώστε το σωστό στοιχείο Η κάρτα γραφικών  ";
+    question.shortTextQuestion = "33. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― Γ‡ ΓªΓΓ±Γ΄Γ΅ Γ£Γ±Γ΅Γ¶Γ©ΓªΓΎΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('L47nwqWV3qA=', 1070, -1, 1);
@@ -1792,7 +1793,7 @@ function InitQuestion33()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. είναι υπεύθυνη για την απεικόνιση δεδομένων στην οθόνη";
+    answer1.shortTextAnswer = "Γ. Γ¥ΓΓ­Γ΅Γ© ΓµΓ°Γ¥Γ½Γ¨ΓµΓ­Γ§ Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°Γ¥Γ©ΓªΓΌΓ­Γ©Γ³Γ§ Γ¤Γ¥Γ¤Γ―Γ¬ΓΓ­ΓΉΓ­ Γ³Γ΄Γ§Γ­ Γ―Γ¨ΓΌΓ­Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('L47nwqWV3qA=', 1072, -1, 1);
@@ -1800,7 +1801,7 @@ function InitQuestion33()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι υπεύθυνη για την επεξεργασία εικόνων και γραφικών";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© ΓµΓ°Γ¥Γ½Γ¨ΓµΓ­Γ§ Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ ΓªΓ΅Γ© Γ£Γ±Γ΅Γ¶Γ©ΓªΓΎΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('QlRMgRR1Ous=', 1074, -1, 1);
@@ -1808,7 +1809,7 @@ function InitQuestion33()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είναι υπεύθυνη για την αποστολή pixels στην οθόνη";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ­Γ΅Γ© ΓµΓ°Γ¥Γ½Γ¨ΓµΓ­Γ§ Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°Γ―Γ³Γ΄Γ―Γ«Γ pixels Γ³Γ΄Γ§Γ­ Γ―Γ¨ΓΌΓ­Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1827,7 +1828,7 @@ function InitQuestion34()
     var question = new Question(type, weight, numOfAnswers, DecodeDecimal('bu/dOTPBRL0=', 1078, -1000, 1000),DecodeDecimal('z4gZSkhBnrA=', 1078, -1000, 1000),DecodeDecimal('z4gZSkhBnrA=', 1078, -1000, 1000));
     question.num = 34;
     question.answers.length = 0;
-    question.shortTextQuestion = "34. Αντιστοιχίστε τις θύρες με τα σήματα";
+    question.shortTextQuestion = "34. ΓΓ­Γ΄Γ©Γ³Γ΄Γ―Γ©Γ·ΓΓ³Γ΄Γ¥ Γ΄Γ©Γ² Γ¨Γ½Γ±Γ¥Γ² Γ¬Γ¥ Γ΄Γ΅ Γ³ΓΓ¬Γ΅Γ΄Γ΅";
     question.noChoice = false;
     for (i = 0; i < orderLeft33.length; i++)
     {
@@ -1860,7 +1861,7 @@ function InitQuestion35()
     question.answers.length = 0;
     question.num = 35;
     question.isSingleAns = false;
-    question.shortTextQuestion = "35. Σημειώστε τα χαρακτηριστικά της κάρτας γραφικών  ";
+    question.shortTextQuestion = "35. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ΅ Γ·Γ΅Γ±Γ΅ΓªΓ΄Γ§Γ±Γ©Γ³Γ΄Γ©ΓªΓ Γ΄Γ§Γ² ΓªΓΓ±Γ΄Γ΅Γ² Γ£Γ±Γ΅Γ¶Γ©ΓªΓΎΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('1eNOv+ET32o=', 1090, -1, 1);
@@ -1868,7 +1869,7 @@ function InitQuestion35()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Να είναι συμβατή με το δίσκο του ηλεκτρονικού υπολογιστή";
+    answer1.shortTextAnswer = "Γ. ΓΓ΅ Γ¥ΓΓ­Γ΅Γ© Γ³ΓµΓ¬ΓΆΓ΅Γ΄Γ Γ¬Γ¥ Γ΄Γ― Γ¤ΓΓ³ΓªΓ― Γ΄Γ―Γµ Γ§Γ«Γ¥ΓªΓ΄Γ±Γ―Γ­Γ©ΓªΓ―Γ½ ΓµΓ°Γ―Γ«Γ―Γ£Γ©Γ³Γ΄Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GVZVtGz8Npg=', 1092, -1, 1);
@@ -1876,7 +1877,7 @@ function InitQuestion35()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Να έχει μεγάλη μνήμη και ανάλυση";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ΅ ΓΓ·Γ¥Γ© Γ¬Γ¥Γ£ΓΓ«Γ§ Γ¬Γ­ΓΓ¬Γ§ ΓªΓ΅Γ© Γ΅Γ­ΓΓ«ΓµΓ³Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('GVZVtGz8Npg=', 1094, -1, 1);
@@ -1884,7 +1885,7 @@ function InitQuestion35()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Να μετατρέπει το αναλογικό σε ψηφιακό σήμα";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ΅ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ― Γ΅Γ­Γ΅Γ«Γ―Γ£Γ©ΓªΓΌ Γ³Γ¥ ΓΈΓ§Γ¶Γ©Γ΅ΓªΓΌ Γ³ΓΓ¬Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1901,7 +1902,7 @@ function InitQuestion36()
     question.answers.length = 0;
     question.num = 36;
     question.isSingleAns = false;
-    question.shortTextQuestion = "36. Σημειώστε το σωστό Η μηχανή λήψης μιας εικόνας μπορεί να αποθηκεύσει σε αρχεία raw, επειδή :  ";
+    question.shortTextQuestion = "36. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¬Γ§Γ·Γ΅Γ­Γ Γ«ΓΓΈΓ§Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ³Γ¥Γ© Γ³Γ¥ Γ΅Γ±Γ·Γ¥ΓΓ΅ raw, Γ¥Γ°Γ¥Γ©Γ¤Γ :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('CDtz/2By0Ug=', 1100, -1, 1);
@@ -1909,7 +1910,7 @@ function InitQuestion36()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. η εικόνα μπορεί να επεξεργαστεί μόνο από το πρόγραμμα Photoshop";
+    answer1.shortTextAnswer = "Γ. Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³Γ΄Γ¥Γ Γ¬ΓΌΓ­Γ― Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Photoshop";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Dvha0k6XOIs=', 1102, -1, 1);
@@ -1917,7 +1918,7 @@ function InitQuestion36()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. η εικόνα μπορεί να επεξεργαστεί μόνο από το πρόγραμμα Corel";
+    answer2.shortTextAnswer = "B. Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³Γ΄Γ¥Γ Γ¬ΓΌΓ­Γ― Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Corel";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ARZMs7FMR9Y=', 1104, -1, 1);
@@ -1925,7 +1926,7 @@ function InitQuestion36()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είναι ασυμπίεστο αρχείο εικόνας και περιλαμβάνει όλες τις πληροφορίες της σκηνής και των ρυθμίσεων της μηχανής";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ­Γ΅Γ© Γ΅Γ³ΓµΓ¬Γ°ΓΓ¥Γ³Γ΄Γ― Γ΅Γ±Γ·Γ¥ΓΓ― Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² ΓªΓ΅Γ© Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ© ΓΌΓ«Γ¥Γ² Γ΄Γ©Γ² Γ°Γ«Γ§Γ±Γ―Γ¶Γ―Γ±ΓΓ¥Γ² Γ΄Γ§Γ² Γ³ΓªΓ§Γ­ΓΓ² ΓªΓ΅Γ© Γ΄ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ΄Γ§Γ² Γ¬Γ§Γ·Γ΅Γ­ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1942,7 +1943,7 @@ function InitQuestion37()
     question.answers.length = 0;
     question.num = 37;
     question.isSingleAns = false;
-    question.shortTextQuestion = "37. Σημειώστε το σωστό Μια εικόνα όταν αποθηκεύεται σε μορφή TIFF και όχι σε JPEG  ";
+    question.shortTextQuestion = "37. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ ΓΌΓ΄Γ΅Γ­ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ΄Γ΅Γ© Γ³Γ¥ Γ¬Γ―Γ±Γ¶Γ TIFF ΓªΓ΅Γ© ΓΌΓ·Γ© Γ³Γ¥ JPEG  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('cy/WosITxJk=', 1110, -1, 1);
@@ -1950,7 +1951,7 @@ function InitQuestion37()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. υποστηρίζει τη δυνατότητα layers";
+    answer1.shortTextAnswer = "Γ. ΓµΓ°Γ―Γ³Γ΄Γ§Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ layers";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('cy/WosITxJk=', 1112, -1, 1);
@@ -1958,7 +1959,7 @@ function InitQuestion37()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. καταλαμβάνει μικρότερο χώρο";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ΅Γ΄Γ΅Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ© Γ¬Γ©ΓªΓ±ΓΌΓ΄Γ¥Γ±Γ― Γ·ΓΎΓ±Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Kz0Z+kcJQkM=', 1114, -1, 1);
@@ -1966,7 +1967,7 @@ function InitQuestion37()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. καταλαμβάνει τον ίδιο χώρο";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ΄Γ΅Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ© Γ΄Γ―Γ­ ΓΓ¤Γ©Γ― Γ·ΓΎΓ±Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -1983,7 +1984,7 @@ function InitQuestion38()
     question.answers.length = 0;
     question.num = 38;
     question.isSingleAns = false;
-    question.shortTextQuestion = "38. Σημειώστε το σωστό Οι εκτυπωτές laser  ";
+    question.shortTextQuestion = "38. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄ΓΓ² laser  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('TrOmfHC7y18=', 1120, -1, 1);
@@ -1991,7 +1992,7 @@ function InitQuestion38()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "A. είναι φθηνότεροι σε σχέση με άλλους εκτυπωτές";
+    answer1.shortTextAnswer = "A. Γ¥ΓΓ­Γ΅Γ© Γ¶Γ¨Γ§Γ­ΓΌΓ΄Γ¥Γ±Γ―Γ© Γ³Γ¥ Γ³Γ·ΓΓ³Γ§ Γ¬Γ¥ ΓΓ«Γ«Γ―ΓµΓ² Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GHvmEjmdTyg=', 1122, -1, 1);
@@ -1999,7 +2000,7 @@ function InitQuestion38()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι αργοί";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© Γ΅Γ±Γ£Γ―Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('UzHG/TH2HJo=', 1124, -1, 1);
@@ -2007,7 +2008,7 @@ function InitQuestion38()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είναι οικονομικοί στη χρήση τόνερ ανά σελίδα";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ­Γ΅Γ© Γ―Γ©ΓªΓ―Γ­Γ―Γ¬Γ©ΓªΓ―Γ Γ³Γ΄Γ§ Γ·Γ±ΓΓ³Γ§ Γ΄ΓΌΓ­Γ¥Γ± Γ΅Γ­Γ Γ³Γ¥Γ«ΓΓ¤Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2024,7 +2025,7 @@ function InitQuestion39()
     question.answers.length = 0;
     question.num = 39;
     question.isSingleAns = false;
-    question.shortTextQuestion = "39. Σημειώστε το σωστό. Η γραμμή του βασικού μενού εντολών σε όλα τα προγράμματα:  ";
+    question.shortTextQuestion = "39. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ΄Γ―Γµ ΓΆΓ΅Γ³Γ©ΓªΓ―Γ½ Γ¬Γ¥Γ­Γ―Γ½ Γ¥Γ­Γ΄Γ―Γ«ΓΎΓ­ Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('+TG9MX2ml8Y=', 1130, -1, 1);
@@ -2032,7 +2033,7 @@ function InitQuestion39()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Βρίσκεται πάνω από την επιφάνεια επεξεργασίας ψηφιακής εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ°ΓΓ­ΓΉ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² ΓΈΓ§Γ¶Γ©Γ΅ΓªΓΓ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('+TG9MX2ml8Y=', 1132, -1, 1);
@@ -2040,7 +2041,7 @@ function InitQuestion39()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Στο Flash η γραμμή μενού βρίσκεται αριστερά στην επιφάνεια.";
+    answer2.shortTextAnswer = "Γ‚. Γ“Γ΄Γ― Flash Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¬Γ¥Γ­Γ―Γ½ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ghU9o4ouaps=', 1134, -1, 1);
@@ -2048,7 +2049,7 @@ function InitQuestion39()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Στο Form-z η γραμμή μενού βρίσκεται δεξιά σε αναδυόμενο παράθυρο.";
+    answer3.shortTextAnswer = "Γƒ. Γ“Γ΄Γ― Form-z Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¬Γ¥Γ­Γ―Γ½ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¤Γ¥Γ®Γ©Γ Γ³Γ¥ Γ΅Γ­Γ΅Γ¤ΓµΓΌΓ¬Γ¥Γ­Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ―.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2065,7 +2066,7 @@ function InitQuestion40()
     question.answers.length = 0;
     question.num = 40;
     question.isSingleAns = false;
-    question.shortTextQuestion = "40. Σημειώστε το σωστό. Το μενού \"Select\":  ";
+    question.shortTextQuestion = "40. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ”Γ― Γ¬Γ¥Γ­Γ―Γ½ \"Select\":  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Wv+PkOAkAwM=', 1140, -1, 1);
@@ -2073,7 +2074,7 @@ function InitQuestion40()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Βρίσκεται στο Flash Adobe Photoshop.";
+    answer1.shortTextAnswer = "Γ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Flash Adobe Photoshop.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Ww/DRdFyJsw=', 1142, -1, 1);
@@ -2081,7 +2082,7 @@ function InitQuestion40()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Βρίσκεται σε όλα τα προγράμματα.";
+    answer2.shortTextAnswer = "Γ‚. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('+6qqilpuLQs=', 1144, -1, 1);
@@ -2089,7 +2090,7 @@ function InitQuestion40()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Βρίσκεται μόνο στο πρόγραμμα Adobe photoshop.";
+    answer3.shortTextAnswer = "Γƒ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― Γ³Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Adobe photoshop.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2106,7 +2107,7 @@ function InitQuestion41()
     question.answers.length = 0;
     question.num = 41;
     question.isSingleAns = false;
-    question.shortTextQuestion = "41. Σημειώστε το σωστό. Οι παλέτες σε όλα τα προγράμματα  ";
+    question.shortTextQuestion = "41. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓΓ© Γ°Γ΅Γ«ΓΓ΄Γ¥Γ² Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dDCyP6Kx6HE=', 1150, -1, 1);
@@ -2114,7 +2115,7 @@ function InitQuestion41()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Aφορούν μόνο στα χρώματα.";
+    answer1.shortTextAnswer = "Γ. AΓ¶Γ―Γ±Γ―Γ½Γ­ Γ¬ΓΌΓ­Γ― Γ³Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('8Pjgv0ieoiw=', 1152, -1, 1);
@@ -2122,7 +2123,7 @@ function InitQuestion41()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Αφορούν μόνο στα χρώματα και στα στρώματα.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ¶Γ―Γ±Γ―Γ½Γ­ Γ¬ΓΌΓ­Γ― Γ³Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ ΓªΓ΅Γ© Γ³Γ΄Γ΅ Γ³Γ΄Γ±ΓΎΓ¬Γ΅Γ΄Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('QJiV9UECBZ4=', 1154, -1, 1);
@@ -2130,7 +2131,7 @@ function InitQuestion41()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Αφορούν σε πολλές θεματικές.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¶Γ―Γ±Γ―Γ½Γ­ Γ³Γ¥ Γ°Γ―Γ«Γ«ΓΓ² Γ¨Γ¥Γ¬Γ΅Γ΄Γ©ΓªΓΓ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2147,7 +2148,7 @@ function InitQuestion42()
     question.answers.length = 0;
     question.num = 42;
     question.isSingleAns = false;
-    question.shortTextQuestion = "42. Σημειώστε το σωστό. Το αναδυόμενο παράθυρο των στρωμάτων:  ";
+    question.shortTextQuestion = "42. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ”Γ― Γ΅Γ­Γ΅Γ¤ΓµΓΌΓ¬Γ¥Γ­Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ΄ΓΉΓ­ Γ³Γ΄Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('lAMBf5FvE8Y=', 1160, -1, 1);
@@ -2155,7 +2156,7 @@ function InitQuestion42()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Βρίσκεται δεξιά στην επιφάνεια επεξεργασίας της εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¤Γ¥Γ®Γ©Γ Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('IPPY0Qn2Nvg=', 1162, -1, 1);
@@ -2163,7 +2164,7 @@ function InitQuestion42()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Βρίσκεται αριστερά στην επιφάνεια επεξεργασίας της εικόνας.";
+    answer2.shortTextAnswer = "Γ‚. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('MYdUO65j+B4=', 1164, -1, 1);
@@ -2171,7 +2172,7 @@ function InitQuestion42()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Βρίσκεται στη γραμμή βασικού μενού “File”.";
+    answer3.shortTextAnswer = "Γƒ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ ΓΆΓ΅Γ³Γ©ΓªΓ―Γ½ Γ¬Γ¥Γ­Γ―Γ½ Β“FileΒ”.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('+Gh7BwlA828=', 1166, -1, 1);
@@ -2179,7 +2180,7 @@ function InitQuestion42()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Βρίσκεται στην τελευταία θέση που βρισκόταν πριν το κλείσιμο του προγράμματος";
+    answer4.shortTextAnswer = "Γ„. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­ Γ΄Γ¥Γ«Γ¥ΓµΓ΄Γ΅ΓΓ΅ Γ¨ΓΓ³Γ§ Γ°Γ―Γµ ΓΆΓ±Γ©Γ³ΓªΓΌΓ΄Γ΅Γ­ Γ°Γ±Γ©Γ­ Γ΄Γ― ΓªΓ«Γ¥ΓΓ³Γ©Γ¬Γ― Γ΄Γ―Γµ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ―Γ²";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -2196,7 +2197,7 @@ function InitQuestion43()
     question.answers.length = 0;
     question.num = 43;
     question.isSingleAns = false;
-    question.shortTextQuestion = "43. Σημειώστε ποια είναι τα κύρια χαρακτηριστικά των στρωμάτων:  ";
+    question.shortTextQuestion = "43. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ°Γ―Γ©Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ΄Γ΅ ΓªΓ½Γ±Γ©Γ΅ Γ·Γ΅Γ±Γ΅ΓªΓ΄Γ§Γ±Γ©Γ³Γ΄Γ©ΓªΓ Γ΄ΓΉΓ­ Γ³Γ΄Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ReUR1QuDfNY=', 1170, -1, 1);
@@ -2204,7 +2205,7 @@ function InitQuestion43()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η διαφάνεια";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('y+76lPgKrZE=', 1172, -1, 1);
@@ -2212,7 +2213,7 @@ function InitQuestion43()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η απόκρυψη";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ΅Γ°ΓΌΓªΓ±ΓµΓΈΓ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('y+76lPgKrZE=', 1174, -1, 1);
@@ -2220,7 +2221,7 @@ function InitQuestion43()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το χρώμα.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Γ·Γ±ΓΎΓ¬Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('4izHzJoCl28=', 1176, -1, 1);
@@ -2228,7 +2229,7 @@ function InitQuestion43()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Το ενεργό στρώμα";
+    answer4.shortTextAnswer = "Γ„. Γ”Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ³Γ΄Γ±ΓΎΓ¬Γ΅";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -2245,7 +2246,7 @@ function InitQuestion44()
     question.answers.length = 0;
     question.num = 44;
     question.isSingleAns = false;
-    question.shortTextQuestion = "44. Σημειώστε το σωστό:   ";
+    question.shortTextQuestion = "44. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:   ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('r8Sj6FQAgfg=', 1180, -1, 1);
@@ -2253,7 +2254,7 @@ function InitQuestion44()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το Adobe Photoshop έχει μία ομάδα εργαλείων για επεξεργασία εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Adobe Photoshop ΓΓ·Γ¥Γ© Γ¬ΓΓ΅ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­ Γ£Γ©Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('FMOglIxDAk8=', 1182, -1, 1);
@@ -2261,7 +2262,7 @@ function InitQuestion44()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το Adobe Photoshop έχει δύο βασικές ομάδες εργαλείων: για τη ζωγραφική και για την επεξεργασία εικόνας";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― Adobe Photoshop ΓΓ·Γ¥Γ© Γ¤Γ½Γ― ΓΆΓ΅Γ³Γ©ΓªΓΓ² Γ―Γ¬ΓΓ¤Γ¥Γ² Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­: Γ£Γ©Γ΅ Γ΄Γ§ Γ¦ΓΉΓ£Γ±Γ΅Γ¶Γ©ΓªΓ ΓªΓ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('KQSLGtFm2KA=', 543, -1, 1);
@@ -2269,7 +2270,7 @@ function InitQuestion44()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το Adobe Photoshop έχει μία ομάδα εργαλείων για επεξεργασία εικόνας και ζωγραφική.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Adobe Photoshop ΓΓ·Γ¥Γ© Γ¬ΓΓ΅ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­ Γ£Γ©Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² ΓªΓ΅Γ© Γ¦ΓΉΓ£Γ±Γ΅Γ¶Γ©ΓªΓ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2286,7 +2287,7 @@ function InitQuestion45()
     question.answers.length = 0;
     question.num = 45;
     question.isSingleAns = false;
-    question.shortTextQuestion = "45. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "45. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('HhIrUe66MX4=', 549, -1, 1);
@@ -2294,7 +2295,7 @@ function InitQuestion45()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Με το πλήκτρο SHIFT κρύβεται και εμφανίζεται η κάθε παλέτα.";
+    answer1.shortTextAnswer = "Γ. ΓΓ¥ Γ΄Γ― Γ°Γ«ΓΓªΓ΄Γ±Γ― SHIFT ΓªΓ±Γ½ΓΆΓ¥Γ΄Γ΅Γ© ΓªΓ΅Γ© Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ ΓªΓΓ¨Γ¥ Γ°Γ΅Γ«ΓΓ΄Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ucQkRobPIhs=', 551, -1, 1);
@@ -2302,7 +2303,7 @@ function InitQuestion45()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Με το πλήκτρο TAB κρύβονται και εμφανίζονται οι παλέτες και η γραμμή επιλογών.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ¥ Γ΄Γ― Γ°Γ«ΓΓªΓ΄Γ±Γ― TAB ΓªΓ±Γ½ΓΆΓ―Γ­Γ΄Γ΅Γ© ΓªΓ΅Γ© Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ―Γ© Γ°Γ΅Γ«ΓΓ΄Γ¥Γ² ΓªΓ΅Γ© Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ucQkRobPIhs=', 553, -1, 1);
@@ -2310,7 +2311,7 @@ function InitQuestion45()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Με το πλήκτρο D κρύβεται και εμφανίζεται η κάθε παλέτα.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¥ Γ΄Γ― Γ°Γ«ΓΓªΓ΄Γ±Γ― D ΓªΓ±Γ½ΓΆΓ¥Γ΄Γ΅Γ© ΓªΓ΅Γ© Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ ΓªΓΓ¨Γ¥ Γ°Γ΅Γ«ΓΓ΄Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2327,7 +2328,7 @@ function InitQuestion46()
     question.answers.length = 0;
     question.num = 46;
     question.isSingleAns = false;
-    question.shortTextQuestion = "46. Σημειώστε το σωστό. Η εμφάνιση ενός εικονιδίου τριγωνικού σχήματος με θαυμαστικό στη μέση σημαίνει:  ";
+    question.shortTextQuestion = "46. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§ Γ¥Γ­ΓΌΓ² Γ¥Γ©ΓªΓ―Γ­Γ©Γ¤ΓΓ―Γµ Γ΄Γ±Γ©Γ£ΓΉΓ­Γ©ΓªΓ―Γ½ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ¬Γ¥ Γ¨Γ΅ΓµΓ¬Γ΅Γ³Γ΄Γ©ΓªΓΌ Γ³Γ΄Γ§ Γ¬ΓΓ³Γ§ Γ³Γ§Γ¬Γ΅ΓΓ­Γ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('R1wwwuMOAuM=', 559, -1, 1);
@@ -2335,7 +2336,7 @@ function InitQuestion46()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Ότι υπάρχουν λανθασμένοι παράμετροι για την εκτύπωση";
+    answer1.shortTextAnswer = "Γ. ΒΌΓ΄Γ© ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ«Γ΅Γ­Γ¨Γ΅Γ³Γ¬ΓΓ­Γ―Γ© Γ°Γ΅Γ±ΓΓ¬Γ¥Γ΄Γ±Γ―Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('R1wwwuMOAuM=', 561, -1, 1);
@@ -2343,7 +2344,7 @@ function InitQuestion46()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Ότι δεν υπάρχει αντίστοιχο χρώμα στον εκτυπωτή.";
+    answer2.shortTextAnswer = "Γ‚. ΒΌΓ΄Γ© Γ¤Γ¥Γ­ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ΅Γ­Γ΄ΓΓ³Γ΄Γ―Γ©Γ·Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ³Γ΄Γ―Γ­ Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄Γ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('aK3YvLRn8tk=', 563, -1, 1);
@@ -2351,7 +2352,7 @@ function InitQuestion46()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Ότι δεν είναι αποθηκευμένη η εικόνα.";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ΄Γ© Γ¤Γ¥Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥ΓµΓ¬ΓΓ­Γ§ Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2368,7 +2369,7 @@ function InitQuestion47()
     question.answers.length = 0;
     question.num = 47;
     question.isSingleAns = false;
-    question.shortTextQuestion = "47. Σημειώστε το σωστό. Σχετικά με τα χρώματα πρέπει να έχουμε υπόψη μας τα εξής:  ";
+    question.shortTextQuestion = "47. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ“Γ·Γ¥Γ΄Γ©ΓªΓ Γ¬Γ¥ Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ°Γ±ΓΓ°Γ¥Γ© Γ­Γ΅ ΓΓ·Γ―ΓµΓ¬Γ¥ ΓµΓ°ΓΌΓΈΓ§ Γ¬Γ΅Γ² Γ΄Γ΅ Γ¥Γ®ΓΓ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('tMAj5fGQyB8=', 569, -1, 1);
@@ -2376,7 +2377,7 @@ function InitQuestion47()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Τα εργαλεία χρησιμοποιούνται μόνο το χρώμα προσκηνίου.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ±Γ―Γ³ΓªΓ§Γ­ΓΓ―Γµ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('7ms/rzikAJA=', 571, -1, 1);
@@ -2384,7 +2385,7 @@ function InitQuestion47()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η γόμα χρησιμοποιείται για να φανερώσει το χρώμα παρασκηνίου.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ£ΓΌΓ¬Γ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ¶Γ΅Γ­Γ¥Γ±ΓΎΓ³Γ¥Γ© Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ΅Γ±Γ΅Γ³ΓªΓ§Γ­ΓΓ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('vquK4QgKLis=', 573, -1, 1);
@@ -2392,7 +2393,7 @@ function InitQuestion47()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Στην περίπτωση της μεγέθυνσης της εικόνας το χρώμα συμπληρώνεται από το προσκήνιο.";
+    answer3.shortTextAnswer = "Γƒ. Γ“Γ΄Γ§Γ­ Γ°Γ¥Γ±ΓΓ°Γ΄ΓΉΓ³Γ§ Γ΄Γ§Γ² Γ¬Γ¥Γ£ΓΓ¨ΓµΓ­Γ³Γ§Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ³ΓµΓ¬Γ°Γ«Γ§Γ±ΓΎΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ±Γ―Γ³ΓªΓΓ­Γ©Γ―.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('9WxRpLwemQc=', 575, -1, 1);
@@ -2400,7 +2401,7 @@ function InitQuestion47()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Τα εργαλεία χρησιμοποιούν το χρώμα προσκηνίου και παρασκηνίου.";
+    answer4.shortTextAnswer = "Γ„. Γ”Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ­ Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ±Γ―Γ³ΓªΓ§Γ­ΓΓ―Γµ ΓªΓ΅Γ© Γ°Γ΅Γ±Γ΅Γ³ΓªΓ§Γ­ΓΓ―Γµ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -2417,7 +2418,7 @@ function InitQuestion48()
     question.answers.length = 0;
     question.num = 48;
     question.isSingleAns = false;
-    question.shortTextQuestion = "48. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "48. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('KkpzOXezWo4=', 579, -1, 1);
@@ -2425,7 +2426,7 @@ function InitQuestion48()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το εργαλείο του σταγονόμετρου βρίσκεται στην τελευταία θέση που βρισκόταν πριν το κλείσιμο του προγράμματος.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ―Γµ Γ³Γ΄Γ΅Γ£Γ―Γ­ΓΌΓ¬Γ¥Γ΄Γ±Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­ Γ΄Γ¥Γ«Γ¥ΓµΓ΄Γ΅ΓΓ΅ Γ¨ΓΓ³Γ§ Γ°Γ―Γµ ΓΆΓ±Γ©Γ³ΓªΓΌΓ΄Γ΅Γ­ Γ°Γ±Γ©Γ­ Γ΄Γ― ΓªΓ«Γ¥ΓΓ³Γ©Γ¬Γ― Γ΄Γ―Γµ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ―Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('KkpzOXezWo4=', 581, -1, 1);
@@ -2433,7 +2434,7 @@ function InitQuestion48()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το εργαλείο του σταγονόμετρου βρίσκεται στην εργαλειοθήκη δεξιά της οθόνης επεξεργασίας μιας εικόνας.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ―Γµ Γ³Γ΄Γ΅Γ£Γ―Γ­ΓΌΓ¬Γ¥Γ΄Γ±Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­ Γ¥Γ±Γ£Γ΅Γ«Γ¥Γ©Γ―Γ¨ΓΓªΓ§ Γ¤Γ¥Γ®Γ©Γ Γ΄Γ§Γ² Γ―Γ¨ΓΌΓ­Γ§Γ² Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('0snCKQ7bySA=', 583, -1, 1);
@@ -2441,7 +2442,7 @@ function InitQuestion48()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το εργαλείο του σταγονόμετρου βρίσκεται στην μπάρα πάνω από την οθόνη επεξεργασίας μιας εικόνας.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ―Γµ Γ³Γ΄Γ΅Γ£Γ―Γ­ΓΌΓ¬Γ¥Γ΄Γ±Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­ Γ¬Γ°ΓΓ±Γ΅ Γ°ΓΓ­ΓΉ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ―Γ¨ΓΌΓ­Γ§ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('U6VHDG3YAd8=', 585, -1, 1);
@@ -2449,7 +2450,7 @@ function InitQuestion48()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Το εργαλείο του σταγονόμετρου βρίσκεται σε όλα τα παραπάνω.";
+    answer4.shortTextAnswer = "Γ„. Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ―Γµ Γ³Γ΄Γ΅Γ£Γ―Γ­ΓΌΓ¬Γ¥Γ΄Γ±Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -2466,7 +2467,7 @@ function InitQuestion49()
     question.answers.length = 0;
     question.num = 49;
     question.isSingleAns = false;
-    question.shortTextQuestion = "49. Σημειώστε το σωστό. Η μεγέθυνση του παραθύρου της εικόνας ταυτόχρονα με τη μεγέθυνση της εικόνας γίνεται:  ";
+    question.shortTextQuestion = "49. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¬Γ¥Γ£ΓΓ¨ΓµΓ­Γ³Γ§ Γ΄Γ―Γµ Γ°Γ΅Γ±Γ΅Γ¨Γ½Γ±Γ―Γµ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ΄Γ΅ΓµΓ΄ΓΌΓ·Γ±Γ―Γ­Γ΅ Γ¬Γ¥ Γ΄Γ§ Γ¬Γ¥Γ£ΓΓ¨ΓµΓ­Γ³Γ§ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('JffSAN/kfpE=', 589, -1, 1);
@@ -2474,7 +2475,7 @@ function InitQuestion49()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Αυτόματα με τη μεγέθυνση της εικόνας.";
+    answer1.shortTextAnswer = "Γ. ΓΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ΅ Γ¬Γ¥ Γ΄Γ§ Γ¬Γ¥Γ£ΓΓ¨ΓµΓ­Γ³Γ§ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('F5HB0QSD8uo=', 591, -1, 1);
@@ -2482,7 +2483,7 @@ function InitQuestion49()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Αυτόματα με τη μεγέθυνση του παραθύρου.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ΅ Γ¬Γ¥ Γ΄Γ§ Γ¬Γ¥Γ£ΓΓ¨ΓµΓ­Γ³Γ§ Γ΄Γ―Γµ Γ°Γ΅Γ±Γ΅Γ¨Γ½Γ±Γ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('JTQ0vDfQk1U=', 593, -1, 1);
@@ -2490,7 +2491,7 @@ function InitQuestion49()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Με την επιλογή resize windows to fit.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¥ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ resize windows to fit.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2507,7 +2508,7 @@ function InitQuestion50()
     question.answers.length = 0;
     question.num = 50;
     question.isSingleAns = false;
-    question.shortTextQuestion = "50. Σημειώστε το σωστό. Κάνουμε zoom για μεγέθυνση με τα πλήκτρα:  ";
+    question.shortTextQuestion = "50. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓΓΓ­Γ―ΓµΓ¬Γ¥ zoom Γ£Γ©Γ΅ Γ¬Γ¥Γ£ΓΓ¨ΓµΓ­Γ³Γ§ Γ¬Γ¥ Γ΄Γ΅ Γ°Γ«ΓΓªΓ΄Γ±Γ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('hlLI8EvqMJU=', 599, -1, 1);
@@ -2515,7 +2516,7 @@ function InitQuestion50()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Control + Spacebar";
+    answer1.shortTextAnswer = "Γ. Control + Spacebar";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('hlLI8EvqMJU=', 601, -1, 1);
@@ -2523,7 +2524,7 @@ function InitQuestion50()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Control + Alt";
+    answer2.shortTextAnswer = "Γ‚. Control + Alt";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tZ180mP988M=', 603, -1, 1);
@@ -2531,7 +2532,7 @@ function InitQuestion50()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Control + πλήκτρο -";
+    answer3.shortTextAnswer = "Γƒ. Control + Γ°Γ«ΓΓªΓ΄Γ±Γ― -";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2548,7 +2549,7 @@ function InitQuestion51()
     question.answers.length = 0;
     question.num = 51;
     question.isSingleAns = false;
-    question.shortTextQuestion = "51. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "51. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('e3B1Va1XiIQ=', 609, -1, 1);
@@ -2556,7 +2557,7 @@ function InitQuestion51()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Zoom Out = Alt + Spacebar";
+    answer1.shortTextAnswer = "Γ. Zoom Out = Alt + Spacebar";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('e3B1Va1XiIQ=', 611, -1, 1);
@@ -2564,7 +2565,7 @@ function InitQuestion51()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Zoom Out = Alt + Control";
+    answer2.shortTextAnswer = "Γ‚. Zoom Out = Alt + Control";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Nij1kc4kFUY=', 613, -1, 1);
@@ -2572,7 +2573,7 @@ function InitQuestion51()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Zoom Out = Alt + πλήκτρο -";
+    answer3.shortTextAnswer = "Γƒ. Zoom Out = Alt + Γ°Γ«ΓΓªΓ΄Γ±Γ― -";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2589,7 +2590,7 @@ function InitQuestion52()
     question.answers.length = 0;
     question.num = 52;
     question.isSingleAns = false;
-    question.shortTextQuestion = "52. Σημειώστε το σωστό. Η διαφορά που έχει η επιλογή από το μενού view με την αντίστοιχη επιλογή από το zoom από την εργαλειοθήκη:  ";
+    question.shortTextQuestion = "52. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ Γ°Γ―Γµ ΓΓ·Γ¥Γ© Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ view Γ¬Γ¥ Γ΄Γ§Γ­ Γ΅Γ­Γ΄ΓΓ³Γ΄Γ―Γ©Γ·Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅Γ°ΓΌ Γ΄Γ― zoom Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ±Γ£Γ΅Γ«Γ¥Γ©Γ―Γ¨ΓΓªΓ§:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('nv3M06AwmH0=', 619, -1, 1);
@@ -2597,7 +2598,7 @@ function InitQuestion52()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Έχουμε καθορισμένο το κέντρο της νέας προβολής.";
+    answer1.shortTextAnswer = "Γ. ΒΈΓ·Γ―ΓµΓ¬Γ¥ ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­Γ― Γ΄Γ― ΓªΓΓ­Γ΄Γ±Γ― Γ΄Γ§Γ² Γ­ΓΓ΅Γ² Γ°Γ±Γ―ΓΆΓ―Γ«ΓΓ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('nv3M06AwmH0=', 621, -1, 1);
@@ -2605,7 +2606,7 @@ function InitQuestion52()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Δεν μπορεί να επιλεχθεί άλλο παράθυρο.";
+    answer2.shortTextAnswer = "Γ‚. Γ„Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ ΓΓ«Γ«Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ―.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Rewp5EBy1So=', 623, -1, 1);
@@ -2613,7 +2614,7 @@ function InitQuestion52()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Δεν μπορεί να χρησιμοποιηθεί στα αντικείμενα, μόνο στο παρασκήνιο.";
+    answer3.shortTextAnswer = "Γƒ. Γ„Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ§Γ¨Γ¥Γ Γ³Γ΄Γ΅ Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅, Γ¬ΓΌΓ­Γ― Γ³Γ΄Γ― Γ°Γ΅Γ±Γ΅Γ³ΓªΓΓ­Γ©Γ―.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2630,7 +2631,7 @@ function InitQuestion53()
     question.answers.length = 0;
     question.num = 53;
     question.isSingleAns = false;
-    question.shortTextQuestion = "53. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "53. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('KGBw2fv/g50=', 629, -1, 1);
@@ -2638,7 +2639,7 @@ function InitQuestion53()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Για να αλλάξουμε τη μονάδα μέτρησης των χαράκων μπαίνουμε στο μενού view.";
+    answer1.shortTextAnswer = "Γ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ Γ΄Γ§ Γ¬Γ―Γ­ΓΓ¤Γ΅ Γ¬ΓΓ΄Γ±Γ§Γ³Γ§Γ² Γ΄ΓΉΓ­ Γ·Γ΅Γ±ΓΓªΓΉΓ­ Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ view.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('PlnniKcPsFA=', 631, -1, 1);
@@ -2646,7 +2647,7 @@ function InitQuestion53()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Για να αλλάξουμε τη μονάδα μέτρησης των χαράκων μπαίνουμε στο μενού File Preferences ή από την παλέτα Info (Πληροφορίες).";
+    answer2.shortTextAnswer = "Γ‚. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ Γ΄Γ§ Γ¬Γ―Γ­ΓΓ¤Γ΅ Γ¬ΓΓ΄Γ±Γ§Γ³Γ§Γ² Γ΄ΓΉΓ­ Γ·Γ΅Γ±ΓΓªΓΉΓ­ Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ File Preferences Γ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ°Γ΅Γ«ΓΓ΄Γ΅ Info (ΓΓ«Γ§Γ±Γ―Γ¶Γ―Γ±ΓΓ¥Γ²).";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('PlnniKcPsFA=', 633, -1, 1);
@@ -2654,7 +2655,7 @@ function InitQuestion53()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Για να αλλάξουμε τη μονάδα μέτρησης των χαράκων μπαίνουμε στο μενού window.";
+    answer3.shortTextAnswer = "Γƒ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ Γ΄Γ§ Γ¬Γ―Γ­ΓΓ¤Γ΅ Γ¬ΓΓ΄Γ±Γ§Γ³Γ§Γ² Γ΄ΓΉΓ­ Γ·Γ΅Γ±ΓΓªΓΉΓ­ Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ window.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2671,7 +2672,7 @@ function InitQuestion54()
     question.answers.length = 0;
     question.num = 54;
     question.isSingleAns = false;
-    question.shortTextQuestion = "54. Σημειώστε το σωστό. Για να δημιουργηθεί μία γραμμή - οδηγός πρέπει να:  ";
+    question.shortTextQuestion = "54. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ¥Γ Γ¬ΓΓ΅ Γ£Γ±Γ΅Γ¬Γ¬Γ - Γ―Γ¤Γ§Γ£ΓΌΓ² Γ°Γ±ΓΓ°Γ¥Γ© Γ­Γ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('bvZCQZIqyHI=', 639, -1, 1);
@@ -2679,7 +2680,7 @@ function InitQuestion54()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Επιλεχθεί πρώτα η εντολή εισαγωγής χαράκων.";
+    answer1.shortTextAnswer = "Γ. Γ…Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ°Γ±ΓΎΓ΄Γ΅ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£ΓΓ² Γ·Γ΅Γ±ΓΓªΓΉΓ­.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ofpbWrBLquE=', 641, -1, 1);
@@ -2687,7 +2688,7 @@ function InitQuestion54()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Επιλεχθεί πρώτα η εντολή θέασης χαράκων.";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ°Γ±ΓΎΓ΄Γ΅ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¨ΓΓ΅Γ³Γ§Γ² Γ·Γ΅Γ±ΓΓªΓΉΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('zvx+1iJfvpo=', 643, -1, 1);
@@ -2695,7 +2696,7 @@ function InitQuestion54()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Επιλεχθεί πρώτα η απόσταση που θέλουμε να έχουν οι γραμμές του πλέγματος μεταξύ τους.";
+    answer3.shortTextAnswer = "Γƒ. Γ…Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ°Γ±ΓΎΓ΄Γ΅ Γ§ Γ΅Γ°ΓΌΓ³Γ΄Γ΅Γ³Γ§ Γ°Γ―Γµ Γ¨ΓΓ«Γ―ΓµΓ¬Γ¥ Γ­Γ΅ ΓΓ·Γ―ΓµΓ­ Γ―Γ© Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² Γ΄Γ―Γµ Γ°Γ«ΓΓ£Γ¬Γ΅Γ΄Γ―Γ² Γ¬Γ¥Γ΄Γ΅Γ®Γ½ Γ΄Γ―ΓµΓ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('A8BGesYudTs=', 645, -1, 1);
@@ -2703,7 +2704,7 @@ function InitQuestion54()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Επιλεχθεί η εντολή εισαγωγής νέας γραμμής-οδηγού.";
+    answer4.shortTextAnswer = "Γ„. Γ…Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£ΓΓ² Γ­ΓΓ΅Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²-Γ―Γ¤Γ§Γ£Γ―Γ½.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -2720,7 +2721,7 @@ function InitQuestion55()
     question.answers.length = 0;
     question.num = 55;
     question.isSingleAns = false;
-    question.shortTextQuestion = "55. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "55. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('nvX+ph4ebnU=', 649, -1, 1);
@@ -2728,7 +2729,7 @@ function InitQuestion55()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η επιλογή εμφάνισης χαράκων βρίσκεται στο μενού view.";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§Γ² Γ·Γ΅Γ±ΓΓªΓΉΓ­ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ view.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('nvX+ph4ebnU=', 651, -1, 1);
@@ -2736,7 +2737,7 @@ function InitQuestion55()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η επιλογή εμφάνισης χαράκων βρίσκεται στο μενού File.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§Γ² Γ·Γ΅Γ±ΓΓªΓΉΓ­ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ File.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('vR/ljgb7XUs=', 653, -1, 1);
@@ -2744,7 +2745,7 @@ function InitQuestion55()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η επιλογή εμφάνισης χαράκων βρίσκεται στο μενού widow.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§Γ² Γ·Γ΅Γ±ΓΓªΓΉΓ­ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ widow.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2761,7 +2762,7 @@ function InitQuestion56()
     question.answers.length = 0;
     question.num = 56;
     question.isSingleAns = false;
-    question.shortTextQuestion = "56. Σημειώστε το σωστό  ";
+    question.shortTextQuestion = "56. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('AD1K5qH9Pw8=', 659, -1, 1);
@@ -2769,7 +2770,7 @@ function InitQuestion56()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η επιλογή κλειδώματος και ξεκλειδώματος οδηγών βρίσκεται στο μενού view.";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓªΓ«Γ¥Γ©Γ¤ΓΎΓ¬Γ΅Γ΄Γ―Γ² ΓªΓ΅Γ© Γ®Γ¥ΓªΓ«Γ¥Γ©Γ¤ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ―Γ¤Γ§Γ£ΓΎΓ­ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ view.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('AD1K5qH9Pw8=', 661, -1, 1);
@@ -2777,7 +2778,7 @@ function InitQuestion56()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η επιλογή κλειδώματος και ξεκλειδώματος οδηγών βρίσκεται στο μενού file.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓªΓ«Γ¥Γ©Γ¤ΓΎΓ¬Γ΅Γ΄Γ―Γ² ΓªΓ΅Γ© Γ®Γ¥ΓªΓ«Γ¥Γ©Γ¤ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ―Γ¤Γ§Γ£ΓΎΓ­ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ file.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('msJ37x0TLYs=', 663, -1, 1);
@@ -2785,7 +2786,7 @@ function InitQuestion56()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η επιλογή κλειδώματος και ξεκλειδώματος οδηγών βρίσκεται στην εργαλειοθήκη.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓªΓ«Γ¥Γ©Γ¤ΓΎΓ¬Γ΅Γ΄Γ―Γ² ΓªΓ΅Γ© Γ®Γ¥ΓªΓ«Γ¥Γ©Γ¤ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ―Γ¤Γ§Γ£ΓΎΓ­ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­ Γ¥Γ±Γ£Γ΅Γ«Γ¥Γ©Γ―Γ¨ΓΓªΓ§.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2802,7 +2803,7 @@ function InitQuestion57()
     question.answers.length = 0;
     question.num = 57;
     question.isSingleAns = false;
-    question.shortTextQuestion = "57. Σημειώστε τις σωστές απαντήσεις:  ";
+    question.shortTextQuestion = "57. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ©Γ² Γ³ΓΉΓ³Γ΄ΓΓ² Γ΅Γ°Γ΅Γ­Γ΄ΓΓ³Γ¥Γ©Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('qC2DH9cxwz8=', 669, -1, 1);
@@ -2810,7 +2811,7 @@ function InitQuestion57()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Στην ομάδα επιλογών πλέγματος υπάρχουν οι επιλογές: color style-gridline every-lock/unlock.";
+    answer1.shortTextAnswer = "Γ. Γ“Γ΄Γ§Γ­ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­ Γ°Γ«ΓΓ£Γ¬Γ΅Γ΄Γ―Γ² ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ―Γ© Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ²: color style-gridline every-lock/unlock.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('RKwBNT2ttJQ=', 671, -1, 1);
@@ -2818,7 +2819,7 @@ function InitQuestion57()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Στην ομάδα επιλογών πλέγματος υπάρχουν οι επιλογές: color style-gridline every-snap to.";
+    answer2.shortTextAnswer = "Γ‚. Γ“Γ΄Γ§Γ­ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­ Γ°Γ«ΓΓ£Γ¬Γ΅Γ΄Γ―Γ² ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ―Γ© Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ²: color style-gridline every-snap to.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('DSaCbOoY36g=', 673, -1, 1);
@@ -2826,7 +2827,7 @@ function InitQuestion57()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Στην ομάδα επιλογών πλέγματος υπάρχουν οι επιλογές: color style-gridline every-subdivision.";
+    answer3.shortTextAnswer = "Γƒ. Γ“Γ΄Γ§Γ­ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­ Γ°Γ«ΓΓ£Γ¬Γ΅Γ΄Γ―Γ² ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ―Γ© Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ²: color style-gridline every-subdivision.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2843,7 +2844,7 @@ function InitQuestion58()
     question.answers.length = 0;
     question.num = 58;
     question.isSingleAns = false;
-    question.shortTextQuestion = "58. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "58. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('csqdnAjhRnE=', 679, -1, 1);
@@ -2851,7 +2852,7 @@ function InitQuestion58()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η επιλογή floating selection έχει ιδιότητες παρόμοιες με αυτές των στρωμάτων.";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ floating selection ΓΓ·Γ¥Γ© Γ©Γ¤Γ©ΓΌΓ΄Γ§Γ΄Γ¥Γ² Γ°Γ΅Γ±ΓΌΓ¬Γ―Γ©Γ¥Γ² Γ¬Γ¥ Γ΅ΓµΓ΄ΓΓ² Γ΄ΓΉΓ­ Γ³Γ΄Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('OdUwuMvWe1E=', 681, -1, 1);
@@ -2859,7 +2860,7 @@ function InitQuestion58()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η επιλογή floating selection έχει ιδιότητες ίδιες με αυτές των στρωμάτων.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ floating selection ΓΓ·Γ¥Γ© Γ©Γ¤Γ©ΓΌΓ΄Γ§Γ΄Γ¥Γ² ΓΓ¤Γ©Γ¥Γ² Γ¬Γ¥ Γ΅ΓµΓ΄ΓΓ² Γ΄ΓΉΓ­ Γ³Γ΄Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('A5ZHuIAjw58=', 683, -1, 1);
@@ -2867,7 +2868,7 @@ function InitQuestion58()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η επιλογή floating selection έχει διαφορετικές ιδιότητες με αυτές των στρωμάτων.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ floating selection ΓΓ·Γ¥Γ© Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓΓ² Γ©Γ¤Γ©ΓΌΓ΄Γ§Γ΄Γ¥Γ² Γ¬Γ¥ Γ΅ΓµΓ΄ΓΓ² Γ΄ΓΉΓ­ Γ³Γ΄Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2884,7 +2885,7 @@ function InitQuestion59()
     question.answers.length = 0;
     question.num = 59;
     question.isSingleAns = false;
-    question.shortTextQuestion = "59. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "59. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('hxIdtqsZWdI=', 689, -1, 1);
@@ -2892,7 +2893,7 @@ function InitQuestion59()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το Constrain Proportions αλλάζει μόνο όταν είναι ενεργό το Resample image.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Constrain Proportions Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© Γ¬ΓΌΓ­Γ― ΓΌΓ΄Γ΅Γ­ Γ¥ΓΓ­Γ΅Γ© Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ΄Γ― Resample image.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('hxIdtqsZWdI=', 691, -1, 1);
@@ -2900,7 +2901,7 @@ function InitQuestion59()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το Constrain Proportions αλλάζει μόνο όταν είναι ανενεργό το Resample image.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― Constrain Proportions Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© Γ¬ΓΌΓ­Γ― ΓΌΓ΄Γ΅Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ­Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ΄Γ― Resample image.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('YhSdLgflUOw=', 693, -1, 1);
@@ -2908,7 +2909,7 @@ function InitQuestion59()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το Constrain Proportions αλλάζει μόνο όταν αλλάζουμε τις διαστάσεις της εικόνας ανεξάρτητα από το πλαίσιο διαλόγου Resample image.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Constrain Proportions Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© Γ¬ΓΌΓ­Γ― ΓΌΓ΄Γ΅Γ­ Γ΅Γ«Γ«ΓΓ¦Γ―ΓµΓ¬Γ¥ Γ΄Γ©Γ² Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ΅Γ­Γ¥Γ®ΓΓ±Γ΄Γ§Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ Resample image.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2925,7 +2926,7 @@ function InitQuestion60()
     question.answers.length = 0;
     question.num = 60;
     question.isSingleAns = false;
-    question.shortTextQuestion = "60. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "60. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('f5DAhlYP19g=', 699, -1, 1);
@@ -2933,7 +2934,7 @@ function InitQuestion60()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η αλλαγή διαστάσεων μιας εικόνας γίνεται μπαίνοντας στο μενού Image.";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ΅Γ«Γ«Γ΅Γ£Γ Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥ΓΉΓ­ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Image.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('j79a39Sq/p8=', 701, -1, 1);
@@ -2941,7 +2942,7 @@ function InitQuestion60()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η αλλαγή διαστάσεων μιας εικόνας που βρίσκεται σε επίπεδο (layer) γίνεται μπαίνοντας στο υπομενού Transform > Scale μέσα από το μενού Edit.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ΅Γ«Γ«Γ΅Γ£Γ Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥ΓΉΓ­ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ°Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ¥ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― (layer) Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― ΓµΓ°Γ―Γ¬Γ¥Γ­Γ―Γ½ Transform > Scale Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Edit.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('j79a39Sq/p8=', 703, -1, 1);
@@ -2949,7 +2950,7 @@ function InitQuestion60()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η αλλαγή διαστάσεων μιας εικόνας γίνεται μπαίνοντας στο μενού File.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ΅Γ«Γ«Γ΅Γ£Γ Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥ΓΉΓ­ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ File.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -2966,7 +2967,7 @@ function InitQuestion61()
     question.answers.length = 0;
     question.num = 61;
     question.isSingleAns = false;
-    question.shortTextQuestion = "61. Σημειώστε το σωστό. Βλέπουμε με χρώμα τα κανάλια μιας έγχρωμης φωτογραφίας με:  ";
+    question.shortTextQuestion = "61. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‚Γ«ΓΓ°Γ―ΓµΓ¬Γ¥ Γ¬Γ¥ Γ·Γ±ΓΎΓ¬Γ΅ Γ΄Γ΅ ΓªΓ΅Γ­ΓΓ«Γ©Γ΅ Γ¬Γ©Γ΅Γ² ΓΓ£Γ·Γ±ΓΉΓ¬Γ§Γ² Γ¶ΓΉΓ΄Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅Γ² Γ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('wueyUX1Ji9s=', 709, -1, 1);
@@ -2974,7 +2975,7 @@ function InitQuestion61()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλογή Interface από το υπομενού Preferences.";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Interface Γ΅Γ°ΓΌ Γ΄Γ― ΓµΓ°Γ―Γ¬Γ¥Γ­Γ―Γ½ Preferences.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('wueyUX1Ji9s=', 711, -1, 1);
@@ -2982,7 +2983,7 @@ function InitQuestion61()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. πάτημα πλήκτρων Control + 1.";
+    answer2.shortTextAnswer = "Γ‚. Γ°ΓΓ΄Γ§Γ¬Γ΅ Γ°Γ«ΓΓªΓ΄Γ±ΓΉΓ­ Control + 1.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('1YffKX9mdNk=', 713, -1, 1);
@@ -2990,7 +2991,7 @@ function InitQuestion61()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. πάτημα πλήκτρων Control + 4.";
+    answer3.shortTextAnswer = "Γƒ. Γ°ΓΓ΄Γ§Γ¬Γ΅ Γ°Γ«ΓΓªΓ΄Γ±ΓΉΓ­ Control + 4.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3007,7 +3008,7 @@ function InitQuestion62()
     question.answers.length = 0;
     question.num = 62;
     question.isSingleAns = false;
-    question.shortTextQuestion = "62. Σημειώστε το σωστό. Για να δούμε το κόκκινο κανάλι μιας έγχρωμης RGB φωτογραφίας πατάμε:  ";
+    question.shortTextQuestion = "62. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¤Γ―Γ½Γ¬Γ¥ Γ΄Γ― ΓªΓΌΓªΓªΓ©Γ­Γ― ΓªΓ΅Γ­ΓΓ«Γ© Γ¬Γ©Γ΅Γ² ΓΓ£Γ·Γ±ΓΉΓ¬Γ§Γ² RGB Γ¶ΓΉΓ΄Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅Γ² Γ°Γ΅Γ΄ΓΓ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('JYk5F0gvdCQ=', 719, -1, 1);
@@ -3015,7 +3016,7 @@ function InitQuestion62()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Control + 3";
+    answer1.shortTextAnswer = "Γ. Control + 3";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('78mGu3xGfqg=', 721, -1, 1);
@@ -3023,7 +3024,7 @@ function InitQuestion62()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Control + 2";
+    answer2.shortTextAnswer = "Γ‚. Control + 2";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ZYMHOwTGQUk=', 723, -1, 1);
@@ -3031,7 +3032,7 @@ function InitQuestion62()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Control + 1";
+    answer3.shortTextAnswer = "Γƒ. Control + 1";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3048,7 +3049,7 @@ function InitQuestion63()
     question.answers.length = 0;
     question.num = 63;
     question.isSingleAns = false;
-    question.shortTextQuestion = "63. Σημειώστε το σωστό ή τα σωστά. Εργαλεία επιλογής είναι:  ";
+    question.shortTextQuestion = "63. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ Γ΄Γ΅ Γ³ΓΉΓ³Γ΄Γ. Γ…Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¥ΓΓ­Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('OHfJA4tu50w=', 729, -1, 1);
@@ -3056,7 +3057,7 @@ function InitQuestion63()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Λάσο.";
+    answer1.shortTextAnswer = "Γ. Γ‹ΓΓ³Γ―.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('oc0BVH1gGMU=', 731, -1, 1);
@@ -3064,7 +3065,7 @@ function InitQuestion63()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Μαγικό ραβδάκι.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ΅Γ£Γ©ΓªΓΌ Γ±Γ΅ΓΆΓ¤ΓΓªΓ©.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('k2Zv6KI1eq0=', 733, -1, 1);
@@ -3072,7 +3073,7 @@ function InitQuestion63()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Πολυγωνικό λάσο.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ―Γ«ΓµΓ£ΓΉΓ­Γ©ΓªΓΌ Γ«ΓΓ³Γ―.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3089,7 +3090,7 @@ function InitQuestion64()
     question.answers.length = 0;
     question.num = 64;
     question.isSingleAns = false;
-    question.shortTextQuestion = "64. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "64. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BZl5xIp9FWI=', 739, -1, 1);
@@ -3097,7 +3098,7 @@ function InitQuestion64()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το πλαίσιο ελέγχου anti aliased χρησιμοποιείται για την αποεπιλογή.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¥Γ«ΓΓ£Γ·Γ―Γµ anti aliased Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°Γ―Γ¥Γ°Γ©Γ«Γ―Γ£Γ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('pa6lNMd4j08=', 741, -1, 1);
@@ -3105,7 +3106,7 @@ function InitQuestion64()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η επιλογή Deselect από το μενού Select χρησιμοποιείται για την αποεπιλογή.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Deselect Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Select Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°Γ―Γ¥Γ°Γ©Γ«Γ―Γ£Γ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('pa6lNMd4j08=', 743, -1, 1);
@@ -3113,7 +3114,7 @@ function InitQuestion64()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Πάτημα με μαγικό ραβδάκι μέσα από την επιλεγμένη περιοχή χρησιμοποιείται για την αποεπιλογή.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓΓ΄Γ§Γ¬Γ΅ Γ¬Γ¥ Γ¬Γ΅Γ£Γ©ΓªΓΌ Γ±Γ΅ΓΆΓ¤ΓΓªΓ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ¥Γ£Γ¬ΓΓ­Γ§ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°Γ―Γ¥Γ°Γ©Γ«Γ―Γ£Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3130,7 +3131,7 @@ function InitQuestion65()
     question.answers.length = 0;
     question.num = 65;
     question.isSingleAns = false;
-    question.shortTextQuestion = "65. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "65. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('mPO1ngO68Os=', 749, -1, 1);
@@ -3138,7 +3139,7 @@ function InitQuestion65()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Ανάμειξη pixels με τιμή λαμπρότητας 255 και από τα τρία κανάλια δίνει λευκό χρώμα.";
+    answer1.shortTextAnswer = "Γ. ΓΓ­ΓΓ¬Γ¥Γ©Γ®Γ§ pixels Γ¬Γ¥ Γ΄Γ©Γ¬Γ Γ«Γ΅Γ¬Γ°Γ±ΓΌΓ΄Γ§Γ΄Γ΅Γ² 255 ΓªΓ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ΅ Γ΄Γ±ΓΓ΅ ΓªΓ΅Γ­ΓΓ«Γ©Γ΅ Γ¤ΓΓ­Γ¥Γ© Γ«Γ¥ΓµΓªΓΌ Γ·Γ±ΓΎΓ¬Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('mPO1ngO68Os=', 751, -1, 1);
@@ -3146,7 +3147,7 @@ function InitQuestion65()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Ανάμειξη pixels με τιμή λαμπρότητας 0 και από τα τρία κανάλια δίνει λευκό χρώμα.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ­ΓΓ¬Γ¥Γ©Γ®Γ§ pixels Γ¬Γ¥ Γ΄Γ©Γ¬Γ Γ«Γ΅Γ¬Γ°Γ±ΓΌΓ΄Γ§Γ΄Γ΅Γ² 0 ΓªΓ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ΅ Γ΄Γ±ΓΓ΅ ΓªΓ΅Γ­ΓΓ«Γ©Γ΅ Γ¤ΓΓ­Γ¥Γ© Γ«Γ¥ΓµΓªΓΌ Γ·Γ±ΓΎΓ¬Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('T2LJWxftI5I=', 753, -1, 1);
@@ -3154,7 +3155,7 @@ function InitQuestion65()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Ανάμειξη pixels με τιμή λαμπρότητας 100 και από τα τρία κανάλια δίνει λευκό χρώμα.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ­ΓΓ¬Γ¥Γ©Γ®Γ§ pixels Γ¬Γ¥ Γ΄Γ©Γ¬Γ Γ«Γ΅Γ¬Γ°Γ±ΓΌΓ΄Γ§Γ΄Γ΅Γ² 100 ΓªΓ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ΅ Γ΄Γ±ΓΓ΅ ΓªΓ΅Γ­ΓΓ«Γ©Γ΅ Γ¤ΓΓ­Γ¥Γ© Γ«Γ¥ΓµΓªΓΌ Γ·Γ±ΓΎΓ¬Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3171,7 +3172,7 @@ function InitQuestion66()
     question.answers.length = 0;
     question.num = 66;
     question.isSingleAns = false;
-    question.shortTextQuestion = "66. Σημειώστε το σωστό  ";
+    question.shortTextQuestion = "66. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('uTQrWBvqroE=', 759, -1, 1);
@@ -3179,7 +3180,7 @@ function InitQuestion66()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Pixels με τιμή λαμπρότητας 0 στο κόκκινο κανάλι, 126 στο μπλε και 250 στο πράσινο, σχηματίζουν το χρώμα ματζέντα.";
+    answer1.shortTextAnswer = "Γ. Pixels Γ¬Γ¥ Γ΄Γ©Γ¬Γ Γ«Γ΅Γ¬Γ°Γ±ΓΌΓ΄Γ§Γ΄Γ΅Γ² 0 Γ³Γ΄Γ― ΓªΓΌΓªΓªΓ©Γ­Γ― ΓªΓ΅Γ­ΓΓ«Γ©, 126 Γ³Γ΄Γ― Γ¬Γ°Γ«Γ¥ ΓªΓ΅Γ© 250 Γ³Γ΄Γ― Γ°Γ±ΓΓ³Γ©Γ­Γ―, Γ³Γ·Γ§Γ¬Γ΅Γ΄ΓΓ¦Γ―ΓµΓ­ Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ¬Γ΅Γ΄Γ¦ΓΓ­Γ΄Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('9dM+TdPJGbc=', 761, -1, 1);
@@ -3187,7 +3188,7 @@ function InitQuestion66()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Pixels με τιμή λαμπρότητας 0 στο κόκκινο κανάλι, 250 στο μπλε και 0 στο πράσινο, σχηματίζουν το χρώμα ματζέντα.";
+    answer2.shortTextAnswer = "Γ‚. Pixels Γ¬Γ¥ Γ΄Γ©Γ¬Γ Γ«Γ΅Γ¬Γ°Γ±ΓΌΓ΄Γ§Γ΄Γ΅Γ² 0 Γ³Γ΄Γ― ΓªΓΌΓªΓªΓ©Γ­Γ― ΓªΓ΅Γ­ΓΓ«Γ©, 250 Γ³Γ΄Γ― Γ¬Γ°Γ«Γ¥ ΓªΓ΅Γ© 0 Γ³Γ΄Γ― Γ°Γ±ΓΓ³Γ©Γ­Γ―, Γ³Γ·Γ§Γ¬Γ΅Γ΄ΓΓ¦Γ―ΓµΓ­ Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ¬Γ΅Γ΄Γ¦ΓΓ­Γ΄Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('lA0C9j3F6bQ=', 763, -1, 1);
@@ -3195,7 +3196,7 @@ function InitQuestion66()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Pixels με τιμή λαμπρότητας 230 στο κόκκινο κανάλι, 126 στο μπλε και 0 στο πράσινο, σχηματίζουν το χρώμα ματζέντα.";
+    answer3.shortTextAnswer = "Γƒ. Pixels Γ¬Γ¥ Γ΄Γ©Γ¬Γ Γ«Γ΅Γ¬Γ°Γ±ΓΌΓ΄Γ§Γ΄Γ΅Γ² 230 Γ³Γ΄Γ― ΓªΓΌΓªΓªΓ©Γ­Γ― ΓªΓ΅Γ­ΓΓ«Γ©, 126 Γ³Γ΄Γ― Γ¬Γ°Γ«Γ¥ ΓªΓ΅Γ© 0 Γ³Γ΄Γ― Γ°Γ±ΓΓ³Γ©Γ­Γ―, Γ³Γ·Γ§Γ¬Γ΅Γ΄ΓΓ¦Γ―ΓµΓ­ Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ¬Γ΅Γ΄Γ¦ΓΓ­Γ΄Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3212,7 +3213,7 @@ function InitQuestion67()
     question.answers.length = 0;
     question.num = 67;
     question.isSingleAns = false;
-    question.shortTextQuestion = "67. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "67. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xYAiETZWRBU=', 769, -1, 1);
@@ -3220,7 +3221,7 @@ function InitQuestion67()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Με το μαγικό ραβδάκι επιλέγουμε μια περιοχή της εικόνας με διαφορετικά χρώματα.";
+    answer1.shortTextAnswer = "Γ. ΓΓ¥ Γ΄Γ― Γ¬Γ΅Γ£Γ©ΓªΓΌ Γ±Γ΅ΓΆΓ¤ΓΓªΓ© Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ Γ¬Γ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ¥ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Jm/2i6uZbJ4=', 771, -1, 1);
@@ -3228,7 +3229,7 @@ function InitQuestion67()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Με το μαγικό ραβδάκι επιλέγουμε μια περιοχή συγγενών χρωμάτων της εικόνας αυτόματα.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ¥ Γ΄Γ― Γ¬Γ΅Γ£Γ©ΓªΓΌ Γ±Γ΅ΓΆΓ¤ΓΓªΓ© Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ Γ¬Γ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ³ΓµΓ£Γ£Γ¥Γ­ΓΎΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Jm/2i6uZbJ4=', 773, -1, 1);
@@ -3236,7 +3237,7 @@ function InitQuestion67()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Με το μαγικό ραβδάκι επιλέγουμε δύο χρώματα της εικόνας.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¥ Γ΄Γ― Γ¬Γ΅Γ£Γ©ΓªΓΌ Γ±Γ΅ΓΆΓ¤ΓΓªΓ© Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ Γ¤Γ½Γ― Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3253,7 +3254,7 @@ function InitQuestion68()
     question.answers.length = 0;
     question.num = 68;
     question.isSingleAns = false;
-    question.shortTextQuestion = "68. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "68. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('zwH/imM+Sbk=', 779, -1, 1);
@@ -3261,7 +3262,7 @@ function InitQuestion68()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Τα επίπεδα είναι απαραίτητα σε μια εργασία επεξεργασίας εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ°Γ΅Γ±Γ΅ΓΓ΄Γ§Γ΄Γ΅ Γ³Γ¥ Γ¬Γ©Γ΅ Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Bf768mWN7dc=', 781, -1, 1);
@@ -3269,7 +3270,7 @@ function InitQuestion68()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Τα επίπεδα είναι απαραίτητα μόνο σε μια εργασία επεξεργασίας πολλών ταυτόχρονων εικόνων.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ°Γ΅Γ±Γ΅ΓΓ΄Γ§Γ΄Γ΅ Γ¬ΓΌΓ­Γ― Γ³Γ¥ Γ¬Γ©Γ΅ Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ°Γ―Γ«Γ«ΓΎΓ­ Γ΄Γ΅ΓµΓ΄ΓΌΓ·Γ±Γ―Γ­ΓΉΓ­ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('lPUfBoZ9iJE=', 783, -1, 1);
@@ -3277,7 +3278,7 @@ function InitQuestion68()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Τα επίπεδα είναι απαραίτητα για την εισαγωγή βίντεο σε επίπεδο επεξεργασίας εικόνας.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ°Γ΅Γ±Γ΅ΓΓ΄Γ§Γ΄Γ΅ Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£Γ ΓΆΓΓ­Γ΄Γ¥Γ― Γ³Γ¥ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('ARAIVSoVGHU=', 785, -1, 1);
@@ -3285,7 +3286,7 @@ function InitQuestion68()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Τα επίπεδα δεν είναι απαραίτητα αλλά βοηθούν αποτελεσματικά στην σωστή επεξεργασία μιας εικόνας.";
+    answer4.shortTextAnswer = "Γ„. Γ”Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¤Γ¥Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ°Γ΅Γ±Γ΅ΓΓ΄Γ§Γ΄Γ΅ Γ΅Γ«Γ«Γ ΓΆΓ―Γ§Γ¨Γ―Γ½Γ­ Γ΅Γ°Γ―Γ΄Γ¥Γ«Γ¥Γ³Γ¬Γ΅Γ΄Γ©ΓªΓ Γ³Γ΄Γ§Γ­ Γ³ΓΉΓ³Γ΄Γ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -3302,7 +3303,7 @@ function InitQuestion69()
     question.answers.length = 0;
     question.num = 69;
     question.isSingleAns = false;
-    question.shortTextQuestion = "69. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "69. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('+p4WQnLCrEk=', 789, -1, 1);
@@ -3310,7 +3311,7 @@ function InitQuestion69()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η διαφάνεια ενός επιπέδου δε μπορεί να αλλάξει.";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ Γ¤Γ¥ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ©.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ucL50wD7x1w=', 791, -1, 1);
@@ -3318,7 +3319,7 @@ function InitQuestion69()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η αδιαφάνεια ενός επιπέδου δεν μπορεί να αλλάξει.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ©.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('0f8YyO2Q7Rw=', 793, -1, 1);
@@ -3326,7 +3327,7 @@ function InitQuestion69()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η αδιαφάνεια ενός επιπέδου μπορεί να αλλάξει και να γίνει μερική αδιαφάνεια.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© ΓªΓ΅Γ© Γ­Γ΅ Γ£ΓΓ­Γ¥Γ© Γ¬Γ¥Γ±Γ©ΓªΓ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3343,7 +3344,7 @@ function InitQuestion70()
     question.answers.length = 0;
     question.num = 70;
     question.isSingleAns = false;
-    question.shortTextQuestion = "70. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "70. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('6+7rGeUrkiE=', 799, -1, 1);
@@ -3351,7 +3352,7 @@ function InitQuestion70()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Στο έξυπνο αντικείμενο μπορούμε να εφαρμόσουμε εφέ φίλτρων.";
+    answer1.shortTextAnswer = "Γ. Γ“Γ΄Γ― ΓΓ®ΓµΓ°Γ­Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― Γ¬Γ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ³Γ―ΓµΓ¬Γ¥ Γ¥Γ¶Γ Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('6+7rGeUrkiE=', 801, -1, 1);
@@ -3359,7 +3360,7 @@ function InitQuestion70()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το έξυπνο αντικείμενο έχει ένα επίπεδο.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― ΓΓ®ΓµΓ°Γ­Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― ΓΓ·Γ¥Γ© ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('enrICOty3sc=', 803, -1, 1);
@@ -3367,7 +3368,7 @@ function InitQuestion70()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το έξυπνο αντικείμενο έχει εντολές χρωματισμού.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― ΓΓ®ΓµΓ°Γ­Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― ΓΓ·Γ¥Γ© Γ¥Γ­Γ΄Γ―Γ«ΓΓ² Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3384,7 +3385,7 @@ function InitQuestion71()
     question.answers.length = 0;
     question.num = 71;
     question.isSingleAns = false;
-    question.shortTextQuestion = "71. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "71. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('fkyTS0KW1bk=', 809, -1, 1);
@@ -3392,7 +3393,7 @@ function InitQuestion71()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Ο πίνακας \"επίπεδα\" έχει εμφάνιση/απόκρυψη επιπέδων.";
+    answer1.shortTextAnswer = "Γ. Γ Γ°ΓΓ­Γ΅ΓªΓ΅Γ² \"Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅\" ΓΓ·Γ¥Γ© Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§/Γ΅Γ°ΓΌΓªΓ±ΓµΓΈΓ§ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('N4EK4b8hlno=', 811, -1, 1);
@@ -3400,7 +3401,7 @@ function InitQuestion71()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Ο πίνακας \"επίπεδα\" έχει εφέ, μικρογραφίες, ανάπτυξη και σύμπτυξη ομάδων.";
+    answer2.shortTextAnswer = "Γ‚. Γ Γ°ΓΓ­Γ΅ΓªΓ΅Γ² \"Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅\" ΓΓ·Γ¥Γ© Γ¥Γ¶Γ, Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ¥Γ², Γ΅Γ­ΓΓ°Γ΄ΓµΓ®Γ§ ΓªΓ΅Γ© Γ³Γ½Γ¬Γ°Γ΄ΓµΓ®Γ§ Γ―Γ¬ΓΓ¤ΓΉΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('4Hmlt3KZ65U=', 813, -1, 1);
@@ -3408,7 +3409,7 @@ function InitQuestion71()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όλα τα παραπάνω.";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3425,7 +3426,7 @@ function InitQuestion72()
     question.answers.length = 0;
     question.num = 72;
     question.isSingleAns = false;
-    question.shortTextQuestion = "72. Σημειώστε το σωστό. Για να ανοίξει ή να κρυφτεί ένα επίπεδο ή ομάδα επιπέδων κλικάρουμε:  ";
+    question.shortTextQuestion = "72. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ­Γ―ΓΓ®Γ¥Γ© Γ Γ­Γ΅ ΓªΓ±ΓµΓ¶Γ΄Γ¥Γ ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ ΓªΓ«Γ©ΓªΓΓ±Γ―ΓµΓ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('T3QgGXTP+XQ=', 819, -1, 1);
@@ -3433,7 +3434,7 @@ function InitQuestion72()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το μάτι αριστερά από το εικονίδιο.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Γ¬ΓΓ΄Γ© Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ΅Γ°ΓΌ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ―.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('T3QgGXTP+XQ=', 821, -1, 1);
@@ -3441,7 +3442,7 @@ function InitQuestion72()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Στο πάνω αριστερά εικονίδιο.";
+    answer2.shortTextAnswer = "Γ‚. Γ“Γ΄Γ― Γ°ΓΓ­ΓΉ Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ―.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('KLzz5gKpyhc=', 823, -1, 1);
@@ -3449,7 +3450,7 @@ function InitQuestion72()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Στο εικονίδιο είτε πάνω αριστερά είτε πάνω δεξιά.";
+    answer3.shortTextAnswer = "Γƒ. Γ“Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¥ΓΓ΄Γ¥ Γ°ΓΓ­ΓΉ Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ¥ΓΓ΄Γ¥ Γ°ΓΓ­ΓΉ Γ¤Γ¥Γ®Γ©Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3466,7 +3467,7 @@ function InitQuestion73()
     question.answers.length = 0;
     question.num = 73;
     question.isSingleAns = false;
-    question.shortTextQuestion = "73. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "73. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('60bfR9WDDUo=', 829, -1, 1);
@@ -3474,7 +3475,7 @@ function InitQuestion73()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Εμφανίζουμε και κρύβουμε τα επίπεδα με κλικ στο μάτι αριστερά κάθε εικονιδίου.";
+    answer1.shortTextAnswer = "Γ. Γ…Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―ΓµΓ¬Γ¥ ΓªΓ΅Γ© ΓªΓ±Γ½ΓΆΓ―ΓµΓ¬Γ¥ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¬ΓΓ΄Γ© Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ ΓªΓΓ¨Γ¥ Γ¥Γ©ΓªΓ―Γ­Γ©Γ¤ΓΓ―Γµ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('60bfR9WDDUo=', 831, -1, 1);
@@ -3482,7 +3483,7 @@ function InitQuestion73()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Εμφανίζουμε και κρύβουμε τα επίπεδα με κλικ στις επιλογές του πίνακα Επιπέδων";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―ΓµΓ¬Γ¥ ΓªΓ΅Γ© ΓªΓ±Γ½ΓΆΓ―ΓµΓ¬Γ¥ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ©Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ…Γ°Γ©Γ°ΓΓ¤ΓΉΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('D+nwd+1KTpQ=', 833, -1, 1);
@@ -3490,7 +3491,7 @@ function InitQuestion73()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Εμφανίζουμε και κρύβουμε τα επίπεδα με κλικ στις εντολές του μενού Επιπέδων.";
+    answer3.shortTextAnswer = "Γƒ. Γ…Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―ΓµΓ¬Γ¥ ΓªΓ΅Γ© ΓªΓ±Γ½ΓΆΓ―ΓµΓ¬Γ¥ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ©Γ² Γ¥Γ­Γ΄Γ―Γ«ΓΓ² Γ΄Γ―Γµ Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ©Γ°ΓΓ¤ΓΉΓ­.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('Wg4DF2IeY84=', 835, -1, 1);
@@ -3498,7 +3499,7 @@ function InitQuestion73()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Όλα τα παραπάνω.";
+    answer4.shortTextAnswer = "Γ„. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -3515,7 +3516,7 @@ function InitQuestion74()
     question.answers.length = 0;
     question.num = 74;
     question.isSingleAns = false;
-    question.shortTextQuestion = "74. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "74. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('AafLf3CMW1Y=', 839, -1, 1);
@@ -3523,7 +3524,7 @@ function InitQuestion74()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η λειτουργία ανάμειξης ορίζει έναν τρόπο ανάμειξης για το επίπεδο ή την ομάδα σε σχέση με τα άλλα επίπεδα.";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ΅Γ­ΓΓ¬Γ¥Γ©Γ®Γ§Γ² Γ―Γ±ΓΓ¦Γ¥Γ© ΓΓ­Γ΅Γ­ Γ΄Γ±ΓΌΓ°Γ― Γ΅Γ­ΓΓ¬Γ¥Γ©Γ®Γ§Γ² Γ£Γ©Γ΅ Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ Γ΄Γ§Γ­ Γ―Γ¬ΓΓ¤Γ΅ Γ³Γ¥ Γ³Γ·ΓΓ³Γ§ Γ¬Γ¥ Γ΄Γ΅ ΓΓ«Γ«Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('AafLf3CMW1Y=', 841, -1, 1);
@@ -3531,7 +3532,7 @@ function InitQuestion74()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η λειτουργία ορίζει έναν τρόπο εκτύπωσης μόνο των ορατών επιπέδων ή ομάδων.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ―Γ±ΓΓ¦Γ¥Γ© ΓΓ­Γ΅Γ­ Γ΄Γ±ΓΌΓ°Γ― Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ² Γ¬ΓΌΓ­Γ― Γ΄ΓΉΓ­ Γ―Γ±Γ΅Γ΄ΓΎΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ Γ―Γ¬ΓΓ¤ΓΉΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('QYkPEJKsons=', 843, -1, 1);
@@ -3539,7 +3540,7 @@ function InitQuestion74()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η λειτουργία ορίζει έναν τρόπο εισαγωγής εφέ μόνο σε ένα επίπεδο ή μια ομάδα.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ―Γ±ΓΓ¦Γ¥Γ© ΓΓ­Γ΅Γ­ Γ΄Γ±ΓΌΓ°Γ― Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£ΓΓ² Γ¥Γ¶Γ Γ¬ΓΌΓ­Γ― Γ³Γ¥ ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ Γ¬Γ©Γ΅ Γ―Γ¬ΓΓ¤Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3556,7 +3557,7 @@ function InitQuestion75()
     question.answers.length = 0;
     question.num = 75;
     question.isSingleAns = false;
-    question.shortTextQuestion = "75. Σημειώστε το σωστό. Δημιουργία εγγράφου από επίπεδο σε ομάδα γίνεται με:  ";
+    question.shortTextQuestion = "75. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ Γ΅Γ°ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ³Γ¥ Γ―Γ¬ΓΓ¤Γ΅ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('lnpLMLkDHkc=', 849, -1, 1);
@@ -3564,7 +3565,7 @@ function InitQuestion75()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Την εντολή \"διπλασιασμός\", μέσα από το μενού αρχείο.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ \"Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©Γ΅Γ³Γ¬ΓΌΓ²\", Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΅Γ±Γ·Γ¥ΓΓ―.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('sR8t6PPtRHw=', 851, -1, 1);
@@ -3572,7 +3573,7 @@ function InitQuestion75()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Την εντολή \"διπλασιασμός\", μέσα από τον πίνακα επιπέδων.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ \"Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©Γ΅Γ³Γ¬ΓΌΓ²\", Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('sR8t6PPtRHw=', 853, -1, 1);
@@ -3580,7 +3581,7 @@ function InitQuestion75()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Την εντολή \"διπλασιασμός\", με συνδυασμό πλήκτρων.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ \"Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©Γ΅Γ³Γ¬ΓΌΓ²\", Γ¬Γ¥ Γ³ΓµΓ­Γ¤ΓµΓ΅Γ³Γ¬ΓΌ Γ°Γ«ΓΓªΓ΄Γ±ΓΉΓ­.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3597,7 +3598,7 @@ function InitQuestion76()
     question.answers.length = 0;
     question.num = 76;
     question.isSingleAns = false;
-    question.shortTextQuestion = "76. Σημειώστε το σωστό. Επαναφέρουμε τις προηγούμενες ρυθμίσεις ορατότητας των επιπέδων με:  ";
+    question.shortTextQuestion = "76. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ…Γ°Γ΅Γ­Γ΅Γ¶ΓΓ±Γ―ΓµΓ¬Γ¥ Γ΄Γ©Γ² Γ°Γ±Γ―Γ§Γ£Γ―Γ½Γ¬Γ¥Γ­Γ¥Γ² Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥Γ©Γ² Γ―Γ±Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅Γ² Γ΄ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('kySo21d9EF4=', 859, -1, 1);
@@ -3605,7 +3606,7 @@ function InitQuestion76()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Πατημένο Alt/Option + κλικ στο εικονίδιο του ματιού.";
+    answer1.shortTextAnswer = "Γ. ΓΓ΅Γ΄Γ§Γ¬ΓΓ­Γ― Alt/Option + ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ―Γµ Γ¬Γ΅Γ΄Γ©Γ―Γ½.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('kySo21d9EF4=', 861, -1, 1);
@@ -3613,7 +3614,7 @@ function InitQuestion76()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Πατημένο Control + κλικ στο εικονίδιο του ματιού.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ΅Γ΄Γ§Γ¬ΓΓ­Γ― Control + ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ―Γµ Γ¬Γ΅Γ΄Γ©Γ―Γ½.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('4xRSxGQl2oM=', 863, -1, 1);
@@ -3621,7 +3622,7 @@ function InitQuestion76()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Πατημένο Shift + κλικ στο εικονίδιο του ματιού.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ΅Γ΄Γ§Γ¬ΓΓ­Γ― Shift + ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ―Γµ Γ¬Γ΅Γ΄Γ©Γ―Γ½.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3638,7 +3639,7 @@ function InitQuestion77()
     question.answers.length = 0;
     question.num = 77;
     question.isSingleAns = false;
-    question.shortTextQuestion = "77. Σημειώστε το σωστό. Για να ανοίξουμε μια ομάδα επιπέδων κάνουμε:  ";
+    question.shortTextQuestion = "77. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ­Γ―ΓΓ®Γ―ΓµΓ¬Γ¥ Γ¬Γ©Γ΅ Γ―Γ¬ΓΓ¤Γ΅ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ ΓªΓΓ­Γ―ΓµΓ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('cRbfxy8PZRY=', 869, -1, 1);
@@ -3646,7 +3647,7 @@ function InitQuestion77()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Με πατημένο το Alt κάνουμε κλικ στο τρίγωνο αριστερά του εικονιδίου του φακέλου.";
+    answer1.shortTextAnswer = "Γ. ΓΓ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Alt ΓªΓΓ­Γ―ΓµΓ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΄Γ±ΓΓ£ΓΉΓ­Γ― Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ΄Γ―Γµ Γ¥Γ©ΓªΓ―Γ­Γ©Γ¤ΓΓ―Γµ Γ΄Γ―Γµ Γ¶Γ΅ΓªΓΓ«Γ―Γµ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('nTlzj9KeDOY=', 871, -1, 1);
@@ -3654,7 +3655,7 @@ function InitQuestion77()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Κλικ στο τρίγωνο αριστερά του εικονιδίου του φακέλου.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ«Γ©Γª Γ³Γ΄Γ― Γ΄Γ±ΓΓ£ΓΉΓ­Γ― Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ΄Γ―Γµ Γ¥Γ©ΓªΓ―Γ­Γ©Γ¤ΓΓ―Γµ Γ΄Γ―Γµ Γ¶Γ΅ΓªΓΓ«Γ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('nTlzj9KeDOY=', 873, -1, 1);
@@ -3662,7 +3663,7 @@ function InitQuestion77()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Με πατημένο το Shift κάνουμε κλικ στο τρίγωνο αριστερά του εικονιδίου του φακέλου.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Shift ΓªΓΓ­Γ―ΓµΓ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΄Γ±ΓΓ£ΓΉΓ­Γ― Γ΅Γ±Γ©Γ³Γ΄Γ¥Γ±Γ Γ΄Γ―Γµ Γ¥Γ©ΓªΓ―Γ­Γ©Γ¤ΓΓ―Γµ Γ΄Γ―Γµ Γ¶Γ΅ΓªΓΓ«Γ―Γµ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3679,7 +3680,7 @@ function InitQuestion78()
     question.answers.length = 0;
     question.num = 78;
     question.isSingleAns = false;
-    question.shortTextQuestion = "78. Σημειώστε το σωστό. Η δειγματοληψία χρώματος γίνεται με τα εργαλεία:  ";
+    question.shortTextQuestion = "78. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¤Γ¥Γ©Γ£Γ¬Γ΅Γ΄Γ―Γ«Γ§ΓΈΓΓ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΄Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('V3ljm79OM7Q=', 879, -1, 1);
@@ -3687,7 +3688,7 @@ function InitQuestion78()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Μαγικό ραβδάκι.";
+    answer1.shortTextAnswer = "Γ. ΓΓ΅Γ£Γ©ΓªΓΌ Γ±Γ΅ΓΆΓ¤ΓΓªΓ©.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('LNpsBjosf3M=', 881, -1, 1);
@@ -3695,7 +3696,7 @@ function InitQuestion78()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Σφραγίδα αντιγραφής και πινέλου διόρθωσης.";
+    answer2.shortTextAnswer = "Γ‚. Γ“Γ¶Γ±Γ΅Γ£ΓΓ¤Γ΅ Γ΅Γ­Γ΄Γ©Γ£Γ±Γ΅Γ¶ΓΓ² ΓªΓ΅Γ© Γ°Γ©Γ­ΓΓ«Γ―Γµ Γ¤Γ©ΓΌΓ±Γ¨ΓΉΓ³Γ§Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('FVy6sGWuRaQ=', 883, -1, 1);
@@ -3703,7 +3704,7 @@ function InitQuestion78()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το σταγονόμετρο.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Γ³Γ΄Γ΅Γ£Γ―Γ­ΓΌΓ¬Γ¥Γ΄Γ±Γ―.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3720,7 +3721,7 @@ function InitQuestion79()
     question.answers.length = 0;
     question.num = 79;
     question.isSingleAns = false;
-    question.shortTextQuestion = "79. Σημειώστε το σωστό. Εάν δεν εφαρμόζεται μία εντολή φταίει:  ";
+    question.shortTextQuestion = "79. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ…ΓΓ­ Γ¤Γ¥Γ­ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ΅ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¶Γ΄Γ΅ΓΓ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('WTqgEyeTIcA=', 889, -1, 1);
@@ -3728,7 +3729,7 @@ function InitQuestion79()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το επίπεδο στο οποίο εργαζόμαστε δεν είναι ενεργό.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ³Γ΄Γ― Γ―Γ°Γ―ΓΓ― Γ¥Γ±Γ£Γ΅Γ¦ΓΌΓ¬Γ΅Γ³Γ΄Γ¥ Γ¤Γ¥Γ­ Γ¥ΓΓ­Γ΅Γ© Γ¥Γ­Γ¥Γ±Γ£ΓΌ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WTqgEyeTIcA=', 891, -1, 1);
@@ -3736,7 +3737,7 @@ function InitQuestion79()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το επίπεδο στο οποίο εργαζόμαστε είναι συνδεδεμένο με άλλο.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ³Γ΄Γ― Γ―Γ°Γ―ΓΓ― Γ¥Γ±Γ£Γ΅Γ¦ΓΌΓ¬Γ΅Γ³Γ΄Γ¥ Γ¥ΓΓ­Γ΅Γ© Γ³ΓµΓ­Γ¤Γ¥Γ¤Γ¥Γ¬ΓΓ­Γ― Γ¬Γ¥ ΓΓ«Γ«Γ―.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('NfDW77uSGxw=', 893, -1, 1);
@@ -3744,7 +3745,7 @@ function InitQuestion79()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το επίπεδο στο οποίο εργαζόμαστε ανήκει σε ομάδα.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ³Γ΄Γ― Γ―Γ°Γ―ΓΓ― Γ¥Γ±Γ£Γ΅Γ¦ΓΌΓ¬Γ΅Γ³Γ΄Γ¥ Γ΅Γ­ΓΓªΓ¥Γ© Γ³Γ¥ Γ―Γ¬ΓΓ¤Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3761,7 +3762,7 @@ function InitQuestion80()
     question.answers.length = 0;
     question.num = 80;
     question.isSingleAns = false;
-    question.shortTextQuestion = "80. Σημειώστε το σωστό. Για να αποεπιλέξουμε ένα επίπεδο:  ";
+    question.shortTextQuestion = "80. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ°Γ―Γ¥Γ°Γ©Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('uaWVttqoeYQ=', 899, -1, 1);
@@ -3769,7 +3770,7 @@ function InitQuestion80()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Κρατάμε πατημένο το πλήκτρο Control + κλικ στην περιοχή έξω από το εικονίδιο του επιπέδου.";
+    answer1.shortTextAnswer = "Γ. ΓΓ±Γ΅Γ΄ΓΓ¬Γ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Γ°Γ«ΓΓªΓ΄Γ±Γ― Control + ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ°Γ¥Γ±Γ©Γ―Γ·Γ ΓΓ®ΓΉ Γ΅Γ°ΓΌ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ―Γµ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('uaWVttqoeYQ=', 901, -1, 1);
@@ -3777,7 +3778,7 @@ function InitQuestion80()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Κρατάμε πατημένο το πλήκτρο Alt + κλικ στην περιοχή έξω από το εικονίδιο επιπέδου.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ±Γ΅Γ΄ΓΓ¬Γ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Γ°Γ«ΓΓªΓ΄Γ±Γ― Alt + ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ°Γ¥Γ±Γ©Γ―Γ·Γ ΓΓ®ΓΉ Γ΅Γ°ΓΌ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('yOCMuxZOh+c=', 903, -1, 1);
@@ -3785,7 +3786,7 @@ function InitQuestion80()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Κρατάμε πατημένο το πλήκτρο Shift + κλικ έξω από το εικονίδιο του επιπέδου.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ±Γ΅Γ΄ΓΓ¬Γ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Γ°Γ«ΓΓªΓ΄Γ±Γ― Shift + ΓªΓ«Γ©Γª ΓΓ®ΓΉ Γ΅Γ°ΓΌ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ―Γµ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3802,7 +3803,7 @@ function InitQuestion81()
     question.answers.length = 0;
     question.num = 81;
     question.isSingleAns = false;
-    question.shortTextQuestion = "81. Σημειώστε το σωστό. Η αυτόματη επιλογή επιπέδων εμφανίζεται:  ";
+    question.shortTextQuestion = "81. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pSqRN2DDbLw=', 909, -1, 1);
@@ -3810,7 +3811,7 @@ function InitQuestion81()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Αφού πατήσουμε το εργαλείο μετακίνησης.";
+    answer1.shortTextAnswer = "Γ. ΓΓ¶Γ―Γ½ Γ°Γ΅Γ΄ΓΓ³Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ¬Γ¥Γ΄Γ΅ΓªΓΓ­Γ§Γ³Γ§Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('pSqRN2DDbLw=', 911, -1, 1);
@@ -3818,7 +3819,7 @@ function InitQuestion81()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Αφού πατήσουμε το εργαλείο της επιλογής.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ¶Γ―Γ½ Γ°Γ΅Γ΄ΓΓ³Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ§Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('FlYdLpgl+2Y=', 913, -1, 1);
@@ -3826,7 +3827,7 @@ function InitQuestion81()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Αφού πατήσουμε το εικονίδιο σύνδεσης στη γραμμή του πίνακα \"Επιπέδων\".";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¶Γ―Γ½ Γ°Γ΅Γ΄ΓΓ³Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ³Γ½Γ­Γ¤Γ¥Γ³Γ§Γ² Γ³Γ΄Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅ \"Γ…Γ°Γ©Γ°ΓΓ¤ΓΉΓ­\".";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3843,7 +3844,7 @@ function InitQuestion82()
     question.answers.length = 0;
     question.num = 82;
     question.isSingleAns = false;
-    question.shortTextQuestion = "82. Σημειώστε το σωστό. Η δημιουργία ομάδας από ένα επίπεδο γίνεται:  ";
+    question.shortTextQuestion = "82. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ―Γ¬ΓΓ¤Γ΅Γ² Γ΅Γ°ΓΌ ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ£ΓΓ­Γ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('WRDJbx+vXOo=', 919, -1, 1);
@@ -3851,7 +3852,7 @@ function InitQuestion82()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Σέρνουμε το επίπεδο προς το εικονίδιο φακέλου στο κάτω μέρος του πίνακα.";
+    answer1.shortTextAnswer = "Γ. Γ“ΓΓ±Γ­Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ°Γ±Γ―Γ² Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¶Γ΅ΓªΓΓ«Γ―Γµ Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WRDJbx+vXOo=', 921, -1, 1);
@@ -3859,7 +3860,7 @@ function InitQuestion82()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Κρατώντας πατημένο το Control σύρουμε το επίπεδο προς το εικονίδιο φακέλου στο κάτω μέρος του πίνακα.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ±Γ΅Γ΄ΓΎΓ­Γ΄Γ΅Γ² Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Control Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ°Γ±Γ―Γ² Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¶Γ΅ΓªΓΓ«Γ―Γµ Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ft+mbqmjK+s=', 923, -1, 1);
@@ -3867,7 +3868,7 @@ function InitQuestion82()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Κρατώντας πατημένο το Shift σύρουμε το επίπεδο προς το εικονίδιο νέου επιπέδου στο κάτω μέρος του πίνακα.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ±Γ΅Γ΄ΓΎΓ­Γ΄Γ΅Γ² Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Shift Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ°Γ±Γ―Γ² Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ­ΓΓ―Γµ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3884,7 +3885,7 @@ function InitQuestion83()
     question.answers.length = 0;
     question.num = 83;
     question.isSingleAns = false;
-    question.shortTextQuestion = "83. Σημειώστε το σωστό. Η παλέτα των καναλιών μιας εικόνας έχει:  ";
+    question.shortTextQuestion = "83. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ°Γ΅Γ«ΓΓ΄Γ΅ Γ΄ΓΉΓ­ ΓªΓ΅Γ­Γ΅Γ«Γ©ΓΎΓ­ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² ΓΓ·Γ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('oqFDbVolDGw=', 929, -1, 1);
@@ -3892,7 +3893,7 @@ function InitQuestion83()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Ακριβώς τις ίδιες λειτουργίες με την παλέτα των Επιπέδων εκτός από την εντολή της ορατότητας.";
+    answer1.shortTextAnswer = "Γ. ΓΓªΓ±Γ©ΓΆΓΎΓ² Γ΄Γ©Γ² ΓΓ¤Γ©Γ¥Γ² Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ² Γ¬Γ¥ Γ΄Γ§Γ­ Γ°Γ΅Γ«ΓΓ΄Γ΅ Γ΄ΓΉΓ­ Γ…Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ¥ΓªΓ΄ΓΌΓ² Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ΄Γ§Γ² Γ―Γ±Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('V8wReDl1gWQ=', 931, -1, 1);
@@ -3900,7 +3901,7 @@ function InitQuestion83()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Έχει ακριβώς τις ίδιες λειτουργίες με την παλέτα των Επιπέδων εκτός από το εικονίδιο της σύνδεσης.";
+    answer2.shortTextAnswer = "Γ‚. ΒΈΓ·Γ¥Γ© Γ΅ΓªΓ±Γ©ΓΆΓΎΓ² Γ΄Γ©Γ² ΓΓ¤Γ©Γ¥Γ² Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ² Γ¬Γ¥ Γ΄Γ§Γ­ Γ°Γ΅Γ«ΓΓ΄Γ΅ Γ΄ΓΉΓ­ Γ…Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ¥ΓªΓ΄ΓΌΓ² Γ΅Γ°ΓΌ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ§Γ² Γ³Γ½Γ­Γ¤Γ¥Γ³Γ§Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('9abFib+1Ans=', 933, -1, 1);
@@ -3908,7 +3909,7 @@ function InitQuestion83()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Τίποτα από τα παραπάνω.";
+    answer3.shortTextAnswer = "Γƒ. Γ”ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -3925,7 +3926,7 @@ function InitQuestion84()
     question.answers.length = 0;
     question.num = 84;
     question.isSingleAns = false;
-    question.shortTextQuestion = "84. Σημειώστε το σωστό. Η παλέτα καναλιών μιας εικόνας είναι χρήσιμη:  ";
+    question.shortTextQuestion = "84. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ°Γ΅Γ«ΓΓ΄Γ΅ ΓªΓ΅Γ­Γ΅Γ«Γ©ΓΎΓ­ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¥ΓΓ­Γ΅Γ© Γ·Γ±ΓΓ³Γ©Γ¬Γ§:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Rm3Abj2jAgI=', 939, -1, 1);
@@ -3933,7 +3934,7 @@ function InitQuestion84()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Για να διορθωθούν τα χρώματα μιας εικόνας.";
+    answer1.shortTextAnswer = "Γ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¤Γ©Γ―Γ±Γ¨ΓΉΓ¨Γ―Γ½Γ­ Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Bc25776klYc=', 941, -1, 1);
@@ -3941,7 +3942,7 @@ function InitQuestion84()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Για να αλλάξουν εντελώς τα χρώματα μιας εικόνας.";
+    answer2.shortTextAnswer = "Γ‚. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ­ Γ¥Γ­Γ΄Γ¥Γ«ΓΎΓ² Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('2jFvk7l2UnY=', 943, -1, 1);
@@ -3949,7 +3950,7 @@ function InitQuestion84()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Για να οργανωθούν όλα τα χρώματα μιας εικόνας σε μία σειρά.";
+    answer3.shortTextAnswer = "Γƒ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ―Γ±Γ£Γ΅Γ­ΓΉΓ¨Γ―Γ½Γ­ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ¥ Γ¬ΓΓ΅ Γ³Γ¥Γ©Γ±Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('7IqZpXAbBaE=', 945, -1, 1);
@@ -3957,7 +3958,7 @@ function InitQuestion84()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Τίποτα από τα παραπάνω.";
+    answer4.shortTextAnswer = "Γ„. Γ”ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -3974,7 +3975,7 @@ function InitQuestion85()
     question.answers.length = 0;
     question.num = 85;
     question.isSingleAns = false;
-    question.shortTextQuestion = "85. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "85. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('AvSSKLUk0PA=', 949, -1, 1);
@@ -3982,7 +3983,7 @@ function InitQuestion85()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το κανάλι Άλφα δίνει τη δυνατότητα για μερική διαφάνεια του χρώματος που καλύπτει το μεγαλύτερο μέρος της εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― ΓªΓ΅Γ­ΓΓ«Γ© ΒΆΓ«Γ¶Γ΅ Γ¤ΓΓ­Γ¥Γ© Γ΄Γ§ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ£Γ©Γ΅ Γ¬Γ¥Γ±Γ©ΓªΓ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ΄Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ°Γ―Γµ ΓªΓ΅Γ«Γ½Γ°Γ΄Γ¥Γ© Γ΄Γ― Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ― Γ¬ΓΓ±Γ―Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('v5nucjNW9JQ=', 951, -1, 1);
@@ -3990,7 +3991,7 @@ function InitQuestion85()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το κανάλι Άλφα δίνει τη δυνατότητα για μερική διαφάνεια μόνο ενός χρώματος της εικόνας.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― ΓªΓ΅Γ­ΓΓ«Γ© ΒΆΓ«Γ¶Γ΅ Γ¤ΓΓ­Γ¥Γ© Γ΄Γ§ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ£Γ©Γ΅ Γ¬Γ¥Γ±Γ©ΓªΓ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¬ΓΌΓ­Γ― Γ¥Γ­ΓΌΓ² Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('C7Wy+kJW6mw=', 953, -1, 1);
@@ -3998,7 +3999,7 @@ function InitQuestion85()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το κανάλι Άλφα δίνει τη δυνατότητα για μερική ή ολική αδιαφάνεια ενός μέρους της εικόνας.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― ΓªΓ΅Γ­ΓΓ«Γ© ΒΆΓ«Γ¶Γ΅ Γ¤ΓΓ­Γ¥Γ© Γ΄Γ§ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ£Γ©Γ΅ Γ¬Γ¥Γ±Γ©ΓªΓ Γ Γ―Γ«Γ©ΓªΓ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ­ΓΌΓ² Γ¬ΓΓ±Γ―ΓµΓ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4015,7 +4016,7 @@ function InitQuestion86()
     question.answers.length = 0;
     question.num = 86;
     question.isSingleAns = false;
-    question.shortTextQuestion = "86. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "86. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BGmkwBpU2bw=', 959, -1, 1);
@@ -4023,7 +4024,7 @@ function InitQuestion86()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το κανάλι Άλφα χρησιμοποιείται για μερική ή ολική αδιαφάνεια ενός μέρους της εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― ΓªΓ΅Γ­ΓΓ«Γ© ΒΆΓ«Γ¶Γ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ¬Γ¥Γ±Γ©ΓªΓ Γ Γ―Γ«Γ©ΓªΓ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¥Γ­ΓΌΓ² Γ¬ΓΓ±Γ―ΓµΓ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BGmkwBpU2bw=', 961, -1, 1);
@@ -4031,7 +4032,7 @@ function InitQuestion86()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το κανάλι Άλφα χρησιμοποιείται για σύνδεση εικόνων με διακριτά όρια.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― ΓªΓ΅Γ­ΓΓ«Γ© ΒΆΓ«Γ¶Γ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ³Γ½Γ­Γ¤Γ¥Γ³Γ§ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ Γ¬Γ¥ Γ¤Γ©Γ΅ΓªΓ±Γ©Γ΄Γ ΓΌΓ±Γ©Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('6ziwH/TDcjI=', 963, -1, 1);
@@ -4039,7 +4040,7 @@ function InitQuestion86()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το κανάλι Άλφα χρησιμοποιείται για σύνδεση εικόνων χωρίς όρια.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― ΓªΓ΅Γ­ΓΓ«Γ© ΒΆΓ«Γ¶Γ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ³Γ½Γ­Γ¤Γ¥Γ³Γ§ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ Γ·ΓΉΓ±ΓΓ² ΓΌΓ±Γ©Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4056,7 +4057,7 @@ function InitQuestion87()
     question.answers.length = 0;
     question.num = 87;
     question.isSingleAns = false;
-    question.shortTextQuestion = "87. Σημειώστε το σωστό. Το ιστόγραμμα μιας εικόνας εμφανίζεται:  ";
+    question.shortTextQuestion = "87. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ”Γ― Γ©Γ³Γ΄ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('1W69wczhLmg=', 969, -1, 1);
@@ -4064,7 +4065,7 @@ function InitQuestion87()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Όταν κλικάρουμε στην εντολή από το μενού Window.";
+    answer1.shortTextAnswer = "Γ. ΒΌΓ΄Γ΅Γ­ ΓªΓ«Γ©ΓªΓΓ±Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Window.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('1W69wczhLmg=', 971, -1, 1);
@@ -4072,7 +4073,7 @@ function InitQuestion87()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Όταν κλικάρουμε στην εντολή από το μενού File.";
+    answer2.shortTextAnswer = "Γ‚. ΒΌΓ΄Γ΅Γ­ ΓªΓ«Γ©ΓªΓΓ±Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ File.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('91qfHP8Tn4k=', 973, -1, 1);
@@ -4080,7 +4081,7 @@ function InitQuestion87()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όταν κλικάρουμε στην εντολή από το μενού Edit.";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ΄Γ΅Γ­ ΓªΓ«Γ©ΓªΓΓ±Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Edit.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4097,7 +4098,7 @@ function InitQuestion88()
     question.answers.length = 0;
     question.num = 88;
     question.isSingleAns = false;
-    question.shortTextQuestion = "88. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "88. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xOUyitds8d4=', 979, -1, 1);
@@ -4105,7 +4106,7 @@ function InitQuestion88()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η ενέργεια «Αναίρεση» γίνεται μπαίνοντας στο μενού επεξεργασίας (Edit).";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«ΓΓ­Γ΅ΓΓ±Γ¥Γ³Γ§Β» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² (Edit).";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('xOUyitds8d4=', 981, -1, 1);
@@ -4113,7 +4114,7 @@ function InitQuestion88()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η ενέργεια «Αναίρεση» γίνεται μπαίνοντας στο μενού Αρχείου (File).";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«ΓΓ­Γ΅ΓΓ±Γ¥Γ³Γ§Β» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―Γµ (File).";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('dObcudIY/SQ=', 983, -1, 1);
@@ -4121,7 +4122,7 @@ function InitQuestion88()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η ενέργεια «Αναίρεση» γίνεται μπαίνοντας στο μενού Επιλογής (Select).";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«ΓΓ­Γ΅ΓΓ±Γ¥Γ³Γ§Β» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ©Γ«Γ―Γ£ΓΓ² (Select).";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4138,7 +4139,7 @@ function InitQuestion89()
     question.answers.length = 0;
     question.num = 89;
     question.isSingleAns = false;
-    question.shortTextQuestion = "89. Σημειώστε το σωστό.  ";
+    question.shortTextQuestion = "89. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ.  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('gENh89MR5jw=', 989, -1, 1);
@@ -4146,7 +4147,7 @@ function InitQuestion89()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. H ενέργεια «επαναφορά» γίνεται με επιλογή του εργαλείου πινέλου ιστορικού.";
+    answer1.shortTextAnswer = "Γ. H Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±ΓΒ» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ―Γµ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ Γ°Γ©Γ­ΓΓ«Γ―Γµ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('gENh89MR5jw=', 991, -1, 1);
@@ -4154,7 +4155,7 @@ function InitQuestion89()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η ενέργεια «επαναφορά» γίνεται με επιλογή εργαλείου γόμας.";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±ΓΒ» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ Γ£ΓΌΓ¬Γ΅Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('hc1EHdxmOIo=', 993, -1, 1);
@@ -4162,7 +4163,7 @@ function InitQuestion89()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η ενέργεια «επαναφορά» γίνεται με επιλογή της εντολής γεμίσματος από το μενού Αρχείο.";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±ΓΒ» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ§Γ² Γ¥Γ­Γ΄Γ―Γ«ΓΓ² Γ£Γ¥Γ¬ΓΓ³Γ¬Γ΅Γ΄Γ―Γ² Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4179,7 +4180,7 @@ function InitQuestion90()
     question.answers.length = 0;
     question.num = 90;
     question.isSingleAns = false;
-    question.shortTextQuestion = "90. Σημειώστε το σωστό. Για να ενεργοποιηθεί η εντολή «αυτόματη λήψη πρώτου στιγμιότυπου»:  ";
+    question.shortTextQuestion = "90. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¨Γ¥Γ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Β«Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ«ΓΓΈΓ§ Γ°Γ±ΓΎΓ΄Γ―Γµ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ―ΓµΒ»:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('O3kOzZAL8Vw=', 999, -1, 1);
@@ -4187,7 +4188,7 @@ function InitQuestion90()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. χρησιμοποιούμε την εντολή «Επιλογές Ιστορικού».";
+    answer1.shortTextAnswer = "Γ. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Β«Γ…Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ‰Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½Β».";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('O3kOzZAL8Vw=', 1001, -1, 1);
@@ -4195,7 +4196,7 @@ function InitQuestion90()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. χρησιμοποιούμε την εντολή γεμίσματος από το μενού Αρχείου.";
+    answer2.shortTextAnswer = "Γ‚. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ£Γ¥Γ¬ΓΓ³Γ¬Γ΅Γ΄Γ―Γ² Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('twLfYzp9csw=', 1003, -1, 1);
@@ -4203,7 +4204,7 @@ function InitQuestion90()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. χρησιμοποιούμε το εργαλείο της γόμας αφού πρώτα πατήσουμε το εικονίδιο της λήψης στιγμιότυπου στο κάτω μέρος του πίνακα.";
+    answer3.shortTextAnswer = "Γƒ. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ¬Γ¥ Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ§Γ² Γ£ΓΌΓ¬Γ΅Γ² Γ΅Γ¶Γ―Γ½ Γ°Γ±ΓΎΓ΄Γ΅ Γ°Γ΅Γ΄ΓΓ³Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ΄Γ§Γ² Γ«ΓΓΈΓ§Γ² Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ―Γµ Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4220,7 +4221,7 @@ function InitQuestion91()
     question.answers.length = 0;
     question.num = 91;
     question.isSingleAns = false;
-    question.shortTextQuestion = "91. Σημειώστε το σωστό. Για να εμφανίσουμε μία ηχητική ειδοποίηση για ολοκλήρωση μιας λειτουργίας:  ";
+    question.shortTextQuestion = "91. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ³Γ―ΓµΓ¬Γ¥ Γ¬ΓΓ΅ Γ§Γ·Γ§Γ΄Γ©ΓªΓ Γ¥Γ©Γ¤Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ£Γ©Γ΅ Γ―Γ«Γ―ΓªΓ«ΓΓ±ΓΉΓ³Γ§ Γ¬Γ©Γ΅Γ² Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('P0UkY55XJoE=', 1009, -1, 1);
@@ -4228,7 +4229,7 @@ function InitQuestion91()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπαίνουμε στο μενού Επεξεργασία, επιλέγουμε τις προτιμήσεις και μετά ηχητική ειδοποίηση.";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅, Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ Γ΄Γ©Γ² Γ°Γ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥Γ©Γ² ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ§Γ·Γ§Γ΄Γ©ΓªΓ Γ¥Γ©Γ¤Γ―Γ°Γ―ΓΓ§Γ³Γ§.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('P0UkY55XJoE=', 1011, -1, 1);
@@ -4236,7 +4237,7 @@ function InitQuestion91()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπαίνουμε στο μενού Επεξεργασίας, επιλέγουμε προτιμήσεις.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ², Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ Γ°Γ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥Γ©Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('/C1ize4CQOc=', 1013, -1, 1);
@@ -4244,7 +4245,7 @@ function InitQuestion91()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπαίνουμε στο μενού Επιλογής και επιλέγουμε τις προτιμήσεις.";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ©Γ«Γ―Γ£ΓΓ² ΓªΓ΅Γ© Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ Γ΄Γ©Γ² Γ°Γ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥Γ©Γ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4261,7 +4262,7 @@ function InitQuestion92()
     question.answers.length = 0;
     question.num = 92;
     question.isSingleAns = false;
-    question.shortTextQuestion = "92. Σημειώστε το σωστό. Ο πίνακας «Ιστορικό» ορίζει:  ";
+    question.shortTextQuestion = "92. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ Γ°ΓΓ­Γ΅ΓªΓ΅Γ² Β«Γ‰Γ³Γ΄Γ―Γ±Γ©ΓªΓΌΒ» Γ―Γ±ΓΓ¦Γ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xh87+ke6a28=', 1019, -1, 1);
@@ -4269,7 +4270,7 @@ function InitQuestion92()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μόνο την προέλευση του πινέλου ιστορικού.";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΌΓ­Γ― Γ΄Γ§Γ­ Γ°Γ±Γ―ΓΓ«Γ¥ΓµΓ³Γ§ Γ΄Γ―Γµ Γ°Γ©Γ­ΓΓ«Γ―Γµ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('PgBlAhzLuO4=', 1021, -1, 1);
@@ -4277,7 +4278,7 @@ function InitQuestion92()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μόνο την κατάσταση ιστορικού.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬ΓΌΓ­Γ― Γ΄Γ§Γ­ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('0OPywNklGWw=', 1023, -1, 1);
@@ -4285,7 +4286,7 @@ function InitQuestion92()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μόνο μικρογραφία στιγμιότυπου.";
+    answer3.shortTextAnswer = "Γƒ. Γ¬ΓΌΓ­Γ― Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ―Γµ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('dVoWCbmVYRU=', 1025, -1, 1);
@@ -4293,7 +4294,7 @@ function InitQuestion92()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα βήματα επεξεργασίας από το άνοιγμα αρχείου.";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ ΓΆΓΓ¬Γ΅Γ΄Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ΅Γ°ΓΌ Γ΄Γ― ΓΓ­Γ―Γ©Γ£Γ¬Γ΅ Γ΅Γ±Γ·Γ¥ΓΓ―Γµ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -4310,7 +4311,7 @@ function InitQuestion93()
     question.answers.length = 0;
     question.num = 93;
     question.isSingleAns = false;
-    question.shortTextQuestion = "93. Σημειώστε το σωστό. Η ενέργεια «διπλασιασμός κατάστασης»:  ";
+    question.shortTextQuestion = "93. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©Γ΅Γ³Γ¬ΓΌΓ² ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§Γ²Β»:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('uw/m0J1EYw0=', 1029, -1, 1);
@@ -4318,7 +4319,7 @@ function InitQuestion93()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Χρησιμοποιείται για μελλοντική χρήση μιας συγκεκριμένης επεξεργασίας μιας εικόνας.";
+    answer1.shortTextAnswer = "Γ. Γ—Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ¬Γ¥Γ«Γ«Γ―Γ­Γ΄Γ©ΓªΓ Γ·Γ±ΓΓ³Γ§ Γ¬Γ©Γ΅Γ² Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§Γ² Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('uw/m0J1EYw0=', 1031, -1, 1);
@@ -4326,7 +4327,7 @@ function InitQuestion93()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Χρησιμοποιείται για να υπάρχει πρόσβαση στο αρχικό στιγμιότυπο κάθε αρχείου.";
+    answer2.shortTextAnswer = "Γ‚. Γ—Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ°Γ±ΓΌΓ³ΓΆΓ΅Γ³Γ§ Γ³Γ΄Γ― Γ΅Γ±Γ·Γ©ΓªΓΌ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ― ΓªΓΓ¨Γ¥ Γ΅Γ±Γ·Γ¥ΓΓ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('3bjdA/hQXHo=', 1033, -1, 1);
@@ -4334,7 +4335,7 @@ function InitQuestion93()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Χρησιμοποιείται για να μην υπάρχει ακολουθία ενεργειών στη διπλασιασμένη κατάσταση.";
+    answer3.shortTextAnswer = "Γƒ. Γ—Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ¬Γ§Γ­ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ΅ΓªΓ―Γ«Γ―ΓµΓ¨ΓΓ΅ Γ¥Γ­Γ¥Γ±Γ£Γ¥Γ©ΓΎΓ­ Γ³Γ΄Γ§ Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©Γ΅Γ³Γ¬ΓΓ­Γ§ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4351,7 +4352,7 @@ function InitQuestion94()
     question.answers.length = 0;
     question.num = 94;
     question.isSingleAns = false;
-    question.shortTextQuestion = "94. Σημειώστε το σωστό. Η ενέργεια «δημιουργία νέου εγγράφου από συγκεκριμένη κατάσταση» γίνεται:  ";
+    question.shortTextQuestion = "94. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ­ΓΓ―Γµ Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ Γ΅Γ°ΓΌ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§Β» Γ£ΓΓ­Γ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('sEegviFgRoA=', 1039, -1, 1);
@@ -4359,7 +4360,7 @@ function InitQuestion94()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αφού συρθεί η συγκεκριμένη κατάσταση στο εικονίδιο δημιουργία νέου εγγράφου από την τρέχουσα κατάσταση.";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ¶Γ―Γ½ Γ³ΓµΓ±Γ¨Γ¥Γ Γ§ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§ Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ­ΓΓ―Γµ Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ΄Γ±ΓΓ·Γ―ΓµΓ³Γ΅ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BAXjnFLKAqw=', 1041, -1, 1);
@@ -4367,7 +4368,7 @@ function InitQuestion94()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. με κλικάρισμα στο εικονίδιο δημιουργία νέου εγγράφου από την τρέχουσα.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥ ΓªΓ«Γ©ΓªΓΓ±Γ©Γ³Γ¬Γ΅ Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ­ΓΓ―Γµ Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ΄Γ±ΓΓ·Γ―ΓµΓ³Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('JrjhnWvrdgM=', 1043, -1, 1);
@@ -4375,7 +4376,7 @@ function InitQuestion94()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω.";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4392,7 +4393,7 @@ function InitQuestion95()
     question.answers.length = 0;
     question.num = 95;
     question.isSingleAns = false;
-    question.shortTextQuestion = "95. Σημειώστε το σωστό. Η ενέργεια «διαγραφή ιστορικού»:  ";
+    question.shortTextQuestion = "95. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ Β«Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½Β»:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('saBhpalwr8s=', 1049, -1, 1);
@@ -4400,7 +4401,7 @@ function InitQuestion95()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. διαγράφει όλα τα βήματα επεξεργασίας μετά το τελευταίο άνοιγμα του αρχείου";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©Γ΅Γ£Γ±ΓΓ¶Γ¥Γ© ΓΌΓ«Γ΅ Γ΄Γ΅ ΓΆΓΓ¬Γ΅Γ΄Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ¬Γ¥Γ΄Γ Γ΄Γ― Γ΄Γ¥Γ«Γ¥ΓµΓ΄Γ΅ΓΓ― ΓΓ­Γ―Γ©Γ£Γ¬Γ΅ Γ΄Γ―Γµ Γ΅Γ±Γ·Γ¥ΓΓ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('saBhpalwr8s=', 1051, -1, 1);
@@ -4408,7 +4409,7 @@ function InitQuestion95()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διαγράφει μόνο τις ακόλουθες ενέργειες.";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ΅Γ£Γ±ΓΓ¶Γ¥Γ© Γ¬ΓΌΓ­Γ― Γ΄Γ©Γ² Γ΅ΓªΓΌΓ«Γ―ΓµΓ¨Γ¥Γ² Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ¥Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('5sypjQgi8y8=', 1053, -1, 1);
@@ -4416,7 +4417,7 @@ function InitQuestion95()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δεν μπορεί να αναιρεθεί.";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ­Γ΅Γ©Γ±Γ¥Γ¨Γ¥Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4433,7 +4434,7 @@ function InitQuestion96()
     question.answers.length = 0;
     question.num = 96;
     question.isSingleAns = false;
-    question.shortTextQuestion = "96. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "96. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('TdhuWF4hstU=', 1059, -1, 1);
@@ -4441,7 +4442,7 @@ function InitQuestion96()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. η επαναφορά σε μία προηγούμενη κατάσταση γίνεται μέσω μενού Επεξεργασία, πατώντας βήμα πίσω.";
+    answer1.shortTextAnswer = "Γ. Γ§ Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±Γ Γ³Γ¥ Γ¬ΓΓ΅ Γ°Γ±Γ―Γ§Γ£Γ―Γ½Γ¬Γ¥Γ­Γ§ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³ΓΉ Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅, Γ°Γ΅Γ΄ΓΎΓ­Γ΄Γ΅Γ² ΓΆΓΓ¬Γ΅ Γ°ΓΓ³ΓΉ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('TdhuWF4hstU=', 1061, -1, 1);
@@ -4449,7 +4450,7 @@ function InitQuestion96()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. η επαναφορά σε μία προηγούμενη κατάσταση γίνεται μέσω μενού Επεξεργασία, πατώντας αναίρεση.";
+    answer2.shortTextAnswer = "Γ‚. Γ§ Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±Γ Γ³Γ¥ Γ¬ΓΓ΅ Γ°Γ±Γ―Γ§Γ£Γ―Γ½Γ¬Γ¥Γ­Γ§ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³ΓΉ Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅, Γ°Γ΅Γ΄ΓΎΓ­Γ΄Γ΅Γ² Γ΅Γ­Γ΅ΓΓ±Γ¥Γ³Γ§.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('8jVhDQyyRLw=', 1063, -1, 1);
@@ -4457,7 +4458,7 @@ function InitQuestion96()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. η επαναφορά σε μία προηγούμενη κατάσταση γίνεται μέσω μενού Αρχείου, πατώντας τα κατάλληλα κουμπιά.";
+    answer3.shortTextAnswer = "Γƒ. Γ§ Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±Γ Γ³Γ¥ Γ¬ΓΓ΅ Γ°Γ±Γ―Γ§Γ£Γ―Γ½Γ¬Γ¥Γ­Γ§ ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³ΓΉ Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―Γµ, Γ°Γ΅Γ΄ΓΎΓ­Γ΄Γ΅Γ² Γ΄Γ΅ ΓªΓ΅Γ΄ΓΓ«Γ«Γ§Γ«Γ΅ ΓªΓ―ΓµΓ¬Γ°Γ©Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4474,7 +4475,7 @@ function InitQuestion97()
     question.answers.length = 0;
     question.num = 97;
     question.isSingleAns = false;
-    question.shortTextQuestion = "97. Σημειώστε το σωστό. Η μνήμη του προγράμματος:  ";
+    question.shortTextQuestion = "97. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¬Γ­ΓΓ¬Γ§ Γ΄Γ―Γµ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ―Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pbqD5MTePB0=', 1069, -1, 1);
@@ -4482,7 +4483,7 @@ function InitQuestion97()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Απελευθερώνεται περισσότερη μνήμη αφού διαγραφεί το ιστορικό.";
+    answer1.shortTextAnswer = "Γ. ΓΓ°Γ¥Γ«Γ¥ΓµΓ¨Γ¥Γ±ΓΎΓ­Γ¥Γ΄Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ§ Γ¬Γ­ΓΓ¬Γ§ Γ΅Γ¶Γ―Γ½ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ¥Γ Γ΄Γ― Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓΌ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('pbqD5MTePB0=', 1071, -1, 1);
@@ -4490,7 +4491,7 @@ function InitQuestion97()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Απελευθερώνεται όλη η μνήμη αφού διαγραφεί το ιστορικό.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ°Γ¥Γ«Γ¥ΓµΓ¨Γ¥Γ±ΓΎΓ­Γ¥Γ΄Γ΅Γ© ΓΌΓ«Γ§ Γ§ Γ¬Γ­ΓΓ¬Γ§ Γ΅Γ¶Γ―Γ½ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ¥Γ Γ΄Γ― Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓΌ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('wTVUIR+wFyU=', 1073, -1, 1);
@@ -4498,7 +4499,7 @@ function InitQuestion97()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Δεν επηρεάζεται από τη διαγραφή ιστορικού.";
+    answer3.shortTextAnswer = "Γƒ. Γ„Γ¥Γ­ Γ¥Γ°Γ§Γ±Γ¥ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ§ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4515,7 +4516,7 @@ function InitQuestion98()
     question.answers.length = 0;
     question.num = 98;
     question.isSingleAns = false;
-    question.shortTextQuestion = "98. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "98. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('aBVfZyEFXKg=', 1079, -1, 1);
@@ -4523,7 +4524,7 @@ function InitQuestion98()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Η επιλογή «προτιμήσεων ιστορικού» βρίσκεται μέσα στο μενού επεξεργασίας (edit) > Προτιμήσεις";
+    answer1.shortTextAnswer = "Γ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Β«Γ°Γ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½Β» ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² (edit) > ΓΓ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥Γ©Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('aBVfZyEFXKg=', 1081, -1, 1);
@@ -4531,7 +4532,7 @@ function InitQuestion98()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Η επιλογή «καταγραφή ιστορικού» βρίσκεται μέσα στο μενού αρχείο (file).";
+    answer2.shortTextAnswer = "Γ‚. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Β«ΓªΓ΅Γ΄Γ΅Γ£Γ±Γ΅Γ¶Γ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½Β» ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΅Γ±Γ·Γ¥ΓΓ― (file).";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('qHPhrMTrJGA=', 1083, -1, 1);
@@ -4539,7 +4540,7 @@ function InitQuestion98()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Η επιλογή «καταγραφή ιστορικού» βρίσκεται μέσα στο μενού παράθυρο (window).";
+    answer3.shortTextAnswer = "Γƒ. Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Β«ΓªΓ΅Γ΄Γ΅Γ£Γ±Γ΅Γ¶Γ Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½Β» ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― (window).";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4556,7 +4557,7 @@ function InitQuestion99()
     question.answers.length = 0;
     question.num = 99;
     question.isSingleAns = false;
-    question.shortTextQuestion = "99. Σημειώστε το σωστό. Η θέση αποθήκευσης των μεταδεδομένων:  ";
+    question.shortTextQuestion = "99. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Γ¨ΓΓ³Γ§ Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§Γ² Γ΄ΓΉΓ­ Γ¬Γ¥Γ΄Γ΅Γ¤Γ¥Γ¤Γ―Γ¬ΓΓ­ΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dwQPrYtcqY8=', 1089, -1, 1);
@@ -4564,7 +4565,7 @@ function InitQuestion99()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. έχει επιλεχθεί αυτόματα από το πρόγραμμα.";
+    answer1.shortTextAnswer = "Γ. ΓΓ·Γ¥Γ© Γ¥Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('UIW4rbmRweA=', 1091, -1, 1);
@@ -4572,7 +4573,7 @@ function InitQuestion99()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπορεί να οριστεί από τον χρήστη/δημιουργό.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ―Γ±Γ©Γ³Γ΄Γ¥Γ Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ·Γ±ΓΓ³Γ΄Γ§/Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΌ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('XHOezi0om9U=', 1093, -1, 1);
@@ -4580,7 +4581,7 @@ function InitQuestion99()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω.";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4597,7 +4598,7 @@ function InitQuestion100()
     question.answers.length = 0;
     question.num = 100;
     question.isSingleAns = false;
-    question.shortTextQuestion = "100. Σημειώστε το σωστό. Στις «επιλογές ιστορικού»:  ";
+    question.shortTextQuestion = "100. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ“Γ΄Γ©Γ² Β«Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ©Γ³Γ΄Γ―Γ±Γ©ΓªΓ―Γ½Β»:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('0cUea19ikHI=', 1099, -1, 1);
@@ -4605,7 +4606,7 @@ function InitQuestion100()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. υπάρχει η επιλογή δημιουργία/αντικατάσταση στιγμιότυπου.";
+    answer1.shortTextAnswer = "Γ. ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅/Γ΅Γ­Γ΄Γ©ΓªΓ΅Γ΄ΓΓ³Γ΄Γ΅Γ³Γ§ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ―Γµ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('U/kM5dnJ0cI=', 1101, -1, 1);
@@ -4613,7 +4614,7 @@ function InitQuestion100()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν υπάρχει η επιλογή αυτόματη δημιουργία νέου στιγμιότυπου όταν σώζεται.";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ­ΓΓ―Γµ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ―Γµ ΓΌΓ΄Γ΅Γ­ Γ³ΓΎΓ¦Γ¥Γ΄Γ΅Γ©.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('S/x+a5THZ7E=', 1103, -1, 1);
@@ -4621,7 +4622,7 @@ function InitQuestion100()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. υπάρχει η επιλογή αυτόματη δημιουργία πρώτου στιγμιότυπου.";
+    answer3.shortTextAnswer = "Γƒ. ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ°Γ±ΓΎΓ΄Γ―Γµ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ―Γµ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4638,7 +4639,7 @@ function InitQuestion101()
     question.answers.length = 0;
     question.num = 101;
     question.isSingleAns = false;
-    question.shortTextQuestion = "101. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "101. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pD9jcLZduAw=', 1109, -1, 1);
@@ -4646,7 +4647,7 @@ function InitQuestion101()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Οι ενέργειες αποθηκεύονται για μια ολόκληρη χρονική περίοδο των λειτουργιών, ενώ τα στιγμιότυπα όχι.";
+    answer1.shortTextAnswer = "Γ. ΓΓ© Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ¥Γ² Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ―Γ­Γ΄Γ΅Γ© Γ£Γ©Γ΅ Γ¬Γ©Γ΅ Γ―Γ«ΓΌΓªΓ«Γ§Γ±Γ§ Γ·Γ±Γ―Γ­Γ©ΓªΓ Γ°Γ¥Γ±ΓΓ―Γ¤Γ― Γ΄ΓΉΓ­ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£Γ©ΓΎΓ­, Γ¥Γ­ΓΎ Γ΄Γ΅ Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ΅ ΓΌΓ·Γ©.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('+2Zmo7rZcBM=', 1111, -1, 1);
@@ -4654,7 +4655,7 @@ function InitQuestion101()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το στιγμιότυπο μπορεί να μετονομαστεί ενώ η ενέργεια όχι.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ― Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¬Γ¥Γ΄Γ―Γ­Γ―Γ¬Γ΅Γ³Γ΄Γ¥Γ Γ¥Γ­ΓΎ Γ§ Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ΅ ΓΌΓ·Γ©.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('+2Zmo7rZcBM=', 1113, -1, 1);
@@ -4662,7 +4663,7 @@ function InitQuestion101()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Tο στιγμιότυπο δεν διευκολύνει την ανάκτηση της εργασίας.";
+    answer3.shortTextAnswer = "Γƒ. TΓ― Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ― Γ¤Γ¥Γ­ Γ¤Γ©Γ¥ΓµΓªΓ―Γ«Γ½Γ­Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ­ΓΓªΓ΄Γ§Γ³Γ§ Γ΄Γ§Γ² Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4679,7 +4680,7 @@ function InitQuestion102()
     question.answers.length = 0;
     question.num = 102;
     question.isSingleAns = false;
-    question.shortTextQuestion = "102. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "102. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('mG5nRWiRQ6o=', 1119, -1, 1);
@@ -4687,7 +4688,7 @@ function InitQuestion102()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Το στιγμιότυπο μπορεί να επεξεργαστεί.";
+    answer1.shortTextAnswer = "Γ. Γ”Γ― Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ― Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³Γ΄Γ¥Γ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('mG5nRWiRQ6o=', 1121, -1, 1);
@@ -4695,7 +4696,7 @@ function InitQuestion102()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Το στιγμιότυπο είναι αντίγραφο και δεν μπορεί να επεξεργαστεί.";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ― Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ― Γ¥ΓΓ­Γ΅Γ© Γ΅Γ­Γ΄ΓΓ£Γ±Γ΅Γ¶Γ― ΓªΓ΅Γ© Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³Γ΄Γ¥Γ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('4RDcTzNp150=', 1123, -1, 1);
@@ -4703,7 +4704,7 @@ function InitQuestion102()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Το στιγμιότυπο είναι αντίγραφο και μπορεί να επεξεργαστεί βάσει αυτόματης εντολής.";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ― Γ³Γ΄Γ©Γ£Γ¬Γ©ΓΌΓ΄ΓµΓ°Γ― Γ¥ΓΓ­Γ΅Γ© Γ΅Γ­Γ΄ΓΓ£Γ±Γ΅Γ¶Γ― ΓªΓ΅Γ© Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³Γ΄Γ¥Γ ΓΆΓΓ³Γ¥Γ© Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§Γ² Γ¥Γ­Γ΄Γ―Γ«ΓΓ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4720,7 +4721,7 @@ function InitQuestion103()
     question.answers.length = 0;
     question.num = 103;
     question.isSingleAns = false;
-    question.shortTextQuestion = "103. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "103. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rmLwu56rsDg=', 1129, -1, 1);
@@ -4728,7 +4729,7 @@ function InitQuestion103()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Ο διαχειριστής προκαθορισμένων ρυθμίσεων χρησιμοποιείται για να δημιουργηθούν νέες ενέργειες.";
+    answer1.shortTextAnswer = "Γ. Γ Γ¤Γ©Γ΅Γ·Γ¥Γ©Γ±Γ©Γ³Γ΄ΓΓ² Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ―Γ½Γ­ Γ­ΓΓ¥Γ² Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ¥Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('LOuBjqapYSk=', 1131, -1, 1);
@@ -4736,7 +4737,7 @@ function InitQuestion103()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Ο διαχειριστής προκαθορισμένων ρυθμίσεων χρησιμοποιείται για να αλλάξει ο αριθμός των ενεργειών.";
+    answer2.shortTextAnswer = "Γ‚. Γ Γ¤Γ©Γ΅Γ·Γ¥Γ©Γ±Γ©Γ³Γ΄ΓΓ² Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ― Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² Γ΄ΓΉΓ­ Γ¥Γ­Γ¥Γ±Γ£Γ¥Γ©ΓΎΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Q6BaR8U5kjc=', 1133, -1, 1);
@@ -4744,7 +4745,7 @@ function InitQuestion103()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Ο διαχειριστής προκαθορισμένων ρυθμίσεων χρησιμοποιείται για τη διαχείριση των βιβλιοθηκών των προκαθορισμένων πινέλων, δειγμάτων, ντεγκραντέ, στυλ, μοτίβων, περιγραμμάτων, εργαλείων κλπ.";
+    answer3.shortTextAnswer = "Γƒ. Γ Γ¤Γ©Γ΅Γ·Γ¥Γ©Γ±Γ©Γ³Γ΄ΓΓ² Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§ Γ¤Γ©Γ΅Γ·Γ¥ΓΓ±Γ©Γ³Γ§ Γ΄ΓΉΓ­ ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨Γ§ΓªΓΎΓ­ Γ΄ΓΉΓ­ Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ°Γ©Γ­ΓΓ«ΓΉΓ­, Γ¤Γ¥Γ©Γ£Γ¬ΓΓ΄ΓΉΓ­, Γ­Γ΄Γ¥Γ£ΓªΓ±Γ΅Γ­Γ΄Γ, Γ³Γ΄ΓµΓ«, Γ¬Γ―Γ΄ΓΓΆΓΉΓ­, Γ°Γ¥Γ±Γ©Γ£Γ±Γ΅Γ¬Γ¬ΓΓ΄ΓΉΓ­, Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­ ΓªΓ«Γ°.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4761,7 +4762,7 @@ function InitQuestion104()
     question.answers.length = 0;
     question.num = 104;
     question.isSingleAns = false;
-    question.shortTextQuestion = "104. Σημειώστε το σωστό. Ο διαχειριστής προκαθορισμένων ρυθμίσεων ανοίγει :  ";
+    question.shortTextQuestion = "104. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ Γ¤Γ©Γ΅Γ·Γ¥Γ©Γ±Γ©Γ³Γ΄ΓΓ² Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ΅Γ­Γ―ΓΓ£Γ¥Γ© :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('2wvlYb0G06M=', 1139, -1, 1);
@@ -4769,7 +4770,7 @@ function InitQuestion104()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μέσα από το μενού Επεξεργασίας.";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('2wvlYb0G06M=', 1141, -1, 1);
@@ -4777,7 +4778,7 @@ function InitQuestion104()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μέσα από το μενού του πίνακα των βιβλιοθηκών.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ΄ΓΉΓ­ ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨Γ§ΓªΓΎΓ­.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('RdVjg/eVTzA=', 1143, -1, 1);
@@ -4785,7 +4786,7 @@ function InitQuestion104()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μέσα από το μενού Αρχείου";
+    answer3.shortTextAnswer = "Γƒ. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4802,7 +4803,7 @@ function InitQuestion105()
     question.answers.length = 0;
     question.num = 105;
     question.isSingleAns = false;
-    question.shortTextQuestion = "105. Σημειώστε το σωστό. Για να φορτωθεί μια βιβλιοθήκη στον πίνακα βιβλιοθηκών στο διαχειριστή προκαθορισμένων ρυθμίσεων:  ";
+    question.shortTextQuestion = "105. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¶Γ―Γ±Γ΄ΓΉΓ¨Γ¥Γ Γ¬Γ©Γ΅ ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨ΓΓªΓ§ Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨Γ§ΓªΓΎΓ­ Γ³Γ΄Γ― Γ¤Γ©Γ΅Γ·Γ¥Γ©Γ±Γ©Γ³Γ΄Γ Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('JU5Vyl84ODY=', 1149, -1, 1);
@@ -4810,7 +4811,7 @@ function InitQuestion105()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπαίνετε στον πίνακα της βιβλιοθήκης.";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ΅ΓΓ­Γ¥Γ΄Γ¥ Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ΄Γ§Γ² ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨ΓΓªΓ§Γ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('JU5Vyl84ODY=', 1151, -1, 1);
@@ -4818,7 +4819,7 @@ function InitQuestion105()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπαίνετε στο μενού της Επεξεργασίας.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ΅ΓΓ­Γ¥Γ΄Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ§Γ² Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('j8qwQkHQHwM=', 1153, -1, 1);
@@ -4826,7 +4827,7 @@ function InitQuestion105()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπαίνετε στο μενού της Επιλογής.";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ΅ΓΓ­Γ¥Γ΄Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ§Γ² Γ…Γ°Γ©Γ«Γ―Γ£ΓΓ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4843,7 +4844,7 @@ function InitQuestion106()
     question.answers.length = 0;
     question.num = 106;
     question.isSingleAns = false;
-    question.shortTextQuestion = "106. Σημειώστε το σωστό. Για να αλλάξει ονομασία ένα προκαθορισμένο στοιχείο μιας βιβλιοθήκης στο διαχειριστή προκαθορισμένων ρυθμίσεων:  ";
+    question.shortTextQuestion = "106. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ―Γ­Γ―Γ¬Γ΅Γ³ΓΓ΅ ΓΓ­Γ΅ Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― Γ¬Γ©Γ΅Γ² ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨ΓΓªΓ§Γ² Γ³Γ΄Γ― Γ¤Γ©Γ΅Γ·Γ¥Γ©Γ±Γ©Γ³Γ΄Γ Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­ΓΉΓ­ Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥ΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('QZVKY6sMHpM=', 1159, -1, 1);
@@ -4851,7 +4852,7 @@ function InitQuestion106()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. απλό κλικ στο στοιχείο και αλλαγή ονόματος και ΟΚ (όχι διπλό).";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ°Γ«ΓΌ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― ΓªΓ΅Γ© Γ΅Γ«Γ«Γ΅Γ£Γ Γ―Γ­ΓΌΓ¬Γ΅Γ΄Γ―Γ² ΓªΓ΅Γ© ΓΓ (ΓΌΓ·Γ© Γ¤Γ©Γ°Γ«ΓΌ).";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('J3KXYTNwsyA=', 1161, -1, 1);
@@ -4859,7 +4860,7 @@ function InitQuestion106()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κλικ στο στοιχείο και αλλαγή ονόματος και enter.";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ― ΓªΓ΅Γ© Γ΅Γ«Γ«Γ΅Γ£Γ Γ―Γ­ΓΌΓ¬Γ΅Γ΄Γ―Γ² ΓªΓ΅Γ© enter.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('J3KXYTNwsyA=', 1163, -1, 1);
@@ -4867,7 +4868,7 @@ function InitQuestion106()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω.";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4884,7 +4885,7 @@ function InitQuestion107()
     question.answers.length = 0;
     question.num = 107;
     question.isSingleAns = false;
-    question.shortTextQuestion = "107. Σημειώστε το σωστό. Για να διαγραφεί ένα προκαθορισμένο στοιχείο:  ";
+    question.shortTextQuestion = "107. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ¥Γ ΓΓ­Γ΅ Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­Γ― Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ―:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('OE1YEw7wMCw=', 1169, -1, 1);
@@ -4892,7 +4893,7 @@ function InitQuestion107()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. το επιλέγουμε και κάνουμε κλικ στο εικονίδιο διαγραφής.";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ― Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ¬Γ¥ ΓªΓ΅Γ© ΓªΓΓ­Γ―ΓµΓ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶ΓΓ².";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('OE1YEw7wMCw=', 1171, -1, 1);
@@ -4900,7 +4901,7 @@ function InitQuestion107()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κάνουμε διπλό κλικ πάνω του.";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓΓ­Γ―ΓµΓ¬Γ¥ Γ¤Γ©Γ°Γ«ΓΌ ΓªΓ«Γ©Γª Γ°ΓΓ­ΓΉ Γ΄Γ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('oXeYzDmzB44=', 1173, -1, 1);
@@ -4908,7 +4909,7 @@ function InitQuestion107()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπαίνουμε στο μενού Επεξεργασία και πατάμε το κουμπί διαγραφής.";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ΅ΓΓ­Γ―ΓµΓ¬Γ¥ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ ΓªΓ΅Γ© Γ°Γ΅Γ΄ΓΓ¬Γ¥ Γ΄Γ― ΓªΓ―ΓµΓ¬Γ°Γ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶ΓΓ².";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -4925,7 +4926,7 @@ function InitQuestion108()
     question.answers.length = 0;
     question.num = 108;
     question.isSingleAns = false;
-    question.shortTextQuestion = "108. Σημειώστε το σωστό:  ";
+    question.shortTextQuestion = "108. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('n1HcpIVcrew=', 1179, -1, 1);
@@ -4933,7 +4934,7 @@ function InitQuestion108()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "A. Οι επεκτάσεις είναι προγράμματα διαφορετικών εκδόσεων Photoshop.";
+    answer1.shortTextAnswer = "A. ΓΓ© Γ¥Γ°Γ¥ΓªΓ΄ΓΓ³Γ¥Γ©Γ² Γ¥ΓΓ­Γ΅Γ© Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓΎΓ­ Γ¥ΓªΓ¤ΓΌΓ³Γ¥ΓΉΓ­ Photoshop.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('etSVKgzLKVg=', 1181, -1, 1);
@@ -4941,7 +4942,7 @@ function InitQuestion108()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Οι επεκτάσεις είναι προγράμματα από την Adobe Systems.";
+    answer2.shortTextAnswer = "B. ΓΓ© Γ¥Γ°Γ¥ΓªΓ΄ΓΓ³Γ¥Γ©Γ² Γ¥ΓΓ­Γ΅Γ© Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Adobe Systems.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('vayVKuTkG08=', 1183, -1, 1);
@@ -4949,7 +4950,7 @@ function InitQuestion108()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Οι επεκτάσεις είναι προγράμματα από την Mac OS.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ© Γ¥Γ°Γ¥ΓªΓ΄ΓΓ³Γ¥Γ©Γ² Γ¥ΓΓ­Γ΅Γ© Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Mac OS.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('qhDGkFB1Ilc=', 1185, -1, 1);
@@ -4957,7 +4958,7 @@ function InitQuestion108()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Οι επεκτάσεις είναι προγράμματα λογισμικού από την Adobe και από άλλους πάροχους.";
+    answer4.shortTextAnswer = "Γ„. ΓΓ© Γ¥Γ°Γ¥ΓªΓ΄ΓΓ³Γ¥Γ©Γ² Γ¥ΓΓ­Γ΅Γ© Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅ Γ«Γ―Γ£Γ©Γ³Γ¬Γ©ΓªΓ―Γ½ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Adobe ΓªΓ΅Γ© Γ΅Γ°ΓΌ ΓΓ«Γ«Γ―ΓµΓ² Γ°ΓΓ±Γ―Γ·Γ―ΓµΓ².";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -4974,7 +4975,7 @@ function InitQuestion109()
     question.answers.length = 0;
     question.num = 109;
     question.isSingleAns = false;
-    question.shortTextQuestion = "109. Σημειώστε το σωστό. Οι νέες επεκτάσεις που εγκαθίστανται εμφανίζονται :  ";
+    question.shortTextQuestion = "109. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓΓ© Γ­ΓΓ¥Γ² Γ¥Γ°Γ¥ΓªΓ΄ΓΓ³Γ¥Γ©Γ² Γ°Γ―Γµ Γ¥Γ£ΓªΓ΅Γ¨ΓΓ³Γ΄Γ΅Γ­Γ΄Γ΅Γ© Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('NHamYDvvFus=', 1189, -1, 1);
@@ -4982,7 +4983,7 @@ function InitQuestion109()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. στο υπομενού φίλτρα.";
+    answer1.shortTextAnswer = "Γ. Γ³Γ΄Γ― ΓµΓ°Γ―Γ¬Γ¥Γ­Γ―Γ½ Γ¶ΓΓ«Γ΄Γ±Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('0dbbWL4qmyU=', 1191, -1, 1);
@@ -4990,7 +4991,7 @@ function InitQuestion109()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. στο υπομενού Εισαγωγή.";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ΄Γ― ΓµΓ°Γ―Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ©Γ³Γ΅Γ£ΓΉΓ£Γ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tPpoxDs5mKY=', 1193, -1, 1);
@@ -4998,7 +4999,7 @@ function InitQuestion109()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. στο υπομενού Εξαγωγή.";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ΄Γ― ΓµΓ°Γ―Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ®Γ΅Γ£ΓΉΓ£Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('Tb/dAQqwMbM=', 1195, -1, 1);
@@ -5006,7 +5007,7 @@ function InitQuestion109()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω.";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5023,7 +5024,7 @@ function InitQuestion110()
     question.answers.length = 0;
     question.num = 110;
     question.isSingleAns = false;
-    question.shortTextQuestion = "110. Σημειώστε το σωστό. Τα προειδοποιητικά μηνύματα επαναφέρονται σε λειτουργεία:  ";
+    question.shortTextQuestion = "110. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ”Γ΅ Γ°Γ±Γ―Γ¥Γ©Γ¤Γ―Γ°Γ―Γ©Γ§Γ΄Γ©ΓªΓ Γ¬Γ§Γ­Γ½Γ¬Γ΅Γ΄Γ΅ Γ¥Γ°Γ΅Γ­Γ΅Γ¶ΓΓ±Γ―Γ­Γ΄Γ΅Γ© Γ³Γ¥ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£Γ¥ΓΓ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('DTYo48Gjf4o=', 1199, -1, 1);
@@ -5031,7 +5032,7 @@ function InitQuestion110()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Επιλέγοντας «να μην εμφανιστεί ξανά».";
+    answer1.shortTextAnswer = "Γ. Γ…Γ°Γ©Γ«ΓΓ£Γ―Γ­Γ΄Γ΅Γ² Β«Γ­Γ΅ Γ¬Γ§Γ­ Γ¥Γ¬Γ¶Γ΅Γ­Γ©Γ³Γ΄Γ¥Γ Γ®Γ΅Γ­ΓΒ».";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('xK+TzOokEug=', 1201, -1, 1);
@@ -5039,7 +5040,7 @@ function InitQuestion110()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Επιλέγοντας Επαναφορά από το υπομενού γενικές μέσα στις προτιμήσεις.";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ°Γ©Γ«ΓΓ£Γ―Γ­Γ΄Γ΅Γ² Γ…Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±Γ Γ΅Γ°ΓΌ Γ΄Γ― ΓµΓ°Γ―Γ¬Γ¥Γ­Γ―Γ½ Γ£Γ¥Γ­Γ©ΓªΓΓ² Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ©Γ² Γ°Γ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥Γ©Γ².";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('xK+TzOokEug=', 1203, -1, 1);
@@ -5047,7 +5048,7 @@ function InitQuestion110()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Επιλέγοντας ΟΚ μέσα από το αναδυόμενο παράθυρο που βγαίνει από το ίδιο το μήνυμα.";
+    answer3.shortTextAnswer = "Γƒ. Γ…Γ°Γ©Γ«ΓΓ£Γ―Γ­Γ΄Γ΅Γ² ΓΓ Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ΅Γ­Γ΅Γ¤ΓµΓΌΓ¬Γ¥Γ­Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ°Γ―Γµ ΓΆΓ£Γ΅ΓΓ­Γ¥Γ© Γ΅Γ°ΓΌ Γ΄Γ― ΓΓ¤Γ©Γ― Γ΄Γ― Γ¬ΓΓ­ΓµΓ¬Γ΅.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5064,7 +5065,7 @@ function InitQuestion111()
     question.answers.length = 0;
     question.num = 111;
     question.isSingleAns = false;
-    question.shortTextQuestion = "111. Σημειώστε το σωστό. Γίνεται επαναφορά των προτιμήσεων του Photoshop στις προεπιλεγμένες ρυθμίσεις με:  ";
+    question.shortTextQuestion = "111. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓΓ­Γ¥Γ΄Γ΅Γ© Γ¥Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±Γ Γ΄ΓΉΓ­ Γ°Γ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥ΓΉΓ­ Γ΄Γ―Γµ Photoshop Γ³Γ΄Γ©Γ² Γ°Γ±Γ―Γ¥Γ°Γ©Γ«Γ¥Γ£Γ¬ΓΓ­Γ¥Γ² Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥Γ©Γ² Γ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('sPMXFGpR860=', 1209, -1, 1);
@@ -5072,7 +5073,7 @@ function InitQuestion111()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Kαθώς ανοίγετε το Photoshop πατήστε και καρατήστε πατημένα τα πλήκτρα Alt + Control + Shift.";
+    answer1.shortTextAnswer = "Γ. KΓ΅Γ¨ΓΎΓ² Γ΅Γ­Γ―ΓΓ£Γ¥Γ΄Γ¥ Γ΄Γ― Photoshop Γ°Γ΅Γ΄ΓΓ³Γ΄Γ¥ ΓªΓ΅Γ© ΓªΓ΅Γ±Γ΅Γ΄ΓΓ³Γ΄Γ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ΅ Γ΄Γ΅ Γ°Γ«ΓΓªΓ΄Γ±Γ΅ Alt + Control + Shift.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('DNyO+NrF9Eg=', 1211, -1, 1);
@@ -5080,7 +5081,7 @@ function InitQuestion111()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Με πάτημα των πλήκτρων Control + Shift + Backspace.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ¥ Γ°ΓΓ΄Γ§Γ¬Γ΅ Γ΄ΓΉΓ­ Γ°Γ«ΓΓªΓ΄Γ±ΓΉΓ­ Control + Shift + Backspace.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('DNyO+NrF9Eg=', 1213, -1, 1);
@@ -5088,7 +5089,7 @@ function InitQuestion111()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Με πάτημα των πλήκτρων Control + Shift.";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ¥ Γ°ΓΓ΄Γ§Γ¬Γ΅ Γ΄ΓΉΓ­ Γ°Γ«ΓΓªΓ΄Γ±ΓΉΓ­ Control + Shift.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5105,7 +5106,7 @@ function InitQuestion112()
     question.answers.length = 0;
     question.num = 112;
     question.isSingleAns = false;
-    question.shortTextQuestion = "112. Σημειώστε το σωστό. Η «Επαναφορά» εμφάνισης πίνακα:  ";
+    question.shortTextQuestion = "112. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ‡ Β«Γ…Γ°Γ΅Γ­Γ΅Γ¶Γ―Γ±ΓΒ» Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§Γ² Γ°ΓΓ­Γ΅ΓªΓ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('WJIj2xm812A=', 1219, -1, 1);
@@ -5113,7 +5114,7 @@ function InitQuestion112()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Βρίσκεται στο μενού πίνακα.";
+    answer1.shortTextAnswer = "Γ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ°ΓΓ­Γ΅ΓªΓ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WJIj2xm812A=', 1221, -1, 1);
@@ -5121,7 +5122,7 @@ function InitQuestion112()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Βρίσκεται στο μενού Αρχείο.";
+    answer2.shortTextAnswer = "Γ‚. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('HVB2C2DwXWY=', 1223, -1, 1);
@@ -5129,7 +5130,7 @@ function InitQuestion112()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Βρίσκεται στο μενού του Παραθύρου.";
+    answer3.shortTextAnswer = "Γƒ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ―Γµ ΓΓ΅Γ±Γ΅Γ¨Γ½Γ±Γ―Γµ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5146,7 +5147,7 @@ function InitQuestion113()
     question.answers.length = 0;
     question.num = 113;
     question.isSingleAns = false;
-    question.shortTextQuestion = "113. Σημειώστε το σωστό. Για να αποθηκευτεί η αναζήτηση ενός θέματος:  ";
+    question.shortTextQuestion = "113. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥ΓµΓ΄Γ¥Γ Γ§ Γ΅Γ­Γ΅Γ¦ΓΓ΄Γ§Γ³Γ§ Γ¥Γ­ΓΌΓ² Γ¨ΓΓ¬Γ΅Γ΄Γ―Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('oLM0rHshyes=', 1229, -1, 1);
@@ -5154,7 +5155,7 @@ function InitQuestion113()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Επιλέξτε Custom και αναζήτηση.";
+    answer1.shortTextAnswer = "Γ. Γ…Γ°Γ©Γ«ΓΓ®Γ΄Γ¥ Custom ΓªΓ΅Γ© Γ΅Γ­Γ΅Γ¦ΓΓ΄Γ§Γ³Γ§.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('oLM0rHshyes=', 1231, -1, 1);
@@ -5162,7 +5163,7 @@ function InitQuestion113()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Επιλέξτε View on line.";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ°Γ©Γ«ΓΓ®Γ΄Γ¥ View on line.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('iGtO8NQEXvI=', 1233, -1, 1);
@@ -5170,7 +5171,7 @@ function InitQuestion113()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Επιλέξτε Search .";
+    answer3.shortTextAnswer = "Γƒ. Γ…Γ°Γ©Γ«ΓΓ®Γ΄Γ¥ Search .";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5187,7 +5188,7 @@ function InitQuestion114()
     question.answers.length = 0;
     question.num = 114;
     question.isSingleAns = false;
-    question.shortTextQuestion = "114. Σημειώστε το σωστό. Ο πίνακας Kuler είναι:  ";
+    question.shortTextQuestion = "114. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ Γ°ΓΓ­Γ΅ΓªΓ΅Γ² Kuler Γ¥ΓΓ­Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('o+hWxAcbj5A=', 1239, -1, 1);
@@ -5195,7 +5196,7 @@ function InitQuestion114()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ένα πρόγραμμα λογισμικού για χρωματισμό.";
+    answer1.shortTextAnswer = "Γ. ΓΓ­Γ΅ Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Γ«Γ―Γ£Γ©Γ³Γ¬Γ©ΓªΓ―Γ½ Γ£Γ©Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬ΓΌ.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('jKcQD9IyBGI=', 1241, -1, 1);
@@ -5203,7 +5204,7 @@ function InitQuestion114()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. παρέχει πρόσβαση σε ομάδες χρωμάτων ή θεμάτων που έχουν δημιουργηθεί από μια online κοινότητα σχεδιαστών";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ΅Γ±ΓΓ·Γ¥Γ© Γ°Γ±ΓΌΓ³ΓΆΓ΅Γ³Γ§ Γ³Γ¥ Γ―Γ¬ΓΓ¤Γ¥Γ² Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ Γ¨Γ¥Γ¬ΓΓ΄ΓΉΓ­ Γ°Γ―Γµ ΓΓ·Γ―ΓµΓ­ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ¥Γ Γ΅Γ°ΓΌ Γ¬Γ©Γ΅ online ΓªΓ―Γ©Γ­ΓΌΓ΄Γ§Γ΄Γ΅ Γ³Γ·Γ¥Γ¤Γ©Γ΅Γ³Γ΄ΓΎΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('jKcQD9IyBGI=', 1243, -1, 1);
@@ -5211,7 +5212,7 @@ function InitQuestion114()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. πίνακας με παλέτα χρωμάτων.";
+    answer3.shortTextAnswer = "Γƒ. Γ°ΓΓ­Γ΅ΓªΓ΅Γ² Γ¬Γ¥ Γ°Γ΅Γ«ΓΓ΄Γ΅ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5228,7 +5229,7 @@ function InitQuestion115()
     question.answers.length = 0;
     question.num = 115;
     question.isSingleAns = false;
-    question.shortTextQuestion = "115. Σημειώστε το σωστό. Όταν θέλετε πληροφορίες για τις εγκατεστημένες επεκτάσεις:  ";
+    question.shortTextQuestion = "115. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΒΌΓ΄Γ΅Γ­ Γ¨ΓΓ«Γ¥Γ΄Γ¥ Γ°Γ«Γ§Γ±Γ―Γ¶Γ―Γ±ΓΓ¥Γ² Γ£Γ©Γ΅ Γ΄Γ©Γ² Γ¥Γ£ΓªΓ΅Γ΄Γ¥Γ³Γ΄Γ§Γ¬ΓΓ­Γ¥Γ² Γ¥Γ°Γ¥ΓªΓ΄ΓΓ³Γ¥Γ©Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('v/P8J7wseT8=', 1249, -1, 1);
@@ -5236,7 +5237,7 @@ function InitQuestion115()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπαίνετε μέσα στο μενού βοήθεια.";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ΅ΓΓ­Γ¥Γ΄Γ¥ Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΆΓ―ΓΓ¨Γ¥Γ©Γ΅.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('qrCkyL3Eyvc=', 1251, -1, 1);
@@ -5244,7 +5245,7 @@ function InitQuestion115()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπαίνετε μέσα στο μενού του παραθύρου.";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ΅ΓΓ­Γ¥Γ΄Γ¥ Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ―Γµ Γ°Γ΅Γ±Γ΅Γ¨Γ½Γ±Γ―Γµ.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('qrCkyL3Eyvc=', 1253, -1, 1);
@@ -5252,7 +5253,7 @@ function InitQuestion115()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπαίνετε μέσα στο μενού του Αρχείου.";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ΅ΓΓ­Γ¥Γ΄Γ¥ Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ―Γµ ΓΓ±Γ·Γ¥ΓΓ―Γµ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5269,7 +5270,7 @@ function InitQuestion116()
     question.answers.length = 0;
     question.num = 116;
     question.isSingleAns = false;
-    question.shortTextQuestion = "116. Σημειώστε το σωστό. Αν δεν μπορείτε να εκτελέσετε μία επέκταση παρόχου, ενδεχομένως:  ";
+    question.shortTextQuestion = "116. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. ΓΓ­ Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥ΓΓ΄Γ¥ Γ­Γ΅ Γ¥ΓªΓ΄Γ¥Γ«ΓΓ³Γ¥Γ΄Γ¥ Γ¬ΓΓ΅ Γ¥Γ°ΓΓªΓ΄Γ΅Γ³Γ§ Γ°Γ΅Γ±ΓΌΓ·Γ―Γµ, Γ¥Γ­Γ¤Γ¥Γ·Γ―Γ¬ΓΓ­ΓΉΓ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('vqzw+DSfasE=', 1259, -1, 1);
@@ -5277,7 +5278,7 @@ function InitQuestion116()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Να χρειάζεται κωδικός για την επέκταση.";
+    answer1.shortTextAnswer = "Γ. ΓΓ΅ Γ·Γ±Γ¥Γ©ΓΓ¦Γ¥Γ΄Γ΅Γ© ΓªΓΉΓ¤Γ©ΓªΓΌΓ² Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ¥Γ°ΓΓªΓ΄Γ΅Γ³Γ§.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ceiQ2rdSaMs=', 1261, -1, 1);
@@ -5285,7 +5286,7 @@ function InitQuestion116()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Να χρειάζεται σειριακός αριθμός παλαιότερης έκδοσης του Photoshop.";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ΅ Γ·Γ±Γ¥Γ©ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ³Γ¥Γ©Γ±Γ©Γ΅ΓªΓΌΓ² Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² Γ°Γ΅Γ«Γ΅Γ©ΓΌΓ΄Γ¥Γ±Γ§Γ² ΓΓªΓ¤Γ―Γ³Γ§Γ² Γ΄Γ―Γµ Photoshop.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('dCgeKF2Biuo=', 1263, -1, 1);
@@ -5293,7 +5294,7 @@ function InitQuestion116()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όλα τα παραπάνω.";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5310,7 +5311,7 @@ function InitQuestion117()
     question.answers.length = 0;
     question.num = 117;
     question.isSingleAns = false;
-    question.shortTextQuestion = "117. Σημειώστε το σωστό. Ο πίνακας Κuler χρησιμοποιείται για:  ";
+    question.shortTextQuestion = "117. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ. Γ Γ°ΓΓ­Γ΅ΓªΓ΅Γ² Γuler Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('5jrVeKw7ezw=', 1269, -1, 1);
@@ -5318,7 +5319,7 @@ function InitQuestion117()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. την αναζήτηση χιλιάδων θεμάτων.";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ§Γ­ Γ΅Γ­Γ΅Γ¦ΓΓ΄Γ§Γ³Γ§ Γ·Γ©Γ«Γ©ΓΓ¤ΓΉΓ­ Γ¨Γ¥Γ¬ΓΓ΄ΓΉΓ­.";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('jVvxwUXd6eg=', 1271, -1, 1);
@@ -5326,7 +5327,7 @@ function InitQuestion117()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. την λήψη, επεξεργασία και ενσωμάτωση θεμάτων σε μια εικόνα.";
+    answer2.shortTextAnswer = "Γ‚. Γ΄Γ§Γ­ Γ«ΓΓΈΓ§, Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ ΓªΓ΅Γ© Γ¥Γ­Γ³ΓΉΓ¬ΓΓ΄ΓΉΓ³Γ§ Γ¨Γ¥Γ¬ΓΓ΄ΓΉΓ­ Γ³Γ¥ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ttG0uK+EGAw=', 1273, -1, 1);
@@ -5334,7 +5335,7 @@ function InitQuestion117()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. για αποθήκευση και διανομή θεμάτων.";
+    answer3.shortTextAnswer = "Γƒ. Γ£Γ©Γ΅ Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§ ΓªΓ΅Γ© Γ¤Γ©Γ΅Γ­Γ―Γ¬Γ Γ¨Γ¥Γ¬ΓΓ΄ΓΉΓ­.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('/UR8p30zzYY=', 1275, -1, 1);
@@ -5342,7 +5343,7 @@ function InitQuestion117()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω.";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ.";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5359,7 +5360,7 @@ function InitQuestion118()
     question.answers.length = 0;
     question.num = 118;
     question.isSingleAns = false;
-    question.shortTextQuestion = "118. Σημειώστε το σωστό: Για εισαγωγή εικόνων από φωτογραφική μηχανή για Mac OS, χρησιμοποιείται:  ";
+    question.shortTextQuestion = "118. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£Γ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­ Γ΅Γ°ΓΌ Γ¶ΓΉΓ΄Γ―Γ£Γ±Γ΅Γ¶Γ©ΓªΓ Γ¬Γ§Γ·Γ΅Γ­Γ Γ£Γ©Γ΅ Mac OS, Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('eEcd6zyI4AE=', 1279, -1, 1);
@@ -5367,7 +5368,7 @@ function InitQuestion118()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. WIA";
+    answer1.shortTextAnswer = "Γ. WIA";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('EWlqCIzlAuA=', 1281, -1, 1);
@@ -5383,7 +5384,7 @@ function InitQuestion118()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Adobe Bridge";
+    answer3.shortTextAnswer = "Γƒ. Adobe Bridge";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5400,7 +5401,7 @@ function InitQuestion119()
     question.answers.length = 0;
     question.num = 119;
     question.isSingleAns = false;
-    question.shortTextQuestion = "119. Σημειώστε το σωστό: Εισαγωγή εικόνας από σαρωτή με συμβατή επέκταση:  ";
+    question.shortTextQuestion = "119. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: Γ…Γ©Γ³Γ΅Γ£ΓΉΓ£Γ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ΅Γ°ΓΌ Γ³Γ΅Γ±ΓΉΓ΄Γ Γ¬Γ¥ Γ³ΓµΓ¬ΓΆΓ΅Γ΄Γ Γ¥Γ°ΓΓªΓ΄Γ΅Γ³Γ§:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('5GU1OEnsu3M=', 1289, -1, 1);
@@ -5408,7 +5409,7 @@ function InitQuestion119()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μέσω File στο import και μετά κλικ στο σαρωτή";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΓ³ΓΉ File Γ³Γ΄Γ― import ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ³Γ΅Γ±ΓΉΓ΄Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('5GU1OEnsu3M=', 1291, -1, 1);
@@ -5416,7 +5417,7 @@ function InitQuestion119()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μέσω Edit και μετά κλικ import";
+    answer2.shortTextAnswer = "Γ‚. Γ¬ΓΓ³ΓΉ Edit ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ ΓªΓ«Γ©Γª import";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('W29xP2s9VEA=', 1293, -1, 1);
@@ -5424,7 +5425,7 @@ function InitQuestion119()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μέσω Select και μετά κλικ import";
+    answer3.shortTextAnswer = "Γƒ. Γ¬ΓΓ³ΓΉ Select ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ ΓªΓ«Γ©Γª import";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5441,7 +5442,7 @@ function InitQuestion120()
     question.answers.length = 0;
     question.num = 120;
     question.isSingleAns = false;
-    question.shortTextQuestion = "120. Σημειώστε το σωστό: Για να αλλάξουν οι διαστάσεις εκτύπωσης και ανάλυσης χωρίς να αλλάξει ο αριθμός εικονοστοιχείων:  ";
+    question.shortTextQuestion = "120. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ­ Γ―Γ© Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ² Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ² ΓªΓ΅Γ© Γ΅Γ­ΓΓ«ΓµΓ³Γ§Γ² Γ·ΓΉΓ±ΓΓ² Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ― Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('wm+4vQz7Yic=', 1299, -1, 1);
@@ -5449,7 +5450,7 @@ function InitQuestion120()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. πρέπει να ενεργοποιηθεί η εντολή «Αναδειγματοληψία εικόνας»";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±ΓΓ°Γ¥Γ© Γ­Γ΅ Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¨Γ¥Γ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Β«ΓΓ­Γ΅Γ¤Γ¥Γ©Γ£Γ¬Γ΅Γ΄Γ―Γ«Γ§ΓΈΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²Β»";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Lrw39aa3mFw=', 1301, -1, 1);
@@ -5457,7 +5458,7 @@ function InitQuestion120()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. πρέπει να απενεργοποιηθεί η εντολή «Αναδειγματοληψία εικόνας»";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±ΓΓ°Γ¥Γ© Γ­Γ΅ Γ΅Γ°Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¨Γ¥Γ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Β«ΓΓ­Γ΅Γ¤Γ¥Γ©Γ£Γ¬Γ΅Γ΄Γ―Γ«Γ§ΓΈΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²Β»";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Lrw39aa3mFw=', 1303, -1, 1);
@@ -5465,7 +5466,7 @@ function InitQuestion120()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. πρέπει να επιλεχθεί η εντολή «Αυτόματη» από το μενού";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ±ΓΓ°Γ¥Γ© Γ­Γ΅ Γ¥Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Β«ΓΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§Β» Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5482,7 +5483,7 @@ function InitQuestion121()
     question.answers.length = 0;
     question.num = 121;
     question.isSingleAns = false;
-    question.shortTextQuestion = "121. Σημειώστε το σωστό: Πως μπορούμε να δούμε στην οθόνη τις πραγματικές της διαστάσεις εκτύπωσης μιας εικόνας;  ";
+    question.shortTextQuestion = "121. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓΓΉΓ² Γ¬Γ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ¤Γ―Γ½Γ¬Γ¥ Γ³Γ΄Γ§Γ­ Γ―Γ¨ΓΌΓ­Γ§ Γ΄Γ©Γ² Γ°Γ±Γ΅Γ£Γ¬Γ΅Γ΄Γ©ΓªΓΓ² Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ² Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²;  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('G1MCjFs4MUM=', 1309, -1, 1);
@@ -5490,7 +5491,7 @@ function InitQuestion121()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπαίνοντας στο μενού Προβολή και μετά επιλογή εντολής «Μέγεθος εκτύπωσης»";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ―ΓΆΓ―Γ«Γ ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ­Γ΄Γ―Γ«ΓΓ² Β«ΓΓΓ£Γ¥Γ¨Γ―Γ² Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ²Β»";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('G1MCjFs4MUM=', 1311, -1, 1);
@@ -5498,7 +5499,7 @@ function InitQuestion121()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπαίνοντας στο μενού Εικόνα και μετά επιλογή εντολής «Μέγεθος εκτύπωσης»";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ©ΓªΓΌΓ­Γ΅ ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ­Γ΄Γ―Γ«ΓΓ² Β«ΓΓΓ£Γ¥Γ¨Γ―Γ² Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ²Β»";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('M8elyatAsAU=', 1313, -1, 1);
@@ -5506,7 +5507,7 @@ function InitQuestion121()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπαίνοντας στο μενού Εργαλεία και μετά επιλογή εντολής «Μέγεθος εκτύπωσης»";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ΅ΓΓ­Γ―Γ­Γ΄Γ΅Γ² Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ­Γ΄Γ―Γ«ΓΓ² Β«ΓΓΓ£Γ¥Γ¨Γ―Γ² Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ²Β»";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5523,7 +5524,7 @@ function InitQuestion122()
     question.answers.length = 0;
     question.num = 122;
     question.isSingleAns = false;
-    question.shortTextQuestion = "122. Σημειώστε το σωστό: Η επιλογή «Χρώμα επέκτασης καμβά»:  ";
+    question.shortTextQuestion = "122. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Β«Γ—Γ±ΓΎΓ¬Γ΅ Γ¥Γ°ΓΓªΓ΄Γ΅Γ³Γ§Γ² ΓªΓ΅Γ¬ΓΆΓΒ»:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('wlT75KXd9RU=', 1319, -1, 1);
@@ -5531,7 +5532,7 @@ function InitQuestion122()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. χρωματίζει τα κενά της εικόνας";
+    answer1.shortTextAnswer = "Γ. Γ·Γ±ΓΉΓ¬Γ΅Γ΄ΓΓ¦Γ¥Γ© Γ΄Γ΅ ΓªΓ¥Γ­Γ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('3o0pMSunC8Q=', 1321, -1, 1);
@@ -5539,7 +5540,7 @@ function InitQuestion122()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διατίθεται μόνο σε μια σύνθετη και πολυεπίπεδη εικόνα";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ΅Γ΄ΓΓ¨Γ¥Γ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― Γ³Γ¥ Γ¬Γ©Γ΅ Γ³Γ½Γ­Γ¨Γ¥Γ΄Γ§ ΓªΓ΅Γ© Γ°Γ―Γ«ΓµΓ¥Γ°ΓΓ°Γ¥Γ¤Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('SNln18FZd6c=', 1323, -1, 1);
@@ -5547,7 +5548,7 @@ function InitQuestion122()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διατίθεται μόνο σε μια μονοεπίπεδη εικόνα";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ΅Γ΄ΓΓ¨Γ¥Γ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― Γ³Γ¥ Γ¬Γ©Γ΅ Γ¬Γ―Γ­Γ―Γ¥Γ°ΓΓ°Γ¥Γ¤Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('0RE4eu+C0Fc=', 1325, -1, 1);
@@ -5555,7 +5556,7 @@ function InitQuestion122()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. διατίθεται σε οποιαδήποτε εικόνα";
+    answer4.shortTextAnswer = "Γ„. Γ¤Γ©Γ΅Γ΄ΓΓ¨Γ¥Γ΄Γ΅Γ© Γ³Γ¥ Γ―Γ°Γ―Γ©Γ΅Γ¤ΓΓ°Γ―Γ΄Γ¥ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5572,7 +5573,7 @@ function InitQuestion123()
     question.answers.length = 0;
     question.num = 123;
     question.isSingleAns = false;
-    question.shortTextQuestion = "123. Σημειώστε το σωστό Η επιλογή χρωματική ισορροπία:  ";
+    question.shortTextQuestion = "123. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ©Γ³Γ―Γ±Γ±Γ―Γ°ΓΓ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dScRXNRN/4w=', 1329, -1, 1);
@@ -5580,7 +5581,7 @@ function InitQuestion123()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δεν έχει την ευελιξία της επιλογής Curves";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ¥Γ­ ΓΓ·Γ¥Γ© Γ΄Γ§Γ­ Γ¥ΓµΓ¥Γ«Γ©Γ®ΓΓ΅ Γ΄Γ§Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Curves";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('dScRXNRN/4w=', 1331, -1, 1);
@@ -5588,7 +5589,7 @@ function InitQuestion123()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Έχει τη δυνατότητα να εστιάσει σε πολλές τονικότητες χρωμάτων";
+    answer2.shortTextAnswer = "B. ΒΈΓ·Γ¥Γ© Γ΄Γ§ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ­Γ΅ Γ¥Γ³Γ΄Γ©ΓΓ³Γ¥Γ© Γ³Γ¥ Γ°Γ―Γ«Γ«ΓΓ² Γ΄Γ―Γ­Γ©ΓªΓΌΓ΄Γ§Γ΄Γ¥Γ² Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ZLO5UXKmlWY=', 1333, -1, 1);
@@ -5596,7 +5597,7 @@ function InitQuestion123()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Είναι ευέλικτο";
+    answer3.shortTextAnswer = "Γƒ. Γ…ΓΓ­Γ΅Γ© Γ¥ΓµΓΓ«Γ©ΓªΓ΄Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5613,7 +5614,7 @@ function InitQuestion124()
     question.answers.length = 0;
     question.num = 124;
     question.isSingleAns = false;
-    question.shortTextQuestion = "124. Σημειώστε το σωστό Η Επιλογή Curves βρίσκεται:  ";
+    question.shortTextQuestion = "124. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ…Γ°Γ©Γ«Γ―Γ£Γ Curves ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rllirncPJK8=', 1339, -1, 1);
@@ -5621,7 +5622,7 @@ function InitQuestion124()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σε επίπεδο ρύθμισης (Adjustment layer)";
+    answer1.shortTextAnswer = "Γ. Γ³Γ¥ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ±Γ½Γ¨Γ¬Γ©Γ³Γ§Γ² (Adjustment layer)";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('VbPbAaELAaY=', 1341, -1, 1);
@@ -5629,7 +5630,7 @@ function InitQuestion124()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Ως αυτόνομη επιλογή στο πρόγραμμα";
+    answer2.shortTextAnswer = "B. Γ™Γ² Γ΅ΓµΓ΄ΓΌΓ­Γ―Γ¬Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ³Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('oSBM1T7A7is=', 1343, -1, 1);
@@ -5637,7 +5638,7 @@ function InitQuestion124()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5654,7 +5655,7 @@ function InitQuestion125()
     question.answers.length = 0;
     question.num = 125;
     question.isSingleAns = false;
-    question.shortTextQuestion = "125. Σημειώστε το σωστό Στο εργαλείο Levels  ";
+    question.shortTextQuestion = "125. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Levels  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Z3esrxJs5mE=', 1349, -1, 1);
@@ -5662,7 +5663,7 @@ function InitQuestion125()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. όσα χρώματα είναι ουδέτερα παραμένουν ίδια";
+    answer1.shortTextAnswer = "Γ. ΓΌΓ³Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ―ΓµΓ¤ΓΓ΄Γ¥Γ±Γ΅ Γ°Γ΅Γ±Γ΅Γ¬ΓΓ­Γ―ΓµΓ­ ΓΓ¤Γ©Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('shj5MyxNee8=', 1351, -1, 1);
@@ -5670,7 +5671,7 @@ function InitQuestion125()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μόνο το κόκκινο παραμένει το ίδιο";
+    answer2.shortTextAnswer = "Γ‚. Γ¬ΓΌΓ­Γ― Γ΄Γ― ΓªΓΌΓªΓªΓ©Γ­Γ― Γ°Γ΅Γ±Γ΅Γ¬ΓΓ­Γ¥Γ© Γ΄Γ― ΓΓ¤Γ©Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('FkYi6bveuuU=', 1353, -1, 1);
@@ -5678,7 +5679,7 @@ function InitQuestion125()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μόνο το πράσινο παραμένει το ίδιο";
+    answer3.shortTextAnswer = "Γƒ. Γ¬ΓΌΓ­Γ― Γ΄Γ― Γ°Γ±ΓΓ³Γ©Γ­Γ― Γ°Γ΅Γ±Γ΅Γ¬ΓΓ­Γ¥Γ© Γ΄Γ― ΓΓ¤Γ©Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('RSlLW4t4PYI=', 1355, -1, 1);
@@ -5686,7 +5687,7 @@ function InitQuestion125()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5703,7 +5704,7 @@ function InitQuestion126()
     question.answers.length = 0;
     question.num = 126;
     question.isSingleAns = false;
-    question.shortTextQuestion = "126. Σημειώστε το σωστό Με το εργαλείο Levels:  ";
+    question.shortTextQuestion = "126. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Levels:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('hiGLj7cDKAo=', 1359, -1, 1);
@@ -5711,7 +5712,7 @@ function InitQuestion126()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επηρεάζονται τα φωτεινά χρώματα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ§Γ±Γ¥ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ΄Γ΅ Γ¶ΓΉΓ΄Γ¥Γ©Γ­Γ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('DgxPlYQTJ2k=', 1361, -1, 1);
@@ -5719,7 +5720,7 @@ function InitQuestion126()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β επηρεάζονται τα σκοτεινά χρώματα";
+    answer2.shortTextAnswer = "Γ‚ Γ¥Γ°Γ§Γ±Γ¥ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ΄Γ΅ Γ³ΓªΓ―Γ΄Γ¥Γ©Γ­Γ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Y7N9+SeagxU=', 1363, -1, 1);
@@ -5727,7 +5728,7 @@ function InitQuestion126()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επηρεάζονται περισσότερο τα φωτεινά και λιγότερο τα σκούρα χρώματα";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ§Γ±Γ¥ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ― Γ΄Γ΅ Γ¶ΓΉΓ΄Γ¥Γ©Γ­Γ ΓªΓ΅Γ© Γ«Γ©Γ£ΓΌΓ΄Γ¥Γ±Γ― Γ΄Γ΅ Γ³ΓªΓ―Γ½Γ±Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('y1a3gffEH3Q=', 1365, -1, 1);
@@ -5735,7 +5736,7 @@ function InitQuestion126()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5752,7 +5753,7 @@ function InitQuestion127()
     question.answers.length = 0;
     question.num = 127;
     question.isSingleAns = false;
-    question.shortTextQuestion = "127. Σημειώστε το σωστό Η εντολή anti-aliased :  ";
+    question.shortTextQuestion = "127. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ anti-aliased :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('oeS+6b4tb4Y=', 1369, -1, 1);
@@ -5760,7 +5761,7 @@ function InitQuestion127()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. εξομαλύνει τα άκρα μιας περιοχής της εικόνας";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ®Γ―Γ¬Γ΅Γ«Γ½Γ­Γ¥Γ© Γ΄Γ΅ ΓΓªΓ±Γ΅ Γ¬Γ©Γ΅Γ² Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('oeS+6b4tb4Y=', 1371, -1, 1);
@@ -5768,7 +5769,7 @@ function InitQuestion127()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σκληραίνει τα άκρα μιας περιοχής της εικόνας";
+    answer2.shortTextAnswer = "Γ‚. Γ³ΓªΓ«Γ§Γ±Γ΅ΓΓ­Γ¥Γ© Γ΄Γ΅ ΓΓªΓ±Γ΅ Γ¬Γ©Γ΅Γ² Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('eB8puAID0zE=', 1373, -1, 1);
@@ -5776,7 +5777,7 @@ function InitQuestion127()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. στρογγυλεύει τα άκρα μιας περιοχής της εικόνας";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ΄Γ±Γ―Γ£Γ£ΓµΓ«Γ¥Γ½Γ¥Γ© Γ΄Γ΅ ΓΓªΓ±Γ΅ Γ¬Γ©Γ΅Γ² Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('2jCKPeWcSbY=', 1375, -1, 1);
@@ -5784,7 +5785,7 @@ function InitQuestion127()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5801,7 +5802,7 @@ function InitQuestion128()
     question.answers.length = 0;
     question.num = 128;
     question.isSingleAns = false;
-    question.shortTextQuestion = "128. Σημειώστε το σωστό Στο εργαλείο ντεγκραντέ υπάρχουν οι λειτουργίες:  ";
+    question.shortTextQuestion = "128. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ­Γ΄Γ¥Γ£ΓªΓ±Γ΅Γ­Γ΄Γ ΓµΓ°ΓΓ±Γ·Γ―ΓµΓ­ Γ―Γ© Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('oe/11+R9yBE=', 1379, -1, 1);
@@ -5809,7 +5810,7 @@ function InitQuestion128()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Linear, Radial";
+    answer1.shortTextAnswer = "Γ. Linear, Radial";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('E4LOZRqk9LU=', 1381, -1, 1);
@@ -5817,7 +5818,7 @@ function InitQuestion128()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Angle.";
+    answer2.shortTextAnswer = "Γ‚. Angle.";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tj8XMa5F8Sk=', 1383, -1, 1);
@@ -5825,7 +5826,7 @@ function InitQuestion128()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Diamond, Reflected, Linear, Radial";
+    answer3.shortTextAnswer = "Γƒ. Diamond, Reflected, Linear, Radial";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('/9BRb58jBaI=', 1385, -1, 1);
@@ -5833,7 +5834,7 @@ function InitQuestion128()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5850,7 +5851,7 @@ function InitQuestion129()
     question.answers.length = 0;
     question.num = 129;
     question.isSingleAns = false;
-    question.shortTextQuestion = "129. Σημειώστε το σωστό Το εργαλείο linear :  ";
+    question.shortTextQuestion = "129. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― linear :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('GR3NNSywIfU=', 1389, -1, 1);
@@ -5858,7 +5859,7 @@ function InitQuestion129()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δημιουργεί ντεγκραντέ κατά μήκος μιας ευθείας γραμμής";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥Γ Γ­Γ΄Γ¥Γ£ΓªΓ±Γ΅Γ­Γ΄Γ ΓªΓ΅Γ΄Γ Γ¬ΓΓªΓ―Γ² Γ¬Γ©Γ΅Γ² Γ¥ΓµΓ¨Γ¥ΓΓ΅Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GR3NNSywIfU=', 1391, -1, 1);
@@ -5866,7 +5867,7 @@ function InitQuestion129()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δημιουργεί ντεγκραντέ κατά μήκος μιας τεθλασμένης γραμμής";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥Γ Γ­Γ΄Γ¥Γ£ΓªΓ±Γ΅Γ­Γ΄Γ ΓªΓ΅Γ΄Γ Γ¬ΓΓªΓ―Γ² Γ¬Γ©Γ΅Γ² Γ΄Γ¥Γ¨Γ«Γ΅Γ³Γ¬ΓΓ­Γ§Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('lLIBfFfQbe8=', 1393, -1, 1);
@@ -5874,7 +5875,7 @@ function InitQuestion129()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δημιουργεί ντεγκραντέ σε κυκλική διάταξη";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥Γ Γ­Γ΄Γ¥Γ£ΓªΓ±Γ΅Γ­Γ΄Γ Γ³Γ¥ ΓªΓµΓªΓ«Γ©ΓªΓ Γ¤Γ©ΓΓ΄Γ΅Γ®Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('cOum/8rtEOY=', 1395, -1, 1);
@@ -5882,7 +5883,7 @@ function InitQuestion129()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5899,7 +5900,7 @@ function InitQuestion130()
     question.answers.length = 0;
     question.num = 130;
     question.isSingleAns = false;
-    question.shortTextQuestion = "130. Σημειώστε το σωστό: Με τα εργαλεία σχεδιασμού:  ";
+    question.shortTextQuestion = "130. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓΓ¥ Γ΄Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ Γ³Γ·Γ¥Γ¤Γ©Γ΅Γ³Γ¬Γ―Γ½:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rlIopRemZ90=', 1399, -1, 1);
@@ -5907,7 +5908,7 @@ function InitQuestion130()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Δημιουργούμε Κουμπιά, γραμμές και στοιχεία χρήσιμα για ιστοσελίδες";
+    answer1.shortTextAnswer = "Γ. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ―Γ½Γ¬Γ¥ ΓΓ―ΓµΓ¬Γ°Γ©Γ, Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² ΓªΓ΅Γ© Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ·Γ±ΓΓ³Γ©Γ¬Γ΅ Γ£Γ©Γ΅ Γ©Γ³Γ΄Γ―Γ³Γ¥Γ«ΓΓ¤Γ¥Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('6D0CNFULous=', 1401, -1, 1);
@@ -5915,7 +5916,7 @@ function InitQuestion130()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Επεξεργαζόμαστε και βελτιώνουμε την εικόνα";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ¦ΓΌΓ¬Γ΅Γ³Γ΄Γ¥ ΓªΓ΅Γ© ΓΆΓ¥Γ«Γ΄Γ©ΓΎΓ­Γ―ΓµΓ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tBy/qI2g8pU=', 1403, -1, 1);
@@ -5923,7 +5924,7 @@ function InitQuestion130()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Κάνουμε διάφορα εφέ στην εικόνα";
+    answer3.shortTextAnswer = "Γƒ. ΓΓΓ­Γ―ΓµΓ¬Γ¥ Γ¤Γ©ΓΓ¶Γ―Γ±Γ΅ Γ¥Γ¶Γ Γ³Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('DU8FTOmH1YA=', 1405, -1, 1);
@@ -5931,7 +5932,7 @@ function InitQuestion130()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -5948,7 +5949,7 @@ function InitQuestion131()
     question.answers.length = 0;
     question.num = 131;
     question.isSingleAns = false;
-    question.shortTextQuestion = "131. Σημειώστε το σωστό: Για να γεμίσει μη επιλεγμένο κείμενο στο επίπεδό του, με χρώμα φόντου πατάμε:  ";
+    question.shortTextQuestion = "131. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ­Γ΅ Γ£Γ¥Γ¬ΓΓ³Γ¥Γ© Γ¬Γ§ Γ¥Γ°Γ©Γ«Γ¥Γ£Γ¬ΓΓ­Γ― ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― Γ³Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤ΓΌ Γ΄Γ―Γµ, Γ¬Γ¥ Γ·Γ±ΓΎΓ¬Γ΅ Γ¶ΓΌΓ­Γ΄Γ―Γµ Γ°Γ΅Γ΄ΓΓ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('L1V02gwv4Lg=', 1409, -1, 1);
@@ -5956,7 +5957,7 @@ function InitQuestion131()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Shift+ Alt";
+    answer1.shortTextAnswer = "Γ. Shift+ Alt";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('4HKEaZ0nWyc=', 1411, -1, 1);
@@ -5964,7 +5965,7 @@ function InitQuestion131()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Shift+ Control";
+    answer2.shortTextAnswer = "Γ‚. Shift+ Control";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('p435Ul3Jprs=', 1413, -1, 1);
@@ -5972,7 +5973,7 @@ function InitQuestion131()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Control + Backspace";
+    answer3.shortTextAnswer = "Γƒ. Control + Backspace";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -5989,7 +5990,7 @@ function InitQuestion132()
     question.answers.length = 0;
     question.num = 132;
     question.isSingleAns = false;
-    question.shortTextQuestion = "132. Σημειώστε το σωστό: Ένα εργαλείο σχήματος ή πένας:  ";
+    question.shortTextQuestion = "132. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΒΈΓ­Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ Γ°ΓΓ­Γ΅Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('/+cEcKBrRKA=', 1419, -1, 1);
@@ -5997,7 +5998,7 @@ function InitQuestion132()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Επιλέγεται πριν την εντολή Επίπεδο σχήματος";
+    answer1.shortTextAnswer = "Γ. Γ…Γ°Γ©Γ«ΓΓ£Γ¥Γ΄Γ΅Γ© Γ°Γ±Γ©Γ­ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ…Γ°ΓΓ°Γ¥Γ¤Γ― Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('/+cEcKBrRKA=', 1421, -1, 1);
@@ -6005,7 +6006,7 @@ function InitQuestion132()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Επιλέγεται και χρησιμοποιείται πάνω στην αρχική εικόνα";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ°Γ©Γ«ΓΓ£Γ¥Γ΄Γ΅Γ© ΓªΓ΅Γ© Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ°ΓΓ­ΓΉ Γ³Γ΄Γ§Γ­ Γ΅Γ±Γ·Γ©ΓªΓ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('8QTbNXKoAOA=', 1423, -1, 1);
@@ -6013,7 +6014,7 @@ function InitQuestion132()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Επιλέγεται αφού πατηθεί το Alt";
+    answer3.shortTextAnswer = "Γƒ. Γ…Γ°Γ©Γ«ΓΓ£Γ¥Γ΄Γ΅Γ© Γ΅Γ¶Γ―Γ½ Γ°Γ΅Γ΄Γ§Γ¨Γ¥Γ Γ΄Γ― Alt";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6030,7 +6031,7 @@ function InitQuestion133()
     question.answers.length = 0;
     question.num = 133;
     question.isSingleAns = false;
-    question.shortTextQuestion = "133. Σημειώστε το σωστό: Ένα διανυσματικό σχήμα αποτελείται από:  ";
+    question.shortTextQuestion = "133. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΒΈΓ­Γ΅ Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓΌ Γ³Γ·ΓΓ¬Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«Γ¥ΓΓ΄Γ΅Γ© Γ΅Γ°ΓΌ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('kUHAuanmSwA=', 1429, -1, 1);
@@ -6038,7 +6039,7 @@ function InitQuestion133()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. γραμμές και καμπύλες";
+    answer1.shortTextAnswer = "Γ. Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² ΓªΓ΅Γ© ΓªΓ΅Γ¬Γ°Γ½Γ«Γ¥Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('y1zGiLecb7I=', 1431, -1, 1);
@@ -6046,7 +6047,7 @@ function InitQuestion133()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κύκλους και γραμμές";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ½ΓªΓ«Γ―ΓµΓ² ΓªΓ΅Γ© Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('HXLx0UMmbNg=', 1433, -1, 1);
@@ -6054,7 +6055,7 @@ function InitQuestion133()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. γραμμές και ορθογώνια";
+    answer3.shortTextAnswer = "Γƒ. Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² ΓªΓ΅Γ© Γ―Γ±Γ¨Γ―Γ£ΓΎΓ­Γ©Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('f2Fmd0VqkJU=', 1435, -1, 1);
@@ -6062,7 +6063,7 @@ function InitQuestion133()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6079,7 +6080,7 @@ function InitQuestion134()
     question.answers.length = 0;
     question.num = 134;
     question.isSingleAns = false;
-    question.shortTextQuestion = "134. Σημειώστε το σωστό: Η διαδρομή που κάνει ένα οποιοδήποτε εργαλείο σχεδίασης λέγεται:  ";
+    question.shortTextQuestion = "134. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: Γ‡ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ°Γ―Γµ ΓªΓΓ­Γ¥Γ© ΓΓ­Γ΅ Γ―Γ°Γ―Γ©Γ―Γ¤ΓΓ°Γ―Γ΄Γ¥ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ³Γ·Γ¥Γ¤ΓΓ΅Γ³Γ§Γ² Γ«ΓΓ£Γ¥Γ΄Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Sl8b3gOzEDo=', 1439, -1, 1);
@@ -6087,7 +6088,7 @@ function InitQuestion134()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. περίγραμμα";
+    answer1.shortTextAnswer = "Γ. Γ°Γ¥Γ±ΓΓ£Γ±Γ΅Γ¬Γ¬Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('YPCkcWRCt7o=', 1441, -1, 1);
@@ -6095,7 +6096,7 @@ function InitQuestion134()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. στύλ";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ΄Γ½Γ«";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('a4gm4hZAYCI=', 1443, -1, 1);
@@ -6103,7 +6104,7 @@ function InitQuestion134()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. χρώμα γεμίσματος";
+    answer3.shortTextAnswer = "Γƒ. Γ·Γ±ΓΎΓ¬Γ΅ Γ£Γ¥Γ¬ΓΓ³Γ¬Γ΅Γ΄Γ―Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('aEtX7xSid24=', 1445, -1, 1);
@@ -6111,7 +6112,7 @@ function InitQuestion134()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6128,7 +6129,7 @@ function InitQuestion135()
     question.answers.length = 0;
     question.num = 135;
     question.isSingleAns = false;
-    question.shortTextQuestion = "135. Σημειώστε το σωστό: Μια διαδρομή δεν μπορεί:  ";
+    question.shortTextQuestion = "135. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓΓ©Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('YAWVS23QwKU=', 1449, -1, 1);
@@ -6136,7 +6137,7 @@ function InitQuestion135()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. να αλλάξει σχήμα";
+    answer1.shortTextAnswer = "Γ. Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ³Γ·ΓΓ¬Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ps4SIVbRFdo=', 1451, -1, 1);
@@ -6144,7 +6145,7 @@ function InitQuestion135()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. να αλλάξει μέγεθος";
+    answer2.shortTextAnswer = "Γ‚. Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ¬ΓΓ£Γ¥Γ¨Γ―Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('mVgIrmeoc28=', 1453, -1, 1);
@@ -6152,7 +6153,7 @@ function InitQuestion135()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. να μετατραπεί σε επιλογή";
+    answer3.shortTextAnswer = "Γƒ. Γ­Γ΅ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ΅Γ°Γ¥Γ Γ³Γ¥ Γ¥Γ°Γ©Γ«Γ―Γ£Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('oXpu6uRi8oE=', 1455, -1, 1);
@@ -6160,7 +6161,7 @@ function InitQuestion135()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6177,7 +6178,7 @@ function InitQuestion136()
     question.answers.length = 0;
     question.num = 136;
     question.isSingleAns = false;
-    question.shortTextQuestion = "136. Σημειώστε το σωστό: Μια διαδρομή όταν αποθηκεύεται είναι:  ";
+    question.shortTextQuestion = "136. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓΓ©Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ ΓΌΓ΄Γ΅Γ­ Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ΄Γ΅Γ© Γ¥ΓΓ­Γ΅Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('GvL7qhynZ5w=', 1459, -1, 1);
@@ -6185,7 +6186,7 @@ function InitQuestion136()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. διαδρομή σχήματος";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('NJDG0SNW15E=', 1461, -1, 1);
@@ -6193,7 +6194,7 @@ function InitQuestion136()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διαδρομή χρώματος";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('egukJqjK4Sk=', 1463, -1, 1);
@@ -6201,7 +6202,7 @@ function InitQuestion136()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διαδρομή αποκοπής για να γίνει διαφανές μέρος της εικόνας για επεξεργασία";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ΅Γ°Γ―ΓªΓ―Γ°ΓΓ² Γ£Γ©Γ΅ Γ­Γ΅ Γ£ΓΓ­Γ¥Γ© Γ¤Γ©Γ΅Γ¶Γ΅Γ­ΓΓ² Γ¬ΓΓ±Γ―Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ£Γ©Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('DSMaU3Vwf7s=', 1465, -1, 1);
@@ -6209,7 +6210,7 @@ function InitQuestion136()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6226,7 +6227,7 @@ function InitQuestion137()
     question.answers.length = 0;
     question.num = 137;
     question.isSingleAns = false;
-    question.shortTextQuestion = "137. Σημειώστε το σωστό Το σχήμα τροχού γίνεται με:  ";
+    question.shortTextQuestion = "137. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ³Γ·ΓΓ¬Γ΅ Γ΄Γ±Γ―Γ·Γ―Γ½ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('PMvLYorq+iM=', 1469, -1, 1);
@@ -6234,7 +6235,7 @@ function InitQuestion137()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλογή του σχήματος της έλλειψης με πατημένο το Shift";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ΄Γ§Γ² ΓΓ«Γ«Γ¥Γ©ΓΈΓ§Γ² Γ¬Γ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Γ΄Γ― Shift";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('PMvLYorq+iM=', 1471, -1, 1);
@@ -6242,7 +6243,7 @@ function InitQuestion137()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιλογή του σχήματος της έλλειψης";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ΄Γ§Γ² ΓΓ«Γ«Γ¥Γ©ΓΈΓ§Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('oAKqstZDRy4=', 1473, -1, 1);
@@ -6250,7 +6251,7 @@ function InitQuestion137()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επιλογή του σχήματος του κύκλου";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ΄Γ―Γµ ΓªΓ½ΓªΓ«Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6267,7 +6268,7 @@ function InitQuestion138()
     question.answers.length = 0;
     question.num = 138;
     question.isSingleAns = false;
-    question.shortTextQuestion = "138. Σημειώστε το σωστό Ένα ραστεροποιημένο σχήμα:  ";
+    question.shortTextQuestion = "138. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅ Γ±Γ΅Γ³Γ΄Γ¥Γ±Γ―Γ°Γ―Γ©Γ§Γ¬ΓΓ­Γ― Γ³Γ·ΓΓ¬Γ΅:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('VCE02A8IhRs=', 1479, -1, 1);
@@ -6275,7 +6276,7 @@ function InitQuestion138()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορεί να υποστεί επεξεργασία ως διανυσματικό σχήμα";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ ΓΉΓ² Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓΌ Γ³Γ·ΓΓ¬Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('r1g3eAU7Kvw=', 1481, -1, 1);
@@ -6283,7 +6284,7 @@ function InitQuestion138()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν μπορεί να υποστεί επεξεργασία ως διανυσματικό σχήμα";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ ΓΉΓ² Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓΌ Γ³Γ·ΓΓ¬Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('r1g3eAU7Kvw=', 1483, -1, 1);
@@ -6291,7 +6292,7 @@ function InitQuestion138()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπορεί να υποστεί επεξεργασία σε επίπεδο με διανυσματική βάση";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ³Γ¥ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ¬Γ¥ Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓ ΓΆΓΓ³Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6308,7 +6309,7 @@ function InitQuestion139()
     question.answers.length = 0;
     question.num = 139;
     question.isSingleAns = false;
-    question.shortTextQuestion = "139. Σημειώστε το σωστό Η εντολή “αδιαφάνεια” ορίζει:  ";
+    question.shortTextQuestion = "139. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Β“Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅Β” Γ―Γ±ΓΓ¦Γ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Ed6Q5O9Z2lY=', 1489, -1, 1);
@@ -6316,7 +6317,7 @@ function InitQuestion139()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. την διαφάνεια του σχήματος με τιμές περίπου στο 100%";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ§Γ­ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ΄Γ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ¬Γ¥ Γ΄Γ©Γ¬ΓΓ² Γ°Γ¥Γ±ΓΓ°Γ―Γµ Γ³Γ΄Γ― 100%";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('9ad7kqSck9I=', 1491, -1, 1);
@@ -6324,7 +6325,7 @@ function InitQuestion139()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. την αδιαφάνεια του σχήματος με τιμές περίπου στο 1%";
+    answer2.shortTextAnswer = "Γ‚. Γ΄Γ§Γ­ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ΄Γ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ¬Γ¥ Γ΄Γ©Γ¬ΓΓ² Γ°Γ¥Γ±ΓΓ°Γ―Γµ Γ³Γ΄Γ― 1%";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ciWtah8RaPg=', 1493, -1, 1);
@@ -6332,7 +6333,7 @@ function InitQuestion139()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ορίζει τον βαθμό αδιαφάνειας ενός επιπέδου";
+    answer3.shortTextAnswer = "Γƒ. Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ―Γ­ ΓΆΓ΅Γ¨Γ¬ΓΌ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅Γ² Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6349,7 +6350,7 @@ function InitQuestion140()
     question.answers.length = 0;
     question.num = 140;
     question.isSingleAns = false;
-    question.shortTextQuestion = "140. Σημειώστε το σωστό Για την τροποποίηση ενός σχήματος  ";
+    question.shortTextQuestion = "140. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ΄Γ§Γ­ Γ΄Γ±Γ―Γ°Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ¥Γ­ΓΌΓ² Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('n8HMhnktKw4=', 1499, -1, 1);
@@ -6357,7 +6358,7 @@ function InitQuestion140()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. κλικ στην μικρογραφία της διανυσματικής μάσκας στον πίνακα Επίπεδα";
+    answer1.shortTextAnswer = "Γ. ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅ Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓΓ² Γ¬ΓΓ³ΓªΓ΅Γ² Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ…Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('n8HMhnktKw4=', 1501, -1, 1);
@@ -6365,7 +6366,7 @@ function InitQuestion140()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κλικ στην μικρογραφία της διανυσματικής μάσκας στον πίνακα Διαδρομές";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅ Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓΓ² Γ¬ΓΓ³ΓªΓ΅Γ² Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ„Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('3p5qHZqANkY=', 1503, -1, 1);
@@ -6373,7 +6374,7 @@ function InitQuestion140()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κλικ στην επιλογή της πένας";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ§Γ² Γ°ΓΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6390,7 +6391,7 @@ function InitQuestion141()
     question.answers.length = 0;
     question.num = 141;
     question.isSingleAns = false;
-    question.shortTextQuestion = "141. Σημειώστε το σωστό Η πρόσβαση στις επιλογές εργαλείου σχημάτων γίνεται με  ";
+    question.shortTextQuestion = "141. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ°Γ±ΓΌΓ³ΓΆΓ΅Γ³Γ§ Γ³Γ΄Γ©Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ Γ³Γ·Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BrwpVL+qNuw=', 1509, -1, 1);
@@ -6398,7 +6399,7 @@ function InitQuestion141()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. κλικ στην μικρογραφία του επιπέδου";
+    answer1.shortTextAnswer = "Γ. ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅ Γ΄Γ―Γµ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('QNpOc3skJ8o=', 1511, -1, 1);
@@ -6406,7 +6407,7 @@ function InitQuestion141()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κλικ στο ανεστραμμένο βέλος δίπλα στο κουμπί σχήματος στη γραμμή επιλογών";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΅Γ­Γ¥Γ³Γ΄Γ±Γ΅Γ¬Γ¬ΓΓ­Γ― ΓΆΓΓ«Γ―Γ² Γ¤ΓΓ°Γ«Γ΅ Γ³Γ΄Γ― ΓªΓ―ΓµΓ¬Γ°Γ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ² Γ³Γ΄Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('QNpOc3skJ8o=', 1513, -1, 1);
@@ -6414,7 +6415,7 @@ function InitQuestion141()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κλικ στον πίνακα Διαδρομές";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ«Γ©Γª Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ„Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6431,7 +6432,7 @@ function InitQuestion142()
     question.answers.length = 0;
     question.num = 142;
     question.isSingleAns = false;
-    question.shortTextQuestion = "142. Σημειώστε το σωστό Η επιλογή Προσκόλληση στα pixel στις επιλογές εργαλείου ορθογωνίου ή στρογγυλεμένου ορθογωνίου  ";
+    question.shortTextQuestion = "142. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓΓ±Γ―Γ³ΓªΓΌΓ«Γ«Γ§Γ³Γ§ Γ³Γ΄Γ΅ pixel Γ³Γ΄Γ©Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ Γ―Γ±Γ¨Γ―Γ£ΓΉΓ­ΓΓ―Γµ Γ Γ³Γ΄Γ±Γ―Γ£Γ£ΓµΓ«Γ¥Γ¬ΓΓ­Γ―Γµ Γ―Γ±Γ¨Γ―Γ£ΓΉΓ­ΓΓ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('sy9LatxPVJI=', 1519, -1, 1);
@@ -6439,7 +6440,7 @@ function InitQuestion142()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προσκολλά το σχήμα στα εικονοστοιχεία της εικόνας";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ³ΓªΓ―Γ«Γ«Γ Γ΄Γ― Γ³Γ·ΓΓ¬Γ΅ Γ³Γ΄Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GOn2ec51rm0=', 1521, -1, 1);
@@ -6447,7 +6448,7 @@ function InitQuestion142()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. προσκολλά τα διάφανα μέρη της εικόνας στα σχήματα";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±Γ―Γ³ΓªΓ―Γ«Γ«Γ Γ΄Γ΅ Γ¤Γ©ΓΓ¶Γ΅Γ­Γ΅ Γ¬ΓΓ±Γ§ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ΄Γ΅ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('cOz/Dzi6HZ4=', 1523, -1, 1);
@@ -6455,7 +6456,7 @@ function InitQuestion142()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. προσκολλά τις γωνίες στα εικονοστοιχεία";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ±Γ―Γ³ΓªΓ―Γ«Γ«Γ Γ΄Γ©Γ² Γ£ΓΉΓ­ΓΓ¥Γ² Γ³Γ΄Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6472,7 +6473,7 @@ function InitQuestion143()
     question.answers.length = 0;
     question.num = 143;
     question.isSingleAns = false;
-    question.shortTextQuestion = "143. Σημειώστε το σωστό Το εργαλείο της πένας στη γραμμή επιλογών παρέχει τις εξής λειτουργίες:  ";
+    question.shortTextQuestion = "143. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ΄Γ§Γ² Γ°ΓΓ­Γ΅Γ² Γ³Γ΄Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­ Γ°Γ΅Γ±ΓΓ·Γ¥Γ© Γ΄Γ©Γ² Γ¥Γ®ΓΓ² Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('6xeBSBiiQmo=', 1529, -1, 1);
@@ -6480,7 +6481,7 @@ function InitQuestion143()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αυτόματη προσθήκη κόμβου";
+    answer1.shortTextAnswer = "Γ. Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ°Γ±Γ―Γ³Γ¨ΓΓªΓ§ ΓªΓΌΓ¬ΓΆΓ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('KgBhBjAAYmc=', 1531, -1, 1);
@@ -6488,7 +6489,7 @@ function InitQuestion143()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αυτόματη διαγραφή κόμβου";
+    answer2.shortTextAnswer = "Γ‚. Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ ΓªΓΌΓ¬ΓΆΓ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('78zUyJDlEvk=', 1533, -1, 1);
@@ -6496,7 +6497,7 @@ function InitQuestion143()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6513,7 +6514,7 @@ function InitQuestion144()
     question.answers.length = 0;
     question.num = 144;
     question.isSingleAns = false;
-    question.shortTextQuestion = "144. Σημειώστε το σωστό Η επιλογή ελαστική γραμμή :  ";
+    question.shortTextQuestion = "144. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ«Γ΅Γ³Γ΄Γ©ΓªΓ Γ£Γ±Γ΅Γ¬Γ¬Γ :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Hc9okptuIxU=', 1539, -1, 1);
@@ -6521,7 +6522,7 @@ function InitQuestion144()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. παρέχει την ευελιξία τροποποίησης της γραμμής που δημιουργείται";
+    answer1.shortTextAnswer = "Γ. Γ°Γ΅Γ±ΓΓ·Γ¥Γ© Γ΄Γ§Γ­ Γ¥ΓµΓ¥Γ«Γ©Γ®ΓΓ΅ Γ΄Γ±Γ―Γ°Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ² Γ΄Γ§Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² Γ°Γ―Γµ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ©";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BhGKJimMSrs=', 1541, -1, 1);
@@ -6529,7 +6530,7 @@ function InitQuestion144()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διευκολύνει τη δημιουργία πολύπλοκου σχήματος";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ¥ΓµΓªΓ―Γ«Γ½Γ­Γ¥Γ© Γ΄Γ§ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ°Γ―Γ«Γ½Γ°Γ«Γ―ΓªΓ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('zb6Pgqf2ouM=', 1543, -1, 1);
@@ -6537,7 +6538,7 @@ function InitQuestion144()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. παρέχει την δυνατότητα προεπισκόπησης τμημάτων της γραμμής που δημιουργείται";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ΅Γ±ΓΓ·Γ¥Γ© Γ΄Γ§Γ­ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§Γ² Γ΄Γ¬Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ΄Γ§Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² Γ°Γ―Γµ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ©";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6554,7 +6555,7 @@ function InitQuestion145()
     question.answers.length = 0;
     question.num = 145;
     question.isSingleAns = false;
-    question.shortTextQuestion = "145. Σημειώστε το σωστό Μια διαδρομή για να παραμείνει ανοικτή πρέπει:  ";
+    question.shortTextQuestion = "145. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ©Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ£Γ©Γ΅ Γ­Γ΅ Γ°Γ΅Γ±Γ΅Γ¬Γ¥ΓΓ­Γ¥Γ© Γ΅Γ­Γ―Γ©ΓªΓ΄Γ Γ°Γ±ΓΓ°Γ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('aCE2Vx7gwI0=', 1549, -1, 1);
@@ -6562,7 +6563,7 @@ function InitQuestion145()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. να πατηθεί Control+ κλικ μακριά από όλα τα αντικείμενα";
+    answer1.shortTextAnswer = "Γ. Γ­Γ΅ Γ°Γ΅Γ΄Γ§Γ¨Γ¥Γ Control+ ΓªΓ«Γ©Γª Γ¬Γ΅ΓªΓ±Γ©Γ Γ΅Γ°ΓΌ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WpMpP/Bm3xk=', 1551, -1, 1);
@@ -6570,7 +6571,7 @@ function InitQuestion145()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. να επιλεχθεί μία διαφορετική διαδρομή";
+    answer2.shortTextAnswer = "Γ‚. Γ­Γ΅ Γ¥Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ Γ¬ΓΓ΅ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('brrbf5pnZwU=', 1553, -1, 1);
@@ -6578,7 +6579,7 @@ function InitQuestion145()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. να επιλεχθεί ένα διαφορετικό εργαλείο";
+    answer3.shortTextAnswer = "Γƒ. Γ­Γ΅ Γ¥Γ°Γ©Γ«Γ¥Γ·Γ¨Γ¥Γ ΓΓ­Γ΅ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓΌ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('RXq0SCMipNM=', 1555, -1, 1);
@@ -6586,7 +6587,7 @@ function InitQuestion145()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6603,7 +6604,7 @@ function InitQuestion146()
     question.answers.length = 0;
     question.num = 146;
     question.isSingleAns = false;
-    question.shortTextQuestion = "146. Σημειώστε το σωστό Μία καμπύλη γραμμή με πολλούς κόμβους:  ";
+    question.shortTextQuestion = "146. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓΓ΅ ΓªΓ΅Γ¬Γ°Γ½Γ«Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¬Γ¥ Γ°Γ―Γ«Γ«Γ―Γ½Γ² ΓªΓΌΓ¬ΓΆΓ―ΓµΓ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ot+J/6sX9zA=', 1559, -1, 1);
@@ -6611,7 +6612,7 @@ function InitQuestion146()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επεξεργάζεται ευκολότερα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¥ΓµΓªΓ―Γ«ΓΌΓ΄Γ¥Γ±Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Ig9xoxGF9aU=', 1561, -1, 1);
@@ -6619,7 +6620,7 @@ function InitQuestion146()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι περισσότερο ευέλικτη στις αλλαγές";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ― Γ¥ΓµΓΓ«Γ©ΓªΓ΄Γ§ Γ³Γ΄Γ©Γ² Γ΅Γ«Γ«Γ΅Γ£ΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('1y69rhft7hc=', 1563, -1, 1);
@@ -6627,7 +6628,7 @@ function InitQuestion146()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επεξεργάζεται δύσκολα";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¤Γ½Γ³ΓªΓ―Γ«Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6644,7 +6645,7 @@ function InitQuestion147()
     question.answers.length = 0;
     question.num = 147;
     question.isSingleAns = false;
-    question.shortTextQuestion = "147. Σημειώστε το σωστό Για την μετάβαση από ευθεία σε καμπύλη γραμμή :  ";
+    question.shortTextQuestion = "147. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ΄Γ§Γ­ Γ¬Γ¥Γ΄ΓΓΆΓ΅Γ³Γ§ Γ΅Γ°ΓΌ Γ¥ΓµΓ¨Γ¥ΓΓ΅ Γ³Γ¥ ΓªΓ΅Γ¬Γ°Γ½Γ«Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('i3IxjLJ5yrA=', 1569, -1, 1);
@@ -6652,7 +6653,7 @@ function InitQuestion147()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. τοποθετείται το εργαλείο πένας στο επόμενο σημείο και στη συνέχεια κάνετε κλικ συνεχόμενο και τραβάτε προς μία κατεύθυνση";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ―Γ°Γ―Γ¨Γ¥Γ΄Γ¥ΓΓ΄Γ΅Γ© Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ°ΓΓ­Γ΅Γ² Γ³Γ΄Γ― Γ¥Γ°ΓΌΓ¬Γ¥Γ­Γ― Γ³Γ§Γ¬Γ¥ΓΓ― ΓªΓ΅Γ© Γ³Γ΄Γ§ Γ³ΓµΓ­ΓΓ·Γ¥Γ©Γ΅ ΓªΓΓ­Γ¥Γ΄Γ¥ ΓªΓ«Γ©Γª Γ³ΓµΓ­Γ¥Γ·ΓΌΓ¬Γ¥Γ­Γ― ΓªΓ΅Γ© Γ΄Γ±Γ΅ΓΆΓΓ΄Γ¥ Γ°Γ±Γ―Γ² Γ¬ΓΓ΅ ΓªΓ΅Γ΄Γ¥Γ½Γ¨ΓµΓ­Γ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('i3IxjLJ5yrA=', 1571, -1, 1);
@@ -6660,7 +6661,7 @@ function InitQuestion147()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. γίνεται διπλό κλικ στο τελικό σημείο";
+    answer2.shortTextAnswer = "Γ‚. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¤Γ©Γ°Γ«ΓΌ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΄Γ¥Γ«Γ©ΓªΓΌ Γ³Γ§Γ¬Γ¥ΓΓ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('770mlzv9dGo=', 1573, -1, 1);
@@ -6668,7 +6669,7 @@ function InitQuestion147()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6685,7 +6686,7 @@ function InitQuestion148()
     question.answers.length = 0;
     question.num = 148;
     question.isSingleAns = false;
-    question.shortTextQuestion = "148. Σημειώστε το σωστό Ο έλεγχος της ευαισθησίας της τελικής διαδρομής στην κίνηση του ποντικιού ή της γραφίδας στο εργαλείο πένας ελεύθερης σχεδίασης γίνεται με:  ";
+    question.shortTextQuestion = "148. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ ΓΓ«Γ¥Γ£Γ·Γ―Γ² Γ΄Γ§Γ² Γ¥ΓµΓ΅Γ©Γ³Γ¨Γ§Γ³ΓΓ΅Γ² Γ΄Γ§Γ² Γ΄Γ¥Γ«Γ©ΓªΓΓ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² Γ³Γ΄Γ§Γ­ ΓªΓΓ­Γ§Γ³Γ§ Γ΄Γ―Γµ Γ°Γ―Γ­Γ΄Γ©ΓªΓ©Γ―Γ½ Γ Γ΄Γ§Γ² Γ£Γ±Γ΅Γ¶ΓΓ¤Γ΅Γ² Γ³Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ°ΓΓ­Γ΅Γ² Γ¥Γ«Γ¥Γ½Γ¨Γ¥Γ±Γ§Γ² Γ³Γ·Γ¥Γ¤ΓΓ΅Γ³Γ§Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('d+Df5rUJtG4=', 1579, -1, 1);
@@ -6693,7 +6694,7 @@ function InitQuestion148()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. με επιλογή εργαλείου πένας ελεύθερης σχεδίασης";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ¥ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ Γ°ΓΓ­Γ΅Γ² Γ¥Γ«Γ¥Γ½Γ¨Γ¥Γ±Γ§Γ² Γ³Γ·Γ¥Γ¤ΓΓ΅Γ³Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('zt5KlVEykmQ=', 1581, -1, 1);
@@ -6701,7 +6702,7 @@ function InitQuestion148()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. με κλικ στο αντεστραμμένο βέλος δίπλα στα κουμπιά σχήματος";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΅Γ­Γ΄Γ¥Γ³Γ΄Γ±Γ΅Γ¬Γ¬ΓΓ­Γ― ΓΆΓΓ«Γ―Γ² Γ¤ΓΓ°Γ«Γ΅ Γ³Γ΄Γ΅ ΓªΓ―ΓµΓ¬Γ°Γ©Γ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('zt5KlVEykmQ=', 1583, -1, 1);
@@ -6709,7 +6710,7 @@ function InitQuestion148()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. με κλικ στο τελικό σημείο του σχήματος";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΄Γ¥Γ«Γ©ΓªΓΌ Γ³Γ§Γ¬Γ¥ΓΓ― Γ΄Γ―Γµ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ―Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6726,7 +6727,7 @@ function InitQuestion149()
     question.answers.length = 0;
     question.num = 149;
     question.isSingleAns = false;
-    question.shortTextQuestion = "149. Σημειώστε το σωστό Για να κλείσουμε μια διαδρομή :  ";
+    question.shortTextQuestion = "149. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ­Γ΅ ΓªΓ«Γ¥ΓΓ³Γ―ΓµΓ¬Γ¥ Γ¬Γ©Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('oh9FgjU+ihw=', 1589, -1, 1);
@@ -6734,7 +6735,7 @@ function InitQuestion149()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. κάνουμε διπλό κλικ στο τέλος της διαδρομής";
+    answer1.shortTextAnswer = "Γ. ΓªΓΓ­Γ―ΓµΓ¬Γ¥ Γ¤Γ©Γ°Γ«ΓΌ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΄ΓΓ«Γ―Γ² Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('H0alKUVx25g=', 1591, -1, 1);
@@ -6742,7 +6743,7 @@ function InitQuestion149()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σύρουμε τη γραμμή στο αρχικό σημείο της";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ Γ΄Γ§ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ³Γ΄Γ― Γ΅Γ±Γ·Γ©ΓªΓΌ Γ³Γ§Γ¬Γ¥ΓΓ― Γ΄Γ§Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('H0alKUVx25g=', 1593, -1, 1);
@@ -6750,7 +6751,7 @@ function InitQuestion149()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κάνουμε όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓΓ­Γ―ΓµΓ¬Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6767,7 +6768,7 @@ function InitQuestion150()
     question.answers.length = 0;
     question.num = 150;
     question.isSingleAns = false;
-    question.shortTextQuestion = "150. Σημειώστε το σωστό Το εργαλείο μαγνητικής πένας:  ";
+    question.shortTextQuestion = "150. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ¬Γ΅Γ£Γ­Γ§Γ΄Γ©ΓªΓΓ² Γ°ΓΓ­Γ΅Γ²:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('4Bk56B107a8=', 1599, -1, 1);
@@ -6775,7 +6776,7 @@ function InitQuestion150()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. έχει ορισμένες ίδιες επιλογές με το μαγνητικό λάσο";
+    answer1.shortTextAnswer = "Γ. ΓΓ·Γ¥Γ© Γ―Γ±Γ©Γ³Γ¬ΓΓ­Γ¥Γ² ΓΓ¤Γ©Γ¥Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¬Γ¥ Γ΄Γ― Γ¬Γ΅Γ£Γ­Γ§Γ΄Γ©ΓªΓΌ Γ«ΓΓ³Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('4Bk56B107a8=', 1601, -1, 1);
@@ -6783,7 +6784,7 @@ function InitQuestion150()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. έχει διαφορετικές επιλογές από τις επιλογές με το μαγνητικό λάσο";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ·Γ¥Γ© Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓΓ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ΅Γ°ΓΌ Γ΄Γ©Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¬Γ¥ Γ΄Γ― Γ¬Γ΅Γ£Γ­Γ§Γ΄Γ©ΓªΓΌ Γ«ΓΓ³Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('n0fg5ngWzTE=', 1603, -1, 1);
@@ -6791,7 +6792,7 @@ function InitQuestion150()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. έχει τις ίδιες επιλογές με εκείνες του μαγνητικού λάσου";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ·Γ¥Γ© Γ΄Γ©Γ² ΓΓ¤Γ©Γ¥Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¬Γ¥ Γ¥ΓªΓ¥ΓΓ­Γ¥Γ² Γ΄Γ―Γµ Γ¬Γ΅Γ£Γ­Γ§Γ΄Γ©ΓªΓ―Γ½ Γ«ΓΓ³Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6808,7 +6809,7 @@ function InitQuestion151()
     question.answers.length = 0;
     question.num = 151;
     question.isSingleAns = false;
-    question.shortTextQuestion = "151. Σημειώστε το σωστό Η επιλογή «Συχνότητα» :  ";
+    question.shortTextQuestion = "151. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Β«Γ“ΓµΓ·Γ­ΓΌΓ΄Γ§Γ΄Γ΅Β» :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pSuYb4k3X0Y=', 1609, -1, 1);
@@ -6816,7 +6817,7 @@ function InitQuestion151()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. καθορίζει τη συχνότητα με την οποία η μαγνητική πένα εφαρμόζει τις επιλογές της";
+    answer1.shortTextAnswer = "Γ. ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§ Γ³ΓµΓ·Γ­ΓΌΓ΄Γ§Γ΄Γ΅ Γ¬Γ¥ Γ΄Γ§Γ­ Γ―Γ°Γ―ΓΓ΅ Γ§ Γ¬Γ΅Γ£Γ­Γ§Γ΄Γ©ΓªΓ Γ°ΓΓ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ© Γ΄Γ©Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ΄Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('jkUhSpXR4oE=', 1611, -1, 1);
@@ -6824,7 +6825,7 @@ function InitQuestion151()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. καθορίζει τη συχνότητα αυτόματης εισαγωγής κόμβων στη διαδρομή";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§ Γ³ΓµΓ·Γ­ΓΌΓ΄Γ§Γ΄Γ΅ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§Γ² Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£ΓΓ² ΓªΓΌΓ¬ΓΆΓΉΓ­ Γ³Γ΄Γ§ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('jkUhSpXR4oE=', 1613, -1, 1);
@@ -6832,7 +6833,7 @@ function InitQuestion151()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. καθορίζει τη συχνότητα προειδοποίησης για τα σημεία υψηλής αντίθεσης που βρίσκονται στην εικόνα";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§ Γ³ΓµΓ·Γ­ΓΌΓ΄Γ§Γ΄Γ΅ Γ°Γ±Γ―Γ¥Γ©Γ¤Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ² Γ£Γ©Γ΅ Γ΄Γ΅ Γ³Γ§Γ¬Γ¥ΓΓ΅ ΓµΓΈΓ§Γ«ΓΓ² Γ΅Γ­Γ΄ΓΓ¨Γ¥Γ³Γ§Γ² Γ°Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6849,7 +6850,7 @@ function InitQuestion152()
     question.answers.length = 0;
     question.num = 152;
     question.isSingleAns = false;
-    question.shortTextQuestion = "152. Σημειώστε το σωστό Για να εμφανιστεί μια διαδρομή  ";
+    question.shortTextQuestion = "152. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ­Γ΅ Γ¥Γ¬Γ¶Γ΅Γ­Γ©Γ³Γ΄Γ¥Γ Γ¬Γ©Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('aJ19UZuDq+0=', 1619, -1, 1);
@@ -6857,7 +6858,7 @@ function InitQuestion152()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλέγεται ο πίνακας “διαδρομές” και μετά κλικ στο όνομα της διαδρομής";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«ΓΓ£Γ¥Γ΄Γ΅Γ© Γ― Γ°ΓΓ­Γ΅ΓªΓ΅Γ² Β“Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²Β” ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ ΓªΓ«Γ©Γª Γ³Γ΄Γ― ΓΌΓ­Γ―Γ¬Γ΅ Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('aJ19UZuDq+0=', 1621, -1, 1);
@@ -6865,7 +6866,7 @@ function InitQuestion152()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. απενεργοποιούνται όλες οι μικρογραφίες";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ°Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© ΓΌΓ«Γ¥Γ² Γ―Γ© Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ¥Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('hdhrFoR9hdA=', 1623, -1, 1);
@@ -6873,7 +6874,7 @@ function InitQuestion152()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('AGYHX59wRXA=', 1625, -1, 1);
@@ -6881,7 +6882,7 @@ function InitQuestion152()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6898,7 +6899,7 @@ function InitQuestion153()
     question.answers.length = 0;
     question.num = 153;
     question.isSingleAns = false;
-    question.shortTextQuestion = "153. Σημειώστε το σωστό Για να αλλάξει το μέγεθος των μικρογραφιών διαδρομής  ";
+    question.shortTextQuestion = "153. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄ΓΉΓ­ Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶Γ©ΓΎΓ­ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('/vYkbFPsrxU=', 1629, -1, 1);
@@ -6906,7 +6907,7 @@ function InitQuestion153()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μέσα από τον πίνακα διαδρομές επιλέγεται η εντολή “Επιλογές” και μετά “μέγεθος” ή “χωρίς”";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² Γ¥Γ°Γ©Γ«ΓΓ£Γ¥Γ΄Γ΅Γ© Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Β“Γ…Γ°Γ©Γ«Γ―Γ£ΓΓ²Β” ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Β“Γ¬ΓΓ£Γ¥Γ¨Γ―Γ²Β” Γ Β“Γ·ΓΉΓ±ΓΓ²Β”";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('/vYkbFPsrxU=', 1631, -1, 1);
@@ -6914,7 +6915,7 @@ function InitQuestion153()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεξί κλικ στον πίνακα διαδρομές για να αναδυθεί η εντολή μέγεθος";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ®Γ ΓªΓ«Γ©Γª Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² Γ£Γ©Γ΅ Γ­Γ΅ Γ΅Γ­Γ΅Γ¤ΓµΓ¨Γ¥Γ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¬ΓΓ£Γ¥Γ¨Γ―Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('pIdwhE+bf44=', 1633, -1, 1);
@@ -6922,7 +6923,7 @@ function InitQuestion153()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. τίποτα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('Flb9JOav5sw=', 1635, -1, 1);
@@ -6930,7 +6931,7 @@ function InitQuestion153()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. είτε το Α είτε το Β";
+    answer4.shortTextAnswer = "Γ„. Γ¥ΓΓ΄Γ¥ Γ΄Γ― Γ Γ¥ΓΓ΄Γ¥ Γ΄Γ― Γ‚";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -6947,7 +6948,7 @@ function InitQuestion154()
     question.answers.length = 0;
     question.num = 154;
     question.isSingleAns = false;
-    question.shortTextQuestion = "154. Σημειώστε το σωστό Η σειρά των διαδρομών εργασίας στον πίνακα διαδρομές  ";
+    question.shortTextQuestion = "154. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ³Γ¥Γ©Γ±Γ Γ΄ΓΉΓ­ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΎΓ­ Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('jwfrKyNpFUo=', 1639, -1, 1);
@@ -6955,7 +6956,7 @@ function InitQuestion154()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αλλάζει με σύρσιμο της διαδρομής";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© Γ¬Γ¥ Γ³Γ½Γ±Γ³Γ©Γ¬Γ― Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('DMAd1Y6B2vg=', 1641, -1, 1);
@@ -6963,7 +6964,7 @@ function InitQuestion154()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αλλάζει με Control + C και μετά με control +V";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© Γ¬Γ¥ Control + C ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ¬Γ¥ control +V";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('NV+fDxUKPtE=', 1643, -1, 1);
@@ -6971,7 +6972,7 @@ function InitQuestion154()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δεν αλλάζει";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ¥Γ­ Γ΅Γ«Γ«ΓΓ¦Γ¥Γ©";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -6988,7 +6989,7 @@ function InitQuestion155()
     question.answers.length = 0;
     question.num = 155;
     question.isSingleAns = false;
-    question.shortTextQuestion = "155. Σημειώστε το σωστό  ";
+    question.shortTextQuestion = "155. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('x0NaR3dlzx4=', 1649, -1, 1);
@@ -6996,7 +6997,7 @@ function InitQuestion155()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Δημιουργείται μία νέα διαδρομή με κλικ στο αντίστοιχο εικονίδιο στον πίνακα “Διαδρομές”/paths";
+    answer1.shortTextAnswer = "Γ. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© Γ¬ΓΓ΅ Γ­ΓΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ΅Γ­Γ΄ΓΓ³Γ΄Γ―Γ©Γ·Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Β“Γ„Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²Β”/paths";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Pb/aZbC+PSQ=', 1651, -1, 1);
@@ -7004,7 +7005,7 @@ function InitQuestion155()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Δημιουργείται μια νέα διαδρομή με επιλογή μιας διαδρομής εργασίας και δεξί κλικ";
+    answer2.shortTextAnswer = "Γ‚. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© Γ¬Γ©Γ΅ Γ­ΓΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ¬Γ¥ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¬Γ©Γ΅Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² ΓªΓ΅Γ© Γ¤Γ¥Γ®Γ ΓªΓ«Γ©Γª";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ssU1KCpQhmg=', 1653, -1, 1);
@@ -7012,7 +7013,7 @@ function InitQuestion155()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Δημιουργείται μια νέα διαδρομή με alt + κλικ και απόδοση ονόματος διαδρομής";
+    answer3.shortTextAnswer = "Γƒ. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© Γ¬Γ©Γ΅ Γ­ΓΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ Γ¬Γ¥ alt + ΓªΓ«Γ©Γª ΓªΓ΅Γ© Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§ Γ―Γ­ΓΌΓ¬Γ΅Γ΄Γ―Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('HyHzsR9emdQ=', 1655, -1, 1);
@@ -7020,7 +7021,7 @@ function InitQuestion155()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Είτε το Α είτε το Γ";
+    answer4.shortTextAnswer = "Γ„. Γ…ΓΓ΄Γ¥ Γ΄Γ― Γ Γ¥ΓΓ΄Γ¥ Γ΄Γ― Γƒ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('HyHzsR9emdQ=', 1657, -1, 1);
@@ -7028,7 +7029,7 @@ function InitQuestion155()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = "Ε. Είτε το Β είτε το Γ";
+    answer5.shortTextAnswer = "Γ…. Γ…ΓΓ΄Γ¥ Γ΄Γ― Γ‚ Γ¥ΓΓ΄Γ¥ Γ΄Γ― Γƒ";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -7045,7 +7046,7 @@ function InitQuestion156()
     question.answers.length = 0;
     question.num = 156;
     question.isSingleAns = false;
-    question.shortTextQuestion = "156. Σημειώστε το σωστό Οι αποθηκευμένες διαδρομές εμφανίζονται στα Windows και Mac με μορφή αρχείων:  ";
+    question.shortTextQuestion = "156. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥ΓµΓ¬ΓΓ­Γ¥Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ΅ Windows ΓªΓ΅Γ© Mac Γ¬Γ¥ Γ¬Γ―Γ±Γ¶Γ Γ΅Γ±Γ·Γ¥ΓΓΉΓ­:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('YXAYQhfaNlU=', 1659, -1, 1);
@@ -7053,7 +7054,7 @@ function InitQuestion156()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. JPEG";
+    answer1.shortTextAnswer = "Γ. JPEG";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('l6EqW1sCHIs=', 1661, -1, 1);
@@ -7069,7 +7070,7 @@ function InitQuestion156()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. PDF";
+    answer3.shortTextAnswer = "Γƒ. PDF";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('LqO04iSIBGw=', 1665, -1, 1);
@@ -7077,7 +7078,7 @@ function InitQuestion156()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. TIFF";
+    answer4.shortTextAnswer = "Γ„. TIFF";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('6DS7U5qf7vI=', 1667, -1, 1);
@@ -7085,7 +7086,7 @@ function InitQuestion156()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = "Ε. όλα τα παραπάνω";
+    answer5.shortTextAnswer = "Γ…. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -7102,7 +7103,7 @@ function InitQuestion157()
     question.answers.length = 0;
     question.num = 157;
     question.isSingleAns = false;
-    question.shortTextQuestion = "157. Σημειώστε το σωστό: Για να γίνει επιλογή μια διαδρομή:  ";
+    question.shortTextQuestion = "157. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ­Γ΅ Γ£ΓΓ­Γ¥Γ© Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¬Γ©Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rwk6m4YDVmA=', 1669, -1, 1);
@@ -7110,7 +7111,7 @@ function InitQuestion157()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλογή συγκεκριμένης διαδρομής και κλικ στο φόρτωση διαδρομής";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² ΓªΓ΅Γ© ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¶ΓΌΓ±Γ΄ΓΉΓ³Γ§ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('rwk6m4YDVmA=', 1671, -1, 1);
@@ -7118,7 +7119,7 @@ function InitQuestion157()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιλογή συγκεκριμένης διαδρομής και διπλό κλικ στη διαδρομή";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² ΓªΓ΅Γ© Γ¤Γ©Γ°Γ«ΓΌ ΓªΓ«Γ©Γª Γ³Γ΄Γ§ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tBfopMgaxqU=', 1673, -1, 1);
@@ -7126,7 +7127,7 @@ function InitQuestion157()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επιλογή συγκεκριμένης διαδρομής και κλικ στο εργαλείο μολυβιού";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² ΓªΓ΅Γ© ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― Γ¬Γ―Γ«ΓµΓΆΓ©Γ―Γ½";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7143,7 +7144,7 @@ function InitQuestion158()
     question.answers.length = 0;
     question.num = 158;
     question.isSingleAns = false;
-    question.shortTextQuestion = "158. Σημειώστε το σωστό: Η εντολή ομαλοποίηση (feathering) κάνει:  ";
+    question.shortTextQuestion = "158. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ―Γ¬Γ΅Γ«Γ―Γ°Γ―ΓΓ§Γ³Γ§ (feathering) ΓªΓΓ­Γ¥Γ©:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Qrp1eGutj7A=', 1679, -1, 1);
@@ -7151,7 +7152,7 @@ function InitQuestion158()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ομαλότερη τη μετάβαση από τα επιλεγμένα εικονοστοιχεία στα εικονοστοιχεία της γύρω περιοχής";
+    answer1.shortTextAnswer = "Γ. Γ―Γ¬Γ΅Γ«ΓΌΓ΄Γ¥Γ±Γ§ Γ΄Γ§ Γ¬Γ¥Γ΄ΓΓΆΓ΅Γ³Γ§ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¥Γ°Γ©Γ«Γ¥Γ£Γ¬ΓΓ­Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ³Γ΄Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ΄Γ§Γ² Γ£Γ½Γ±ΓΉ Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Qrp1eGutj7A=', 1681, -1, 1);
@@ -7159,7 +7160,7 @@ function InitQuestion158()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ομαλότερη την μετάβαση των εικονοστοιχείων των αντικειμένων με το φόντο μιας εικόνας";
+    answer2.shortTextAnswer = "Γ‚. Γ―Γ¬Γ΅Γ«ΓΌΓ΄Γ¥Γ±Γ§ Γ΄Γ§Γ­ Γ¬Γ¥Γ΄ΓΓΆΓ΅Γ³Γ§ Γ΄ΓΉΓ­ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ΄ΓΉΓ­ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­ΓΉΓ­ Γ¬Γ¥ Γ΄Γ― Γ¶ΓΌΓ­Γ΄Γ― Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('8WH6mZ7dfoY=', 1683, -1, 1);
@@ -7167,7 +7168,7 @@ function InitQuestion158()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ομαλότερη μετάβαση των εικονοστοιχείων του φόντου με τα εικονοστοιχεία του προσκηνίου";
+    answer3.shortTextAnswer = "Γƒ. Γ―Γ¬Γ΅Γ«ΓΌΓ΄Γ¥Γ±Γ§ Γ¬Γ¥Γ΄ΓΓΆΓ΅Γ³Γ§ Γ΄ΓΉΓ­ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ΄Γ―Γµ Γ¶ΓΌΓ­Γ΄Γ―Γµ Γ¬Γ¥ Γ΄Γ΅ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ΄Γ―Γµ Γ°Γ±Γ―Γ³ΓªΓ§Γ­ΓΓ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7184,7 +7185,7 @@ function InitQuestion159()
     question.answers.length = 0;
     question.num = 159;
     question.isSingleAns = false;
-    question.shortTextQuestion = "159. Σημειώστε το σωστό: Η εντολή Διατήρηση διαφάνειας  ";
+    question.shortTextQuestion = "159. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ„Γ©Γ΅Γ΄ΓΓ±Γ§Γ³Γ§ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('qf5izsf9goY=', 1689, -1, 1);
@@ -7192,7 +7193,7 @@ function InitQuestion159()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. περιορίζει το γέμισμα μόνο στις περιοχές του επιπέδου που περιλαμβάνουν pixel";
+    answer1.shortTextAnswer = "Γ. Γ°Γ¥Γ±Γ©Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ― Γ£ΓΓ¬Γ©Γ³Γ¬Γ΅ Γ¬ΓΌΓ­Γ― Γ³Γ΄Γ©Γ² Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ² Γ΄Γ―Γµ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ Γ°Γ―Γµ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ―ΓµΓ­ pixel";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('qf5izsf9goY=', 1691, -1, 1);
@@ -7200,7 +7201,7 @@ function InitQuestion159()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διατηρεί τη διαφάνεια σε όλα τα επίπεδα";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ΅Γ΄Γ§Γ±Γ¥Γ Γ΄Γ§ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('hNZp/qzotKc=', 1693, -1, 1);
@@ -7208,7 +7209,7 @@ function InitQuestion159()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διατηρεί τη διαφάνεια στο ενεργό επίπεδο";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ΅Γ΄Γ§Γ±Γ¥Γ Γ΄Γ§ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7225,7 +7226,7 @@ function InitQuestion160()
     question.answers.length = 0;
     question.num = 160;
     question.isSingleAns = false;
-    question.shortTextQuestion = "160. Σημειώστε το σωστό Το γέμισμα διαδρομής  ";
+    question.shortTextQuestion = "160. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ£ΓΓ¬Γ©Γ³Γ¬Γ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('VpMKqcNip1Q=', 2057, -1, 1);
@@ -7233,7 +7234,7 @@ function InitQuestion160()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. γίνεται από το μενού του πίνακα διαδρομές";
+    answer1.shortTextAnswer = "Γ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('nmWYXO5AdLg=', 2059, -1, 1);
@@ -7241,7 +7242,7 @@ function InitQuestion160()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. με πατημένο Alt και κλικ στο εικονίδιο στο κάτω μέρος του πίνακα";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥ Γ°Γ΅Γ΄Γ§Γ¬ΓΓ­Γ― Alt ΓªΓ΅Γ© ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('nmWYXO5AdLg=', 2061, -1, 1);
@@ -7249,7 +7250,7 @@ function InitQuestion160()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. με κλικ στο εικονίδιο στο κάτω μέρος του πίνακα";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7266,7 +7267,7 @@ function InitQuestion161()
     question.answers.length = 0;
     question.num = 161;
     question.isSingleAns = false;
-    question.shortTextQuestion = "161. Σημειώστε το σωστό Διαγραφή τμήματος διαδρομής με :  ";
+    question.shortTextQuestion = "161. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ„Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ Γ΄Γ¬ΓΓ¬Γ΅Γ΄Γ―Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² Γ¬Γ¥ :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('8r9WHLkMHBM=', 2067, -1, 1);
@@ -7274,7 +7275,7 @@ function InitQuestion161()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλογή εργαλείου επιλογής και μετά επιλογή τμήματος για διαγραφή";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ¬ΓΓ¬Γ΅Γ΄Γ―Γ² Γ£Γ©Γ΅ Γ¤Γ©Γ΅Γ£Γ±Γ΅Γ¶Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('n0HlfoIXlLM=', 2069, -1, 1);
@@ -7282,7 +7283,7 @@ function InitQuestion161()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιλογή τμήματος της διαδρομής και μετά πάτημα Backspace ή Delete";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ¬ΓΓ¬Γ΅Γ΄Γ―Γ² Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ² ΓªΓ΅Γ© Γ¬Γ¥Γ΄Γ Γ°ΓΓ΄Γ§Γ¬Γ΅ Backspace Γ Delete";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('bXHXAIvrAz4=', 2071, -1, 1);
@@ -7290,7 +7291,7 @@ function InitQuestion161()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7307,7 +7308,7 @@ function InitQuestion162()
     question.answers.length = 0;
     question.num = 162;
     question.isSingleAns = false;
-    question.shortTextQuestion = "162. Σημειώστε το σωστό Η συλλογή φίλτρων  ";
+    question.shortTextQuestion = "162. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ³ΓµΓ«Γ«Γ―Γ£Γ Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dafkkd8MgNE=', 2077, -1, 1);
@@ -7315,7 +7316,7 @@ function InitQuestion162()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. εμφανίζεται μέσα από την επιλογή φίλτρα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¶ΓΓ«Γ΄Γ±Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('dafkkd8MgNE=', 2079, -1, 1);
@@ -7323,7 +7324,7 @@ function InitQuestion162()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. εμφανίζεται μέσα από το μενού Επεξεργασία";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('PCYB1mpS0dM=', 2081, -1, 1);
@@ -7331,7 +7332,7 @@ function InitQuestion162()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. εμφανίζεται μέσα από το μενού της Εικόνας";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ§Γ² Γ…Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7348,7 +7349,7 @@ function InitQuestion163()
     question.answers.length = 0;
     question.num = 163;
     question.isSingleAns = false;
-    question.shortTextQuestion = "163. Σημειώστε το σωστό Στην επισκόπηση συλλογής φίλτρων  ";
+    question.shortTextQuestion = "163. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§ Γ³ΓµΓ«Γ«Γ―Γ£ΓΓ² Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('CuOLHWiCsJY=', 2087, -1, 1);
@@ -7356,7 +7357,7 @@ function InitQuestion163()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορούν να εφαρμοστούν πολλά φίλτρα";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ―Γ½Γ­ Γ°Γ―Γ«Γ«Γ Γ¶ΓΓ«Γ΄Γ±Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('YJDh3mJwJfs=', 2089, -1, 1);
@@ -7364,7 +7365,7 @@ function InitQuestion163()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπορούν να ενεργοποιηθούν/απενεργοποιηθούν τα αποτελέσματα ενός φίλτρου";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¨Γ―Γ½Γ­/Γ΅Γ°Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¨Γ―Γ½Γ­ Γ΄Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«ΓΓ³Γ¬Γ΅Γ΄Γ΅ Γ¥Γ­ΓΌΓ² Γ¶ΓΓ«Γ΄Γ±Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('XinCvQcM8hE=', 2091, -1, 1);
@@ -7372,7 +7373,7 @@ function InitQuestion163()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. να αλλάξει η σειρά εφαρμογής φίλτρων";
+    answer3.shortTextAnswer = "Γƒ. Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ§ Γ³Γ¥Γ©Γ±Γ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£ΓΓ² Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('VW7qa/9fjfg=', 2093, -1, 1);
@@ -7380,7 +7381,7 @@ function InitQuestion163()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -7397,7 +7398,7 @@ function InitQuestion164()
     question.answers.length = 0;
     question.num = 164;
     question.isSingleAns = false;
-    question.shortTextQuestion = "164. Σημειώστε το σωστό Για την εφαρμογή φίλτρων σε μεγάλες εικόνες  ";
+    question.shortTextQuestion = "164. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ΄Γ§Γ­ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­ Γ³Γ¥ Γ¬Γ¥Γ£ΓΓ«Γ¥Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('H+YmI5ABCsI=', 2097, -1, 1);
@@ -7405,7 +7406,7 @@ function InitQuestion164()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. καθυστερεί η εφαρμογή φίλτρων";
+    answer1.shortTextAnswer = "Γ. ΓªΓ΅Γ¨ΓµΓ³Γ΄Γ¥Γ±Γ¥Γ Γ§ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('H+YmI5ABCsI=', 2099, -1, 1);
@@ -7413,7 +7414,7 @@ function InitQuestion164()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν γίνεται προεπισκόπηση αποτελεσμάτων ενός φίλτρου";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§ Γ΅Γ°Γ―Γ΄Γ¥Γ«Γ¥Γ³Γ¬ΓΓ΄ΓΉΓ­ Γ¥Γ­ΓΌΓ² Γ¶ΓΓ«Γ΄Γ±Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('iFB9m+R1zNk=', 2101, -1, 1);
@@ -7421,7 +7422,7 @@ function InitQuestion164()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δεν εφαρμόζονται φίλτρα";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ¥Γ­ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ¶ΓΓ«Γ΄Γ±Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7438,7 +7439,7 @@ function InitQuestion165()
     question.answers.length = 0;
     question.num = 165;
     question.isSingleAns = false;
-    question.shortTextQuestion = "165. Σημειώστε το σωστό Η εφαρμογή φίλτρου υλοποιείται με  ";
+    question.shortTextQuestion = "165. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ Γ¶ΓΓ«Γ΄Γ±Γ―Γµ ΓµΓ«Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ¬Γ¥  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('y5mAmez01QA=', 2107, -1, 1);
@@ -7446,7 +7447,7 @@ function InitQuestion165()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλογή επιπέδου πρώτα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ Γ°Γ±ΓΎΓ΄Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('y5mAmez01QA=', 2109, -1, 1);
@@ -7454,7 +7455,7 @@ function InitQuestion165()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ενεργοποίηση εικόνας";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Di6QodgnnFo=', 2111, -1, 1);
@@ -7462,7 +7463,7 @@ function InitQuestion165()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. απενεργοποίηση εικόνας";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ°Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7479,7 +7480,7 @@ function InitQuestion166()
     question.answers.length = 0;
     question.num = 166;
     question.isSingleAns = false;
-    question.shortTextQuestion = "166. Σημειώστε το σωστό Ένα φίλτρο εφαρμόζεται  ";
+    question.shortTextQuestion = "166. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅ Γ¶ΓΓ«Γ΄Γ±Γ― Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ΄Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('sm4oHzux9yA=', 2117, -1, 1);
@@ -7487,7 +7488,7 @@ function InitQuestion166()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σε μεμονωμένα επίπεδα";
+    answer1.shortTextAnswer = "Γ. Γ³Γ¥ Γ¬Γ¥Γ¬Γ―Γ­ΓΉΓ¬ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('sm4oHzux9yA=', 2119, -1, 1);
@@ -7495,7 +7496,7 @@ function InitQuestion166()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σε πολλά επίπεδα μαζί";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ¥ Γ°Γ―Γ«Γ«Γ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¬Γ΅Γ¦Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('IJC4j2MrGB8=', 2121, -1, 1);
@@ -7503,7 +7504,7 @@ function InitQuestion166()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σε όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7520,7 +7521,7 @@ function InitQuestion167()
     question.answers.length = 0;
     question.num = 167;
     question.isSingleAns = false;
-    question.shortTextQuestion = "167. Σημειώστε το σωστό Με τη χρήση μασκών :  ";
+    question.shortTextQuestion = "167. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ§ Γ·Γ±ΓΓ³Γ§ Γ¬Γ΅Γ³ΓªΓΎΓ­ :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('XOhO2tpakVQ=', 2127, -1, 1);
@@ -7528,7 +7529,7 @@ function InitQuestion167()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δίνεται μεγαλύτερη ελευθερία όσον αφορά στην σχεδίαση σχημάτων";
+    answer1.shortTextAnswer = "Γ. Γ¤ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ§ Γ¥Γ«Γ¥ΓµΓ¨Γ¥Γ±ΓΓ΅ ΓΌΓ³Γ―Γ­ Γ΅Γ¶Γ―Γ±Γ Γ³Γ΄Γ§Γ­ Γ³Γ·Γ¥Γ¤ΓΓ΅Γ³Γ§ Γ³Γ·Γ§Γ¬ΓΓ΄ΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('7qKrHtOitlo=', 2129, -1, 1);
@@ -7536,7 +7537,7 @@ function InitQuestion167()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ελέγχεται περισσότερο η μετάβαση από το ένα εφέ στο άλλο";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ«ΓΓ£Γ·Γ¥Γ΄Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ― Γ§ Γ¬Γ¥Γ΄ΓΓΆΓ΅Γ³Γ§ Γ΅Γ°ΓΌ Γ΄Γ― ΓΓ­Γ΅ Γ¥Γ¶Γ Γ³Γ΄Γ― ΓΓ«Γ«Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('tgtnIBIcqq4=', 2131, -1, 1);
@@ -7544,7 +7545,7 @@ function InitQuestion167()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. η εικόνα αλλάζει και δεν μπορεί να υποστεί μεταβολές";
+    answer3.shortTextAnswer = "Γƒ. Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© ΓªΓ΅Γ© Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ¬Γ¥Γ΄Γ΅ΓΆΓ―Γ«ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('cA2bRVLhras=', 2133, -1, 1);
@@ -7552,7 +7553,7 @@ function InitQuestion167()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -7569,7 +7570,7 @@ function InitQuestion168()
     question.answers.length = 0;
     question.num = 168;
     question.isSingleAns = false;
-    question.shortTextQuestion = "168. Σημειώστε το σωστό Ένα φίλτρο μπορεί να εφαρμοστεί  ";
+    question.shortTextQuestion = "168. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅ Γ¶ΓΓ«Γ΄Γ±Γ― Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ¥Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('yHlLWI5VTcU=', 2137, -1, 1);
@@ -7577,7 +7578,7 @@ function InitQuestion168()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σε πολλά επίπεδα κάθε φορά";
+    answer1.shortTextAnswer = "Γ. Γ³Γ¥ Γ°Γ―Γ«Γ«Γ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ ΓªΓΓ¨Γ¥ Γ¶Γ―Γ±Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('S8YmSNKfOz4=', 2139, -1, 1);
@@ -7585,7 +7586,7 @@ function InitQuestion168()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σε μεμονωμένα επίπεδα";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ¥ Γ¬Γ¥Γ¬Γ―Γ­ΓΉΓ¬ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('BIt2c+GhOj0=', 2141, -1, 1);
@@ -7593,7 +7594,7 @@ function InitQuestion168()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σε ξεχωριστό κανάλι χρώματος";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ¥ Γ®Γ¥Γ·ΓΉΓ±Γ©Γ³Γ΄ΓΌ ΓªΓ΅Γ­ΓΓ«Γ© Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('Z0NJpyhb+ko=', 2143, -1, 1);
@@ -7601,7 +7602,7 @@ function InitQuestion168()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -7618,7 +7619,7 @@ function InitQuestion169()
     question.answers.length = 0;
     question.num = 169;
     question.isSingleAns = false;
-    question.shortTextQuestion = "169. Σημειώστε το σωστό Το εφέ άκρου  ";
+    question.shortTextQuestion = "169. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¥Γ¶Γ ΓΓªΓ±Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('tCPXb1dtZ4k=', 2147, -1, 1);
@@ -7626,7 +7627,7 @@ function InitQuestion169()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Είναι ένα από τα ειδικά εφέ";
+    answer1.shortTextAnswer = "Γ. Γ…ΓΓ­Γ΅Γ© ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¥Γ©Γ¤Γ©ΓªΓ Γ¥Γ¶Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('9vIvIvRsHBI=', 2149, -1, 1);
@@ -7634,7 +7635,7 @@ function InitQuestion169()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Είναι μια τεχνική που εφαρμόζεται στα άκρα μιας εικόνας";
+    answer2.shortTextAnswer = "Γ‚. Γ…ΓΓ­Γ΅Γ© Γ¬Γ©Γ΅ Γ΄Γ¥Γ·Γ­Γ©ΓªΓ Γ°Γ―Γµ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ΄Γ΅Γ© Γ³Γ΄Γ΅ ΓΓªΓ±Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('RZvC/Mbh/FE=', 2151, -1, 1);
@@ -7642,7 +7643,7 @@ function InitQuestion169()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7659,7 +7660,7 @@ function InitQuestion170()
     question.answers.length = 0;
     question.num = 170;
     question.isSingleAns = false;
-    question.shortTextQuestion = "170. Σημειώστε το σωστό Σε μια εικόνα Lab:  ";
+    question.shortTextQuestion = "170. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ¥ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Lab:  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('/bfZjrsfKrQ=', 2157, -1, 1);
@@ -7667,7 +7668,7 @@ function InitQuestion170()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Δεν μπορούν να εφαρμοστούν οι λειτουργίες ανάμειξης της επιλογής εξασθένισης";
+    answer1.shortTextAnswer = "Γ. Γ„Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ―Γ½Γ­ Γ―Γ© Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ² Γ΅Γ­ΓΓ¬Γ¥Γ©Γ®Γ§Γ² Γ΄Γ§Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¥Γ®Γ΅Γ³Γ¨ΓΓ­Γ©Γ³Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('/bfZjrsfKrQ=', 2159, -1, 1);
@@ -7675,7 +7676,7 @@ function InitQuestion170()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Μπορούν να εφαρμοστούν οι λειτουργίες χρωματισμού και φωτισμού";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ―Γ½Γ­ Γ―Γ© Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ² Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½ ΓªΓ΅Γ© Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('09ZJKs9K8tM=', 2161, -1, 1);
@@ -7683,7 +7684,7 @@ function InitQuestion170()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Μπορούν να εφαρμοστούν μόνο οι λειτουργίες σκοτεινιάσματος και ανοίγματος";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ―Γ½Γ­ Γ¬ΓΌΓ­Γ― Γ―Γ© Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ¥Γ² Γ³ΓªΓ―Γ΄Γ¥Γ©Γ­Γ©ΓΓ³Γ¬Γ΅Γ΄Γ―Γ² ΓªΓ΅Γ© Γ΅Γ­Γ―ΓΓ£Γ¬Γ΅Γ΄Γ―Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7700,7 +7701,7 @@ function InitQuestion171()
     question.answers.length = 0;
     question.num = 171;
     question.isSingleAns = false;
-    question.shortTextQuestion = "171. Σημειώστε το σωστό Η εντολή εξασθένιση βρίσκεται  ";
+    question.shortTextQuestion = "171. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¥Γ®Γ΅Γ³Γ¨ΓΓ­Γ©Γ³Γ§ ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('KhU9PDK8iwA=', 2167, -1, 1);
@@ -7708,7 +7709,7 @@ function InitQuestion171()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. στο μενού της εικόνας";
+    answer1.shortTextAnswer = "Γ. Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('4CNmPKzkFhg=', 2169, -1, 1);
@@ -7716,7 +7717,7 @@ function InitQuestion171()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. στο μενού της επεξεργασίας";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ§Γ² Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('4CNmPKzkFhg=', 2171, -1, 1);
@@ -7724,7 +7725,7 @@ function InitQuestion171()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. στο μενού των φίλτρων";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄ΓΉΓ­ Γ¶ΓΓ«Γ΄Γ±ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7741,7 +7742,7 @@ function InitQuestion172()
     question.answers.length = 0;
     question.num = 172;
     question.isSingleAns = false;
-    question.shortTextQuestion = "172. Σημειώστε το σωστό Μερικά από τα καλλιτεχνικά εφέ είναι :  ";
+    question.shortTextQuestion = "172. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥Γ±Γ©ΓªΓ Γ΅Γ°ΓΌ Γ΄Γ΅ ΓªΓ΅Γ«Γ«Γ©Γ΄Γ¥Γ·Γ­Γ©ΓªΓ Γ¥Γ¶Γ Γ¥ΓΓ­Γ΅Γ© :  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('fzKjBR77I1o=', 2177, -1, 1);
@@ -7749,7 +7750,7 @@ function InitQuestion172()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. έγχρωμο μολύβι-cutout-περγαμηνή";
+    answer1.shortTextAnswer = "Γ. ΓΓ£Γ·Γ±ΓΉΓ¬Γ― Γ¬Γ―Γ«Γ½ΓΆΓ©-cutout-Γ°Γ¥Γ±Γ£Γ΅Γ¬Γ§Γ­Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('fzKjBR77I1o=', 2179, -1, 1);
@@ -7757,7 +7758,7 @@ function InitQuestion172()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κοκκώδες φιλμ - διαδρομές";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ―ΓªΓªΓΎΓ¤Γ¥Γ² Γ¶Γ©Γ«Γ¬ - Γ¤Γ©Γ΅Γ¤Γ±Γ―Γ¬ΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('b8yxSC5AZcQ=', 2181, -1, 1);
@@ -7765,7 +7766,7 @@ function InitQuestion172()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. πένα ελεύθερου σχεδιασμού, κακοτεχνίες";
+    answer3.shortTextAnswer = "Γƒ. Γ°ΓΓ­Γ΅ Γ¥Γ«Γ¥Γ½Γ¨Γ¥Γ±Γ―Γµ Γ³Γ·Γ¥Γ¤Γ©Γ΅Γ³Γ¬Γ―Γ½, ΓªΓ΅ΓªΓ―Γ΄Γ¥Γ·Γ­ΓΓ¥Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7782,7 +7783,7 @@ function InitQuestion173()
     question.answers.length = 0;
     question.num = 173;
     question.isSingleAns = false;
-    question.shortTextQuestion = "173. Σημειώστε το σωστό Το φίλτρο θολώματος  ";
+    question.shortTextQuestion = "173. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¶ΓΓ«Γ΄Γ±Γ― Γ¨Γ―Γ«ΓΎΓ¬Γ΅Γ΄Γ―Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('WNxjSNw4N5g=', 2187, -1, 1);
@@ -7790,7 +7791,7 @@ function InitQuestion173()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. είναι κατάλληλο για ρετους και εφέ";
+    answer1.shortTextAnswer = "Γ. Γ¥ΓΓ­Γ΅Γ© ΓªΓ΅Γ΄ΓΓ«Γ«Γ§Γ«Γ― Γ£Γ©Γ΅ Γ±Γ¥Γ΄Γ―ΓµΓ² ΓªΓ΅Γ© Γ¥Γ¶Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WNxjSNw4N5g=', 2189, -1, 1);
@@ -7798,7 +7799,7 @@ function InitQuestion173()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. εφαρμόζεται όταν η εντολή κλείδωμα διαφανών εικονοστοιχείων είναι ενεργοποιημένη";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ΄Γ΅Γ© ΓΌΓ΄Γ΅Γ­ Γ§ Γ¥Γ­Γ΄Γ―Γ«Γ ΓªΓ«Γ¥ΓΓ¤ΓΉΓ¬Γ΅ Γ¤Γ©Γ΅Γ¶Γ΅Γ­ΓΎΓ­ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ¥ΓΓ­Γ΅Γ© Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¬ΓΓ­Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('eimN7z29jaI=', 2191, -1, 1);
@@ -7806,7 +7807,7 @@ function InitQuestion173()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7823,7 +7824,7 @@ function InitQuestion174()
     question.answers.length = 0;
     question.num = 174;
     question.isSingleAns = false;
-    question.shortTextQuestion = "174. Σημειώστε το σωστό Θόλωμα επιφάνειας  ";
+    question.shortTextQuestion = "174. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓΌΓ«ΓΉΓ¬Γ΅ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('lINqhV4hW5Q=', 2197, -1, 1);
@@ -7831,7 +7832,7 @@ function InitQuestion174()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. θολώνει τα άκρα μιας εικόνας";
+    answer1.shortTextAnswer = "Γ. Γ¨Γ―Γ«ΓΎΓ­Γ¥Γ© Γ΄Γ΅ ΓΓªΓ±Γ΅ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('uA4zZPapZkg=', 2199, -1, 1);
@@ -7839,7 +7840,7 @@ function InitQuestion174()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. θολώνει μια εικόνα διατηρώντας τα άκρα";
+    answer2.shortTextAnswer = "Γ‚. Γ¨Γ―Γ«ΓΎΓ­Γ¥Γ© Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¤Γ©Γ΅Γ΄Γ§Γ±ΓΎΓ­Γ΄Γ΅Γ² Γ΄Γ΅ ΓΓªΓ±Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('uA4zZPapZkg=', 2201, -1, 1);
@@ -7847,7 +7848,7 @@ function InitQuestion174()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7864,7 +7865,7 @@ function InitQuestion175()
     question.answers.length = 0;
     question.num = 175;
     question.isSingleAns = false;
-    question.shortTextQuestion = "175. Σημειώστε το σωστό Η πινελιά Sumi-e  ";
+    question.shortTextQuestion = "175. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ°Γ©Γ­Γ¥Γ«Γ©Γ Sumi-e  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('h8ZuGy2dwnw=', 2207, -1, 1);
@@ -7872,7 +7873,7 @@ function InitQuestion175()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Δημιουργεί θολή εικόνα και διατηρεί τα άκρα";
+    answer1.shortTextAnswer = "Γ. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥Γ Γ¨Γ―Γ«Γ Γ¥Γ©ΓªΓΌΓ­Γ΅ ΓªΓ΅Γ© Γ¤Γ©Γ΅Γ΄Γ§Γ±Γ¥Γ Γ΄Γ΅ ΓΓªΓ±Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('+UXW2X2vDvk=', 2209, -1, 1);
@@ -7880,7 +7881,7 @@ function InitQuestion175()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Δημιουργεί θολά άκρα με πλούσιο μαύρο μελάνι";
+    answer2.shortTextAnswer = "Γ‚. Γ„Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥Γ Γ¨Γ―Γ«Γ ΓΓªΓ±Γ΅ Γ¬Γ¥ Γ°Γ«Γ―Γ½Γ³Γ©Γ― Γ¬Γ΅Γ½Γ±Γ― Γ¬Γ¥Γ«ΓΓ­Γ©";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('+UXW2X2vDvk=', 2211, -1, 1);
@@ -7888,7 +7889,7 @@ function InitQuestion175()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7905,7 +7906,7 @@ function InitQuestion176()
     question.answers.length = 0;
     question.num = 176;
     question.isSingleAns = false;
-    question.shortTextQuestion = "176. Σημειώστε το σωστό Το εφέ zigzag  ";
+    question.shortTextQuestion = "176. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¥Γ¶Γ zigzag  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('tF6dCCcPa4A=', 2217, -1, 1);
@@ -7913,7 +7914,7 @@ function InitQuestion176()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. παραμορφώνει βαθμιαία μια επιλογή, ανάλογα με την ακτίνα των pixel στην επιλογή σας";
+    answer1.shortTextAnswer = "Γ. Γ°Γ΅Γ±Γ΅Γ¬Γ―Γ±Γ¶ΓΎΓ­Γ¥Γ© ΓΆΓ΅Γ¨Γ¬Γ©Γ΅ΓΓ΅ Γ¬Γ©Γ΅ Γ¥Γ°Γ©Γ«Γ―Γ£Γ, Γ΅Γ­ΓΓ«Γ―Γ£Γ΅ Γ¬Γ¥ Γ΄Γ§Γ­ Γ΅ΓªΓ΄ΓΓ­Γ΅ Γ΄ΓΉΓ­ pixel Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ³Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('tF6dCCcPa4A=', 2219, -1, 1);
@@ -7921,7 +7922,7 @@ function InitQuestion176()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. θολώνει μια περιοχή σε σχήμα zigzag";
+    answer2.shortTextAnswer = "Γ‚. Γ¨Γ―Γ«ΓΎΓ­Γ¥Γ© Γ¬Γ©Γ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ³Γ¥ Γ³Γ·ΓΓ¬Γ΅ zigzag";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('7H1+T9ir5QE=', 2221, -1, 1);
@@ -7929,7 +7930,7 @@ function InitQuestion176()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7946,7 +7947,7 @@ function InitQuestion177()
     question.answers.length = 0;
     question.num = 177;
     question.isSingleAns = false;
-    question.shortTextQuestion = "177. Σημειώστε το σωστό Τα φίλτρα κουκκιδοποίησης  ";
+    question.shortTextQuestion = "177. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ¶ΓΓ«Γ΄Γ±Γ΅ ΓªΓ―ΓµΓªΓªΓ©Γ¤Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('VHPmQDDJ1+Y=', 2227, -1, 1);
@@ -7954,7 +7955,7 @@ function InitQuestion177()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προσθέτουν κουκκίδες στην εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ³Γ¨ΓΓ΄Γ―ΓµΓ­ ΓªΓ―ΓµΓªΓªΓΓ¤Γ¥Γ² Γ³Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('IV3EzBCMP3I=', 2229, -1, 1);
@@ -7962,7 +7963,7 @@ function InitQuestion177()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αφαιρούν κουκκίδες από την εικόνα";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ¶Γ΅Γ©Γ±Γ―Γ½Γ­ ΓªΓ―ΓµΓªΓªΓΓ¤Γ¥Γ² Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('5qSJxVTFlqo=', 2231, -1, 1);
@@ -7970,7 +7971,7 @@ function InitQuestion177()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. προσδιορίζουν έντονα μια επιλογή ενώνοντας τα pixel παρόμοιων χρωματικών τιμών σε κελιά.";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ―ΓµΓ­ ΓΓ­Γ΄Γ―Γ­Γ΅ Γ¬Γ©Γ΅ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ­ΓΎΓ­Γ―Γ­Γ΄Γ΅Γ² Γ΄Γ΅ pixel Γ°Γ΅Γ±ΓΌΓ¬Γ―Γ©ΓΉΓ­ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓΎΓ­ Γ΄Γ©Γ¬ΓΎΓ­ Γ³Γ¥ ΓªΓ¥Γ«Γ©Γ.";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -7987,7 +7988,7 @@ function InitQuestion178()
     question.answers.length = 0;
     question.num = 178;
     question.isSingleAns = false;
-    question.shortTextQuestion = "178. Σημειώστε το σωστό Το φίλτρο απόχρωση Μezzo  ";
+    question.shortTextQuestion = "178. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¶ΓΓ«Γ΄Γ±Γ― Γ΅Γ°ΓΌΓ·Γ±ΓΉΓ³Γ§ Γezzo  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('h/B8xX70Ag4=', 2237, -1, 1);
@@ -7995,7 +7996,7 @@ function InitQuestion178()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μετατρέπει μια εικόνα σε τυχαίο μοτίβο ασπρόμαυρων περιοχών ή πλήρως κορεσμένων χρωμάτωνσε μια έγχρωμη εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ¥Γ΄Γ΅Γ΄Γ±ΓΓ°Γ¥Γ© Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ¥ Γ΄ΓµΓ·Γ΅ΓΓ― Γ¬Γ―Γ΄ΓΓΆΓ― Γ΅Γ³Γ°Γ±ΓΌΓ¬Γ΅ΓµΓ±ΓΉΓ­ Γ°Γ¥Γ±Γ©Γ―Γ·ΓΎΓ­ Γ Γ°Γ«ΓΓ±ΓΉΓ² ΓªΓ―Γ±Γ¥Γ³Γ¬ΓΓ­ΓΉΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­Γ³Γ¥ Γ¬Γ©Γ΅ ΓΓ£Γ·Γ±ΓΉΓ¬Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('h/B8xX70Ag4=', 2239, -1, 1);
@@ -8003,7 +8004,7 @@ function InitQuestion178()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μετατρέπει την εικόνα σε απόχρωση του μπλέ καναλιού";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥Γ΄Γ΅Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ¥ Γ΅Γ°ΓΌΓ·Γ±ΓΉΓ³Γ§ Γ΄Γ―Γµ Γ¬Γ°Γ«Γ ΓªΓ΅Γ­Γ΅Γ«Γ©Γ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('eyZTuKp2Gso=', 2241, -1, 1);
@@ -8011,7 +8012,7 @@ function InitQuestion178()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μετατρέπει την εικόνα σε απόχρωση του κόκκινου καναλιού";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ¥Γ΄Γ΅Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ¥ Γ΅Γ°ΓΌΓ·Γ±ΓΉΓ³Γ§ Γ΄Γ―Γµ ΓªΓΌΓªΓªΓ©Γ­Γ―Γµ ΓªΓ΅Γ­Γ΅Γ«Γ©Γ―Γ½";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8028,7 +8029,7 @@ function InitQuestion179()
     question.answers.length = 0;
     question.num = 179;
     question.isSingleAns = false;
-    question.shortTextQuestion = "179. Σημειώστε το σωστό Η έξυπνη όξυνση  ";
+    question.shortTextQuestion = "179. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ ΓΓ®ΓµΓ°Γ­Γ§ ΓΌΓ®ΓµΓ­Γ³Γ§  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('C+c/dZXFGZM=', 2247, -1, 1);
@@ -8036,7 +8037,7 @@ function InitQuestion179()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Επιτρέπει τον έλεγχο της ποσότητας όξυνσης που υπάρχει στους ανοικτούς τόνους και στις σκιές";
+    answer1.shortTextAnswer = "Γ. Γ…Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ―Γ­ ΓΓ«Γ¥Γ£Γ·Γ― Γ΄Γ§Γ² Γ°Γ―Γ³ΓΌΓ΄Γ§Γ΄Γ΅Γ² ΓΌΓ®ΓµΓ­Γ³Γ§Γ² Γ°Γ―Γµ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ³Γ΄Γ―ΓµΓ² Γ΅Γ­Γ―Γ©ΓªΓ΄Γ―Γ½Γ² Γ΄ΓΌΓ­Γ―ΓµΓ² ΓªΓ΅Γ© Γ³Γ΄Γ©Γ² Γ³ΓªΓ©ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('C+c/dZXFGZM=', 2249, -1, 1);
@@ -8044,7 +8045,7 @@ function InitQuestion179()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Επιτρέπει τον έλεγχο της ποσότητας όξυνσης που υπάρχει στους ανοικτούς τόνους";
+    answer2.shortTextAnswer = "Γ‚. Γ…Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ―Γ­ ΓΓ«Γ¥Γ£Γ·Γ― Γ΄Γ§Γ² Γ°Γ―Γ³ΓΌΓ΄Γ§Γ΄Γ΅Γ² ΓΌΓ®ΓµΓ­Γ³Γ§Γ² Γ°Γ―Γµ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ³Γ΄Γ―ΓµΓ² Γ΅Γ­Γ―Γ©ΓªΓ΄Γ―Γ½Γ² Γ΄ΓΌΓ­Γ―ΓµΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('9V1e2us0PmY=', 2251, -1, 1);
@@ -8052,7 +8053,7 @@ function InitQuestion179()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Επιτρέπει τον έλεγχο της ποσότητας όξυνσης που υπάρχει στις σκιές";
+    answer3.shortTextAnswer = "Γƒ. Γ…Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ―Γ­ ΓΓ«Γ¥Γ£Γ·Γ― Γ΄Γ§Γ² Γ°Γ―Γ³ΓΌΓ΄Γ§Γ΄Γ΅Γ² ΓΌΓ®ΓµΓ­Γ³Γ§Γ² Γ°Γ―Γµ ΓµΓ°ΓΓ±Γ·Γ¥Γ© Γ³Γ΄Γ©Γ² Γ³ΓªΓ©ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8069,7 +8070,7 @@ function InitQuestion180()
     question.answers.length = 0;
     question.num = 180;
     question.isSingleAns = false;
-    question.shortTextQuestion = "180. Σημειώστε το σωστό Το χαρτί με υδάτινες γραμμές  ";
+    question.shortTextQuestion = "180. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ·Γ΅Γ±Γ΄Γ Γ¬Γ¥ ΓµΓ¤ΓΓ΄Γ©Γ­Γ¥Γ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('jsIfrdeskNw=', 2257, -1, 1);
@@ -8077,7 +8078,7 @@ function InitQuestion180()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Επιτρέπει στα χρώματα να κυλίσουν και να αναμιχθούν σαν να έχουν ζωγραφιστεί σε ινώδες βρεγμένο χαρτί";
+    answer1.shortTextAnswer = "Γ. Γ…Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ³Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ­Γ΅ ΓªΓµΓ«ΓΓ³Γ―ΓµΓ­ ΓªΓ΅Γ© Γ­Γ΅ Γ΅Γ­Γ΅Γ¬Γ©Γ·Γ¨Γ―Γ½Γ­ Γ³Γ΅Γ­ Γ­Γ΅ ΓΓ·Γ―ΓµΓ­ Γ¦ΓΉΓ£Γ±Γ΅Γ¶Γ©Γ³Γ΄Γ¥Γ Γ³Γ¥ Γ©Γ­ΓΎΓ¤Γ¥Γ² ΓΆΓ±Γ¥Γ£Γ¬ΓΓ­Γ― Γ·Γ΅Γ±Γ΄Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('jsIfrdeskNw=', 2259, -1, 1);
@@ -8085,7 +8086,7 @@ function InitQuestion180()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Τα χρώματα έχουν απόχρωση στους τόνους του μπλέ";
+    answer2.shortTextAnswer = "Γ‚. Γ”Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ ΓΓ·Γ―ΓµΓ­ Γ΅Γ°ΓΌΓ·Γ±ΓΉΓ³Γ§ Γ³Γ΄Γ―ΓµΓ² Γ΄ΓΌΓ­Γ―ΓµΓ² Γ΄Γ―Γµ Γ¬Γ°Γ«Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('kM2qk5ZDsgA=', 2261, -1, 1);
@@ -8093,7 +8094,7 @@ function InitQuestion180()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Τα χρώματα έχουν πινελιές μπλε χρώματος";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ ΓΓ·Γ―ΓµΓ­ Γ°Γ©Γ­Γ¥Γ«Γ©ΓΓ² Γ¬Γ°Γ«Γ¥ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8110,7 +8111,7 @@ function InitQuestion181()
     question.answers.length = 0;
     question.num = 181;
     question.isSingleAns = false;
-    question.shortTextQuestion = "181. Σημειώστε το σωστό Το φίλτρο της σφραγίδας χρησιμοποιείται καλύτερα  ";
+    question.shortTextQuestion = "181. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¶ΓΓ«Γ΄Γ±Γ― Γ΄Γ§Γ² Γ³Γ¶Γ±Γ΅Γ£ΓΓ¤Γ΅Γ² Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© ΓªΓ΅Γ«Γ½Γ΄Γ¥Γ±Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('U9Q67fIJbYU=', 2267, -1, 1);
@@ -8118,7 +8119,7 @@ function InitQuestion181()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σε έγχρωμη εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ³Γ¥ ΓΓ£Γ·Γ±ΓΉΓ¬Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('KTToJieUfeU=', 2269, -1, 1);
@@ -8126,7 +8127,7 @@ function InitQuestion181()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σε ασπρόμαυρη εικόνα";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ¥ Γ΅Γ³Γ°Γ±ΓΌΓ¬Γ΅ΓµΓ±Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('KTToJieUfeU=', 2271, -1, 1);
@@ -8134,7 +8135,7 @@ function InitQuestion181()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8151,7 +8152,7 @@ function InitQuestion182()
     question.answers.length = 0;
     question.num = 182;
     question.isSingleAns = false;
-    question.shortTextQuestion = "182. Σημειώστε το σωστό Μερικά από τα φίλτρα υφής είναι  ";
+    question.shortTextQuestion = "182. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥Γ±Γ©ΓªΓ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¶ΓΓ«Γ΄Γ±Γ΅ ΓµΓ¶ΓΓ² Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('8BHxvPp/R2k=', 2277, -1, 1);
@@ -8159,7 +8160,7 @@ function InitQuestion182()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Craquelure-κόκκος-μωσαϊκό";
+    answer1.shortTextAnswer = "Γ. Craquelure-ΓªΓΌΓªΓªΓ―Γ²-Γ¬ΓΉΓ³Γ΅ΓΊΓªΓΌ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('8BHxvPp/R2k=', 2279, -1, 1);
@@ -8167,7 +8168,7 @@ function InitQuestion182()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Άνεμος-ιχνογράφηση-patchwork";
+    answer2.shortTextAnswer = "Γ‚. ΒΆΓ­Γ¥Γ¬Γ―Γ²-Γ©Γ·Γ­Γ―Γ£Γ±ΓΓ¶Γ§Γ³Γ§-patchwork";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('3GYqCh8bXL8=', 2281, -1, 1);
@@ -8175,7 +8176,7 @@ function InitQuestion182()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Βιτρώ-γυαλί";
+    answer3.shortTextAnswer = "Γƒ. Γ‚Γ©Γ΄Γ±ΓΎ-Γ£ΓµΓ΅Γ«Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8192,7 +8193,7 @@ function InitQuestion183()
     question.answers.length = 0;
     question.num = 183;
     question.isSingleAns = false;
-    question.shortTextQuestion = "183. Σημειώστε το σωστό Το φίλτρο βίντεο δεν είναι  ";
+    question.shortTextQuestion = "183. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¶ΓΓ«Γ΄Γ±Γ― ΓΆΓΓ­Γ΄Γ¥Γ― Γ¤Γ¥Γ­ Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('gHIwgcGamVk=', 2287, -1, 1);
@@ -8200,7 +8201,7 @@ function InitQuestion183()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αποσυνένωση";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ°Γ―Γ³ΓµΓ­ΓΓ­ΓΉΓ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('fFsmqTKjHr8=', 2289, -1, 1);
@@ -8208,7 +8209,7 @@ function InitQuestion183()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. χρώματα NTSC";
+    answer2.shortTextAnswer = "Γ‚. Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ NTSC";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('qWIq2YcdNDw=', 2291, -1, 1);
@@ -8216,7 +8217,7 @@ function InitQuestion183()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. χρώματα RGB";
+    answer3.shortTextAnswer = "Γƒ. Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ RGB";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8233,7 +8234,7 @@ function InitQuestion184()
     question.answers.length = 0;
     question.num = 184;
     question.isSingleAns = false;
-    question.shortTextQuestion = "184. Σημειώστε το σωστό Τα φίλτρα digimarc  ";
+    question.shortTextQuestion = "184. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ¶ΓΓ«Γ΄Γ±Γ΅ digimarc  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('7o3zImoKq5M=', 2297, -1, 1);
@@ -8241,7 +8242,7 @@ function InitQuestion184()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ενσωματώνουν εικονοστοιχεία απαραίτητα στην εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ­Γ³ΓΉΓ¬Γ΅Γ΄ΓΎΓ­Γ―ΓµΓ­ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ΅Γ°Γ΅Γ±Γ΅ΓΓ΄Γ§Γ΄Γ΅ Γ³Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('V8TZWSV474I=', 2299, -1, 1);
@@ -8249,7 +8250,7 @@ function InitQuestion184()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ενσωματώνουν υδατογράφημα για να διασφαλίσουν τα πνευματικά δικαιώματα";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ­Γ³ΓΉΓ¬Γ΅Γ΄ΓΎΓ­Γ―ΓµΓ­ ΓµΓ¤Γ΅Γ΄Γ―Γ£Γ±ΓΓ¶Γ§Γ¬Γ΅ Γ£Γ©Γ΅ Γ­Γ΅ Γ¤Γ©Γ΅Γ³Γ¶Γ΅Γ«ΓΓ³Γ―ΓµΓ­ Γ΄Γ΅ Γ°Γ­Γ¥ΓµΓ¬Γ΅Γ΄Γ©ΓªΓ Γ¤Γ©ΓªΓ΅Γ©ΓΎΓ¬Γ΅Γ΄Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('V8TZWSV474I=', 2301, -1, 1);
@@ -8257,7 +8258,7 @@ function InitQuestion184()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κανένα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8274,7 +8275,7 @@ function InitQuestion185()
     question.answers.length = 0;
     question.num = 185;
     question.isSingleAns = false;
-    question.shortTextQuestion = "185. Σημειώστε το σωστό Στην ρύθμιση στοιχείων ελέγχου υφής και γυάλινης επιφάνειας  ";
+    question.shortTextQuestion = "185. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ§Γ­ Γ±Γ½Γ¨Γ¬Γ©Γ³Γ§ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓΉΓ­ Γ¥Γ«ΓΓ£Γ·Γ―Γµ ΓµΓ¶ΓΓ² ΓªΓ΅Γ© Γ£ΓµΓΓ«Γ©Γ­Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('SQgWOo2051w=', 2307, -1, 1);
@@ -8282,7 +8283,7 @@ function InitQuestion185()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. η επιλογή αντιστροφή αντιστρέφει τις σκιές και τους ανοικτούς τόνους";
+    answer1.shortTextAnswer = "Γ. Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ±Γ―Γ¶Γ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ±ΓΓ¶Γ¥Γ© Γ΄Γ©Γ² Γ³ΓªΓ©ΓΓ² ΓªΓ΅Γ© Γ΄Γ―ΓµΓ² Γ΅Γ­Γ―Γ©ΓªΓ΄Γ―Γ½Γ² Γ΄ΓΌΓ­Γ―ΓµΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('SQgWOo2051w=', 2309, -1, 1);
@@ -8290,7 +8291,7 @@ function InitQuestion185()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. η επιλογή αντιστροφή αντιστρέφει τα χρώματα των αντικειμένων μέσα στην εικόνα";
+    answer2.shortTextAnswer = "Γ‚. Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ±Γ―Γ¶Γ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ±ΓΓ¶Γ¥Γ© Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄ΓΉΓ­ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­ΓΉΓ­ Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('vbsPq0dQ0jU=', 2311, -1, 1);
@@ -8298,7 +8299,7 @@ function InitQuestion185()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. η επιλογή αντιστροφή αντιστρέφει τα χρώματα του φόντου και διατηρεί τα χρώματα του προσκηνίου";
+    answer3.shortTextAnswer = "Γƒ. Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ±Γ―Γ¶Γ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ±ΓΓ¶Γ¥Γ© Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ―Γµ Γ¶ΓΌΓ­Γ΄Γ―Γµ ΓªΓ΅Γ© Γ¤Γ©Γ΅Γ΄Γ§Γ±Γ¥Γ Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ―Γµ Γ°Γ±Γ―Γ³ΓªΓ§Γ­ΓΓ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8315,7 +8316,7 @@ function InitQuestion186()
     question.answers.length = 0;
     question.num = 186;
     question.isSingleAns = false;
-    question.shortTextQuestion = "186. Σημειώστε το σωστό Ποια φίλτρα εφαρμόζονται σε περιοχές που δεν έχουν προσδιοριστεί και δεν έχουν υποστεί παραμόρφωση;  ";
+    question.shortTextQuestion = "186. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ―Γ©Γ΅ Γ¶ΓΓ«Γ΄Γ±Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ³Γ¥ Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ² Γ°Γ―Γµ Γ¤Γ¥Γ­ ΓΓ·Γ―ΓµΓ­ Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±Γ©Γ³Γ΄Γ¥Γ ΓªΓ΅Γ© Γ¤Γ¥Γ­ ΓΓ·Γ―ΓµΓ­ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ°Γ΅Γ±Γ΅Γ¬ΓΌΓ±Γ¶ΓΉΓ³Γ§;  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('cITiecApcPc=', 2317, -1, 1);
@@ -8323,7 +8324,7 @@ function InitQuestion186()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μετατόπιση-καμπή-σκόνη και αμυχές";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ¥Γ΄Γ΅Γ΄ΓΌΓ°Γ©Γ³Γ§-ΓªΓ΅Γ¬Γ°Γ-Γ³ΓªΓΌΓ­Γ§ ΓªΓ΅Γ© Γ΅Γ¬ΓµΓ·ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ECWpNsPED0Y=', 2319, -1, 1);
@@ -8331,7 +8332,7 @@ function InitQuestion186()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μετατόπιση-καμπή – κύμα-μετακίνηση";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥Γ΄Γ΅Γ΄ΓΌΓ°Γ©Γ³Γ§-ΓªΓ΅Γ¬Γ°Γ Β– ΓªΓ½Γ¬Γ΅-Γ¬Γ¥Γ΄Γ΅ΓªΓΓ­Γ§Γ³Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ECWpNsPED0Y=', 2321, -1, 1);
@@ -8339,7 +8340,7 @@ function InitQuestion186()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κανένα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8356,7 +8357,7 @@ function InitQuestion187()
     question.answers.length = 0;
     question.num = 187;
     question.isSingleAns = false;
-    question.shortTextQuestion = "187. Σημειώστε το σωστό Το φίλτρο μετατόπισης βρίσκεται  ";
+    question.shortTextQuestion = "187. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¶ΓΓ«Γ΄Γ±Γ― Γ¬Γ¥Γ΄Γ΅Γ΄ΓΌΓ°Γ©Γ³Γ§Γ² ΓΆΓ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pFdzSaziKGI=', 2327, -1, 1);
@@ -8364,7 +8365,7 @@ function InitQuestion187()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. στο μενού παραμόρφωση";
+    answer1.shortTextAnswer = "Γ. Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ°Γ΅Γ±Γ΅Γ¬ΓΌΓ±Γ¶ΓΉΓ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('pFdzSaziKGI=', 2329, -1, 1);
@@ -8372,7 +8373,7 @@ function InitQuestion187()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. στο μενού βίντεο";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΆΓΓ­Γ΄Γ¥Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('BkGP5izop80=', 2331, -1, 1);
@@ -8380,7 +8381,7 @@ function InitQuestion187()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. στο μενού άλλο";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ«Γ«Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8397,7 +8398,7 @@ function InitQuestion188()
     question.answers.length = 0;
     question.num = 188;
     question.isSingleAns = false;
-    question.shortTextQuestion = "188. Σημειώστε το σωστό Η επιλογή αναδίπλωση γύρω   ";
+    question.shortTextQuestion = "188. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΅Γ­Γ΅Γ¤ΓΓ°Γ«ΓΉΓ³Γ§ Γ£Γ½Γ±ΓΉ   ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Rp43Qb7QQqw=', 2337, -1, 1);
@@ -8405,7 +8406,7 @@ function InitQuestion188()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προσδιορίζει τον τρόπο αντιμετώπισης των περιοχών εικόνας που δεν θα υποστούν παραμόρφωση";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ―Γ­ Γ΄Γ±ΓΌΓ°Γ― Γ΅Γ­Γ΄Γ©Γ¬Γ¥Γ΄ΓΎΓ°Γ©Γ³Γ§Γ² Γ΄ΓΉΓ­ Γ°Γ¥Γ±Γ©Γ―Γ·ΓΎΓ­ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ°Γ―Γµ Γ¤Γ¥Γ­ Γ¨Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ―Γ½Γ­ Γ°Γ΅Γ±Γ΅Γ¬ΓΌΓ±Γ¶ΓΉΓ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Rp43Qb7QQqw=', 2339, -1, 1);
@@ -8413,7 +8414,7 @@ function InitQuestion188()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διπλώνει την εικόνα στη μέση";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ°Γ«ΓΎΓ­Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ΄Γ§ Γ¬ΓΓ³Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('fC2Jfd9C4Qo=', 2341, -1, 1);
@@ -8421,7 +8422,7 @@ function InitQuestion188()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διπλώνει την εικόνα γύρω από το κεντρικό αντικείμενό της";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ°Γ«ΓΎΓ­Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ£Γ½Γ±ΓΉ Γ΅Γ°ΓΌ Γ΄Γ― ΓªΓ¥Γ­Γ΄Γ±Γ©ΓªΓΌ Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­ΓΌ Γ΄Γ§Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8438,7 +8439,7 @@ function InitQuestion189()
     question.answers.length = 0;
     question.num = 189;
     question.isSingleAns = false;
-    question.shortTextQuestion = "189. Σημειώστε το σωστό Το φίλτρο εφέ φωτισμού λειτουργεί  ";
+    question.shortTextQuestion = "189. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¶ΓΓ«Γ΄Γ±Γ― Γ¥Γ¶Γ Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£Γ¥Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('FpvD0HNWNQI=', 2347, -1, 1);
@@ -8446,7 +8447,7 @@ function InitQuestion189()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μόνο με εικόνες RGB";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΌΓ­Γ― Γ¬Γ¥ Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² RGB";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('FpvD0HNWNQI=', 2349, -1, 1);
@@ -8454,7 +8455,7 @@ function InitQuestion189()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μόνο με εικόνες CMYK";
+    answer2.shortTextAnswer = "Γ‚. Γ¬ΓΌΓ­Γ― Γ¬Γ¥ Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² CMYK";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('gmrquEVp01c=', 2351, -1, 1);
@@ -8462,7 +8463,7 @@ function InitQuestion189()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. με εικόνες RGB και CMYK";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ¥ Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² RGB ΓªΓ΅Γ© CMYK";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8479,7 +8480,7 @@ function InitQuestion190()
     question.answers.length = 0;
     question.num = 190;
     question.isSingleAns = false;
-    question.shortTextQuestion = "190. Σημειώστε το σωστό Το κατευθυντικό φως  ";
+    question.shortTextQuestion = "190. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― ΓªΓ΅Γ΄Γ¥ΓµΓ¨ΓµΓ­Γ΄Γ©ΓªΓΌ Γ¶ΓΉΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('783HCL6Ho5s=', 2357, -1, 1);
@@ -8487,7 +8488,7 @@ function InitQuestion190()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. φωτίζει από μακριά όπως το φως του ήλιου";
+    answer1.shortTextAnswer = "Γ. Γ¶ΓΉΓ΄ΓΓ¦Γ¥Γ© Γ΅Γ°ΓΌ Γ¬Γ΅ΓªΓ±Γ©Γ ΓΌΓ°ΓΉΓ² Γ΄Γ― Γ¶ΓΉΓ² Γ΄Γ―Γµ ΓΓ«Γ©Γ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('783HCL6Ho5s=', 2359, -1, 1);
@@ -8495,7 +8496,7 @@ function InitQuestion190()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. φωτίζει σε μια ελλειπτική ακτίνα φωτός";
+    answer2.shortTextAnswer = "Γ‚. Γ¶ΓΉΓ΄ΓΓ¦Γ¥Γ© Γ³Γ¥ Γ¬Γ©Γ΅ Γ¥Γ«Γ«Γ¥Γ©Γ°Γ΄Γ©ΓªΓ Γ΅ΓªΓ΄ΓΓ­Γ΅ Γ¶ΓΉΓ΄ΓΌΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('xtgz/cYvViE=', 2361, -1, 1);
@@ -8503,7 +8504,7 @@ function InitQuestion190()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. φωτίζει από όλες τις κατευθύνσεις το αντικείμενο";
+    answer3.shortTextAnswer = "Γƒ. Γ¶ΓΉΓ΄ΓΓ¦Γ¥Γ© Γ΅Γ°ΓΌ ΓΌΓ«Γ¥Γ² Γ΄Γ©Γ² ΓªΓ΅Γ΄Γ¥ΓµΓ¨Γ½Γ­Γ³Γ¥Γ©Γ² Γ΄Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8520,7 +8521,7 @@ function InitQuestion191()
     question.answers.length = 0;
     question.num = 191;
     question.isSingleAns = false;
-    question.shortTextQuestion = "191. Σημειώστε το σωστό Η χρήση της επιλογής Υφή καναλιού στο εφέ φωτισμού  ";
+    question.shortTextQuestion = "191. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ·Γ±ΓΓ³Γ§ Γ΄Γ§Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ•Γ¶Γ ΓªΓ΅Γ­Γ΅Γ«Γ©Γ―Γ½ Γ³Γ΄Γ― Γ¥Γ¶Γ Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('yCOrvh6XWTk=', 2367, -1, 1);
@@ -8528,7 +8529,7 @@ function InitQuestion191()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιτρέπει τον έλεγχο των εφέ φωτισμού";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ―Γ­ ΓΓ«Γ¥Γ£Γ·Γ― Γ΄ΓΉΓ­ Γ¥Γ¶Γ Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('yCOrvh6XWTk=', 2369, -1, 1);
@@ -8536,7 +8537,7 @@ function InitQuestion191()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιτρέπει την εφαρμογή υφής σε ένα χρώμα";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ ΓµΓ¶ΓΓ² Γ³Γ¥ ΓΓ­Γ΅ Γ·Γ±ΓΎΓ¬Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('8A/nlGC36YY=', 2371, -1, 1);
@@ -8544,7 +8545,7 @@ function InitQuestion191()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επιτρέπει την αλλαγή φωτός σε μια εικόνα";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ«Γ«Γ΅Γ£Γ Γ¶ΓΉΓ΄ΓΌΓ² Γ³Γ¥ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8561,7 +8562,7 @@ function InitQuestion192()
     question.answers.length = 0;
     question.num = 192;
     question.isSingleAns = false;
-    question.shortTextQuestion = "192. Σημειώστε το σωστό Η μάσκα επιπέδου  ";
+    question.shortTextQuestion = "192. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¬ΓΓ³ΓªΓ΅ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('DcByUq3R1Ek=', 2377, -1, 1);
@@ -8569,7 +8570,7 @@ function InitQuestion192()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. χρησιμοποιείται για την απόκρυψη τμημάτων ενός επιπέδου και την αποκάλυψη τμημάτων των επιπέδων που βρίσκονται κάτω από αυτό";
+    answer1.shortTextAnswer = "Γ. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°ΓΌΓªΓ±ΓµΓΈΓ§ Γ΄Γ¬Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ ΓªΓ΅Γ© Γ΄Γ§Γ­ Γ΅Γ°Γ―ΓªΓΓ«ΓµΓΈΓ§ Γ΄Γ¬Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ΄ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ°Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ―Γ­Γ΄Γ΅Γ© ΓªΓΓ΄ΓΉ Γ΅Γ°ΓΌ Γ΅ΓµΓ΄ΓΌ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('DcByUq3R1Ek=', 2379, -1, 1);
@@ -8577,7 +8578,7 @@ function InitQuestion192()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. έχει λευκό χρώμα που αντιστοιχεί 100% σε διαφάνεια";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ·Γ¥Γ© Γ«Γ¥ΓµΓªΓΌ Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ―Γµ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ―Γ©Γ·Γ¥Γ 100% Γ³Γ¥ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ElePXy5mjAo=', 2381, -1, 1);
@@ -8585,7 +8586,7 @@ function InitQuestion192()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. έχει γκρι χρώμα που αντιστοιχεί 100% σε διαφάνεια";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ·Γ¥Γ© Γ£ΓªΓ±Γ© Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ―Γµ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ―Γ©Γ·Γ¥Γ 100% Γ³Γ¥ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8602,7 +8603,7 @@ function InitQuestion193()
     question.answers.length = 0;
     question.num = 193;
     question.isSingleAns = false;
-    question.shortTextQuestion = "193. Σημειώστε το σωστό Στο επίπεδο βάσης  ";
+    question.shortTextQuestion = "193. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― ΓΆΓΓ³Γ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('VJaFI/3qYgU=', 2387, -1, 1);
@@ -8610,7 +8611,7 @@ function InitQuestion193()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορούμε να αλλάξουμε τη διαφάνεια";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ Γ΄Γ§ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('lhvHZQ0Rvtw=', 2389, -1, 1);
@@ -8618,7 +8619,7 @@ function InitQuestion193()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν μπορούμε να αλλάξουμε τη διαφάνεια";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ Γ΄Γ§ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('lhvHZQ0Rvtw=', 2391, -1, 1);
@@ -8626,7 +8627,7 @@ function InitQuestion193()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπορούμε να αλλάξουμε την τιμή της αδιαφάνειας";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ¬Γ¥ Γ΄Γ§Γ­ Γ΄Γ©Γ¬Γ Γ΄Γ§Γ² Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8643,7 +8644,7 @@ function InitQuestion194()
     question.answers.length = 0;
     question.num = 194;
     question.isSingleAns = false;
-    question.shortTextQuestion = "194. Σημειώστε το σωστό Η δημιουργία νέου επιπέδου/νέας στρώσης  ";
+    question.shortTextQuestion = "194. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ­ΓΓ―Γµ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ/Γ­ΓΓ΅Γ² Γ³Γ΄Γ±ΓΎΓ³Γ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Jgrw3BPnOn4=', 2397, -1, 1);
@@ -8651,7 +8652,7 @@ function InitQuestion194()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δημιουργείται με κλικ στο εικονίδιο στο κάτω μέρος του πάνελ";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ©ΓªΓ―Γ­ΓΓ¤Γ©Γ― Γ³Γ΄Γ― ΓªΓΓ΄ΓΉ Γ¬ΓΓ±Γ―Γ² Γ΄Γ―Γµ Γ°ΓΓ­Γ¥Γ«";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Jgrw3BPnOn4=', 2399, -1, 1);
@@ -8659,7 +8660,7 @@ function InitQuestion194()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δημιουργείται με κλικ στο μενού του πίνακα";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ―Γµ Γ°ΓΓ­Γ΅ΓªΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('VovmLo+InN4=', 2401, -1, 1);
@@ -8667,7 +8668,7 @@ function InitQuestion194()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δημιουργείται με κλικ στην εντολή διπλασιασμός";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© Γ¬Γ¥ ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©Γ΅Γ³Γ¬ΓΌΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8684,7 +8685,7 @@ function InitQuestion195()
     question.answers.length = 0;
     question.num = 195;
     question.isSingleAns = false;
-    question.shortTextQuestion = "195. Σημειώστε το σωστό Η ενεργοποίηση ενός layer mask (μιας μάσκας επιπέδου)   ";
+    question.shortTextQuestion = "195. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ¥Γ­ΓΌΓ² layer mask (Γ¬Γ©Γ΅Γ² Γ¬ΓΓ³ΓªΓ΅Γ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ)   ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('+1JzA6585ss=', 2407, -1, 1);
@@ -8692,7 +8693,7 @@ function InitQuestion195()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. χρησιμοποιείτε για την απόκρυψη τμημάτων ενός επιπέδου και την αποκάλυψη τμημάτων των επιπέδων που βρίσκονται κάτω από αυτό";
+    answer1.shortTextAnswer = "Γ. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ¥ Γ£Γ©Γ΅ Γ΄Γ§Γ­ Γ΅Γ°ΓΌΓªΓ±ΓµΓΈΓ§ Γ΄Γ¬Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ ΓªΓ΅Γ© Γ΄Γ§Γ­ Γ΅Γ°Γ―ΓªΓΓ«ΓµΓΈΓ§ Γ΄Γ¬Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ΄ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ°Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ―Γ­Γ΄Γ΅Γ© ΓªΓΓ΄ΓΉ Γ΅Γ°ΓΌ Γ΅ΓµΓ΄ΓΌ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('+1JzA6585ss=', 2409, -1, 1);
@@ -8700,7 +8701,7 @@ function InitQuestion195()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. έχει λευκό χρώμα που αντιστοιχεί 100% σε διαφάνεια";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ·Γ¥Γ© Γ«Γ¥ΓµΓªΓΌ Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ―Γµ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ―Γ©Γ·Γ¥Γ 100% Γ³Γ¥ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('j7SwZo1LeL4=', 2411, -1, 1);
@@ -8708,7 +8709,7 @@ function InitQuestion195()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. έχει γκρι χρώμα που αντιστοιχεί 100% σε διαφάνεια";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ·Γ¥Γ© Γ£ΓªΓ±Γ© Γ·Γ±ΓΎΓ¬Γ΅ Γ°Γ―Γµ Γ΅Γ­Γ΄Γ©Γ³Γ΄Γ―Γ©Γ·Γ¥Γ 100% Γ³Γ¥ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -8725,7 +8726,7 @@ function InitQuestion196()
     question.answers.length = 0;
     question.num = 196;
     question.isSingleAns = false;
-    question.shortTextQuestion = "196. Σημειώστε το σωστό Το μενού layer Options  ";
+    question.shortTextQuestion = "196. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ¬Γ¥Γ­Γ―Γ½ layer Options  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('IzfCg4Iwv70=', 2417, -1, 1);
@@ -8733,7 +8734,7 @@ function InitQuestion196()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιτρέπει αλλαγές στο όνομα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΅Γ«Γ«Γ΅Γ£ΓΓ² Γ³Γ΄Γ― ΓΌΓ­Γ―Γ¬Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('osHhMXFgamo=', 2419, -1, 1);
@@ -8741,7 +8742,7 @@ function InitQuestion196()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιτρέπει αλλαγές στην αδιαφάνεια";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΅Γ«Γ«Γ΅Γ£ΓΓ² Γ³Γ΄Γ§Γ­ Γ΅Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('PFwh0gdtZWA=', 2421, -1, 1);
@@ -8749,7 +8750,7 @@ function InitQuestion196()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επιτρέπει αλλαγές στην ανάμειξη χρωμάτων";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΅Γ«Γ«Γ΅Γ£ΓΓ² Γ³Γ΄Γ§Γ­ Γ΅Γ­ΓΓ¬Γ¥Γ©Γ®Γ§ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('SCj0yh2Plec=', 2423, -1, 1);
@@ -8757,7 +8758,7 @@ function InitQuestion196()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -8774,7 +8775,7 @@ function InitQuestion197()
     question.answers.length = 0;
     question.num = 197;
     question.isSingleAns = false;
-    question.shortTextQuestion = "197. Σημειώστε το σωστό Τα αρχεία 3D δεν έχουν  ";
+    question.shortTextQuestion = "197. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ΅Γ±Γ·Γ¥ΓΓ΅ 3D Γ¤Γ¥Γ­ ΓΓ·Γ―ΓµΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('EfnMACuz4DA=', 2427, -1, 1);
@@ -8782,7 +8783,7 @@ function InitQuestion197()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δικτυώματα";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©ΓªΓ΄ΓµΓΎΓ¬Γ΅Γ΄Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('FlW49bvmKHw=', 2429, -1, 1);
@@ -8790,7 +8791,7 @@ function InitQuestion197()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. υλικά";
+    answer2.shortTextAnswer = "Γ‚. ΓµΓ«Γ©ΓªΓ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('0jtbDiODdbk=', 2431, -1, 1);
@@ -8798,7 +8799,7 @@ function InitQuestion197()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. χάρτες";
+    answer3.shortTextAnswer = "Γƒ. Γ·ΓΓ±Γ΄Γ¥Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('0jtbDiODdbk=', 2433, -1, 1);
@@ -8806,7 +8807,7 @@ function InitQuestion197()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -8823,7 +8824,7 @@ function InitQuestion198()
     question.answers.length = 0;
     question.num = 198;
     question.isSingleAns = false;
-    question.shortTextQuestion = "198. Σημειώστε το σωστό Οι τύποι του φωτισμού στην τρισδιάστατη επεξεργασία έχει επιλογές  ";
+    question.shortTextQuestion = "198. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© Γ΄Γ½Γ°Γ―Γ© Γ΄Γ―Γµ Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½ Γ³Γ΄Γ§Γ­ Γ΄Γ±Γ©Γ³Γ¤Γ©ΓΓ³Γ΄Γ΅Γ΄Γ§ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ ΓΓ·Γ¥Γ© Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('TE7519koMEc=', 2437, -1, 1);
@@ -8831,7 +8832,7 @@ function InitQuestion198()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. άπειρο";
+    answer1.shortTextAnswer = "Γ. ΓΓ°Γ¥Γ©Γ±Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Gz1WPTwtujA=', 2439, -1, 1);
@@ -8839,7 +8840,7 @@ function InitQuestion198()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. προβολέας";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±Γ―ΓΆΓ―Γ«ΓΓ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('YsY+BKvlLis=', 2441, -1, 1);
@@ -8847,7 +8848,7 @@ function InitQuestion198()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σημείο";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ§Γ¬Γ¥ΓΓ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('hkPdEUSxWvw=', 2443, -1, 1);
@@ -8855,7 +8856,7 @@ function InitQuestion198()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -8872,7 +8873,7 @@ function InitQuestion199()
     question.answers.length = 0;
     question.num = 199;
     question.isSingleAns = false;
-    question.shortTextQuestion = "199. Σημειώστε το σωστό Οι υφές εμφανίζονται ως  ";
+    question.shortTextQuestion = "199. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© ΓµΓ¶ΓΓ² Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© ΓΉΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('g+T7zahbC7E=', 2447, -1, 1);
@@ -8880,7 +8881,7 @@ function InitQuestion199()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. καταχωρίσεις κάτω από ένα επίπεδο 3D στον πίνακα \"Επίπεδα\"";
+    answer1.shortTextAnswer = "Γ. ΓªΓ΅Γ΄Γ΅Γ·ΓΉΓ±ΓΓ³Γ¥Γ©Γ² ΓªΓΓ΄ΓΉ Γ΅Γ°ΓΌ ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― 3D Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ \"Γ…Γ°ΓΓ°Γ¥Γ¤Γ΅\"";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('g+T7zahbC7E=', 2449, -1, 1);
@@ -8888,7 +8889,7 @@ function InitQuestion199()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. υλικά";
+    answer2.shortTextAnswer = "Γ‚. ΓµΓ«Γ©ΓªΓ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('x96o+hvzQ8Q=', 2451, -1, 1);
@@ -8896,7 +8897,7 @@ function InitQuestion199()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αντικείμενα με ειδικό φωτισμό";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅ Γ¬Γ¥ Γ¥Γ©Γ¤Γ©ΓªΓΌ Γ¶ΓΉΓ΄Γ©Γ³Γ¬ΓΌ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('ZIrKjSLhdbg=', 2453, -1, 1);
@@ -8904,7 +8905,7 @@ function InitQuestion199()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -8921,7 +8922,7 @@ function InitQuestion200()
     question.answers.length = 0;
     question.num = 200;
     question.isSingleAns = false;
-    question.shortTextQuestion = "200. Σημειώστε το σωστό Ένα μοντέλο με τα εργαλεία 3D μπορεί να  ";
+    question.shortTextQuestion = "200. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅ Γ¬Γ―Γ­Γ΄ΓΓ«Γ― Γ¬Γ¥ Γ΄Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ 3D Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('fp2jvw3DBR4=', 2457, -1, 1);
@@ -8929,7 +8930,7 @@ function InitQuestion200()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αλλάξει μέγεθος";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ¬ΓΓ£Γ¥Γ¨Γ―Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('w58QfIzXgUs=', 2459, -1, 1);
@@ -8937,7 +8938,7 @@ function InitQuestion200()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μετακινηθεί";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥Γ΄Γ΅ΓªΓ©Γ­Γ§Γ¨Γ¥Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('rh9/VO0ej9c=', 2461, -1, 1);
@@ -8945,7 +8946,7 @@ function InitQuestion200()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. περιστραφεί";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ¥Γ±Γ©Γ³Γ΄Γ±Γ΅Γ¶Γ¥Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('WAVM2G3zG7M=', 2463, -1, 1);
@@ -8953,7 +8954,7 @@ function InitQuestion200()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('WAVM2G3zG7M=', 2465, -1, 1);
@@ -8961,7 +8962,7 @@ function InitQuestion200()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = "Ε. κανένα από τα παραπάνω";
+    answer5.shortTextAnswer = "Γ…. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -8978,7 +8979,7 @@ function InitQuestion201()
     question.answers.length = 0;
     question.num = 201;
     question.isSingleAns = false;
-    question.shortTextQuestion = "201. Σημειώστε το σωστό Με τη χρήση των εργαλείων της κάμερας 3D  ";
+    question.shortTextQuestion = "201. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ§ Γ·Γ±ΓΓ³Γ§ Γ΄ΓΉΓ­ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­ Γ΄Γ§Γ² ΓªΓΓ¬Γ¥Γ±Γ΅Γ² 3D  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('yter+p8eCpI=', 2467, -1, 1);
@@ -8986,7 +8987,7 @@ function InitQuestion201()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μετακινείται η προβολή της κάμερας χωρίς να μετακινηθεί η θέση του αντικειμένου 3D";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ¥Γ΄Γ΅ΓªΓ©Γ­Γ¥ΓΓ΄Γ΅Γ© Γ§ Γ°Γ±Γ―ΓΆΓ―Γ«Γ Γ΄Γ§Γ² ΓªΓΓ¬Γ¥Γ±Γ΅Γ² Γ·ΓΉΓ±ΓΓ² Γ­Γ΅ Γ¬Γ¥Γ΄Γ΅ΓªΓ©Γ­Γ§Γ¨Γ¥Γ Γ§ Γ¨ΓΓ³Γ§ Γ΄Γ―Γµ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­Γ―Γµ 3D";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('yter+p8eCpI=', 2469, -1, 1);
@@ -8994,7 +8995,7 @@ function InitQuestion201()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μετακινείται το αντικείμενο πάνω στο οποίο προβάλλεται το φως";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥Γ΄Γ΅ΓªΓ©Γ­Γ¥ΓΓ΄Γ΅Γ© Γ΄Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― Γ°ΓΓ­ΓΉ Γ³Γ΄Γ― Γ―Γ°Γ―ΓΓ― Γ°Γ±Γ―ΓΆΓΓ«Γ«Γ¥Γ΄Γ΅Γ© Γ΄Γ― Γ¶ΓΉΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('nNyOdOqw8js=', 2471, -1, 1);
@@ -9002,7 +9003,7 @@ function InitQuestion201()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μετακινείται η κάμερα και το αντικείμενο πάνω στο οποίο προβάλλεται το φως";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ¥Γ΄Γ΅ΓªΓ©Γ­Γ¥ΓΓ΄Γ΅Γ© Γ§ ΓªΓΓ¬Γ¥Γ±Γ΅ ΓªΓ΅Γ© Γ΄Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ― Γ°ΓΓ­ΓΉ Γ³Γ΄Γ― Γ―Γ°Γ―ΓΓ― Γ°Γ±Γ―ΓΆΓΓ«Γ«Γ¥Γ΄Γ΅Γ© Γ΄Γ― Γ¶ΓΉΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9019,7 +9020,7 @@ function InitQuestion202()
     question.answers.length = 0;
     question.num = 202;
     question.isSingleAns = false;
-    question.shortTextQuestion = "202. Σημειώστε το σωστό: Για να επιστρέψουμε στην προεπιλεγμένη προβολή της κάμερας  ";
+    question.shortTextQuestion = "202. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ­Γ΅ Γ¥Γ°Γ©Γ³Γ΄Γ±ΓΓΈΓ―ΓµΓ¬Γ¥ Γ³Γ΄Γ§Γ­ Γ°Γ±Γ―Γ¥Γ°Γ©Γ«Γ¥Γ£Γ¬ΓΓ­Γ§ Γ°Γ±Γ―ΓΆΓ―Γ«Γ Γ΄Γ§Γ² ΓªΓΓ¬Γ¥Γ±Γ΅Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('iMXnRsQld14=', 2477, -1, 1);
@@ -9027,7 +9028,7 @@ function InitQuestion202()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιλογή του εργαλείου κάμερας και κλικ στην επιστροφή";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ―Γµ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ―Γµ ΓªΓΓ¬Γ¥Γ±Γ΅Γ² ΓªΓ΅Γ© ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ³Γ΄Γ±Γ―Γ¶Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('iMXnRsQld14=', 2479, -1, 1);
@@ -9035,7 +9036,7 @@ function InitQuestion202()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διπλό κλικ στο εργαλείο κάμερας";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ°Γ«ΓΌ ΓªΓ«Γ©Γª Γ³Γ΄Γ― Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ― ΓªΓΓ¬Γ¥Γ±Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('xA1ep/Zc19w=', 2481, -1, 1);
@@ -9043,7 +9044,7 @@ function InitQuestion202()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κλικ στην γραμμή επιλογών";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ£Γ±Γ΅Γ¬Γ¬Γ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9060,7 +9061,7 @@ function InitQuestion203()
     question.answers.length = 0;
     question.num = 203;
     question.isSingleAns = false;
-    question.shortTextQuestion = "203. Σημειώστε το σωστό: Για να μετακινηθεί ένα μοντέλο σε άξονα 3D  ";
+    question.shortTextQuestion = "203. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ­Γ΅ Γ¬Γ¥Γ΄Γ΅ΓªΓ©Γ­Γ§Γ¨Γ¥Γ ΓΓ­Γ΅ Γ¬Γ―Γ­Γ΄ΓΓ«Γ― Γ³Γ¥ ΓΓ®Γ―Γ­Γ΅ 3D  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('M0HGp2fflvs=', 2487, -1, 1);
@@ -9068,7 +9069,7 @@ function InitQuestion203()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επισημάνουμε το άκρο οποιουδήποτε άξονα και σύρουμε";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ³Γ§Γ¬ΓΓ­Γ―ΓµΓ¬Γ¥ Γ΄Γ― ΓΓªΓ±Γ― Γ―Γ°Γ―Γ©Γ―ΓµΓ¤ΓΓ°Γ―Γ΄Γ¥ ΓΓ®Γ―Γ­Γ΅ ΓªΓ΅Γ© Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('M0HGp2fflvs=', 2489, -1, 1);
@@ -9076,7 +9077,7 @@ function InitQuestion203()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σύρουμε τον κέρσορα του ποντικιού μόνο σε άξονα y";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ Γ΄Γ―Γ­ ΓªΓΓ±Γ³Γ―Γ±Γ΅ Γ΄Γ―Γµ Γ°Γ―Γ­Γ΄Γ©ΓªΓ©Γ―Γ½ Γ¬ΓΌΓ­Γ― Γ³Γ¥ ΓΓ®Γ―Γ­Γ΅ y";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('4PLMD86yVhs=', 2491, -1, 1);
@@ -9084,7 +9085,7 @@ function InitQuestion203()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σύρουμε τον κέρσορα του ποντικιού πάνω στο αντικείμενο";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ Γ΄Γ―Γ­ ΓªΓΓ±Γ³Γ―Γ±Γ΅ Γ΄Γ―Γµ Γ°Γ―Γ­Γ΄Γ©ΓªΓ©Γ―Γ½ Γ°ΓΓ­ΓΉ Γ³Γ΄Γ― Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9101,7 +9102,7 @@ function InitQuestion204()
     question.answers.length = 0;
     question.num = 204;
     question.isSingleAns = false;
-    question.shortTextQuestion = "204. Σημειώστε το σωστό: Για να συμπιέσουμε το μοντέλο κατά μήκος του άξονα  ";
+    question.shortTextQuestion = "204. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: ΓƒΓ©Γ΅ Γ­Γ΅ Γ³ΓµΓ¬Γ°Γ©ΓΓ³Γ―ΓµΓ¬Γ¥ Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― ΓªΓ΅Γ΄Γ Γ¬ΓΓªΓ―Γ² Γ΄Γ―Γµ ΓΓ®Γ―Γ­Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('vfQWOm4BKZg=', 2497, -1, 1);
@@ -9109,7 +9110,7 @@ function InitQuestion204()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σύρουμε έναν από τους χρωματιστούς κύβους τροποποίησης προς το κέντρο";
+    answer1.shortTextAnswer = "Γ. Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ ΓΓ­Γ΅Γ­ Γ΅Γ°ΓΌ Γ΄Γ―ΓµΓ² Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ΄Γ―Γ½Γ² ΓªΓ½ΓΆΓ―ΓµΓ² Γ΄Γ±Γ―Γ°Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ² Γ°Γ±Γ―Γ² Γ΄Γ― ΓªΓΓ­Γ΄Γ±Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('vfQWOm4BKZg=', 2499, -1, 1);
@@ -9117,7 +9118,7 @@ function InitQuestion204()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σύρουμε έναν από τους χρωματιστούς κύβους τροποποίησης προς τα άκρα";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ ΓΓ­Γ΅Γ­ Γ΅Γ°ΓΌ Γ΄Γ―ΓµΓ² Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ΄Γ―Γ½Γ² ΓªΓ½ΓΆΓ―ΓµΓ² Γ΄Γ±Γ―Γ°Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ² Γ°Γ±Γ―Γ² Γ΄Γ΅ ΓΓªΓ±Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('TVd/0N77EmY=', 2501, -1, 1);
@@ -9125,7 +9126,7 @@ function InitQuestion204()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σύρουμε έναν από τους χρωματιστούς κύβους τροποποίησης είτε προς το κέντρο είτε προς τα άκρα";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ½Γ±Γ―ΓµΓ¬Γ¥ ΓΓ­Γ΅Γ­ Γ΅Γ°ΓΌ Γ΄Γ―ΓµΓ² Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ΄Γ―Γ½Γ² ΓªΓ½ΓΆΓ―ΓµΓ² Γ΄Γ±Γ―Γ°Γ―Γ°Γ―ΓΓ§Γ³Γ§Γ² Γ¥ΓΓ΄Γ¥ Γ°Γ±Γ―Γ² Γ΄Γ― ΓªΓΓ­Γ΄Γ±Γ― Γ¥ΓΓ΄Γ¥ Γ°Γ±Γ―Γ² Γ΄Γ΅ ΓΓªΓ±Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9142,7 +9143,7 @@ function InitQuestion205()
     question.answers.length = 0;
     question.num = 205;
     question.isSingleAns = false;
-    question.shortTextQuestion = "205. Σημειώστε το σωστό: Στην εφαρμογή φίλτρου εμφανίζονται οι επιλογές  ";
+    question.shortTextQuestion = "205. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ: Γ“Γ΄Γ§Γ­ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ Γ¶ΓΓ«Γ΄Γ±Γ―Γµ Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ―Γ© Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('umrwkEe+Ano=', 2507, -1, 1);
@@ -9150,7 +9151,7 @@ function InitQuestion205()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σκηνικού - δικτυώματος";
+    answer1.shortTextAnswer = "Γ. Γ³ΓªΓ§Γ­Γ©ΓªΓ―Γ½ - Γ¤Γ©ΓªΓ΄ΓµΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Y3jhtyUNBmw=', 2509, -1, 1);
@@ -9158,7 +9159,7 @@ function InitQuestion205()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. υλικού-φωτισμού";
+    answer2.shortTextAnswer = "Γ‚. ΓµΓ«Γ©ΓªΓ―Γ½-Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('LKcP7JJDUUk=', 2511, -1, 1);
@@ -9166,7 +9167,7 @@ function InitQuestion205()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9183,7 +9184,7 @@ function InitQuestion206()
     question.answers.length = 0;
     question.num = 206;
     question.isSingleAns = false;
-    question.shortTextQuestion = "206. Οι ρυθμίσεις επιλογών προβολής δικτυώματος  ";
+    question.shortTextQuestion = "206. ΓΓ© Γ±ΓµΓ¨Γ¬ΓΓ³Γ¥Γ©Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­ Γ°Γ±Γ―ΓΆΓ―Γ«ΓΓ² Γ¤Γ©ΓªΓ΄ΓµΓΎΓ¬Γ΅Γ΄Γ―Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('hw6sfyl4miY=', 2517, -1, 1);
@@ -9191,7 +9192,7 @@ function InitQuestion206()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. έχουν απόδοση σκιών";
+    answer1.shortTextAnswer = "Γ. ΓΓ·Γ―ΓµΓ­ Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§ Γ³ΓªΓ©ΓΎΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('hw6sfyl4miY=', 2519, -1, 1);
@@ -9199,7 +9200,7 @@ function InitQuestion206()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. έχουν επιλογές δέσμης φωτός";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ·Γ―ΓµΓ­ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¤ΓΓ³Γ¬Γ§Γ² Γ¶ΓΉΓ΄ΓΌΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('6+kxFZxVmLs=', 2521, -1, 1);
@@ -9207,7 +9208,7 @@ function InitQuestion206()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. έχουν επιλογές ζωγραφικής περιγραμμάτων";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ·Γ―ΓµΓ­ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ¦ΓΉΓ£Γ±Γ΅Γ¶Γ©ΓªΓΓ² Γ°Γ¥Γ±Γ©Γ£Γ±Γ΅Γ¬Γ¬ΓΓ΄ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9224,7 +9225,7 @@ function InitQuestion207()
     question.answers.length = 0;
     question.num = 207;
     question.isSingleAns = false;
-    question.shortTextQuestion = "207. Σημειώστε το σωστό Η εντολή περιβάλλον  ";
+    question.shortTextQuestion = "207. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ°Γ¥Γ±Γ©ΓΆΓΓ«Γ«Γ―Γ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('TjGAAiz2mKo=', 2527, -1, 1);
@@ -9232,7 +9233,7 @@ function InitQuestion207()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ρυθμίζει τη φωτεινότητα του περιβάλλοντος";
+    answer1.shortTextAnswer = "Γ. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ© Γ΄Γ§ Γ¶ΓΉΓ΄Γ¥Γ©Γ­ΓΌΓ΄Γ§Γ΄Γ΅ Γ΄Γ―Γµ Γ°Γ¥Γ±Γ©ΓΆΓΓ«Γ«Γ―Γ­Γ΄Γ―Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('j75Nii9HvAs=', 2529, -1, 1);
@@ -9240,7 +9241,7 @@ function InitQuestion207()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ρυθμίζει το χρώμα του φωτισμού στο περιβάλλον";
+    answer2.shortTextAnswer = "Γ‚. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ© Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ΄Γ―Γµ Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½ Γ³Γ΄Γ― Γ°Γ¥Γ±Γ©ΓΆΓΓ«Γ«Γ―Γ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('j75Nii9HvAs=', 2531, -1, 1);
@@ -9248,7 +9249,7 @@ function InitQuestion207()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ρυθμίζει τις σκιές του προσκηνίου";
+    answer3.shortTextAnswer = "Γƒ. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ© Γ΄Γ©Γ² Γ³ΓªΓ©ΓΓ² Γ΄Γ―Γµ Γ°Γ±Γ―Γ³ΓªΓ§Γ­ΓΓ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9265,7 +9266,7 @@ function InitQuestion208()
     question.answers.length = 0;
     question.num = 208;
     question.isSingleAns = false;
-    question.shortTextQuestion = "208. Σημειώστε το σωστό Η εντολή Διάχυση  ";
+    question.shortTextQuestion = "208. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ„Γ©ΓΓ·ΓµΓ³Γ§  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('7rLctUsGNZ4=', 2537, -1, 1);
@@ -9273,7 +9274,7 @@ function InitQuestion208()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. διαχέει έντονο φως";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©Γ΅Γ·ΓΓ¥Γ© ΓΓ­Γ΄Γ―Γ­Γ― Γ¶ΓΉΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('l/G+gGiB7HU=', 2539, -1, 1);
@@ -9281,7 +9282,7 @@ function InitQuestion208()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διαχέει το χρώμα του υλικού";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ΅Γ·ΓΓ¥Γ© Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ΄Γ―Γµ ΓµΓ«Γ©ΓªΓ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('l/G+gGiB7HU=', 2541, -1, 1);
@@ -9289,7 +9290,7 @@ function InitQuestion208()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διαχέει μια συγκεκριμένη υφή";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ΅Γ·ΓΓ¥Γ© Γ¬Γ©Γ΅ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§ ΓµΓ¶Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9306,7 +9307,7 @@ function InitQuestion209()
     question.answers.length = 0;
     question.num = 209;
     question.isSingleAns = false;
-    question.shortTextQuestion = " 209. Σημειώστε το σωστό Η εφαρμογή της ανακλαστικότητας  ";
+    question.shortTextQuestion = " 209. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ Γ΄Γ§Γ² Γ΅Γ­Γ΅ΓªΓ«Γ΅Γ³Γ΄Γ©ΓªΓΌΓ΄Γ§Γ΄Γ΅Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('AhbHvYBoDeQ=', 2547, -1, 1);
@@ -9314,7 +9315,7 @@ function InitQuestion209()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αυξάνει την ανακλαστικότητα άλλων αντικειμένων στο σκηνικό 3D";
+    answer1.shortTextAnswer = "Γ. Γ΅ΓµΓ®ΓΓ­Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ­Γ΅ΓªΓ«Γ΅Γ³Γ΄Γ©ΓªΓΌΓ΄Γ§Γ΄Γ΅ ΓΓ«Γ«ΓΉΓ­ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­ΓΉΓ­ Γ³Γ΄Γ― Γ³ΓªΓ§Γ­Γ©ΓªΓΌ 3D";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('AhbHvYBoDeQ=', 2549, -1, 1);
@@ -9322,7 +9323,7 @@ function InitQuestion209()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μειώνει την ανακλαστικότητα άλλων αντικειμένων στο σκηνικό 3D";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥Γ©ΓΎΓ­Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ­Γ΅ΓªΓ«Γ΅Γ³Γ΄Γ©ΓªΓΌΓ΄Γ§Γ΄Γ΅ ΓΓ«Γ«ΓΉΓ­ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­ΓΉΓ­ Γ³Γ΄Γ― Γ³ΓªΓ§Γ­Γ©ΓªΓΌ 3D";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('RoAjvTyoEQA=', 2551, -1, 1);
@@ -9330,7 +9331,7 @@ function InitQuestion209()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αυξάνει την ανακλαστικότητα του σκηνικού στα αντικείμενα";
+    answer3.shortTextAnswer = "Γƒ. Γ΅ΓµΓ®ΓΓ­Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ­Γ΅ΓªΓ«Γ΅Γ³Γ΄Γ©ΓªΓΌΓ΄Γ§Γ΄Γ΅ Γ΄Γ―Γµ Γ³ΓªΓ§Γ­Γ©ΓªΓ―Γ½ Γ³Γ΄Γ΅ Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9347,7 +9348,7 @@ function InitQuestion210()
     question.answers.length = 0;
     question.num = 210;
     question.isSingleAns = false;
-    question.shortTextQuestion = "210. Σημειώστε το σωστό Ο κανονικός χάρτης σε σχέση με χάρτη ανάγλυφου  ";
+    question.shortTextQuestion = "210. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ ΓªΓ΅Γ­Γ―Γ­Γ©ΓªΓΌΓ² Γ·ΓΓ±Γ΄Γ§Γ² Γ³Γ¥ Γ³Γ·ΓΓ³Γ§ Γ¬Γ¥ Γ·ΓΓ±Γ΄Γ§ Γ΅Γ­ΓΓ£Γ«ΓµΓ¶Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('E6tSDu5ZkLU=', 2557, -1, 1);
@@ -9355,7 +9356,7 @@ function InitQuestion210()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μειώνει τις λεπτομέρειες της επιφάνειας";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ¥Γ©ΓΎΓ­Γ¥Γ© Γ΄Γ©Γ² Γ«Γ¥Γ°Γ΄Γ―Γ¬ΓΓ±Γ¥Γ©Γ¥Γ² Γ΄Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('UGR5RnBrg4U=', 2559, -1, 1);
@@ -9363,7 +9364,7 @@ function InitQuestion210()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αυξάνει τις λεπτομέρειες της επιφάνειας";
+    answer2.shortTextAnswer = "Γ‚. Γ΅ΓµΓ®ΓΓ­Γ¥Γ© Γ΄Γ©Γ² Γ«Γ¥Γ°Γ΄Γ―Γ¬ΓΓ±Γ¥Γ©Γ¥Γ² Γ΄Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('UGR5RnBrg4U=', 2561, -1, 1);
@@ -9371,7 +9372,7 @@ function InitQuestion210()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. τίποτα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9388,7 +9389,7 @@ function InitQuestion211()
     question.answers.length = 0;
     question.num = 211;
     question.isSingleAns = false;
-    question.shortTextQuestion = "211. Σημειώστε το σωστό Ο χάρτης υφής ανοίγει  ";
+    question.shortTextQuestion = "211. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ Γ·ΓΓ±Γ΄Γ§Γ² ΓµΓ¶ΓΓ² Γ΅Γ­Γ―ΓΓ£Γ¥Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('IvBsk6JR5cI=', 2567, -1, 1);
@@ -9396,7 +9397,7 @@ function InitQuestion211()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μέσα στο παράθυρο εγγράφου";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('NIoQ97I0dv8=', 2569, -1, 1);
@@ -9404,7 +9405,7 @@ function InitQuestion211()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σε ξεχωριστό παράθυρο εγγράφου";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ¥ Γ®Γ¥Γ·ΓΉΓ±Γ©Γ³Γ΄ΓΌ Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('NIoQ97I0dv8=', 2571, -1, 1);
@@ -9412,7 +9413,7 @@ function InitQuestion211()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είτε στο παράθυρο είτε σε ξεχωριστό παράθυρο εγγράφου";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ΄Γ¥ Γ³Γ΄Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ¥ΓΓ΄Γ¥ Γ³Γ¥ Γ®Γ¥Γ·ΓΉΓ±Γ©Γ³Γ΄ΓΌ Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9429,7 +9430,7 @@ function InitQuestion212()
     question.answers.length = 0;
     question.num = 212;
     question.isSingleAns = false;
-    question.shortTextQuestion = "212. Σημειώστε το σωστό  ";
+    question.shortTextQuestion = "212. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('8ceT0D+1+fE=', 2577, -1, 1);
@@ -9437,7 +9438,7 @@ function InitQuestion212()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Για να βελτιωθεί η απεικόνιση της υφής στο μοντέλο";
+    answer1.shortTextAnswer = "Γ. ΓƒΓ©Γ΅ Γ­Γ΅ ΓΆΓ¥Γ«Γ΄Γ©ΓΉΓ¨Γ¥Γ Γ§ Γ΅Γ°Γ¥Γ©ΓªΓΌΓ­Γ©Γ³Γ§ Γ΄Γ§Γ² ΓµΓ¶ΓΓ² Γ³Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('mYUduXGjfpE=', 2579, -1, 1);
@@ -9445,7 +9446,7 @@ function InitQuestion212()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ρυθμίζουμε την κλίμακα UV";
+    answer2.shortTextAnswer = "Γ‚. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ―ΓµΓ¬Γ¥ Γ΄Γ§Γ­ ΓªΓ«ΓΓ¬Γ΅ΓªΓ΅ UV";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('EFdwLSgCGj8=', 2581, -1, 1);
@@ -9453,7 +9454,7 @@ function InitQuestion212()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ρυθμίζουμε την μετατόπιση";
+    answer3.shortTextAnswer = "Γƒ. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ―ΓµΓ¬Γ¥ Γ΄Γ§Γ­ Γ¬Γ¥Γ΄Γ΅Γ΄ΓΌΓ°Γ©Γ³Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('MNmMPKqUQcc=', 2583, -1, 1);
@@ -9461,7 +9462,7 @@ function InitQuestion212()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. ρυθμίζουμε την κλίμακα UV και την μετατόπιση";
+    answer4.shortTextAnswer = "Γ„. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ―ΓµΓ¬Γ¥ Γ΄Γ§Γ­ ΓªΓ«ΓΓ¬Γ΅ΓªΓ΅ UV ΓªΓ΅Γ© Γ΄Γ§Γ­ Γ¬Γ¥Γ΄Γ΅Γ΄ΓΌΓ°Γ©Γ³Γ§";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -9478,7 +9479,7 @@ function InitQuestion213()
     question.answers.length = 0;
     question.num = 213;
     question.isSingleAns = false;
-    question.shortTextQuestion = "213. Σημειώστε το σωστό 2. Το πρόγραμμα Photoshop Extended διαθέτει  ";
+    question.shortTextQuestion = "213. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ 2. Γ”Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Photoshop Extended Γ¤Γ©Γ΅Γ¨ΓΓ΄Γ¥Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('p81V3PiGMg8=', 2587, -1, 1);
@@ -9486,7 +9487,7 @@ function InitQuestion213()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. 3 τύπους φωτισμού";
+    answer1.shortTextAnswer = "Γ. 3 Γ΄Γ½Γ°Γ―ΓµΓ² Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('p81V3PiGMg8=', 2589, -1, 1);
@@ -9494,7 +9495,7 @@ function InitQuestion213()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. 6 τύπους φωτισμού";
+    answer2.shortTextAnswer = "Γ‚. 6 Γ΄Γ½Γ°Γ―ΓµΓ² Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('dMFZ5EBOaT0=', 2591, -1, 1);
@@ -9502,7 +9503,7 @@ function InitQuestion213()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. 16 τύπους φωτισμού";
+    answer3.shortTextAnswer = "Γƒ. 16 Γ΄Γ½Γ°Γ―ΓµΓ² Γ¶ΓΉΓ΄Γ©Γ³Γ¬Γ―Γ½";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('y8XFC4xyfaU=', 2593, -1, 1);
@@ -9510,7 +9511,7 @@ function InitQuestion213()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('3hni8tKBpo8=', 2595, -1, 1);
@@ -9518,7 +9519,7 @@ function InitQuestion213()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = "Ε. όλα τα παραπάνω";
+    answer5.shortTextAnswer = "Γ…. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -9535,7 +9536,7 @@ function InitQuestion214()
     question.answers.length = 0;
     question.num = 214;
     question.isSingleAns = false;
-    question.shortTextQuestion = "214. Σημειώστε το σωστό 3. Το σημειακό φως ";
+    question.shortTextQuestion = "214. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ 3. Γ”Γ― Γ³Γ§Γ¬Γ¥Γ©Γ΅ΓªΓΌ Γ¶ΓΉΓ² ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('8jtgmxQGvVk=', 2597, -1, 1);
@@ -9543,7 +9544,7 @@ function InitQuestion214()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. διαχέεται προς όλες τις κατευθύνσεις";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©Γ΅Γ·ΓΓ¥Γ΄Γ΅Γ© Γ°Γ±Γ―Γ² ΓΌΓ«Γ¥Γ² Γ΄Γ©Γ² ΓªΓ΅Γ΄Γ¥ΓµΓ¨Γ½Γ­Γ³Γ¥Γ©Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('8jtgmxQGvVk=', 2599, -1, 1);
@@ -9551,7 +9552,7 @@ function InitQuestion214()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διαχέεται προς μια κατεύθυνση";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ΅Γ·ΓΓ¥Γ΄Γ΅Γ© Γ°Γ±Γ―Γ² Γ¬Γ©Γ΅ ΓªΓ΅Γ΄Γ¥Γ½Γ¨ΓµΓ­Γ³Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('hMyKo0b9lJo=', 2601, -1, 1);
@@ -9559,7 +9560,7 @@ function InitQuestion214()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διαχέεται σε κωνικό σχήμα";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ΅Γ·ΓΓ¥Γ΄Γ΅Γ© Γ³Γ¥ ΓªΓΉΓ­Γ©ΓªΓΌ Γ³Γ·ΓΓ¬Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9576,7 +9577,7 @@ function InitQuestion215()
     question.answers.length = 0;
     question.num = 215;
     question.isSingleAns = false;
-    question.shortTextQuestion = "215. Σημειώστε το σωστό Οι οδηγοί φώτων  ";
+    question.shortTextQuestion = "215. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© Γ―Γ¤Γ§Γ£Γ―Γ Γ¶ΓΎΓ΄ΓΉΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('/mf785FJ75U=', 2607, -1, 1);
@@ -9584,7 +9585,7 @@ function InitQuestion215()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αντανακλούν τη γωνία, την εξασθένιση και τον τύπο του φωτός";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ­Γ΄Γ΅Γ­Γ΅ΓªΓ«Γ―Γ½Γ­ Γ΄Γ§ Γ£ΓΉΓ­ΓΓ΅, Γ΄Γ§Γ­ Γ¥Γ®Γ΅Γ³Γ¨ΓΓ­Γ©Γ³Γ§ ΓªΓ΅Γ© Γ΄Γ―Γ­ Γ΄Γ½Γ°Γ― Γ΄Γ―Γµ Γ¶ΓΉΓ΄ΓΌΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('/mf785FJ75U=', 2609, -1, 1);
@@ -9592,7 +9593,7 @@ function InitQuestion215()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. καθοδηγούν τον χρήστη/δημιουργό για να επεξεργαστεί τα χρώματα της εικόνας";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ΅Γ¨Γ―Γ¤Γ§Γ£Γ―Γ½Γ­ Γ΄Γ―Γ­ Γ·Γ±ΓΓ³Γ΄Γ§/Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΌ Γ£Γ©Γ΅ Γ­Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³Γ΄Γ¥Γ Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('V3tWmhN3wt8=', 2611, -1, 1);
@@ -9600,7 +9601,7 @@ function InitQuestion215()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αντανακλούν τον τύπο του φωτός";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ­Γ΄Γ΅Γ­Γ΅ΓªΓ«Γ―Γ½Γ­ Γ΄Γ―Γ­ Γ΄Γ½Γ°Γ― Γ΄Γ―Γµ Γ¶ΓΉΓ΄ΓΌΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9617,7 +9618,7 @@ function InitQuestion216()
     question.answers.length = 0;
     question.num = 216;
     question.isSingleAns = false;
-    question.shortTextQuestion = "216. Σημειώστε το σωστό Οι ομάδες φώτων μπορούν να  ";
+    question.shortTextQuestion = "216. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© Γ―Γ¬ΓΓ¤Γ¥Γ² Γ¶ΓΎΓ΄ΓΉΓ­ Γ¬Γ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('6pfyEXmUJjs=', 2617, -1, 1);
@@ -9625,7 +9626,7 @@ function InitQuestion216()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αποθηκευτούν ως ομάδες προκαθορισμένης ρύθμισης";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥ΓµΓ΄Γ―Γ½Γ­ ΓΉΓ² Γ―Γ¬ΓΓ¤Γ¥Γ² Γ°Γ±Γ―ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­Γ§Γ² Γ±Γ½Γ¨Γ¬Γ©Γ³Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('LyKmbJBa8wQ=', 2619, -1, 1);
@@ -9633,7 +9634,7 @@ function InitQuestion216()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αντικατασταθούν";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ­Γ΄Γ©ΓªΓ΅Γ΄Γ΅Γ³Γ΄Γ΅Γ¨Γ―Γ½Γ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('TJ2Svf4L3RI=', 2621, -1, 1);
@@ -9641,7 +9642,7 @@ function InitQuestion216()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. εμπλουτιστούν με προσθήκη φώτων";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ¬Γ°Γ«Γ―ΓµΓ΄Γ©Γ³Γ΄Γ―Γ½Γ­ Γ¬Γ¥ Γ°Γ±Γ―Γ³Γ¨ΓΓªΓ§ Γ¶ΓΎΓ΄ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('U2IGCVK94rQ=', 2623, -1, 1);
@@ -9649,7 +9650,7 @@ function InitQuestion216()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('4rc8OmA9Kq4=', 2625, -1, 1);
@@ -9657,7 +9658,7 @@ function InitQuestion216()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = "Ε. όλα τα παραπάνω";
+    answer5.shortTextAnswer = "Γ…. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -9674,7 +9675,7 @@ function InitQuestion217()
     question.answers.length = 0;
     question.num = 217;
     question.isSingleAns = false;
-    question.shortTextQuestion = "217. Σημειώστε το σωστό Με την εντολή Εκ νέου ορισμός παραμέτρων για χάρτη υφής  ";
+    question.shortTextQuestion = "217. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ…Γª Γ­ΓΓ―Γµ Γ―Γ±Γ©Γ³Γ¬ΓΌΓ² Γ°Γ΅Γ±Γ΅Γ¬ΓΓ΄Γ±ΓΉΓ­ Γ£Γ©Γ΅ Γ·ΓΓ±Γ΄Γ§ ΓµΓ¶ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pDEN3BeEb58=', 2627, -1, 1);
@@ -9682,7 +9683,7 @@ function InitQuestion217()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. διορθώνονται οι παραμορφώσεις";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©Γ―Γ±Γ¨ΓΎΓ­Γ―Γ­Γ΄Γ΅Γ© Γ―Γ© Γ°Γ΅Γ±Γ΅Γ¬Γ―Γ±Γ¶ΓΎΓ³Γ¥Γ©Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('pDEN3BeEb58=', 2629, -1, 1);
@@ -9690,7 +9691,7 @@ function InitQuestion217()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αλλάζει η υφή του σκηνικού εντελώς";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© Γ§ ΓµΓ¶Γ Γ΄Γ―Γµ Γ³ΓªΓ§Γ­Γ©ΓªΓ―Γ½ Γ¥Γ­Γ΄Γ¥Γ«ΓΎΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('C5Hl2GJagsU=', 2631, -1, 1);
@@ -9698,7 +9699,7 @@ function InitQuestion217()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αλλοιώνεται η υφή του μοντέλου";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ«Γ«Γ―Γ©ΓΎΓ­Γ¥Γ΄Γ΅Γ© Γ§ ΓµΓ¶Γ Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9715,7 +9716,7 @@ function InitQuestion218()
     question.answers.length = 0;
     question.num = 218;
     question.isSingleAns = false;
-    question.shortTextQuestion = "218. Σημειώστε το σωστό Η επιλογή Λιγότερες ραφές  ";
+    question.shortTextQuestion = "218. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ‹Γ©Γ£ΓΌΓ΄Γ¥Γ±Γ¥Γ² Γ±Γ΅Γ¶ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('KwpQCTkRAp0=', 2637, -1, 1);
@@ -9723,7 +9724,7 @@ function InitQuestion218()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. διορθώνεται η παραμορφωμένη υφή του μοντέλου";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ©Γ―Γ±Γ¨ΓΎΓ­Γ¥Γ΄Γ΅Γ© Γ§ Γ°Γ΅Γ±Γ΅Γ¬Γ―Γ±Γ¶ΓΉΓ¬ΓΓ­Γ§ ΓµΓ¶Γ Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('aC84Re8ivcA=', 2639, -1, 1);
@@ -9731,7 +9732,7 @@ function InitQuestion218()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αλλοιώνεται η υφή ανάλογα με το μοντέλο";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ«Γ«Γ―Γ©ΓΎΓ­Γ¥Γ΄Γ΅Γ© Γ§ ΓµΓ¶Γ Γ΅Γ­ΓΓ«Γ―Γ£Γ΅ Γ¬Γ¥ Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('aC84Re8ivcA=', 2641, -1, 1);
@@ -9739,7 +9740,7 @@ function InitQuestion218()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. καλύπτονται τα κενά της διαφάνειας με το χρώμα του φόντου";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ«Γ½Γ°Γ΄Γ―Γ­Γ΄Γ΅Γ© Γ΄Γ΅ ΓªΓ¥Γ­Γ Γ΄Γ§Γ² Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅Γ² Γ¬Γ¥ Γ΄Γ― Γ·Γ±ΓΎΓ¬Γ΅ Γ΄Γ―Γµ Γ¶ΓΌΓ­Γ΄Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9756,7 +9757,7 @@ function InitQuestion219()
     question.answers.length = 0;
     question.num = 219;
     question.isSingleAns = false;
-    question.shortTextQuestion = "219. Σημειώστε το σωστό Οι υφές εμφανίζονται στον πίνακα Επίπεδα  ";
+    question.shortTextQuestion = "219. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ© ΓµΓ¶ΓΓ² Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ…Γ°ΓΓ°Γ¥Γ¤Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BaJflWQUGbY=', 2647, -1, 1);
@@ -9764,7 +9765,7 @@ function InitQuestion219()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ως ένθετα στοιχεία";
+    answer1.shortTextAnswer = "Γ. ΓΉΓ² ΓΓ­Γ¨Γ¥Γ΄Γ΅ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('7D071xzid3U=', 2649, -1, 1);
@@ -9772,7 +9773,7 @@ function InitQuestion219()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ως καταχωρίσεις";
+    answer2.shortTextAnswer = "Γ‚. ΓΉΓ² ΓªΓ΅Γ΄Γ΅Γ·ΓΉΓ±ΓΓ³Γ¥Γ©Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('7D071xzid3U=', 2651, -1, 1);
@@ -9780,7 +9781,7 @@ function InitQuestion219()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ως ομάδες τύπου χάρτη";
+    answer3.shortTextAnswer = "Γƒ. ΓΉΓ² Γ―Γ¬ΓΓ¤Γ¥Γ² Γ΄Γ½Γ°Γ―Γµ Γ·ΓΓ±Γ΄Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('4X/jrwUTgWQ=', 2653, -1, 1);
@@ -9788,7 +9789,7 @@ function InitQuestion219()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω είναι και αυτό σωστό";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ Γ¥ΓΓ­Γ΅Γ© ΓªΓ΅Γ© Γ΅ΓµΓ΄ΓΌ Γ³ΓΉΓ³Γ΄ΓΌ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -9805,7 +9806,7 @@ function InitQuestion220()
     question.answers.length = 0;
     question.num = 220;
     question.isSingleAns = false;
-    question.shortTextQuestion = "220. Σημειώστε το σωστό Η απεικόνιση UV  ";
+    question.shortTextQuestion = "220. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ΅Γ°Γ¥Γ©ΓªΓΌΓ­Γ©Γ³Γ§ UV  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('/hk64xWLuj4=', 2657, -1, 1);
@@ -9813,7 +9814,7 @@ function InitQuestion220()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιτρέπει στην υφή 2D να χρωματιστεί σωστά στο μοντέλο 3D";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ³Γ΄Γ§Γ­ ΓµΓ¶Γ 2D Γ­Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ΄Γ¥Γ Γ³ΓΉΓ³Γ΄Γ Γ³Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― 3D";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('/hk64xWLuj4=', 2659, -1, 1);
@@ -9821,7 +9822,7 @@ function InitQuestion220()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. επιτρέπει στην υφή 2D να χρωματιστεί σωστά στο μοντέλο 2D";
+    answer2.shortTextAnswer = "B. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ³Γ΄Γ§Γ­ ΓµΓ¶Γ 2D Γ­Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ΄Γ¥Γ Γ³ΓΉΓ³Γ΄Γ Γ³Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― 2D";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('kM0SY7Lz/uw=', 2661, -1, 1);
@@ -9829,7 +9830,7 @@ function InitQuestion220()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επιτρέπει στην υφή 3D να χρωματιστεί σωστά στο μοντέλο 3D";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ³Γ΄Γ§Γ­ ΓµΓ¶Γ 3D Γ­Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ΄Γ¥Γ Γ³ΓΉΓ³Γ΄Γ Γ³Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― 3D";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9846,7 +9847,7 @@ function InitQuestion221()
     question.answers.length = 0;
     question.num = 221;
     question.isSingleAns = false;
-    question.shortTextQuestion = "221. Οι υφές 3D στο Photoshop  ";
+    question.shortTextQuestion = "221. ΓΓ© ΓµΓ¶ΓΓ² 3D Γ³Γ΄Γ― Photoshop  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rQSw6IR6z+I=', 2667, -1, 1);
@@ -9854,7 +9855,7 @@ function InitQuestion221()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ανοίγουν ως έξυπνα αντικείμενα";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ­Γ―ΓΓ£Γ―ΓµΓ­ ΓΉΓ² ΓΓ®ΓµΓ°Γ­Γ΅ Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('YkW6zftHe2U=', 2669, -1, 1);
@@ -9862,7 +9863,7 @@ function InitQuestion221()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ανοίγουν ως αρχεία 2D";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ­Γ―ΓΓ£Γ―ΓµΓ­ ΓΉΓ² Γ΅Γ±Γ·Γ¥ΓΓ΅ 2D";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('+8gO7tdDPJw=', 2671, -1, 1);
@@ -9870,7 +9871,7 @@ function InitQuestion221()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('+8gO7tdDPJw=', 2673, -1, 1);
@@ -9878,7 +9879,7 @@ function InitQuestion221()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -9895,7 +9896,7 @@ function InitQuestion222()
     question.answers.length = 0;
     question.num = 222;
     question.isSingleAns = false;
-    question.shortTextQuestion = "222. Σημειώστε το σωστό Η επαναλαμβανόμενη υφή  ";
+    question.shortTextQuestion = "222. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ΅Γ­Γ΅Γ«Γ΅Γ¬ΓΆΓ΅Γ­ΓΌΓ¬Γ¥Γ­Γ§ ΓµΓ¶Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('3kQzUWe63R4=', 2677, -1, 1);
@@ -9903,7 +9904,7 @@ function InitQuestion222()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. καλύπτει ρεαλιστικά την επιφάνεια του μοντέλου";
+    answer1.shortTextAnswer = "Γ. ΓªΓ΅Γ«Γ½Γ°Γ΄Γ¥Γ© Γ±Γ¥Γ΅Γ«Γ©Γ³Γ΄Γ©ΓªΓ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('3kQzUWe63R4=', 2679, -1, 1);
@@ -9911,7 +9912,7 @@ function InitQuestion222()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν βελτιώνει τη λειτουργία απόδοσης";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ ΓΆΓ¥Γ«Γ΄Γ©ΓΎΓ­Γ¥Γ© Γ΄Γ§ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('V9CDOOQgp8E=', 2681, -1, 1);
@@ -9919,7 +9920,7 @@ function InitQuestion222()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. καταλαμβάνει πολύ χώρο στη μνήμη";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ΄Γ΅Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ© Γ°Γ―Γ«Γ½ Γ·ΓΎΓ±Γ― Γ³Γ΄Γ§ Γ¬Γ­ΓΓ¬Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9936,7 +9937,7 @@ function InitQuestion223()
     question.answers.length = 0;
     question.num = 223;
     question.isSingleAns = false;
-    question.shortTextQuestion = "223. Σημειώστε το σωστό Το πρόγραμμα Photoshop αυτόματα μπορεί  ";
+    question.shortTextQuestion = "223. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Photoshop Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ΅ Γ¬Γ°Γ―Γ±Γ¥Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('aWLGVq63wLY=', 2687, -1, 1);
@@ -9944,7 +9945,7 @@ function InitQuestion223()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. να εντοπίσει συγκεκριμένες περιοχές του μοντέλου κατάλληλες για χρώμα";
+    answer1.shortTextAnswer = "Γ. Γ­Γ΅ Γ¥Γ­Γ΄Γ―Γ°ΓΓ³Γ¥Γ© Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ¥Γ² Γ°Γ¥Γ±Γ©Γ―Γ·ΓΓ² Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ ΓªΓ΅Γ΄ΓΓ«Γ«Γ§Γ«Γ¥Γ² Γ£Γ©Γ΅ Γ·Γ±ΓΎΓ¬Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('aWLGVq63wLY=', 2689, -1, 1);
@@ -9952,7 +9953,7 @@ function InitQuestion223()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. να χρωματίσει το μοντέλο χωρίς χάρτη υφής";
+    answer2.shortTextAnswer = "Γ‚. Γ­Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄ΓΓ³Γ¥Γ© Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― Γ·ΓΉΓ±ΓΓ² Γ·ΓΓ±Γ΄Γ§ ΓµΓ¶ΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('iKCpD+d0m/s=', 2691, -1, 1);
@@ -9960,7 +9961,7 @@ function InitQuestion223()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. να αποκρύψει συγκεκριμένη περιοχή";
+    answer3.shortTextAnswer = "Γƒ. Γ­Γ΅ Γ΅Γ°Γ―ΓªΓ±Γ½ΓΈΓ¥Γ© Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§ Γ°Γ¥Γ±Γ©Γ―Γ·Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -9977,7 +9978,7 @@ function InitQuestion224()
     question.answers.length = 0;
     question.num = 224;
     question.isSingleAns = false;
-    question.shortTextQuestion = "224. Σημειώστε το σωστό Ο χάρτης υφής επιτρέπει  ";
+    question.shortTextQuestion = "224. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ Γ·ΓΓ±Γ΄Γ§Γ² ΓµΓ¶ΓΓ² Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('qLrFSssJOe4=', 2697, -1, 1);
@@ -9985,7 +9986,7 @@ function InitQuestion224()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. να είναι ορατά τα αποτελέσματα του χρωματισμού";
+    answer1.shortTextAnswer = "Γ. Γ­Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ―Γ±Γ΅Γ΄Γ Γ΄Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«ΓΓ³Γ¬Γ΅Γ΄Γ΅ Γ΄Γ―Γµ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('qLrFSssJOe4=', 2699, -1, 1);
@@ -9993,7 +9994,7 @@ function InitQuestion224()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. να χρωματίζεται το επίπεδο χωρίς να είναι ορατές οι ενέργειες";
+    answer2.shortTextAnswer = "Γ‚. Γ­Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ΄Γ― Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ·ΓΉΓ±ΓΓ² Γ­Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ―Γ±Γ΅Γ΄ΓΓ² Γ―Γ© Γ¥Γ­ΓΓ±Γ£Γ¥Γ©Γ¥Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('mt2npw8iasc=', 2701, -1, 1);
@@ -10001,7 +10002,7 @@ function InitQuestion224()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. να χρωματίζεται το μοντέλο χωρίς να είναι ορατά τα αποτελέσματα του χρωματισμού";
+    answer3.shortTextAnswer = "Γƒ. Γ­Γ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― Γ·ΓΉΓ±ΓΓ² Γ­Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ―Γ±Γ΅Γ΄Γ Γ΄Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«ΓΓ³Γ¬Γ΅Γ΄Γ΅ Γ΄Γ―Γµ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10018,7 +10019,7 @@ function InitQuestion225()
     question.answers.length = 0;
     question.num = 225;
     question.isSingleAns = false;
-    question.shortTextQuestion = "225. Σημειώστε το σωστό Η γωνία σταδιακής μείωσης του χρωματισμού  ";
+    question.shortTextQuestion = "225. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ£ΓΉΓ­ΓΓ΅ Γ³Γ΄Γ΅Γ¤Γ©Γ΅ΓªΓΓ² Γ¬Γ¥ΓΓΉΓ³Γ§Γ² Γ΄Γ―Γµ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('55QAKU5VFHQ=', 2707, -1, 1);
@@ -10026,7 +10027,7 @@ function InitQuestion225()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ελέγχει την ποσότητα του χρώματος που εφαρμόζεται σε επιφάνειες που σχηματίζουν γωνίες";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ«ΓΓ£Γ·Γ¥Γ© Γ΄Γ§Γ­ Γ°Γ―Γ³ΓΌΓ΄Γ§Γ΄Γ΅ Γ΄Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ°Γ―Γµ Γ¥Γ¶Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ΄Γ΅Γ© Γ³Γ¥ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ¥Γ² Γ°Γ―Γµ Γ³Γ·Γ§Γ¬Γ΅Γ΄ΓΓ¦Γ―ΓµΓ­ Γ£ΓΉΓ­ΓΓ¥Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('55QAKU5VFHQ=', 2709, -1, 1);
@@ -10034,7 +10035,7 @@ function InitQuestion225()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ελέγχει τη γωνία μετάβασης από τα φωτεινά στα σκοτεινά εικονοστοιχεία πάνω στην επιφάνεια";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ«ΓΓ£Γ·Γ¥Γ© Γ΄Γ§ Γ£ΓΉΓ­ΓΓ΅ Γ¬Γ¥Γ΄ΓΓΆΓ΅Γ³Γ§Γ² Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¶ΓΉΓ΄Γ¥Γ©Γ­Γ Γ³Γ΄Γ΅ Γ³ΓªΓ―Γ΄Γ¥Γ©Γ­Γ Γ¥Γ©ΓªΓ―Γ­Γ―Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ°ΓΓ­ΓΉ Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('MAva4NEsbyM=', 2711, -1, 1);
@@ -10042,7 +10043,7 @@ function InitQuestion225()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ελέγχει τη γωνία διάχυσης χρώματος στα άκρα της εικόνας";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ«ΓΓ£Γ·Γ¥Γ© Γ΄Γ§ Γ£ΓΉΓ­ΓΓ΅ Γ¤Γ©ΓΓ·ΓµΓ³Γ§Γ² Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ² Γ³Γ΄Γ΅ ΓΓªΓ±Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10059,7 +10060,7 @@ function InitQuestion226()
     question.answers.length = 0;
     question.num = 226;
     question.isSingleAns = false;
-    question.shortTextQuestion = "226. Σημειώστε το σωστό Τα αντικείμενα με ένα μόνο δικτύωμα είναι  ";
+    question.shortTextQuestion = "226. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ΅Γ­Γ΄Γ©ΓªΓ¥ΓΓ¬Γ¥Γ­Γ΅ Γ¬Γ¥ ΓΓ­Γ΅ Γ¬ΓΌΓ­Γ― Γ¤Γ©ΓªΓ΄Γ½ΓΉΓ¬Γ΅ Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('CbdbQ7xI99o=', 2717, -1, 1);
@@ -10067,7 +10068,7 @@ function InitQuestion226()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. το καπέλο – η σφαίρα";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ― ΓªΓ΅Γ°ΓΓ«Γ― Β– Γ§ Γ³Γ¶Γ΅ΓΓ±Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('CbdbQ7xI99o=', 2719, -1, 1);
@@ -10075,7 +10076,7 @@ function InitQuestion226()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. κώνος –κύλινδρος-μπουκάλι";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓΎΓ­Γ―Γ² Β–ΓªΓ½Γ«Γ©Γ­Γ¤Γ±Γ―Γ²-Γ¬Γ°Γ―ΓµΓªΓΓ«Γ©";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('c3kEi5TUiEc=', 2721, -1, 1);
@@ -10083,7 +10084,7 @@ function InitQuestion226()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. κανένα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('j0z/SLxyM7M=', 2723, -1, 1);
@@ -10091,7 +10092,7 @@ function InitQuestion226()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -10108,7 +10109,7 @@ function InitQuestion227()
     question.answers.length = 0;
     question.num = 227;
     question.isSingleAns = false;
-    question.shortTextQuestion = "227. Σημειώστε το σωστό Η συγχώνευση επιπέδων 3D επιτρέπει  ";
+    question.shortTextQuestion = "227. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ³ΓµΓ£Γ·ΓΎΓ­Γ¥ΓµΓ³Γ§ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ 3D Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('GUatdzhkXUU=', 2727, -1, 1);
@@ -10116,7 +10117,7 @@ function InitQuestion227()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σε ένα σκηνικό να συνδυάζονται πολλαπλά μοντέλα";
+    answer1.shortTextAnswer = "Γ. Γ³Γ¥ ΓΓ­Γ΅ Γ³ΓªΓ§Γ­Γ©ΓªΓΌ Γ­Γ΅ Γ³ΓµΓ­Γ¤ΓµΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ°Γ―Γ«Γ«Γ΅Γ°Γ«Γ Γ¬Γ―Γ­Γ΄ΓΓ«Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GUatdzhkXUU=', 2729, -1, 1);
@@ -10124,7 +10125,7 @@ function InitQuestion227()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σε πολλά σκηνικά να συνδυάζεται ένα μοντέλο";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ¥ Γ°Γ―Γ«Γ«Γ Γ³ΓªΓ§Γ­Γ©ΓªΓ Γ­Γ΅ Γ³ΓµΓ­Γ¤ΓµΓΓ¦Γ¥Γ΄Γ΅Γ© ΓΓ­Γ΅ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('7Up3Jr7V7N4=', 2731, -1, 1);
@@ -10132,7 +10133,7 @@ function InitQuestion227()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σε ένα σκηνικό να συνδυάζεται ένα μοντέλο";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ¥ ΓΓ­Γ΅ Γ³ΓªΓ§Γ­Γ©ΓªΓΌ Γ­Γ΅ Γ³ΓµΓ­Γ¤ΓµΓΓ¦Γ¥Γ΄Γ΅Γ© ΓΓ­Γ΅ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10149,7 +10150,7 @@ function InitQuestion228()
     question.answers.length = 0;
     question.num = 228;
     question.isSingleAns = false;
-    question.shortTextQuestion = "228. Σημειώστε το σωστό Μετά τη συγχώνευση  ";
+    question.shortTextQuestion = "228. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥Γ΄Γ Γ΄Γ§ Γ³ΓµΓ£Γ·ΓΎΓ­Γ¥ΓµΓ³Γ§  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('OffYe8a0188=', 2737, -1, 1);
@@ -10157,7 +10158,7 @@ function InitQuestion228()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. όλα τα υλικά και δικτυώματα εμφανίζονται στον πίνακα 3D";
+    answer1.shortTextAnswer = "Γ. ΓΌΓ«Γ΅ Γ΄Γ΅ ΓµΓ«Γ©ΓªΓ ΓªΓ΅Γ© Γ¤Γ©ΓªΓ΄ΓµΓΎΓ¬Γ΅Γ΄Γ΅ Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ 3D";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('OffYe8a0188=', 2739, -1, 1);
@@ -10165,7 +10166,7 @@ function InitQuestion228()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μόνο τα υλικά και δικτυώματα του μεγαλύτερου αρχείου εμφανίζονται στον πίνακα 3D";
+    answer2.shortTextAnswer = "Γ‚. Γ¬ΓΌΓ­Γ― Γ΄Γ΅ ΓµΓ«Γ©ΓªΓ ΓªΓ΅Γ© Γ¤Γ©ΓªΓ΄ΓµΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ―Γµ Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ―Γµ Γ΅Γ±Γ·Γ¥ΓΓ―Γµ Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ 3D";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('rlnkbWB//AQ=', 2741, -1, 1);
@@ -10173,7 +10174,7 @@ function InitQuestion228()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μόνο τα υλικά και δικτυώματα του μικρότερου αρχείου εμφανίζονται στον πίνακα 3D";
+    answer3.shortTextAnswer = "Γƒ. Γ¬ΓΌΓ­Γ― Γ΄Γ΅ ΓµΓ«Γ©ΓªΓ ΓªΓ΅Γ© Γ¤Γ©ΓªΓ΄ΓµΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ―Γµ Γ¬Γ©ΓªΓ±ΓΌΓ΄Γ¥Γ±Γ―Γµ Γ΅Γ±Γ·Γ¥ΓΓ―Γµ Γ¥Γ¬Γ¶Γ΅Γ­ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ 3D";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10190,7 +10191,7 @@ function InitQuestion229()
     question.answers.length = 0;
     question.num = 229;
     question.isSingleAns = false;
-    question.shortTextQuestion = "229. Σημειώστε το σωστό Για κινούμενες εικόνες υψηλής ποιότητας  ";
+    question.shortTextQuestion = "229. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ¥Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² ΓµΓΈΓ§Γ«ΓΓ² Γ°Γ―Γ©ΓΌΓ΄Γ§Γ΄Γ΅Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('D6pgyZgV+zI=', 2747, -1, 1);
@@ -10198,7 +10199,7 @@ function InitQuestion229()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ρυθμίζεται η απόδοση «Απόδοση για τελική έξοδο» ανά καρέ";
+    answer1.shortTextAnswer = "Γ. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§ Β«ΓΓ°ΓΌΓ¤Γ―Γ³Γ§ Γ£Γ©Γ΅ Γ΄Γ¥Γ«Γ©ΓªΓ ΓΓ®Γ―Γ¤Γ―Β» Γ΅Γ­Γ ΓªΓ΅Γ±Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('D6pgyZgV+zI=', 2749, -1, 1);
@@ -10206,7 +10207,7 @@ function InitQuestion229()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ρυθμίζεται η εγκάρσια τομή ανάμεσα στα καρέ";
+    answer2.shortTextAnswer = "Γ‚. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ Γ¥Γ£ΓªΓΓ±Γ³Γ©Γ΅ Γ΄Γ―Γ¬Γ Γ΅Γ­ΓΓ¬Γ¥Γ³Γ΅ Γ³Γ΄Γ΅ ΓªΓ΅Γ±Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ogv5+mrUA5k=', 2751, -1, 1);
@@ -10214,7 +10215,7 @@ function InitQuestion229()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ρυθμίζεται η θέση του αντικειμένου";
+    answer3.shortTextAnswer = "Γƒ. Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ Γ¨ΓΓ³Γ§ Γ΄Γ―Γµ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10231,7 +10232,7 @@ function InitQuestion230()
     question.answers.length = 0;
     question.num = 230;
     question.isSingleAns = false;
-    question.shortTextQuestion = "230. Σημειώστε το σωστό Με τη μετατροπή ενός επιπέδου 3D σε 2D  ";
+    question.shortTextQuestion = "230. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ§ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ―Γ°Γ Γ¥Γ­ΓΌΓ² Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ 3D Γ³Γ¥ 2D  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xhAaA2JSE7w=', 2757, -1, 1);
@@ -10239,7 +10240,7 @@ function InitQuestion230()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ραστεροποιείται το περιεχόμενο";
+    answer1.shortTextAnswer = "Γ. Γ±Γ΅Γ³Γ΄Γ¥Γ±Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ΄Γ― Γ°Γ¥Γ±Γ©Γ¥Γ·ΓΌΓ¬Γ¥Γ­Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('xhAaA2JSE7w=', 2759, -1, 1);
@@ -10247,7 +10248,7 @@ function InitQuestion230()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μπορεί να υποστεί επεξεργασία το μοντέλο 3D";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ΄Γ― Γ¬Γ―Γ­Γ΄ΓΓ«Γ― 3D";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('0QbnilAPZeg=', 2761, -1, 1);
@@ -10255,7 +10256,7 @@ function InitQuestion230()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπορεί να υποστεί επεξεργασία η υφή και ο φωτισμός του μοντέλου 3D";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ ΓµΓ°Γ―Γ³Γ΄Γ¥Γ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ§ ΓµΓ¶Γ ΓªΓ΅Γ© Γ― Γ¶ΓΉΓ΄Γ©Γ³Γ¬ΓΌΓ² Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ 3D";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10272,7 +10273,7 @@ function InitQuestion231()
     question.answers.length = 0;
     question.num = 231;
     question.isSingleAns = false;
-    question.shortTextQuestion = "231. Σημειώστε το σωστό Η απόκρυψη πολλών επιπέδων ενός εγγράφου  ";
+    question.shortTextQuestion = "231. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ΅Γ°ΓΌΓªΓ±ΓµΓΈΓ§ Γ°Γ―Γ«Γ«ΓΎΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ¥Γ­ΓΌΓ² Γ¥Γ£Γ£Γ±ΓΓ¶Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('mPxJ24vIVKA=', 2767, -1, 1);
@@ -10280,7 +10281,7 @@ function InitQuestion231()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. γίνεται για ταχύτερη απόδοση της εικόνας στην οθόνη";
+    answer1.shortTextAnswer = "Γ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ΅Γ·Γ½Γ΄Γ¥Γ±Γ§ Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ΄Γ§Γ­ Γ―Γ¨ΓΌΓ­Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('mPxJ24vIVKA=', 2769, -1, 1);
@@ -10288,7 +10289,7 @@ function InitQuestion231()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. γίνεται για την καλύτερη απόδοση των εργαλείων χρωματισμού στο ενεργό επίπεδο";
+    answer2.shortTextAnswer = "Γ‚. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ ΓªΓ΅Γ«Γ½Γ΄Γ¥Γ±Γ§ Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§ Γ΄ΓΉΓ­ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½ Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('mZXAUEL3bss=', 2771, -1, 1);
@@ -10296,7 +10297,7 @@ function InitQuestion231()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. γίνεται για την καλύτερη απόδοση του σχηματισμού ενός αντικειμένου στο ενεργό επίπεδο";
+    answer3.shortTextAnswer = "Γƒ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§Γ­ ΓªΓ΅Γ«Γ½Γ΄Γ¥Γ±Γ§ Γ΅Γ°ΓΌΓ¤Γ―Γ³Γ§ Γ΄Γ―Γµ Γ³Γ·Γ§Γ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½ Γ¥Γ­ΓΌΓ² Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­Γ―Γµ Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10313,7 +10314,7 @@ function InitQuestion232()
     question.answers.length = 0;
     question.num = 232;
     question.isSingleAns = false;
-    question.shortTextQuestion = "232. Σημειώστε το σωστό Η δημιουργία κίνησης  ";
+    question.shortTextQuestion = "232. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ ΓªΓΓ­Γ§Γ³Γ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('D8CqZX0I9H8=', 2777, -1, 1);
@@ -10321,7 +10322,7 @@ function InitQuestion232()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. γίνεται από τον πίνακα Κινούμενη εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ ΓΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('D8CqZX0I9H8=', 2779, -1, 1);
@@ -10329,7 +10330,7 @@ function InitQuestion232()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. γίνεται από τον πίνακα επιπέδων";
+    answer2.shortTextAnswer = "Γ‚. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('gvHOpV6quT8=', 2781, -1, 1);
@@ -10337,7 +10338,7 @@ function InitQuestion232()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. γίνεται από τη χρονογραμμή της κινούμενης εικόνας";
+    answer3.shortTextAnswer = "Γƒ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ§ Γ·Γ±Γ―Γ­Γ―Γ£Γ±Γ΅Γ¬Γ¬Γ Γ΄Γ§Γ² ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10354,7 +10355,7 @@ function InitQuestion233()
     question.answers.length = 0;
     question.num = 233;
     question.isSingleAns = false;
-    question.shortTextQuestion = "233. Σημειώστε το σωστό Η κινούμενη εικόνα  ";
+    question.shortTextQuestion = "233. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('GyFNh9nbzyg=', 2787, -1, 1);
@@ -10362,7 +10363,7 @@ function InitQuestion233()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. είναι πολλά καρέ με διαφορετική διαμόρφωση επιπέδων μιας εικόνας σε κάθε ένα από αυτά";
+    answer1.shortTextAnswer = "Γ. Γ¥ΓΓ­Γ΅Γ© Γ°Γ―Γ«Γ«Γ ΓªΓ΅Γ±Γ Γ¬Γ¥ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓ Γ¤Γ©Γ΅Γ¬ΓΌΓ±Γ¶ΓΉΓ³Γ§ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ¥ ΓªΓΓ¨Γ¥ ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΅ΓµΓ΄Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GyFNh9nbzyg=', 2789, -1, 1);
@@ -10370,7 +10371,7 @@ function InitQuestion233()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι ένας καθορισμένος αριθμός καρέ με διαφορετικές εικόνες σε κάθε ένα από αυτά";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© ΓΓ­Γ΅Γ² ΓªΓ΅Γ¨Γ―Γ±Γ©Γ³Γ¬ΓΓ­Γ―Γ² Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² ΓªΓ΅Γ±Γ Γ¬Γ¥ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓΓ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ³Γ¥ ΓªΓΓ¨Γ¥ ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΅ΓµΓ΄Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('eVMiNllp7Qk=', 2791, -1, 1);
@@ -10378,7 +10379,7 @@ function InitQuestion233()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είναι ένα καρέ με εικόνα πολλών επιπέδων";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ­Γ΅Γ© ΓΓ­Γ΅ ΓªΓ΅Γ±Γ Γ¬Γ¥ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ°Γ―Γ«Γ«ΓΎΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10395,7 +10396,7 @@ function InitQuestion234()
     question.answers.length = 0;
     question.num = 234;
     question.isSingleAns = false;
-    question.shortTextQuestion = "234. Σημειώστε το σωστό Σε ένα επίπεδο φόντου  ";
+    question.shortTextQuestion = "234. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ¥ ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ― Γ¶ΓΌΓ­Γ΄Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('DwM2thINy3Q=', 2797, -1, 1);
@@ -10403,7 +10404,7 @@ function InitQuestion234()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δημιουργείται κίνηση";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© ΓªΓΓ­Γ§Γ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('xCHGDrKgHI0=', 2799, -1, 1);
@@ -10411,7 +10412,7 @@ function InitQuestion234()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν δημιουργείται κίνηση (είναι και αυτό σωστό)";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© ΓªΓΓ­Γ§Γ³Γ§ (Γ¥ΓΓ­Γ΅Γ© ΓªΓ΅Γ© Γ΅ΓµΓ΄ΓΌ Γ³ΓΉΓ³Γ΄ΓΌ)";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('q5rzzRVmv6M=', 2801, -1, 1);
@@ -10419,7 +10420,7 @@ function InitQuestion234()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δημιουργείται κίνηση αφού μετατραπεί σε κανονικό επίπεδο";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ¥ΓΓ΄Γ΅Γ© ΓªΓΓ­Γ§Γ³Γ§ Γ΅Γ¶Γ―Γ½ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ΅Γ°Γ¥Γ Γ³Γ¥ ΓªΓ΅Γ­Γ―Γ­Γ©ΓªΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10436,7 +10437,7 @@ function InitQuestion235()
     question.answers.length = 0;
     question.num = 235;
     question.isSingleAns = false;
-    question.shortTextQuestion = "235. Σημειώστε το σωστό Η προεπισκόπηση της κινούμενης εικόνα (και αυτό σωστό )  ";
+    question.shortTextQuestion = "235. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§ Γ΄Γ§Γ² ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅ (ΓªΓ΅Γ© Γ΅ΓµΓ΄ΓΌ Γ³ΓΉΓ³Γ΄ΓΌ )  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('q1aP2GgTqKg=', 2807, -1, 1);
@@ -10444,7 +10445,7 @@ function InitQuestion235()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. γίνεται από τον πίνακα κινούμενη εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ§ Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GJlB/j8FTP4=', 2809, -1, 1);
@@ -10452,7 +10453,7 @@ function InitQuestion235()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. γίνεται από τον πίνακα επιπέδων";
+    answer2.shortTextAnswer = "Γ‚. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Frk2I9w+3wk=', 2811, -1, 1);
@@ -10460,7 +10461,7 @@ function InitQuestion235()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. γίνεται με την εντολή αποθήκευση για web &συσκευές";
+    answer3.shortTextAnswer = "Γƒ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§ Γ£Γ©Γ΅ web &Γ³ΓµΓ³ΓªΓ¥ΓµΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10477,7 +10478,7 @@ function InitQuestion236()
     question.answers.length = 0;
     question.num = 236;
     question.isSingleAns = false;
-    question.shortTextQuestion = "236. Σημειώστε το σωστό Η αποθήκευση της κινούμενης εικόνας δεν  ";
+    question.shortTextQuestion = "236. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§ Γ΄Γ§Γ² ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¤Γ¥Γ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('FjgcHmr3FsE=', 2817, -1, 1);
@@ -10485,7 +10486,7 @@ function InitQuestion236()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. γίνεται ως αρχείο gif με την εντολή αποθήκευση για web & συσκευές";
+    answer1.shortTextAnswer = "Γ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© ΓΉΓ² Γ΅Γ±Γ·Γ¥ΓΓ― gif Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ Γ΅Γ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§ Γ£Γ©Γ΅ web & Γ³ΓµΓ³ΓªΓ¥ΓµΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Zcqf6FBE7yE=', 2819, -1, 1);
@@ -10493,7 +10494,7 @@ function InitQuestion236()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. γίνεται ως μορφή PSD";
+    answer2.shortTextAnswer = "Γ‚. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© ΓΉΓ² Γ¬Γ―Γ±Γ¶Γ PSD";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('TFXlogIgrZ0=', 2821, -1, 1);
@@ -10501,7 +10502,7 @@ function InitQuestion236()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. γίνεται ως μορφή PDF";
+    answer3.shortTextAnswer = "Γƒ. Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© ΓΉΓ² Γ¬Γ―Γ±Γ¶Γ PDF";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10518,7 +10519,7 @@ function InitQuestion237()
     question.answers.length = 0;
     question.num = 237;
     question.isSingleAns = false;
-    question.shortTextQuestion = "237. Σημειώστε το σωστό Το κουμπί Ενοποίηση στυλ επιπέδου  ";
+    question.shortTextQuestion = "237. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― ΓªΓ―ΓµΓ¬Γ°Γ Γ…Γ­Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ³Γ΄ΓµΓ« Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('3jMu/Oo5c/M=', 2827, -1, 1);
@@ -10526,7 +10527,7 @@ function InitQuestion237()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ενεργοποιείται για να εφαρμοστεί ένα στυλ σε όλα τα άλλα καρέ στο ενεργό επίπεδο";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ¥Γ ΓΓ­Γ΅ Γ³Γ΄ΓµΓ« Γ³Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ ΓΓ«Γ«Γ΅ ΓªΓ΅Γ±Γ Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('3jMu/Oo5c/M=', 2829, -1, 1);
@@ -10534,7 +10535,7 @@ function InitQuestion237()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ενεργοποιείται για να εφαρμοστεί ένα στυλ στο ενεργοποιημένο καρέ στο ενεργό επίπεδο";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ¥Γ ΓΓ­Γ΅ Γ³Γ΄ΓµΓ« Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ§Γ¬ΓΓ­Γ― ΓªΓ΅Γ±Γ Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('nxjwz03k2ps=', 2831, -1, 1);
@@ -10542,7 +10543,7 @@ function InitQuestion237()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ενεργοποιείται για να εφαρμοστούν διαφορετικά στυλ στα διαφορετικά καρέ στο ενεργό επίπεδο";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ³Γ΄Γ―Γ½Γ­ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓ Γ³Γ΄ΓµΓ« Γ³Γ΄Γ΅ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓ ΓªΓ΅Γ±Γ Γ³Γ΄Γ― Γ¥Γ­Γ¥Γ±Γ£ΓΌ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10559,7 +10560,7 @@ function InitQuestion238()
     question.answers.length = 0;
     question.num = 238;
     question.isSingleAns = false;
-    question.shortTextQuestion = "238. Σημειώστε το σωστό Η αντιγραφή καρέ είναι  ";
+    question.shortTextQuestion = "238. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ΅Γ­Γ΄Γ©Γ£Γ±Γ΅Γ¶Γ ΓªΓ΅Γ±Γ Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xUnts2YjrCM=', 2837, -1, 1);
@@ -10567,7 +10568,7 @@ function InitQuestion238()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. η αντιγραφή μιας εικόνας με όλα τα επίπεδά της";
+    answer1.shortTextAnswer = "Γ. Γ§ Γ΅Γ­Γ΄Γ©Γ£Γ±Γ΅Γ¶Γ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ¥ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ Γ΄Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('rvQRZox6eJw=', 2839, -1, 1);
@@ -10575,7 +10576,7 @@ function InitQuestion238()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. η αντιγραφή μιας διπλότυπης εκδοχής μιας εικόνας με συγκεκριμένη διαμόρφωση επιπέδου";
+    answer2.shortTextAnswer = "Γ‚. Γ§ Γ΅Γ­Γ΄Γ©Γ£Γ±Γ΅Γ¶Γ Γ¬Γ©Γ΅Γ² Γ¤Γ©Γ°Γ«ΓΌΓ΄ΓµΓ°Γ§Γ² Γ¥ΓªΓ¤Γ―Γ·ΓΓ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ¥ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ§ Γ¤Γ©Γ΅Γ¬ΓΌΓ±Γ¶ΓΉΓ³Γ§ Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('rvQRZox6eJw=', 2841, -1, 1);
@@ -10583,7 +10584,7 @@ function InitQuestion238()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. η αντιγραφή μιας εικόνας χωρίς τις διαμορφώσεις των επιπέδων της";
+    answer3.shortTextAnswer = "Γƒ. Γ§ Γ΅Γ­Γ΄Γ©Γ£Γ±Γ΅Γ¶Γ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ·ΓΉΓ±ΓΓ² Γ΄Γ©Γ² Γ¤Γ©Γ΅Γ¬Γ―Γ±Γ¶ΓΎΓ³Γ¥Γ©Γ² Γ΄ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ΄Γ§Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10600,7 +10601,7 @@ function InitQuestion239()
     question.answers.length = 0;
     question.num = 239;
     question.isSingleAns = false;
-    question.shortTextQuestion = "239. Σημειώστε το σωστό Η εντολή Επικόλληση πάνω στην επιλογή  ";
+    question.shortTextQuestion = "239. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ…Γ°Γ©ΓªΓΌΓ«Γ«Γ§Γ³Γ§ Γ°ΓΓ­ΓΉ Γ³Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('SXW3GhMOHvE=', 2847, -1, 1);
@@ -10608,7 +10609,7 @@ function InitQuestion239()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αντικαθιστούνται τα επίπεδα της εικόνας με τα νέα επίπεδα";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ­Γ΄Γ©ΓªΓ΅Γ¨Γ©Γ³Γ΄Γ―Γ½Γ­Γ΄Γ΅Γ© Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ¥ Γ΄Γ΅ Γ­ΓΓ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('97fS8DktpYo=', 2849, -1, 1);
@@ -10616,7 +10617,7 @@ function InitQuestion239()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. διπλασιάζεται ο αριθμός των επιπέδων της εικόνας";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ©Γ°Γ«Γ΅Γ³Γ©ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ― Γ΅Γ±Γ©Γ¨Γ¬ΓΌΓ² Γ΄ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('97fS8DktpYo=', 2851, -1, 1);
@@ -10624,7 +10625,7 @@ function InitQuestion239()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα επίπεδα είναι ορατά";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ―Γ±Γ΅Γ΄Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10641,7 +10642,7 @@ function InitQuestion240()
     question.answers.length = 0;
     question.num = 240;
     question.isSingleAns = false;
-    question.shortTextQuestion = "240. Σημειώστε το σωστό Η εντολή Σύνδεση προστιθέμενων επιπέδων  ";
+    question.shortTextQuestion = "240. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ“Γ½Γ­Γ¤Γ¥Γ³Γ§ Γ°Γ±Γ―Γ³Γ΄Γ©Γ¨ΓΓ¬Γ¥Γ­ΓΉΓ­ Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('8whEZ/1TiRg=', 2857, -1, 1);
@@ -10649,7 +10650,7 @@ function InitQuestion240()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ενεργοποιείται μόνο όταν επικολλούνται καρέ σε διαφορετικά έγγραφα";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― ΓΌΓ΄Γ΅Γ­ Γ¥Γ°Γ©ΓªΓ―Γ«Γ«Γ―Γ½Γ­Γ΄Γ΅Γ© ΓªΓ΅Γ±Γ Γ³Γ¥ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓ ΓΓ£Γ£Γ±Γ΅Γ¶Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('8whEZ/1TiRg=', 2859, -1, 1);
@@ -10657,7 +10658,7 @@ function InitQuestion240()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ενεργοποιείται μόνο για να συνδεθούν τα επίπεδα που έχουν επικολληθεί στον πίνακα";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― Γ£Γ©Γ΅ Γ­Γ΅ Γ³ΓµΓ­Γ¤Γ¥Γ¨Γ―Γ½Γ­ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ°Γ―Γµ ΓΓ·Γ―ΓµΓ­ Γ¥Γ°Γ©ΓªΓ―Γ«Γ«Γ§Γ¨Γ¥Γ Γ³Γ΄Γ―Γ­ Γ°ΓΓ­Γ΅ΓªΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('B7Q68pwpEpc=', 2861, -1, 1);
@@ -10665,7 +10666,7 @@ function InitQuestion240()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ενεργοποιείται για όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ­Γ¥Γ±Γ£Γ―Γ°Γ―Γ©Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10682,7 +10683,7 @@ function InitQuestion241()
     question.answers.length = 0;
     question.num = 241;
     question.isSingleAns = false;
-    question.shortTextQuestion = "241. Σημειώστε το σωστό Η μέθοδος εισαγωγής ενδιάμεσων εικόνων  ";
+    question.shortTextQuestion = "241. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¬ΓΓ¨Γ―Γ¤Γ―Γ² Γ¥Γ©Γ³Γ΅Γ£ΓΉΓ£ΓΓ² Γ¥Γ­Γ¤Γ©ΓΓ¬Γ¥Γ³ΓΉΓ­ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('hJE7Zv8CwMs=', 2867, -1, 1);
@@ -10690,7 +10691,7 @@ function InitQuestion241()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μειώνει το χρόνο που απαιτείται για τη δημιουργία εφε κίνησης";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ¥Γ©ΓΎΓ­Γ¥Γ© Γ΄Γ― Γ·Γ±ΓΌΓ­Γ― Γ°Γ―Γµ Γ΅Γ°Γ΅Γ©Γ΄Γ¥ΓΓ΄Γ΅Γ© Γ£Γ©Γ΅ Γ΄Γ§ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ¥Γ¶Γ¥ ΓªΓΓ­Γ§Γ³Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('QwGW8Exx6fw=', 2869, -1, 1);
@@ -10698,7 +10699,7 @@ function InitQuestion241()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιτρέπει την αυτόνομη επεξεργασία των καρέ που δημιουργούνται";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ΅ΓµΓ΄ΓΌΓ­Γ―Γ¬Γ§ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅ Γ΄ΓΉΓ­ ΓªΓ΅Γ±Γ Γ°Γ―Γµ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ―Γ½Γ­Γ΄Γ΅Γ©";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('V+xLjuUrCfo=', 2871, -1, 1);
@@ -10706,7 +10707,7 @@ function InitQuestion241()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. επιτρέπει την αυτόματη τροποποίηση πολλών καρέ ανάμεσα σε δύο υπάρχοντα καρέ";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ§ Γ΄Γ±Γ―Γ°Γ―Γ°Γ―ΓΓ§Γ³Γ§ Γ°Γ―Γ«Γ«ΓΎΓ­ ΓªΓ΅Γ±Γ Γ΅Γ­ΓΓ¬Γ¥Γ³Γ΅ Γ³Γ¥ Γ¤Γ½Γ― ΓµΓ°ΓΓ±Γ·Γ―Γ­Γ΄Γ΅ ΓªΓ΅Γ±Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('syE3WEDG6Vk=', 2873, -1, 1);
@@ -10714,7 +10715,7 @@ function InitQuestion241()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -10731,7 +10732,7 @@ function InitQuestion242()
     question.answers.length = 0;
     question.num = 242;
     question.isSingleAns = false;
-    question.shortTextQuestion = "242. Σημειώστε το σωστό Συγκριτικά με τα άλλα προγράμματα η εγγενής φύση του Photoshop  ";
+    question.shortTextQuestion = "242. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“ΓµΓ£ΓªΓ±Γ©Γ΄Γ©ΓªΓ Γ¬Γ¥ Γ΄Γ΅ ΓΓ«Γ«Γ΅ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅ Γ§ Γ¥Γ£Γ£Γ¥Γ­ΓΓ² Γ¶Γ½Γ³Γ§ Γ΄Γ―Γµ Photoshop  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('5eHIrX8F2uc=', 2877, -1, 1);
@@ -10739,7 +10740,7 @@ function InitQuestion242()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αποθηκεύει τις στρώσεις μιας εικόνας";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ© Γ΄Γ©Γ² Γ³Γ΄Γ±ΓΎΓ³Γ¥Γ©Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('5eHIrX8F2uc=', 2879, -1, 1);
@@ -10747,7 +10748,7 @@ function InitQuestion242()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αποθηκεύει την εικόνα χωρίς γραμμές –οδηγούς";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ·ΓΉΓ±ΓΓ² Γ£Γ±Γ΅Γ¬Γ¬ΓΓ² Β–Γ―Γ¤Γ§Γ£Γ―Γ½Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Stz1Jfc8S5U=', 2881, -1, 1);
@@ -10755,7 +10756,7 @@ function InitQuestion242()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αποθηκεύει μία εικόνα με συγχωνευμένα τα επίπεδα επεξεργασίας της";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ© Γ¬ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¬Γ¥ Γ³ΓµΓ£Γ·ΓΉΓ­Γ¥ΓµΓ¬ΓΓ­Γ΅ Γ΄Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ¥Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅Γ² Γ΄Γ§Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10772,7 +10773,7 @@ function InitQuestion243()
     question.answers.length = 0;
     question.num = 243;
     question.isSingleAns = false;
-    question.shortTextQuestion = "243. Σημειώστε το σωστό Το πρόγραμμα Photoshop  ";
+    question.shortTextQuestion = "243. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Photoshop  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('4iUzYNaggdA=', 2887, -1, 1);
@@ -10780,7 +10781,7 @@ function InitQuestion243()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ανοίγει και εικόνες με επίπεδα";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ­Γ―ΓΓ£Γ¥Γ© ΓªΓ΅Γ© Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ¬Γ¥ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('4iUzYNaggdA=', 2889, -1, 1);
@@ -10788,7 +10789,7 @@ function InitQuestion243()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ανοίγει τις εικόνες όπως τα άλλα προγράμματα";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ­Γ―ΓΓ£Γ¥Γ© Γ΄Γ©Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² ΓΌΓ°ΓΉΓ² Γ΄Γ΅ ΓΓ«Γ«Γ΅ Γ°Γ±Γ―Γ£Γ±ΓΓ¬Γ¬Γ΅Γ΄Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('M2f0zyYV03M=', 2891, -1, 1);
@@ -10796,7 +10797,7 @@ function InitQuestion243()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ανοίγει τις εικόνες που είναι αποθηκευμένες μαζί με τον καμβά τους";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ­Γ―ΓΓ£Γ¥Γ© Γ΄Γ©Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ°Γ―Γµ Γ¥ΓΓ­Γ΅Γ© Γ΅Γ°Γ―Γ¨Γ§ΓªΓ¥ΓµΓ¬ΓΓ­Γ¥Γ² Γ¬Γ΅Γ¦Γ Γ¬Γ¥ Γ΄Γ―Γ­ ΓªΓ΅Γ¬ΓΆΓ Γ΄Γ―ΓµΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10813,7 +10814,7 @@ function InitQuestion244()
     question.answers.length = 0;
     question.num = 244;
     question.isSingleAns = false;
-    question.shortTextQuestion = "244. Σημειώστε το σωστό η μέθοδος απόρριψης  ";
+    question.shortTextQuestion = "244. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ§ Γ¬ΓΓ¨Γ―Γ¤Γ―Γ² Γ΅Γ°ΓΌΓ±Γ±Γ©ΓΈΓ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('xrFqQTmEUbY=', 2897, -1, 1);
@@ -10821,7 +10822,7 @@ function InitQuestion244()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προσδιορίζει την απόρριψη ή την μη απόρριψη του επόμενου καρέ";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ°ΓΌΓ±Γ±Γ©ΓΈΓ§ Γ Γ΄Γ§Γ­ Γ¬Γ§ Γ΅Γ°ΓΌΓ±Γ±Γ©ΓΈΓ§ Γ΄Γ―Γµ Γ¥Γ°ΓΌΓ¬Γ¥Γ­Γ―Γµ ΓªΓ΅Γ±Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ZU3vNNL0UXg=', 2899, -1, 1);
@@ -10829,7 +10830,7 @@ function InitQuestion244()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. προσδιορίζει την απόρριψη ή την μη απόρριψη του προηγούμενου καρέ";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ°ΓΌΓ±Γ±Γ©ΓΈΓ§ Γ Γ΄Γ§Γ­ Γ¬Γ§ Γ΅Γ°ΓΌΓ±Γ±Γ©ΓΈΓ§ Γ΄Γ―Γµ Γ°Γ±Γ―Γ§Γ£Γ―Γ½Γ¬Γ¥Γ­Γ―Γµ ΓªΓ΅Γ±Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('+QTlpe6EpQI=', 2901, -1, 1);
@@ -10837,7 +10838,7 @@ function InitQuestion244()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αφορά τις κινούμενες εικόνες που περιλαμβάνουν διαφάνεια φόντου";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ¶Γ―Γ±Γ Γ΄Γ©Γ² ΓªΓ©Γ­Γ―Γ½Γ¬Γ¥Γ­Γ¥Γ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ°Γ―Γµ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ―ΓµΓ­ Γ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅ Γ¶ΓΌΓ­Γ΄Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('+QTlpe6EpQI=', 2903, -1, 1);
@@ -10845,7 +10846,7 @@ function InitQuestion244()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -10862,7 +10863,7 @@ function InitQuestion245()
     question.answers.length = 0;
     question.num = 245;
     question.isSingleAns = false;
-    question.shortTextQuestion = "245. Σημειώστε το σωστό Στη λίστα Save as.. η επιλογή Save Thumbnail  ";
+    question.shortTextQuestion = "245. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ§ Γ«ΓΓ³Γ΄Γ΅ Save as.. Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Save Thumbnail  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BI1U4Ovsx2A=', 2907, -1, 1);
@@ -10870,7 +10871,7 @@ function InitQuestion245()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Αποθηκεύει μικρογραφία εικόνας ως προεπισκόπηση";
+    answer1.shortTextAnswer = "Γ. ΓΓ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ© Γ¬Γ©ΓªΓ±Γ―Γ£Γ±Γ΅Γ¶ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² ΓΉΓ² Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BI1U4Ovsx2A=', 2909, -1, 1);
@@ -10878,7 +10879,7 @@ function InitQuestion245()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Αποθηκεύει την εικόνα με αλλαγμένες διαστάσεις";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ© Γ΄Γ§Γ­ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¬Γ¥ Γ΅Γ«Γ«Γ΅Γ£Γ¬ΓΓ­Γ¥Γ² Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('gS454pXaWQs=', 2911, -1, 1);
@@ -10886,7 +10887,7 @@ function InitQuestion245()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Αποθηκεύει το αρχείο της εικόνας χωρίς να αλλάξουν οι διαστάσεις";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ°Γ―Γ¨Γ§ΓªΓ¥Γ½Γ¥Γ© Γ΄Γ― Γ΅Γ±Γ·Γ¥ΓΓ― Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ·ΓΉΓ±ΓΓ² Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ―ΓµΓ­ Γ―Γ© Γ¤Γ©Γ΅Γ³Γ΄ΓΓ³Γ¥Γ©Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10903,7 +10904,7 @@ function InitQuestion246()
     question.answers.length = 0;
     question.num = 246;
     question.isSingleAns = false;
-    question.shortTextQuestion = "246. Σημειώστε το σωστό Στη χρονογραμμή animation  ";
+    question.shortTextQuestion = "246. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ§ Γ·Γ±Γ―Γ­Γ―Γ£Γ±Γ΅Γ¬Γ¬Γ animation  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('pw4YR3Q3Qy4=', 2917, -1, 1);
@@ -10911,7 +10912,7 @@ function InitQuestion246()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. η επιλογή επανάληψης καθορίζει τις φορές αναπαραγωγής";
+    answer1.shortTextAnswer = "Γ. Γ§ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ¥Γ°Γ΅Γ­ΓΓ«Γ§ΓΈΓ§Γ² ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ©Γ² Γ¶Γ―Γ±ΓΓ² Γ΅Γ­Γ΅Γ°Γ΅Γ±Γ΅Γ£ΓΉΓ£ΓΓ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('pw4YR3Q3Qy4=', 2919, -1, 1);
@@ -10919,7 +10920,7 @@ function InitQuestion246()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. καθορίζει αν γίνει η αναπαραγωγή ή όχι";
+    answer2.shortTextAnswer = "Γ‚. ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΅Γ­ Γ£ΓΓ­Γ¥Γ© Γ§ Γ΅Γ­Γ΅Γ°Γ΅Γ±Γ΅Γ£ΓΉΓ£Γ Γ ΓΌΓ·Γ©";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('E8Z1h+uFqBY=', 2921, -1, 1);
@@ -10927,7 +10928,7 @@ function InitQuestion246()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. καθορίζει την αναπαραγωγή τριών καρέ τη φορά";
+    answer3.shortTextAnswer = "Γƒ. ΓªΓ΅Γ¨Γ―Γ±ΓΓ¦Γ¥Γ© Γ΄Γ§Γ­ Γ΅Γ­Γ΅Γ°Γ΅Γ±Γ΅Γ£ΓΉΓ£Γ Γ΄Γ±Γ©ΓΎΓ­ ΓªΓ΅Γ±Γ Γ΄Γ§ Γ¶Γ―Γ±Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10944,7 +10945,7 @@ function InitQuestion247()
     question.answers.length = 0;
     question.num = 247;
     question.isSingleAns = false;
-    question.shortTextQuestion = "247. Σημειώστε το σωστό Στο πλαίσιο διαλόγου Εκτύπωση, η εκτυπώσιμη περιοχή είναι  ";
+    question.shortTextQuestion = "247. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§, Γ§ Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ³Γ©Γ¬Γ§ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('jlQmRwqoP8Q=', 2927, -1, 1);
@@ -10952,7 +10953,7 @@ function InitQuestion247()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. λευκή";
+    answer1.shortTextAnswer = "Γ. Γ«Γ¥ΓµΓªΓ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('jlQmRwqoP8Q=', 2929, -1, 1);
@@ -10960,7 +10961,7 @@ function InitQuestion247()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μαύρη";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ΅Γ½Γ±Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('oT3lP20MjPI=', 2931, -1, 1);
@@ -10968,7 +10969,7 @@ function InitQuestion247()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διάφανη";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©ΓΓ¶Γ΅Γ­Γ§";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -10985,7 +10986,7 @@ function InitQuestion248()
     question.answers.length = 0;
     question.num = 248;
     question.isSingleAns = false;
-    question.shortTextQuestion = "248. Σημειώστε το σωστό Η αλλαγή θέσης μιας εικόνας στο χαρτί γίνεται μέσα από το πλαίσιο διαλόγου  ";
+    question.shortTextQuestion = "248. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ΅Γ«Γ«Γ΅Γ£Γ Γ¨ΓΓ³Γ§Γ² Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ΄Γ― Γ·Γ΅Γ±Γ΄Γ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('7HeWAQjaWJk=', 2937, -1, 1);
@@ -10993,7 +10994,7 @@ function InitQuestion248()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Εκτύπωση";
+    answer1.shortTextAnswer = "Γ. Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('7HeWAQjaWJk=', 2939, -1, 1);
@@ -11001,7 +11002,7 @@ function InitQuestion248()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Ρύθμιση σελίδας";
+    answer2.shortTextAnswer = "Γ‚. Γ‘Γ½Γ¨Γ¬Γ©Γ³Γ§ Γ³Γ¥Γ«ΓΓ¤Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Mut6ttlAFUw=', 2941, -1, 1);
@@ -11009,7 +11010,7 @@ function InitQuestion248()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Σε κανένα από τα δύο";
+    answer3.shortTextAnswer = "Γƒ. Γ“Γ¥ ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¤Γ½Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11026,7 +11027,7 @@ function InitQuestion249()
     question.answers.length = 0;
     question.num = 249;
     question.isSingleAns = false;
-    question.shortTextQuestion = "249. Σημειώστε το σωστό Το πλαίσιο διαλόγου Εκτύπωση περιλαμβάνει  ";
+    question.shortTextQuestion = "249. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ°Γ¥Γ±Γ©Γ«Γ΅Γ¬ΓΆΓΓ­Γ¥Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ot+Xp3K8Q64=', 2947, -1, 1);
@@ -11034,7 +11035,7 @@ function InitQuestion249()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Ορισμό επιλογών εξόδου προεκτύπωσης";
+    answer1.shortTextAnswer = "Γ. ΓΓ±Γ©Γ³Γ¬ΓΌ Γ¥Γ°Γ©Γ«Γ―Γ£ΓΎΓ­ Γ¥Γ®ΓΌΓ¤Γ―Γµ Γ°Γ±Γ―Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('ot+Xp3K8Q64=', 2949, -1, 1);
@@ -11042,7 +11043,7 @@ function InitQuestion249()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Ορισμό ρύθμισης διαχωρισμού τετραχρωμίας";
+    answer2.shortTextAnswer = "B. ΓΓ±Γ©Γ³Γ¬ΓΌ Γ±Γ½Γ¨Γ¬Γ©Γ³Γ§Γ² Γ¤Γ©Γ΅Γ·ΓΉΓ±Γ©Γ³Γ¬Γ―Γ½ Γ΄Γ¥Γ΄Γ±Γ΅Γ·Γ±ΓΉΓ¬ΓΓ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('CZU4NGurTZs=', 2951, -1, 1);
@@ -11050,7 +11051,7 @@ function InitQuestion249()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Τοποθέτηση και κλιμάκωση καμβά";
+    answer3.shortTextAnswer = "Γƒ. Γ”Γ―Γ°Γ―Γ¨ΓΓ΄Γ§Γ³Γ§ ΓªΓ΅Γ© ΓªΓ«Γ©Γ¬ΓΓªΓΉΓ³Γ§ ΓªΓ΅Γ¬ΓΆΓ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11067,7 +11068,7 @@ function InitQuestion250()
     question.answers.length = 0;
     question.num = 250;
     question.isSingleAns = false;
-    question.shortTextQuestion = "250. Σημειώστε το σωστό Όταν το μέγεθος εικόνας είναι μεγαλύτερο από την εκτυπώσιμη επιφάνεια  ";
+    question.shortTextQuestion = "250. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΌΓ΄Γ΅Γ­ Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¥ΓΓ­Γ΅Γ© Γ¬Γ¥Γ£Γ΅Γ«Γ½Γ΄Γ¥Γ±Γ― Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ³Γ©Γ¬Γ§ Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('m35ylM9kG7w=', 2957, -1, 1);
@@ -11075,7 +11076,7 @@ function InitQuestion250()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Μέσα από το μενού Εκτύπωση επιλέγεται το Προσαρμογή στο μέσο";
+    answer1.shortTextAnswer = "Γ. ΓΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ¥Γ°Γ©Γ«ΓΓ£Γ¥Γ΄Γ΅Γ© Γ΄Γ― ΓΓ±Γ―Γ³Γ΅Γ±Γ¬Γ―Γ£Γ Γ³Γ΄Γ― Γ¬ΓΓ³Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('m35ylM9kG7w=', 2959, -1, 1);
@@ -11083,7 +11084,7 @@ function InitQuestion250()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Μέσα από το μενού Εκτύπωση ρυθμίζεται το μέγεθος της εκτυπώσιμης επιφάνειας";
+    answer2.shortTextAnswer = "B. ΓΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ±ΓµΓ¨Γ¬ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄Γ§Γ² Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ³Γ©Γ¬Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('hc1iUM05+oE=', 2961, -1, 1);
@@ -11091,7 +11092,7 @@ function InitQuestion250()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('OaRzX3Wnw88=', 2963, -1, 1);
@@ -11099,7 +11100,7 @@ function InitQuestion250()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Κανένα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -11116,7 +11117,7 @@ function InitQuestion251()
     question.answers.length = 0;
     question.num = 251;
     question.isSingleAns = false;
-    question.shortTextQuestion = "251. Σημειώστε το σωστό Η κλιμάκωση της εκτυπωμένης εικόνας γίνεται μέσα  ";
+    question.shortTextQuestion = "251. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ ΓªΓ«Γ©Γ¬ΓΓªΓΉΓ³Γ§ Γ΄Γ§Γ² Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ¬ΓΓ­Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('nNXIjC4ti+U=', 2967, -1, 1);
@@ -11124,7 +11125,7 @@ function InitQuestion251()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Από το πλαίσιο διαλόγου Εκτύπωση";
+    answer1.shortTextAnswer = "Γ. ΓΓ°ΓΌ Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('nNXIjC4ti+U=', 2969, -1, 1);
@@ -11132,7 +11133,7 @@ function InitQuestion251()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Από το πλαίσιο διαλόγου Ρύθμιση σελίδας";
+    answer2.shortTextAnswer = "Γ‚. ΓΓ°ΓΌ Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ Γ‘Γ½Γ¨Γ¬Γ©Γ³Γ§ Γ³Γ¥Γ«ΓΓ¤Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('z6fHtp1Kr40=', 2971, -1, 1);
@@ -11140,7 +11141,7 @@ function InitQuestion251()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΒΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('SoJaSf7q8TY=', 2973, -1, 1);
@@ -11148,7 +11149,7 @@ function InitQuestion251()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. Κανένα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -11165,7 +11166,7 @@ function InitQuestion252()
     question.answers.length = 0;
     question.num = 252;
     question.isSingleAns = false;
-    question.shortTextQuestion = "252. Σημειώστε το σωστό Η διαχείριση χρωμάτων εκτύπωσης γίνεται καλύτερα μέσα από  ";
+    question.shortTextQuestion = "252. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¤Γ©Γ΅Γ·Γ¥ΓΓ±Γ©Γ³Γ§ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© ΓªΓ΅Γ«Γ½Γ΄Γ¥Γ±Γ΅ Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('yePIm/H87/s=', 2977, -1, 1);
@@ -11173,7 +11174,7 @@ function InitQuestion252()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. το πρόγραμμα Photoshop";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Photoshop";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('yePIm/H87/s=', 2979, -1, 1);
@@ -11181,7 +11182,7 @@ function InitQuestion252()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Τους οδηγούς του εκτυπωτή";
+    answer2.shortTextAnswer = "B. Γ”Γ―ΓµΓ² Γ―Γ¤Γ§Γ£Γ―Γ½Γ² Γ΄Γ―Γµ Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('XfXJoM/+nnI=', 2981, -1, 1);
@@ -11189,7 +11190,7 @@ function InitQuestion252()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. τις βιβλιοθήκες χρωμάτων στο διαδίκτυο";
+    answer3.shortTextAnswer = "Γƒ. Γ΄Γ©Γ² ΓΆΓ©ΓΆΓ«Γ©Γ―Γ¨ΓΓªΓ¥Γ² Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ³Γ΄Γ― Γ¤Γ©Γ΅Γ¤ΓΓªΓ΄ΓµΓ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11206,7 +11207,7 @@ function InitQuestion253()
     question.answers.length = 0;
     question.num = 253;
     question.isSingleAns = false;
-    question.shortTextQuestion = "253. Σημειώστε το σωστό Η επιλογή Αντιστάθμιση μαύρου σημείου  ";
+    question.shortTextQuestion = "253. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓΓ­Γ΄Γ©Γ³Γ΄ΓΓ¨Γ¬Γ©Γ³Γ§ Γ¬Γ΅Γ½Γ±Γ―Γµ Γ³Γ§Γ¬Γ¥ΓΓ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('CfChkxW76n4=', 2987, -1, 1);
@@ -11214,7 +11215,7 @@ function InitQuestion253()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Δεν διατηρεί τις λεπτομέρειες των σκούρων τόνων";
+    answer1.shortTextAnswer = "Γ. Γ„Γ¥Γ­ Γ¤Γ©Γ΅Γ΄Γ§Γ±Γ¥Γ Γ΄Γ©Γ² Γ«Γ¥Γ°Γ΄Γ―Γ¬ΓΓ±Γ¥Γ©Γ¥Γ² Γ΄ΓΉΓ­ Γ³ΓªΓ―Γ½Γ±ΓΉΓ­ Γ΄ΓΌΓ­ΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('5jdVAAnMXE4=', 2989, -1, 1);
@@ -11222,7 +11223,7 @@ function InitQuestion253()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Διατηρεί τις λεπτομέρειες των σκούρων τόνων";
+    answer2.shortTextAnswer = "Γ‚. Γ„Γ©Γ΅Γ΄Γ§Γ±Γ¥Γ Γ΄Γ©Γ² Γ«Γ¥Γ°Γ΄Γ―Γ¬ΓΓ±Γ¥Γ©Γ¥Γ² Γ΄ΓΉΓ­ Γ³ΓªΓ―Γ½Γ±ΓΉΓ­ Γ΄ΓΌΓ­ΓΉΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('5jdVAAnMXE4=', 2991, -1, 1);
@@ -11230,7 +11231,7 @@ function InitQuestion253()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Κανένα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11247,7 +11248,7 @@ function InitQuestion254()
     question.answers.length = 0;
     question.num = 254;
     question.isSingleAns = false;
-    question.shortTextQuestion = "254. Σημειώστε το σωστό Η επιλογή Προσαρμογή στο μέσο  ";
+    question.shortTextQuestion = "254. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓΓ±Γ―Γ³Γ΅Γ±Γ¬Γ―Γ£Γ Γ³Γ΄Γ― Γ¬ΓΓ³Γ―  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('3JJG199pCM8=', 2997, -1, 1);
@@ -11255,7 +11256,7 @@ function InitQuestion254()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προσαρμόζει το μέγεθος της εικόνας με το μέγεθος της εκτυπώσιμης επιφάνειας";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ³Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ© Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ¥ Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄Γ§Γ² Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ³Γ©Γ¬Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('3JJG199pCM8=', 2999, -1, 1);
@@ -11263,7 +11264,7 @@ function InitQuestion254()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. προσαρμόζει το μέγεθος της εκτυπώσιμης επιφάνειας με το μέγεθος του χαρτιού";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±Γ―Γ³Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ© Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄Γ§Γ² Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ³Γ©Γ¬Γ§Γ² Γ¥Γ°Γ©Γ¶ΓΓ­Γ¥Γ©Γ΅Γ² Γ¬Γ¥ Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄Γ―Γµ Γ·Γ΅Γ±Γ΄Γ©Γ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('dley+uaNYes=', 3001, -1, 1);
@@ -11271,7 +11272,7 @@ function InitQuestion254()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. προσαρμόζει το μέγεθος των αντικειμένων της εικόνας μεταξύ τους";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ±Γ―Γ³Γ΅Γ±Γ¬ΓΌΓ¦Γ¥Γ© Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄ΓΉΓ­ Γ΅Γ­Γ΄Γ©ΓªΓ¥Γ©Γ¬ΓΓ­ΓΉΓ­ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ¬Γ¥Γ΄Γ΅Γ®Γ½ Γ΄Γ―ΓµΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11288,7 +11289,7 @@ function InitQuestion255()
     question.answers.length = 0;
     question.num = 255;
     question.isSingleAns = false;
-    question.shortTextQuestion = "255. Σημειώστε το σωστό Για τον προσδιορισμό των χρωμάτων εκτύπωσης από τον εκτυπωτή  ";
+    question.shortTextQuestion = "255. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ΄Γ―Γ­ Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±Γ©Γ³Γ¬ΓΌ Γ΄ΓΉΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§Γ² Γ΅Γ°ΓΌ Γ΄Γ―Γ­ Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('OtGRVsxP2OI=', 3007, -1, 1);
@@ -11296,7 +11297,7 @@ function InitQuestion255()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Μέσα από το μενού Εκτύπωση γίνεται κλικ στη χρωματική διαχείριση";
+    answer1.shortTextAnswer = "Γ. ΓΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© ΓªΓ«Γ©Γª Γ³Γ΄Γ§ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ¤Γ©Γ΅Γ·Γ¥ΓΓ±Γ©Γ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('OtGRVsxP2OI=', 3009, -1, 1);
@@ -11304,7 +11305,7 @@ function InitQuestion255()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Μέσα από το μενού Ρύθμιση σελίδας γίνεται κλικ στην χρωματική διαχείριση";
+    answer2.shortTextAnswer = "Γ‚. ΓΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ‘Γ½Γ¨Γ¬Γ©Γ³Γ§ Γ³Γ¥Γ«ΓΓ¤Γ΅Γ² Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© ΓªΓ«Γ©Γª Γ³Γ΄Γ§Γ­ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ¤Γ©Γ΅Γ·Γ¥ΓΓ±Γ©Γ³Γ§";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('6OSGwqsZex0=', 3011, -1, 1);
@@ -11312,7 +11313,7 @@ function InitQuestion255()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Σε οποιοδήποτε από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ“Γ¥ Γ―Γ°Γ―Γ©Γ―Γ¤ΓΓ°Γ―Γ΄Γ¥ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11329,7 +11330,7 @@ function InitQuestion256()
     question.answers.length = 0;
     question.num = 256;
     question.isSingleAns = false;
-    question.shortTextQuestion = "256. Σημειώστε το σωστό Η επιλογή Δοκίμιο  ";
+    question.shortTextQuestion = "256. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ„Γ―ΓªΓΓ¬Γ©Γ―  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('z2l51kVjbUk=', 3017, -1, 1);
@@ -11337,7 +11338,7 @@ function InitQuestion256()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Βρίσκεται μέσα στο αναδυόμενο μενού της επιλογής Χρωματική διαχείριση";
+    answer1.shortTextAnswer = "Γ. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ΅Γ­Γ΅Γ¤ΓµΓΌΓ¬Γ¥Γ­Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ΄Γ§Γ² Γ¥Γ°Γ©Γ«Γ―Γ£ΓΓ² Γ—Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ¤Γ©Γ΅Γ·Γ¥ΓΓ±Γ©Γ³Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('z2l51kVjbUk=', 3019, -1, 1);
@@ -11345,7 +11346,7 @@ function InitQuestion256()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Βρίσκεται μέσα στο πλαίσιο διαλόγου Ρύθμιση σελίδας";
+    answer2.shortTextAnswer = "Γ‚. Γ‚Γ±ΓΓ³ΓªΓ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ³Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ Γ‘Γ½Γ¨Γ¬Γ©Γ³Γ§ Γ³Γ¥Γ«ΓΓ¤Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('2ymxe9tV33M=', 3021, -1, 1);
@@ -11353,7 +11354,7 @@ function InitQuestion256()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Κανένα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11370,7 +11371,7 @@ function InitQuestion257()
     question.answers.length = 0;
     question.num = 257;
     question.isSingleAns = false;
-    question.shortTextQuestion = "257. Σημειώστε το σωστό Η επιλογή Γραμμές βαθμονόμησης  ";
+    question.shortTextQuestion = "257. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓƒΓ±Γ΅Γ¬Γ¬ΓΓ² ΓΆΓ΅Γ¨Γ¬Γ―Γ­ΓΌΓ¬Γ§Γ³Γ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('1IcDM9jwQEk=', 3027, -1, 1);
@@ -11378,7 +11379,7 @@ function InitQuestion257()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. εκτυπώνει μια κλίμακα του γκρι 11 σταδίων";
+    answer1.shortTextAnswer = "Γ. Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ­Γ¥Γ© Γ¬Γ©Γ΅ ΓªΓ«ΓΓ¬Γ΅ΓªΓ΅ Γ΄Γ―Γµ Γ£ΓªΓ±Γ© 11 Γ³Γ΄Γ΅Γ¤ΓΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('1IcDM9jwQEk=', 3029, -1, 1);
@@ -11386,7 +11387,7 @@ function InitQuestion257()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. εκτυπώνει όλα τα χρώματα της εικόνας σε 11 στάδια";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ­Γ¥Γ© ΓΌΓ«Γ΅ Γ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ¥ 11 Γ³Γ΄ΓΓ¤Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('u8kuvAo90rU=', 3031, -1, 1);
@@ -11394,7 +11395,7 @@ function InitQuestion257()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. εκτυπώνει γωνιακά σημάδια περικοπής";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ­Γ¥Γ© Γ£ΓΉΓ­Γ©Γ΅ΓªΓ Γ³Γ§Γ¬ΓΓ¤Γ©Γ΅ Γ°Γ¥Γ±Γ©ΓªΓ―Γ°ΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11411,7 +11412,7 @@ function InitQuestion258()
     question.answers.length = 0;
     question.num = 258;
     question.isSingleAns = false;
-    question.shortTextQuestion = "258. Σημειώστε το σωστό Τα ημιτονικά ράστερ  ";
+    question.shortTextQuestion = "258. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ§Γ¬Γ©Γ΄Γ―Γ­Γ©ΓªΓ Γ±ΓΓ³Γ΄Γ¥Γ±  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('QG6fIXcUfk0=', 3037, -1, 1);
@@ -11419,7 +11420,7 @@ function InitQuestion258()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. αποτελούνται από κουκκίδες που ελέγχουν την ποσότητα μελανιού που τοποθετείται σε ένα σημείο συγκεκριμένο στο πιεστήριο";
+    answer1.shortTextAnswer = "Γ. Γ΅Γ°Γ―Γ΄Γ¥Γ«Γ―Γ½Γ­Γ΄Γ΅Γ© Γ΅Γ°ΓΌ ΓªΓ―ΓµΓªΓªΓΓ¤Γ¥Γ² Γ°Γ―Γµ Γ¥Γ«ΓΓ£Γ·Γ―ΓµΓ­ Γ΄Γ§Γ­ Γ°Γ―Γ³ΓΌΓ΄Γ§Γ΄Γ΅ Γ¬Γ¥Γ«Γ΅Γ­Γ©Γ―Γ½ Γ°Γ―Γµ Γ΄Γ―Γ°Γ―Γ¨Γ¥Γ΄Γ¥ΓΓ΄Γ΅Γ© Γ³Γ¥ ΓΓ­Γ΅ Γ³Γ§Γ¬Γ¥ΓΓ― Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ― Γ³Γ΄Γ― Γ°Γ©Γ¥Γ³Γ΄ΓΓ±Γ©Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('QG6fIXcUfk0=', 3039, -1, 1);
@@ -11427,7 +11428,7 @@ function InitQuestion258()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι σημεία πάνω στην εκτυπωμένη σελίδα";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© Γ³Γ§Γ¬Γ¥ΓΓ΅ Γ°ΓΓ­ΓΉ Γ³Γ΄Γ§Γ­ Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ¬ΓΓ­Γ§ Γ³Γ¥Γ«ΓΓ¤Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('s4eBxBrsDBY=', 3041, -1, 1);
@@ -11435,7 +11436,7 @@ function InitQuestion258()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. τίποτα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11452,7 +11453,7 @@ function InitQuestion259()
     question.answers.length = 0;
     question.num = 259;
     question.isSingleAns = false;
-    question.shortTextQuestion = "259. Σημειώστε το σωστό Ένας επιτραπέζιος εκτυπωτής  ";
+    question.shortTextQuestion = "259. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅Γ² Γ¥Γ°Γ©Γ΄Γ±Γ΅Γ°ΓΓ¦Γ©Γ―Γ² Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄ΓΓ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('LikZiOh2eoE=', 3047, -1, 1);
@@ -11460,7 +11461,7 @@ function InitQuestion259()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δεν αναπαράγει πιστά τα αποτελέσματα της προεπισκόπησης";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ¥Γ­ Γ΅Γ­Γ΅Γ°Γ΅Γ±ΓΓ£Γ¥Γ© Γ°Γ©Γ³Γ΄Γ Γ΄Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«ΓΓ³Γ¬Γ΅Γ΄Γ΅ Γ΄Γ§Γ² Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('kaaERaGc1ec=', 3049, -1, 1);
@@ -11468,7 +11469,7 @@ function InitQuestion259()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. αναπαράγει πιστά τα αποτελέσματα της προεπισκόπησης";
+    answer2.shortTextAnswer = "Γ‚. Γ΅Γ­Γ΅Γ°Γ΅Γ±ΓΓ£Γ¥Γ© Γ°Γ©Γ³Γ΄Γ Γ΄Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«ΓΓ³Γ¬Γ΅Γ΄Γ΅ Γ΄Γ§Γ² Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('YiZ6NgBSlBs=', 3051, -1, 1);
@@ -11476,7 +11477,7 @@ function InitQuestion259()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. αναπαράγει πιστά τα αποτελέσματα της προεπισκόπησης με σωστό καλιμπράρισμα";
+    answer3.shortTextAnswer = "Γƒ. Γ΅Γ­Γ΅Γ°Γ΅Γ±ΓΓ£Γ¥Γ© Γ°Γ©Γ³Γ΄Γ Γ΄Γ΅ Γ΅Γ°Γ―Γ΄Γ¥Γ«ΓΓ³Γ¬Γ΅Γ΄Γ΅ Γ΄Γ§Γ² Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§Γ² Γ¬Γ¥ Γ³ΓΉΓ³Γ΄ΓΌ ΓªΓ΅Γ«Γ©Γ¬Γ°Γ±ΓΓ±Γ©Γ³Γ¬Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11493,7 +11494,7 @@ function InitQuestion260()
     question.answers.length = 0;
     question.num = 260;
     question.isSingleAns = false;
-    question.shortTextQuestion = "260. Σημειώστε το σωστό Με την εντολή Προσαρμογή από το μενού Σχήμα  ";
+    question.shortTextQuestion = "260. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ ΓΓ±Γ―Γ³Γ΅Γ±Γ¬Γ―Γ£Γ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ“Γ·ΓΓ¬Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Vob1P86pc3M=', 3057, -1, 1);
@@ -11501,7 +11502,7 @@ function InitQuestion260()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ορίζονται νέα σχήματα κουκκίδας";
+    answer1.shortTextAnswer = "Γ. Γ―Γ±ΓΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ­ΓΓ΅ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ΅ ΓªΓ―ΓµΓªΓªΓΓ¤Γ΅Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Vob1P86pc3M=', 3059, -1, 1);
@@ -11509,7 +11510,7 @@ function InitQuestion260()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. προσαρμόζονται τα σχήματα στο μέγεθος της εκτυπώσιμης σελίδας";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±Γ―Γ³Γ΅Γ±Γ¬ΓΌΓ¦Γ―Γ­Γ΄Γ΅Γ© Γ΄Γ΅ Γ³Γ·ΓΓ¬Γ΅Γ΄Γ΅ Γ³Γ΄Γ― Γ¬ΓΓ£Γ¥Γ¨Γ―Γ² Γ΄Γ§Γ² Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ³Γ©Γ¬Γ§Γ² Γ³Γ¥Γ«ΓΓ¤Γ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('fLh5hcqeufs=', 3061, -1, 1);
@@ -11517,7 +11518,7 @@ function InitQuestion260()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. όλα τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('r0FSK9Thj7U=', 3063, -1, 1);
@@ -11525,7 +11526,7 @@ function InitQuestion260()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. κανένα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -11542,7 +11543,7 @@ function InitQuestion261()
     question.answers.length = 0;
     question.num = 261;
     question.isSingleAns = false;
-    question.shortTextQuestion = "261. Σημειώστε το σωστό Η εντολή Διαχωρισμοί  ";
+    question.shortTextQuestion = "261. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ„Γ©Γ΅Γ·ΓΉΓ±Γ©Γ³Γ¬Γ―Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BOMPSxQKbAc=', 3067, -1, 1);
@@ -11550,7 +11551,7 @@ function InitQuestion261()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. επιτρέπει την εκτύπωση καναλιών χρωμάτων σε διαφορετικές σελίδες";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ ΓªΓ΅Γ­Γ΅Γ«Γ©ΓΎΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ³Γ¥ Γ¤Γ©Γ΅Γ¶Γ―Γ±Γ¥Γ΄Γ©ΓªΓΓ² Γ³Γ¥Γ«ΓΓ¤Γ¥Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BOMPSxQKbAc=', 3069, -1, 1);
@@ -11558,7 +11559,7 @@ function InitQuestion261()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. επιτρέπει την εκτύπωση καναλιών χρωμάτων σε μία σελίδα";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ°Γ©Γ΄Γ±ΓΓ°Γ¥Γ© Γ΄Γ§Γ­ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ ΓªΓ΅Γ­Γ΅Γ«Γ©ΓΎΓ­ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ³Γ¥ Γ¬ΓΓ΅ Γ³Γ¥Γ«ΓΓ¤Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('Fh/wDwcIeJw=', 3071, -1, 1);
@@ -11566,7 +11567,7 @@ function InitQuestion261()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. τίποτα από τα παραπάνω";
+    answer3.shortTextAnswer = "Γƒ. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('5Qr7xNjnHck=', 3073, -1, 1);
@@ -11574,7 +11575,7 @@ function InitQuestion261()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. όλα τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -11591,7 +11592,7 @@ function InitQuestion262()
     question.answers.length = 0;
     question.num = 262;
     question.isSingleAns = false;
-    question.shortTextQuestion = "262. Σημειώστε το σωστό Η εντολή Χρώματα επιτύπωσης αφορά  ";
+    question.shortTextQuestion = "262. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ¥Γ­Γ΄Γ―Γ«Γ Γ—Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ¥Γ°Γ©Γ΄Γ½Γ°ΓΉΓ³Γ§Γ² Γ΅Γ¶Γ―Γ±Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ODyE7q30qtM=', 3077, -1, 1);
@@ -11599,7 +11600,7 @@ function InitQuestion262()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. τρία μη ραστεροποιημένα μελάνια";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ±ΓΓ΅ Γ¬Γ§ Γ±Γ΅Γ³Γ΄Γ¥Γ±Γ―Γ°Γ―Γ©Γ§Γ¬ΓΓ­Γ΅ Γ¬Γ¥Γ«ΓΓ­Γ©Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('WbWM3OERRio=', 3079, -1, 1);
@@ -11607,7 +11608,7 @@ function InitQuestion262()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. τέσσερα μη ραστεροποιημένα μελάνια";
+    answer2.shortTextAnswer = "Γ‚. Γ΄ΓΓ³Γ³Γ¥Γ±Γ΅ Γ¬Γ§ Γ±Γ΅Γ³Γ΄Γ¥Γ±Γ―Γ°Γ―Γ©Γ§Γ¬ΓΓ­Γ΅ Γ¬Γ¥Γ«ΓΓ­Γ©Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('C16Qsl5gpys=', 3081, -1, 1);
@@ -11615,7 +11616,7 @@ function InitQuestion262()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δύο μη ραστεροποιημένα μελάνια";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ½Γ― Γ¬Γ§ Γ±Γ΅Γ³Γ΄Γ¥Γ±Γ―Γ°Γ―Γ©Γ§Γ¬ΓΓ­Γ΅ Γ¬Γ¥Γ«ΓΓ­Γ©Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11632,7 +11633,7 @@ function InitQuestion263()
     question.answers.length = 0;
     question.num = 263;
     question.isSingleAns = false;
-    question.shortTextQuestion = "263. Σημειώστε το σωστό Μονοτονικές εικόνες είναι  ";
+    question.shortTextQuestion = "263. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ―Γ­Γ―Γ΄Γ―Γ­Γ©ΓªΓΓ² Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('jeIDyLkqjYw=', 3087, -1, 1);
@@ -11640,7 +11641,7 @@ function InitQuestion263()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. εικόνες που εκτυπώνονται με μαύρο μελάνι";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ°Γ―Γµ Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ­Γ―Γ­Γ΄Γ΅Γ© Γ¬Γ¥ Γ¬Γ΅Γ½Γ±Γ― Γ¬Γ¥Γ«ΓΓ­Γ©";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Y7GNuqf0G1o=', 3089, -1, 1);
@@ -11648,7 +11649,7 @@ function InitQuestion263()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. εικόνες που εκτυπώνονται με ένα μπλέ μελάνι";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ°Γ―Γµ Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ­Γ―Γ­Γ΄Γ΅Γ© Γ¬Γ¥ ΓΓ­Γ΅ Γ¬Γ°Γ«Γ Γ¬Γ¥Γ«ΓΓ­Γ©";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('kRg7x42trgw=', 3091, -1, 1);
@@ -11656,7 +11657,7 @@ function InitQuestion263()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. εικόνες που εκτυπώνονται με ένα μελάνι";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ©ΓªΓΌΓ­Γ¥Γ² Γ°Γ―Γµ Γ¥ΓªΓ΄ΓµΓ°ΓΎΓ­Γ―Γ­Γ΄Γ΅Γ© Γ¬Γ¥ ΓΓ­Γ΅ Γ¬Γ¥Γ«ΓΓ­Γ©";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11673,7 +11674,7 @@ function InitQuestion264()
     question.answers.length = 0;
     question.num = 264;
     question.isSingleAns = false;
-    question.shortTextQuestion = "264. Σημειώστε το σωστό Για την σωστή εκτύπωση των διαχωρισμών  ";
+    question.shortTextQuestion = "264. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓƒΓ©Γ΅ Γ΄Γ§Γ­ Γ³ΓΉΓ³Γ΄Γ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§ Γ΄ΓΉΓ­ Γ¤Γ©Γ΅Γ·ΓΉΓ±Γ©Γ³Γ¬ΓΎΓ­  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BT3UtduN5Ys=', 3097, -1, 1);
@@ -11681,7 +11682,7 @@ function InitQuestion264()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Χρειάζεται η μετατροπή της εικόνας σε RGB";
+    answer1.shortTextAnswer = "Γ. Γ—Γ±Γ¥Γ©ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ―Γ°Γ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ¥ RGB";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('CFSUQC+ieWI=', 3099, -1, 1);
@@ -11689,7 +11690,7 @@ function InitQuestion264()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Χρειάζεται η μετατροπή της εικόνας σε CMYK";
+    answer2.shortTextAnswer = "B. Γ—Γ±Γ¥Γ©ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ―Γ°Γ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ¥ CMYK";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('CFSUQC+ieWI=', 3101, -1, 1);
@@ -11697,7 +11698,7 @@ function InitQuestion264()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Δεν χρειάζεται η μετατροπή της εικόνας σε CMYK";
+    answer3.shortTextAnswer = "Γƒ. Γ„Γ¥Γ­ Γ·Γ±Γ¥Γ©ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ§ Γ¬Γ¥Γ΄Γ΅Γ΄Γ±Γ―Γ°Γ Γ΄Γ§Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ³Γ¥ CMYK";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11714,7 +11715,7 @@ function InitQuestion265()
     question.answers.length = 0;
     question.num = 265;
     question.isSingleAns = false;
-    question.shortTextQuestion = "265. Σημειώστε το σωστό Η προεπισκόπηση σε πολυκάναλη λειτουργία χρώματος  ";
+    question.shortTextQuestion = "265. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ°Γ±Γ―Γ¥Γ°Γ©Γ³ΓªΓΌΓ°Γ§Γ³Γ§ Γ³Γ¥ Γ°Γ―Γ«ΓµΓªΓΓ­Γ΅Γ«Γ§ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('m7asUp8el0Q=', 3107, -1, 1);
@@ -11722,7 +11723,7 @@ function InitQuestion265()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. δεν είναι τόσο ακριβής όσο εκείνη στη λειτουργία διτονικού χρώματος";
+    answer1.shortTextAnswer = "Γ. Γ¤Γ¥Γ­ Γ¥ΓΓ­Γ΅Γ© Γ΄ΓΌΓ³Γ― Γ΅ΓªΓ±Γ©ΓΆΓΓ² ΓΌΓ³Γ― Γ¥ΓªΓ¥ΓΓ­Γ§ Γ³Γ΄Γ§ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ¤Γ©Γ΄Γ―Γ­Γ©ΓªΓ―Γ½ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('m7asUp8el0Q=', 3109, -1, 1);
@@ -11730,7 +11731,7 @@ function InitQuestion265()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι τόσο ακριβής όσο εκείνη στη λειτουργία διτονικού χρώματος";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© Γ΄ΓΌΓ³Γ― Γ΅ΓªΓ±Γ©ΓΆΓΓ² ΓΌΓ³Γ― Γ¥ΓªΓ¥ΓΓ­Γ§ Γ³Γ΄Γ§ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ¤Γ©Γ΄Γ―Γ­Γ©ΓªΓ―Γ½ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('9wu3VQD0qOU=', 3111, -1, 1);
@@ -11738,7 +11739,7 @@ function InitQuestion265()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είναι περισσότερο ακριβής από εκείνη στη λειτουργία διτονικού χρώματος";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ­Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ― Γ΅ΓªΓ±Γ©ΓΆΓΓ² Γ΅Γ°ΓΌ Γ¥ΓªΓ¥ΓΓ­Γ§ Γ³Γ΄Γ§ Γ«Γ¥Γ©Γ΄Γ―ΓµΓ±Γ£ΓΓ΅ Γ¤Γ©Γ΄Γ―Γ­Γ©ΓªΓ―Γ½ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11755,7 +11756,7 @@ function InitQuestion266()
     question.answers.length = 0;
     question.num = 266;
     question.isSingleAns = false;
-    question.shortTextQuestion = "266. Σημειώστε το σωστό Η πραγματική πυκνότητα του μελανιού στον εκτυπωτή  ";
+    question.shortTextQuestion = "266. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ°Γ±Γ΅Γ£Γ¬Γ΅Γ΄Γ©ΓªΓ Γ°ΓµΓªΓ­ΓΌΓ΄Γ§Γ΄Γ΅ Γ΄Γ―Γµ Γ¬Γ¥Γ«Γ΅Γ­Γ©Γ―Γ½ Γ³Γ΄Γ―Γ­ Γ¥ΓªΓ΄ΓµΓ°ΓΉΓ΄Γ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('UEYHOAMzV20=', 3117, -1, 1);
@@ -11763,7 +11764,7 @@ function InitQuestion266()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προσδιορίζεται με την επιλογή Αδιαφάνεια";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓΓ¤Γ©Γ΅Γ¶ΓΓ­Γ¥Γ©Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('UEYHOAMzV20=', 3119, -1, 1);
@@ -11771,7 +11772,7 @@ function InitQuestion266()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. προσδιορίζεται με την εντολή Πυκνότητα";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ Γ΄Γ§Γ­ Γ¥Γ­Γ΄Γ―Γ«Γ ΓΓµΓªΓ­ΓΌΓ΄Γ§Γ΄Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('OYiFlXRGqN8=', 3121, -1, 1);
@@ -11779,7 +11780,7 @@ function InitQuestion266()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. προσδιορίζεται με ένα από τα εργαλεία χρωματισμού";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ±Γ―Γ³Γ¤Γ©Γ―Γ±ΓΓ¦Γ¥Γ΄Γ΅Γ© Γ¬Γ¥ ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©Γ³Γ¬Γ―Γ½";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11796,7 +11797,7 @@ function InitQuestion267()
     question.answers.length = 0;
     question.num = 267;
     question.isSingleAns = false;
-    question.shortTextQuestion = "267. Σημειώστε το σωστό Το ΡΑΝΤΟΝΕ ή το ΤΟΥΟ είναι  ";
+    question.shortTextQuestion = "267. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Γ‘ΓΓΓ”ΓΓΓ… Γ Γ΄Γ― Γ”ΓΓ•Γ Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('kiUiPxgfiOk=', 3127, -1, 1);
@@ -11804,7 +11805,7 @@ function InitQuestion267()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. πίνακες εργαλείων σχεδιασμού";
+    answer1.shortTextAnswer = "Γ. Γ°ΓΓ­Γ΅ΓªΓ¥Γ² Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­ Γ³Γ·Γ¥Γ¤Γ©Γ΅Γ³Γ¬Γ―Γ½";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('shGFa6KvD/g=', 3129, -1, 1);
@@ -11812,7 +11813,7 @@ function InitQuestion267()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. χρωματικά σύστηματα";
+    answer2.shortTextAnswer = "Γ‚. Γ·Γ±ΓΉΓ¬Γ΅Γ΄Γ©ΓªΓ Γ³Γ½Γ³Γ΄Γ§Γ¬Γ΅Γ΄Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('shGFa6KvD/g=', 3131, -1, 1);
@@ -11820,7 +11821,7 @@ function InitQuestion267()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μοντέλα χρωμάτων αντίστοιχο του RGB ή του CMYK";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ―Γ­Γ΄ΓΓ«Γ΅ Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­ Γ΅Γ­Γ΄ΓΓ³Γ΄Γ―Γ©Γ·Γ― Γ΄Γ―Γµ RGB Γ Γ΄Γ―Γµ CMYK";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11837,7 +11838,7 @@ function InitQuestion268()
     question.answers.length = 0;
     question.num = 268;
     question.isSingleAns = false;
-    question.shortTextQuestion = "268. Σημειώστε το σωστό Σε περίπτωση απώθησης υποκείμενου χρώματος  ";
+    question.shortTextQuestion = "268. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ¥ Γ°Γ¥Γ±ΓΓ°Γ΄ΓΉΓ³Γ§ Γ΅Γ°ΓΎΓ¨Γ§Γ³Γ§Γ² ΓµΓ°Γ―ΓªΓ¥ΓΓ¬Γ¥Γ­Γ―Γµ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ―Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('BIje5dwUKjU=', 3137, -1, 1);
@@ -11845,7 +11846,7 @@ function InitQuestion268()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορεί να δημιουργηθεί μία συναρμογή";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ¥Γ Γ¬ΓΓ΅ Γ³ΓµΓ­Γ΅Γ±Γ¬Γ―Γ£Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('BIje5dwUKjU=', 3139, -1, 1);
@@ -11853,7 +11854,7 @@ function InitQuestion268()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν μπορεί να δημιουργηθεί μια συναρμογή";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ¥Γ Γ¬Γ©Γ΅ Γ³ΓµΓ­Γ΅Γ±Γ¬Γ―Γ£Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('v/Bdyn1Tj3k=', 3141, -1, 1);
@@ -11861,7 +11862,7 @@ function InitQuestion268()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπορεί να επικαλυφθεί";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ°Γ©ΓªΓ΅Γ«ΓµΓ¶Γ¨Γ¥Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -11878,7 +11879,7 @@ function InitQuestion269()
     question.answers.length = 0;
     question.num = 269;
     question.isSingleAns = false;
-    question.shortTextQuestion = "269. Σημειώστε το σωστό Τα πλακάτα χρώματα είναι  ";
+    question.shortTextQuestion = "269. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ°Γ«Γ΅ΓªΓΓ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅ Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('aIqjAL8crC8=', 3147, -1, 1);
@@ -11886,7 +11887,7 @@ function InitQuestion269()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. προαναμεμειγμένα μελάνια";
+    answer1.shortTextAnswer = "Γ. Γ°Γ±Γ―Γ΅Γ­Γ΅Γ¬Γ¥Γ¬Γ¥Γ©Γ£Γ¬ΓΓ­Γ΅ Γ¬Γ¥Γ«ΓΓ­Γ©Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('aIqjAL8crC8=', 3149, -1, 1);
@@ -11894,7 +11895,7 @@ function InitQuestion269()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. μελάνια του μοντέλου τετραχρωμίας";
+    answer2.shortTextAnswer = "Γ‚. Γ¬Γ¥Γ«ΓΓ­Γ©Γ΅ Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ Γ΄Γ¥Γ΄Γ±Γ΅Γ·Γ±ΓΉΓ¬ΓΓ΅Γ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('CUsF/3zLCRc=', 3151, -1, 1);
@@ -11902,7 +11903,7 @@ function InitQuestion269()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μελάνια του μοντέλου τριχρωμίας";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ¥Γ«ΓΓ­Γ©Γ΅ Γ΄Γ―Γµ Γ¬Γ―Γ­Γ΄ΓΓ«Γ―Γµ Γ΄Γ±Γ©Γ·Γ±ΓΉΓ¬ΓΓ΅Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('VPJEMagXWJc=', 3153, -1, 1);
@@ -11910,7 +11911,7 @@ function InitQuestion269()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. κανένα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -11927,7 +11928,7 @@ function InitQuestion270()
     question.answers.length = 0;
     question.num = 270;
     question.isSingleAns = false;
-    question.shortTextQuestion = "270. Σημειώστε το σωστό Τα πλακάτα χρώματα  ";
+    question.shortTextQuestion = "270. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ°Γ«Γ΅ΓªΓΓ΄Γ΅ Γ·Γ±ΓΎΓ¬Γ΅Γ΄Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Ex8OB0eJVm4=', 3157, -1, 1);
@@ -11935,7 +11936,7 @@ function InitQuestion270()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. χρησιμοποιούνται σε ομάδες επιπέδων";
+    answer1.shortTextAnswer = "Γ. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© Γ³Γ¥ Γ―Γ¬ΓΓ¤Γ¥Γ² Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('0684SBO2fwY=', 3159, -1, 1);
@@ -11943,7 +11944,7 @@ function InitQuestion270()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Χρησιμοποιούνται σε μεμονωμένα επίπεδα";
+    answer2.shortTextAnswer = "B. Γ—Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© Γ³Γ¥ Γ¬Γ¥Γ¬Γ―Γ­ΓΉΓ¬ΓΓ­Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('2N5fDqMdKfs=', 3161, -1, 1);
@@ -11951,7 +11952,7 @@ function InitQuestion270()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. χρησιμοποιούνται είτε σε μεμονωμένα είτε σε ομάδες επιπέδων";
+    answer3.shortTextAnswer = "Γƒ. Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© Γ¥ΓΓ΄Γ¥ Γ³Γ¥ Γ¬Γ¥Γ¬Γ―Γ­ΓΉΓ¬ΓΓ­Γ΅ Γ¥ΓΓ΄Γ¥ Γ³Γ¥ Γ―Γ¬ΓΓ¤Γ¥Γ² Γ¥Γ°Γ©Γ°ΓΓ¤ΓΉΓ­";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('U0Tf9C2IjZo=', 3163, -1, 1);
@@ -11959,7 +11960,7 @@ function InitQuestion270()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. κανένα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. ΓªΓ΅Γ­ΓΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -11976,7 +11977,7 @@ function InitQuestion271()
     question.answers.length = 0;
     question.num = 271;
     question.isSingleAns = false;
-    question.shortTextQuestion = "271. Σημειώστε το σωστό Ένα χρώμα ως δεκαεξαδική τιμή αντιγράφεται  ";
+    question.shortTextQuestion = "271. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅ Γ·Γ±ΓΎΓ¬Γ΅ ΓΉΓ² Γ¤Γ¥ΓªΓ΅Γ¥Γ®Γ΅Γ¤Γ©ΓªΓ Γ΄Γ©Γ¬Γ Γ΅Γ­Γ΄Γ©Γ£Γ±ΓΓ¶Γ¥Γ΄Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('wH68c0+1s2E=', 3167, -1, 1);
@@ -11984,7 +11985,7 @@ function InitQuestion271()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. στο πρόχειρο ως παράμετρος HTML COLOR";
+    answer1.shortTextAnswer = "Γ. Γ³Γ΄Γ― Γ°Γ±ΓΌΓ·Γ¥Γ©Γ±Γ― ΓΉΓ² Γ°Γ΅Γ±ΓΓ¬Γ¥Γ΄Γ±Γ―Γ² HTML COLOR";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('wH68c0+1s2E=', 3169, -1, 1);
@@ -11992,7 +11993,7 @@ function InitQuestion271()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. ως εικόνα JPEG";
+    answer2.shortTextAnswer = "Γ‚. ΓΉΓ² Γ¥Γ©ΓªΓΌΓ­Γ΅ JPEG";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('5VICQpUyXwo=', 3171, -1, 1);
@@ -12000,7 +12001,7 @@ function InitQuestion271()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ως εικόνα PNG";
+    answer3.shortTextAnswer = "Γƒ. ΓΉΓ² Γ¥Γ©ΓªΓΌΓ­Γ΅ PNG";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12017,7 +12018,7 @@ function InitQuestion272()
     question.answers.length = 0;
     question.num = 272;
     question.isSingleAns = false;
-    question.shortTextQuestion = "272. Σημειώστε το σωστό Το Zoomify παρέχει τη δυνατότητα να   ";
+    question.shortTextQuestion = "272. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― Zoomify Γ°Γ΅Γ±ΓΓ·Γ¥Γ© Γ΄Γ§ Γ¤ΓµΓ­Γ΅Γ΄ΓΌΓ΄Γ§Γ΄Γ΅ Γ­Γ΅   ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('oHbMPbPTDJw=', 3177, -1, 1);
@@ -12025,7 +12026,7 @@ function InitQuestion272()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. εξάγει αρχεία υψηλής ανάλυσης που μπορούν να ανεβούν σε διακομιστή και οι χρήστες να επιλέγουν ένα συγκεκριμένο σημείο και να κάνουν ζουμ για να δουν περισσότερες λεπτομέρειες";
+    answer1.shortTextAnswer = "Γ. Γ¥Γ®ΓΓ£Γ¥Γ© Γ΅Γ±Γ·Γ¥ΓΓ΅ ΓµΓΈΓ§Γ«ΓΓ² Γ΅Γ­ΓΓ«ΓµΓ³Γ§Γ² Γ°Γ―Γµ Γ¬Γ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ΅Γ­Γ¥ΓΆΓ―Γ½Γ­ Γ³Γ¥ Γ¤Γ©Γ΅ΓªΓ―Γ¬Γ©Γ³Γ΄Γ ΓªΓ΅Γ© Γ―Γ© Γ·Γ±ΓΓ³Γ΄Γ¥Γ² Γ­Γ΅ Γ¥Γ°Γ©Γ«ΓΓ£Γ―ΓµΓ­ ΓΓ­Γ΅ Γ³ΓµΓ£ΓªΓ¥ΓªΓ±Γ©Γ¬ΓΓ­Γ― Γ³Γ§Γ¬Γ¥ΓΓ― ΓªΓ΅Γ© Γ­Γ΅ ΓªΓΓ­Γ―ΓµΓ­ Γ¦Γ―ΓµΓ¬ Γ£Γ©Γ΅ Γ­Γ΅ Γ¤Γ―ΓµΓ­ Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ¥Γ² Γ«Γ¥Γ°Γ΄Γ―Γ¬ΓΓ±Γ¥Γ©Γ¥Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('oHbMPbPTDJw=', 3179, -1, 1);
@@ -12033,7 +12034,7 @@ function InitQuestion272()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. εισάγει αρχεία υψηλής ανάλυσης που μπορούν να ανεβούν σε διακομιστή";
+    answer2.shortTextAnswer = "Γ‚. Γ¥Γ©Γ³ΓΓ£Γ¥Γ© Γ΅Γ±Γ·Γ¥ΓΓ΅ ΓµΓΈΓ§Γ«ΓΓ² Γ΅Γ­ΓΓ«ΓµΓ³Γ§Γ² Γ°Γ―Γµ Γ¬Γ°Γ―Γ±Γ―Γ½Γ­ Γ­Γ΅ Γ΅Γ­Γ¥ΓΆΓ―Γ½Γ­ Γ³Γ¥ Γ¤Γ©Γ΅ΓªΓ―Γ¬Γ©Γ³Γ΄Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('ITbYrI1b9U4=', 3181, -1, 1);
@@ -12041,7 +12042,7 @@ function InitQuestion272()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. εξάγει μία περιοχή μιας εικόνας που μπορεί να ανεβεί σε διακομιστή";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ®ΓΓ£Γ¥Γ© Γ¬ΓΓ΅ Γ°Γ¥Γ±Γ©Γ―Γ·Γ Γ¬Γ©Γ΅Γ² Γ¥Γ©ΓªΓΌΓ­Γ΅Γ² Γ°Γ―Γµ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ­Γ¥ΓΆΓ¥Γ Γ³Γ¥ Γ¤Γ©Γ΅ΓªΓ―Γ¬Γ©Γ³Γ΄Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12058,7 +12059,7 @@ function InitQuestion273()
     question.answers.length = 0;
     question.num = 273;
     question.isSingleAns = false;
-    question.shortTextQuestion = "273. Σημειώστε το σωστό Στοιχείο κατάδειξης είναι  ";
+    question.shortTextQuestion = "273. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ“Γ΄Γ―Γ©Γ·Γ¥ΓΓ― ΓªΓ΅Γ΄ΓΓ¤Γ¥Γ©Γ®Γ§Γ² Γ¥ΓΓ­Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('8ZB3yIiPkOc=', 3187, -1, 1);
@@ -12066,7 +12067,7 @@ function InitQuestion273()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. ένα κουμπί ή μια εικόνα στο πρόγραμμα Photoshop";
+    answer1.shortTextAnswer = "Γ. ΓΓ­Γ΅ ΓªΓ―ΓµΓ¬Γ°Γ Γ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Photoshop";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('rP5e+YXY3t8=', 3189, -1, 1);
@@ -12074,7 +12075,7 @@ function InitQuestion273()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. ένα κουμπί ή μια εικόνα σε μια σελίδα web, που αλλάζει όταν τοποθετηθεί πάνω του ο δείκτης του ποντικιού";
+    answer2.shortTextAnswer = "B. ΓΓ­Γ΅ ΓªΓ―ΓµΓ¬Γ°Γ Γ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ¥ Γ¬Γ©Γ΅ Γ³Γ¥Γ«ΓΓ¤Γ΅ web, Γ°Γ―Γµ Γ΅Γ«Γ«ΓΓ¦Γ¥Γ© ΓΌΓ΄Γ΅Γ­ Γ΄Γ―Γ°Γ―Γ¨Γ¥Γ΄Γ§Γ¨Γ¥Γ Γ°ΓΓ­ΓΉ Γ΄Γ―Γµ Γ― Γ¤Γ¥ΓΓªΓ΄Γ§Γ² Γ΄Γ―Γµ Γ°Γ―Γ­Γ΄Γ©ΓªΓ©Γ―Γ½";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('rP5e+YXY3t8=', 3191, -1, 1);
@@ -12082,7 +12083,7 @@ function InitQuestion273()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. ένα κουμπί ή μια εικόνα στο πρόγραμμα που σε εισάγει σε εργαλεία web";
+    answer3.shortTextAnswer = "Γƒ. ΓΓ­Γ΅ ΓªΓ―ΓµΓ¬Γ°Γ Γ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ³Γ΄Γ― Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Γ°Γ―Γµ Γ³Γ¥ Γ¥Γ©Γ³ΓΓ£Γ¥Γ© Γ³Γ¥ Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓ΅ web";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12099,7 +12100,7 @@ function InitQuestion274()
     question.answers.length = 0;
     question.num = 274;
     question.isSingleAns = false;
-    question.shortTextQuestion = "274. Σημειώστε το σωστό To Adobe Bridge  ";
+    question.shortTextQuestion = "274. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ To Adobe Bridge  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dKVB7y5jJ6Q=', 3197, -1, 1);
@@ -12107,7 +12108,7 @@ function InitQuestion274()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. είναι ένα πρόγραμμα για συλλογές χρωμάτων";
+    answer1.shortTextAnswer = "Γ. Γ¥ΓΓ­Γ΅Γ© ΓΓ­Γ΅ Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Γ£Γ©Γ΅ Γ³ΓµΓ«Γ«Γ―Γ£ΓΓ² Γ·Γ±ΓΉΓ¬ΓΓ΄ΓΉΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('3ooBjQgLZFU=', 3199, -1, 1);
@@ -12115,7 +12116,7 @@ function InitQuestion274()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. είναι πρόγραμμα για συλλογές εργαλείων";
+    answer2.shortTextAnswer = "Γ‚. Γ¥ΓΓ­Γ΅Γ© Γ°Γ±ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅ Γ£Γ©Γ΅ Γ³ΓµΓ«Γ«Γ―Γ£ΓΓ² Γ¥Γ±Γ£Γ΅Γ«Γ¥ΓΓΉΓ­";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('MzEC5gnGWio=', 3201, -1, 1);
@@ -12123,7 +12124,7 @@ function InitQuestion274()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. είναι μια εφαρμογή και σάς βοηθά να εντοπίζετε, να οργανώνετε και να αναζητάτε στοιχεία για εκτύπωση, web, βίντεο και δημιουργία περιεχομένου για φορητές συσκευές";
+    answer3.shortTextAnswer = "Γƒ. Γ¥ΓΓ­Γ΅Γ© Γ¬Γ©Γ΅ Γ¥Γ¶Γ΅Γ±Γ¬Γ―Γ£Γ ΓªΓ΅Γ© Γ³ΓΓ² ΓΆΓ―Γ§Γ¨Γ Γ­Γ΅ Γ¥Γ­Γ΄Γ―Γ°ΓΓ¦Γ¥Γ΄Γ¥, Γ­Γ΅ Γ―Γ±Γ£Γ΅Γ­ΓΎΓ­Γ¥Γ΄Γ¥ ΓªΓ΅Γ© Γ­Γ΅ Γ΅Γ­Γ΅Γ¦Γ§Γ΄ΓΓ΄Γ¥ Γ³Γ΄Γ―Γ©Γ·Γ¥ΓΓ΅ Γ£Γ©Γ΅ Γ¥ΓªΓ΄Γ½Γ°ΓΉΓ³Γ§, web, ΓΆΓΓ­Γ΄Γ¥Γ― ΓªΓ΅Γ© Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£ΓΓ΅ Γ°Γ¥Γ±Γ©Γ¥Γ·Γ―Γ¬ΓΓ­Γ―Γµ Γ£Γ©Γ΅ Γ¶Γ―Γ±Γ§Γ΄ΓΓ² Γ³ΓµΓ³ΓªΓ¥ΓµΓΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12140,7 +12141,7 @@ function InitQuestion275()
     question.answers.length = 0;
     question.num = 275;
     question.isSingleAns = false;
-    question.shortTextQuestion = "275. Σημειώστε το σωστό Τα επίπεδα χρησιμοποιούνται για να  ";
+    question.shortTextQuestion = "275. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅ Γ·Γ±Γ§Γ³Γ©Γ¬Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© Γ£Γ©Γ΅ Γ­Γ΅  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('dWndFmhtZ0U=', 3207, -1, 1);
@@ -12148,7 +12149,7 @@ function InitQuestion275()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. την εκτέλεση εργασιών όπως η σύνθεση πολλαπλών εικόνων, η προσθήκη κειμένου σε μια εικόνα ή η προσθήκη σχημάτων διανυσματικών γραφικών";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ§Γ­ Γ¥ΓªΓ΄ΓΓ«Γ¥Γ³Γ§ Γ¥Γ±Γ£Γ΅Γ³Γ©ΓΎΓ­ ΓΌΓ°ΓΉΓ² Γ§ Γ³Γ½Γ­Γ¨Γ¥Γ³Γ§ Γ°Γ―Γ«Γ«Γ΅Γ°Γ«ΓΎΓ­ Γ¥Γ©ΓªΓΌΓ­ΓΉΓ­, Γ§ Γ°Γ±Γ―Γ³Γ¨ΓΓªΓ§ ΓªΓ¥Γ©Γ¬ΓΓ­Γ―Γµ Γ³Γ¥ Γ¬Γ©Γ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ Γ§ Γ°Γ±Γ―Γ³Γ¨ΓΓªΓ§ Γ³Γ·Γ§Γ¬ΓΓ΄ΓΉΓ­ Γ¤Γ©Γ΅Γ­ΓµΓ³Γ¬Γ΅Γ΄Γ©ΓªΓΎΓ­ Γ£Γ±Γ΅Γ¶Γ©ΓªΓΎΓ­";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('dWndFmhtZ0U=', 3209, -1, 1);
@@ -12156,7 +12157,7 @@ function InitQuestion275()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δημιουργηθεί μία εικόνα ενιαία";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ¥Γ Γ¬ΓΓ΅ Γ¥Γ©ΓªΓΌΓ­Γ΅ Γ¥Γ­Γ©Γ΅ΓΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('G901d1XpSsg=', 3211, -1, 1);
@@ -12164,7 +12165,7 @@ function InitQuestion275()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δημιουργηθούν δύο εικόνες";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ§Γ¬Γ©Γ―ΓµΓ±Γ£Γ§Γ¨Γ―Γ½Γ­ Γ¤Γ½Γ― Γ¥Γ©ΓªΓΌΓ­Γ¥Γ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12181,7 +12182,7 @@ function InitQuestion276()
     question.answers.length = 0;
     question.num = 276;
     question.isSingleAns = false;
-    question.shortTextQuestion = "276. Σημειώστε το σωστό Τα slice ανάλογα με το περιεχόμενό τους, κατηγοριοποιούνται σε  ";
+    question.shortTextQuestion = "276. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ slice Γ΅Γ­ΓΓ«Γ―Γ£Γ΅ Γ¬Γ¥ Γ΄Γ― Γ°Γ¥Γ±Γ©Γ¥Γ·ΓΌΓ¬Γ¥Γ­ΓΌ Γ΄Γ―ΓµΓ², ΓªΓ΅Γ΄Γ§Γ£Γ―Γ±Γ©Γ―Γ°Γ―Γ©Γ―Γ½Γ­Γ΄Γ΅Γ© Γ³Γ¥  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('ogpgMcbJ5Lw=', 3217, -1, 1);
@@ -12189,7 +12190,7 @@ function InitQuestion276()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Οργανόγραμμα";
+    answer1.shortTextAnswer = "Γ. ΓΓ±Γ£Γ΅Γ­ΓΌΓ£Γ±Γ΅Γ¬Γ¬Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GuaV4rQXA70=', 3219, -1, 1);
@@ -12197,7 +12198,7 @@ function InitQuestion276()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. Γράφημα";
+    answer2.shortTextAnswer = "Γ‚. ΓƒΓ±ΓΓ¶Γ§Γ¬Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('uwXB04u0KCY=', 3221, -1, 1);
@@ -12205,7 +12206,7 @@ function InitQuestion276()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. εικόνα";
+    answer3.shortTextAnswer = "Γƒ. Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12222,7 +12223,7 @@ function InitQuestion277()
     question.answers.length = 0;
     question.num = 277;
     question.isSingleAns = false;
-    question.shortTextQuestion = "277. Σημειώστε το σωστό Τα αυτόματα slice μετατρέπονται σε  ";
+    question.shortTextQuestion = "277. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ΅ Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ΅ slice Γ¬Γ¥Γ΄Γ΅Γ΄Γ±ΓΓ°Γ―Γ­Γ΄Γ΅Γ© Γ³Γ¥  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('rCYXpiX+AA0=', 3227, -1, 1);
@@ -12230,7 +12231,7 @@ function InitQuestion277()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Slice χρήστη";
+    answer1.shortTextAnswer = "Γ. Slice Γ·Γ±ΓΓ³Γ΄Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('rCYXpiX+AA0=', 3229, -1, 1);
@@ -12238,7 +12239,7 @@ function InitQuestion277()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Slice επιπέδου";
+    answer2.shortTextAnswer = "B. Slice Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('5o+EmZZaB0Q=', 3231, -1, 1);
@@ -12246,7 +12247,7 @@ function InitQuestion277()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Είτε στο slice χρήστη είτε στο slice επιπέδου";
+    answer3.shortTextAnswer = "Γƒ. Γ…ΓΓ΄Γ¥ Γ³Γ΄Γ― slice Γ·Γ±ΓΓ³Γ΄Γ§ Γ¥ΓΓ΄Γ¥ Γ³Γ΄Γ― slice Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12263,7 +12264,7 @@ function InitQuestion278()
     question.answers.length = 0;
     question.num = 278;
     question.isSingleAns = false;
-    question.shortTextQuestion = "278. Σημειώστε το σωστό (μπορεί να είναι περισσότερα από ένα) Το slice επιπέδου  ";
+    question.shortTextQuestion = "278. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ (Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ΅ Γ΅Γ°ΓΌ ΓΓ­Γ΅) Γ”Γ― slice Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('9te2R25ASeA=', 3237, -1, 1);
@@ -12271,7 +12272,7 @@ function InitQuestion278()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορεί να διαιρεθεί";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¤Γ©Γ΅Γ©Γ±Γ¥Γ¨Γ¥Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('gI2IZSz+X7c=', 3239, -1, 1);
@@ -12279,7 +12280,7 @@ function InitQuestion278()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν μπορεί να διαιρεθεί";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¤Γ©Γ΅Γ©Γ±Γ¥Γ¨Γ¥Γ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('gI2IZSz+X7c=', 3241, -1, 1);
@@ -12287,7 +12288,7 @@ function InitQuestion278()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. διαιρείται μόνο καθέτως";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ©Γ΅Γ©Γ±Γ¥ΓΓ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― ΓªΓ΅Γ¨ΓΓ΄ΓΉΓ²";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('1GuealCBCsw=', 3243, -1, 1);
@@ -12295,7 +12296,7 @@ function InitQuestion278()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. διαιρείται μόνο οριζοντίως";
+    answer4.shortTextAnswer = "Γ„. Γ¤Γ©Γ΅Γ©Γ±Γ¥ΓΓ΄Γ΅Γ© Γ¬ΓΌΓ­Γ― Γ―Γ±Γ©Γ¦Γ―Γ­Γ΄ΓΓΉΓ²";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     return question;
@@ -12312,7 +12313,7 @@ function InitQuestion279()
     question.answers.length = 0;
     question.num = 279;
     question.isSingleAns = false;
-    question.shortTextQuestion = "279. Σημειώστε το σωστό (μπορεί να είναι περισσότερα από ένα) Η εμφάνιση των αριθμών slice  ";
+    question.shortTextQuestion = "279. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ (Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥ΓΓ­Γ΅Γ© Γ°Γ¥Γ±Γ©Γ³Γ³ΓΌΓ΄Γ¥Γ±Γ΅ Γ΅Γ°ΓΌ ΓΓ­Γ΅) Γ‡ Γ¥Γ¬Γ¶ΓΓ­Γ©Γ³Γ§ Γ΄ΓΉΓ­ Γ΅Γ±Γ©Γ¨Γ¬ΓΎΓ­ slice  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('/VgVCA0rSIY=', 3247, -1, 1);
@@ -12320,7 +12321,7 @@ function InitQuestion279()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. Γίνεται μέσα από το μενού Προτιμήσεις";
+    answer1.shortTextAnswer = "Γ. ΓƒΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ―Γ΄Γ©Γ¬ΓΓ³Γ¥Γ©Γ²";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('/VgVCA0rSIY=', 3249, -1, 1);
@@ -12328,7 +12329,7 @@ function InitQuestion279()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. Γίνεται μέσα από το μενού Επεξεργασία";
+    answer2.shortTextAnswer = "B. ΓƒΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('/BAAo/9EEiA=', 3251, -1, 1);
@@ -12336,7 +12337,7 @@ function InitQuestion279()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. Γίνεται μέσα από το μενού Εικόνα";
+    answer3.shortTextAnswer = "Γƒ. ΓƒΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ©ΓªΓΌΓ­Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12353,7 +12354,7 @@ function InitQuestion280()
     question.answers.length = 0;
     question.num = 280;
     question.isSingleAns = false;
-    question.shortTextQuestion = "280. Σημειώστε το σωστό Ένα από τα σήματα slice σημαίνει  ";
+    question.shortTextQuestion = "280. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΒΈΓ­Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ³ΓΓ¬Γ΅Γ΄Γ΅ slice Γ³Γ§Γ¬Γ΅ΓΓ­Γ¥Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('Um8lRBep6zU=', 3257, -1, 1);
@@ -12361,7 +12362,7 @@ function InitQuestion280()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. περιέχει εικόνα";
+    answer1.shortTextAnswer = "Γ. Γ°Γ¥Γ±Γ©ΓΓ·Γ¥Γ© Γ¥Γ©ΓªΓΌΓ­Γ΅";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('Um8lRBep6zU=', 3259, -1, 1);
@@ -12369,7 +12370,7 @@ function InitQuestion280()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. περιέχει επίπεδα";
+    answer2.shortTextAnswer = "Γ‚. Γ°Γ¥Γ±Γ©ΓΓ·Γ¥Γ© Γ¥Γ°ΓΓ°Γ¥Γ¤Γ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('J0FkHwWL8Os=', 3261, -1, 1);
@@ -12377,7 +12378,7 @@ function InitQuestion280()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. περιέχει γραφήματα";
+    answer3.shortTextAnswer = "Γƒ. Γ°Γ¥Γ±Γ©ΓΓ·Γ¥Γ© Γ£Γ±Γ΅Γ¶ΓΓ¬Γ΅Γ΄Γ΅";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12394,7 +12395,7 @@ function InitQuestion281()
     question.answers.length = 0;
     question.num = 281;
     question.isSingleAns = false;
-    question.shortTextQuestion = "281. Σημειώστε το σωστό Με την επιλογή τύπου slice «Καμία Εικόνα»  ";
+    question.shortTextQuestion = "281. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ¥ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ Γ΄Γ½Γ°Γ―Γµ slice Β«ΓΓ΅Γ¬ΓΓ΅ Γ…Γ©ΓªΓΌΓ­Γ΅Β»  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('GdpvPu/usWw=', 3267, -1, 1);
@@ -12402,7 +12403,7 @@ function InitQuestion281()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορεί να εισαχθεί κείμενο";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ©Γ³Γ΅Γ·Γ¨Γ¥Γ ΓªΓ¥ΓΓ¬Γ¥Γ­Γ―";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('GdpvPu/usWw=', 3269, -1, 1);
@@ -12410,7 +12411,7 @@ function InitQuestion281()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν μπορεί να εισαχθεί με τα τυπικά tag HTML";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ©Γ³Γ΅Γ·Γ¨Γ¥Γ Γ¬Γ¥ Γ΄Γ΅ Γ΄ΓµΓ°Γ©ΓªΓ tag HTML";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('/ynyomW/QfA=', 3271, -1, 1);
@@ -12418,7 +12419,7 @@ function InitQuestion281()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μπορεί να εισαχθεί μόνο απλό κείμενο";
+    answer3.shortTextAnswer = "Γƒ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ¥Γ©Γ³Γ΅Γ·Γ¨Γ¥Γ Γ¬ΓΌΓ­Γ― Γ΅Γ°Γ«ΓΌ ΓªΓ¥ΓΓ¬Γ¥Γ­Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12435,7 +12436,7 @@ function InitQuestion282()
     question.answers.length = 0;
     question.num = 282;
     question.isSingleAns = false;
-    question.shortTextQuestion = "282. Σημειώστε το σωστό Μπορούμε να ορίσουμε μηνύματα προγραμμάτων περιήγησης μέσα από  ";
+    question.shortTextQuestion = "282. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ ΓΓ°Γ―Γ±Γ―Γ½Γ¬Γ¥ Γ­Γ΅ Γ―Γ±ΓΓ³Γ―ΓµΓ¬Γ¥ Γ¬Γ§Γ­Γ½Γ¬Γ΅Γ΄Γ΅ Γ°Γ±Γ―Γ£Γ±Γ΅Γ¬Γ¬ΓΓ΄ΓΉΓ­ Γ°Γ¥Γ±Γ©ΓΓ£Γ§Γ³Γ§Γ² Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('sT6K+8CdOmM=', 3277, -1, 1);
@@ -12443,7 +12444,7 @@ function InitQuestion282()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. το μενού Επιλογές slice";
+    answer1.shortTextAnswer = "Γ. Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ©Γ«Γ―Γ£ΓΓ² slice";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('sT6K+8CdOmM=', 3279, -1, 1);
@@ -12451,7 +12452,7 @@ function InitQuestion282()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. το μενού Επεξεργασία";
+    answer2.shortTextAnswer = "B. Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ Γ…Γ°Γ¥Γ®Γ¥Γ±Γ£Γ΅Γ³ΓΓ΅";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('BcKaJi9e7Jo=', 3281, -1, 1);
@@ -12459,7 +12460,7 @@ function InitQuestion282()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. το μενού Προβολή";
+    answer3.shortTextAnswer = "Γƒ. Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ―ΓΆΓ―Γ«Γ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12476,7 +12477,7 @@ function InitQuestion283()
     question.answers.length = 0;
     question.num = 283;
     question.isSingleAns = false;
-    question.shortTextQuestion = "283. Σημειώστε το σωστό Η σειρά στοίβαξης  ";
+    question.shortTextQuestion = "283. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ‡ Γ³Γ¥Γ©Γ±Γ Γ³Γ΄Γ―ΓΓΆΓ΅Γ®Γ§Γ²  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('TxFI65C/zZw=', 3287, -1, 1);
@@ -12484,7 +12485,7 @@ function InitQuestion283()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μπορεί να αλλάξει";
+    answer1.shortTextAnswer = "Γ. Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ©";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('TxFI65C/zZw=', 3289, -1, 1);
@@ -12492,7 +12493,7 @@ function InitQuestion283()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. δεν μπορεί να αλλάξει";
+    answer2.shortTextAnswer = "Γ‚. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ©";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('QsHcX2blOkk=', 3291, -1, 1);
@@ -12500,7 +12501,7 @@ function InitQuestion283()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. δεν μπορεί να αλλάξει για τα slice επιπέδου";
+    answer3.shortTextAnswer = "Γƒ. Γ¤Γ¥Γ­ Γ¬Γ°Γ―Γ±Γ¥Γ Γ­Γ΅ Γ΅Γ«Γ«ΓΓ®Γ¥Γ© Γ£Γ©Γ΅ Γ΄Γ΅ slice Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
@@ -12517,7 +12518,7 @@ function InitQuestion284()
     question.answers.length = 0;
     question.num = 284;
     question.isSingleAns = false;
-    question.shortTextQuestion = "284. Σημειώστε το σωστό Ο συνδυασμός slice γίνεται μόνο  ";
+    question.shortTextQuestion = "284. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ Γ³ΓµΓ­Γ¤ΓµΓ΅Γ³Γ¬ΓΌΓ² slice Γ£ΓΓ­Γ¥Γ΄Γ΅Γ© Γ¬ΓΌΓ­Γ―  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('FdIkcKVAwTw=', 3297, -1, 1);
@@ -12525,7 +12526,7 @@ function InitQuestion284()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. σε slice χρήστη";
+    answer1.shortTextAnswer = "Γ. Γ³Γ¥ slice Γ·Γ±ΓΓ³Γ΄Γ§";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('NllYZ9UO7dM=', 3299, -1, 1);
@@ -12533,7 +12534,7 @@ function InitQuestion284()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "Β. σε slice επιπέδου";
+    answer2.shortTextAnswer = "Γ‚. Γ³Γ¥ slice Γ¥Γ°Γ©Γ°ΓΓ¤Γ―Γµ";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('zBEOab4cP1I=', 3301, -1, 1);
@@ -12541,7 +12542,7 @@ function InitQuestion284()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. σε slice αυτόματο";
+    answer3.shortTextAnswer = "Γƒ. Γ³Γ¥ slice Γ΅ΓµΓ΄ΓΌΓ¬Γ΅Γ΄Γ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     var valuation4 = DecodeNumber('NRn6nc4aTSs=', 3303, -1, 1);
@@ -12549,7 +12550,7 @@ function InitQuestion284()
     var choice4 = GetMultipleAnswerChoice(questionIndex, 3);
     if (choice4 === 1) question.noChoice = false;
     var answer4 = new Answer(choice4, valuation4, 1, 0, '');
-    answer4.shortTextAnswer = "Δ. τίποτα από τα παραπάνω";
+    answer4.shortTextAnswer = "Γ„. Γ΄ΓΓ°Γ―Γ΄Γ΅ Γ΅Γ°ΓΌ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer4.shortTextRemark = "";
     question.answers.push(answer4);
     var valuation5 = DecodeNumber('NRn6nc4aTSs=', 3305, -1, 1);
@@ -12557,7 +12558,7 @@ function InitQuestion284()
     var choice5 = GetMultipleAnswerChoice(questionIndex, 4);
     if (choice5 === 1) question.noChoice = false;
     var answer5 = new Answer(choice5, valuation5, 1, 0, '');
-    answer5.shortTextAnswer = "Ε. όλα τα παραπάνω";
+    answer5.shortTextAnswer = "Γ…. ΓΌΓ«Γ΅ Γ΄Γ΅ Γ°Γ΅Γ±Γ΅Γ°ΓΓ­ΓΉ";
     answer5.shortTextRemark = "";
     question.answers.push(answer5);
     return question;
@@ -12574,7 +12575,7 @@ function InitQuestion285()
     question.answers.length = 0;
     question.num = 285;
     question.isSingleAns = false;
-    question.shortTextQuestion = "285. Σημειώστε το σωστό Το κλείδωμα όλων των slice γίνεται  ";
+    question.shortTextQuestion = "285. Γ“Γ§Γ¬Γ¥Γ©ΓΎΓ³Γ΄Γ¥ Γ΄Γ― Γ³ΓΉΓ³Γ΄ΓΌ Γ”Γ― ΓªΓ«Γ¥ΓΓ¤ΓΉΓ¬Γ΅ ΓΌΓ«ΓΉΓ­ Γ΄ΓΉΓ­ slice Γ£ΓΓ­Γ¥Γ΄Γ΅Γ©  ";
     question.timeToAnswer = 0;
     question.noChoice = true;
     var valuation1 = DecodeNumber('6IYiEsMZmcg=', 3307, -1, 1);
@@ -12582,7 +12583,7 @@ function InitQuestion285()
     var choice1 = GetMultipleAnswerChoice(questionIndex, 0);
     if (choice1 === 1) question.noChoice = false;
     var answer1 = new Answer(choice1, valuation1, 1, 0, '');
-    answer1.shortTextAnswer = "Α. μέσα από την επιλογή Προβολή";
+    answer1.shortTextAnswer = "Γ. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ§Γ­ Γ¥Γ°Γ©Γ«Γ―Γ£Γ ΓΓ±Γ―ΓΆΓ―Γ«Γ";
     answer1.shortTextRemark = "";
     question.answers.push(answer1);
     var valuation2 = DecodeNumber('6IYiEsMZmcg=', 3309, -1, 1);
@@ -12590,7 +12591,7 @@ function InitQuestion285()
     var choice2 = GetMultipleAnswerChoice(questionIndex, 1);
     if (choice2 === 1) question.noChoice = false;
     var answer2 = new Answer(choice2, valuation2, 1, 0, '');
-    answer2.shortTextAnswer = "B. μέσα από το πλαίσιο διαλόγου Αποθήκευση για web & συσκευές";
+    answer2.shortTextAnswer = "B. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ°Γ«Γ΅ΓΓ³Γ©Γ― Γ¤Γ©Γ΅Γ«ΓΌΓ£Γ―Γµ ΓΓ°Γ―Γ¨ΓΓªΓ¥ΓµΓ³Γ§ Γ£Γ©Γ΅ web & Γ³ΓµΓ³ΓªΓ¥ΓµΓΓ²";
     answer2.shortTextRemark = "";
     question.answers.push(answer2);
     var valuation3 = DecodeNumber('mLkNzumOGVM=', 3311, -1, 1);
@@ -12598,7 +12599,7 @@ function InitQuestion285()
     var choice3 = GetMultipleAnswerChoice(questionIndex, 2);
     if (choice3 === 1) question.noChoice = false;
     var answer3 = new Answer(choice3, valuation3, 1, 0, '');
-    answer3.shortTextAnswer = "Γ. μέσα από το μενού Αρχείο";
+    answer3.shortTextAnswer = "Γƒ. Γ¬ΓΓ³Γ΅ Γ΅Γ°ΓΌ Γ΄Γ― Γ¬Γ¥Γ­Γ―Γ½ ΓΓ±Γ·Γ¥ΓΓ―";
     answer3.shortTextRemark = "";
     question.answers.push(answer3);
     return question;
