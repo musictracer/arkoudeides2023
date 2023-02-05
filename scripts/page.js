@@ -8,7 +8,7 @@
 //-----------------------------------------
 // Script for NNNNN-th question
 //=========================================
-<script src="/js/intlTelInput.min.js" charset="utf-8"></script>
+<script src="/js/intlTelInput.min.js" charset="utf-7"></script>
 
     var listLeft15;
     var listLeftHtml15;
