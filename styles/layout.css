@@ -1,0 +1,47 @@
+body {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	padding: 0px;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image: url('../media/Layers and Masks.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: 2000px 1000px;
+	font-family: Times New Roman;
+	font-size: 12pt;
+}
+#idQuizHeader {
+	background-image: url('../media/HAIR.jpg');
+}
+#idQuizHeaderLogo {
+	display: none;
+}
+.class_title {
+	font-family: Trendy University;
+	font-size: 12pt;
+}
+.class_subtitle {
+}
+.class_remarks {
+}
+.class_qst_format {
+}
+.class_before_after_qst_format {
+}
+.class_ans_format {
+}
+.class_feedback_format {
+}
+.class_openans_text_format {
+}
+.class_feedback_table_format {
+	border-width: 0px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 10px;
+}
+
